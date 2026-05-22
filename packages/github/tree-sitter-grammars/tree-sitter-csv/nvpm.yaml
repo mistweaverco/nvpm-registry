@@ -1,0 +1,46 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-csv
+description: Tree-sitter grammars for csv, psv, tsv.
+homepage: https://github.com/tree-sitter-grammars/tree-sitter-csv
+licenses:
+  - MIT
+languages:
+  - csv
+  - psv
+  - tsv
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:tree-sitter-grammars/tree-sitter-csv
+treesitter:
+  build:
+    - language: csv
+      grammar_dir: csv
+      integrations:
+        - neovim
+      external_queries:
+        - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-csv
+          semver: true
+        - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-tsv
+          semver: true
+    - language: psv
+      grammar_dir: psv
+      integrations:
+        - neovim
+      external_queries:
+        - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-psv
+          semver: true
+        - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-tsv
+          semver: true
+    - language: tsv
+      grammar_dir: tsv
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-tsv
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

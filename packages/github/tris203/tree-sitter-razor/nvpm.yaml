@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-razor
+description: Tree-sitter grammar for razor.
+homepage: https://github.com/tris203/tree-sitter-razor
+licenses:
+  - MIT
+languages:
+  - razor
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:tris203/tree-sitter-razor
+treesitter:
+  build:
+    - language: razor
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-razor
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

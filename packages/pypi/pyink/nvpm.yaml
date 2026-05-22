@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: pyink
+description: |
+  Pyink is a Python formatter, forked from Black with a few
+  different formatting behaviors.
+homepage: https://pypi.org/project/pyink/
+licenses:
+  - MIT
+languages:
+  - Python
+categories:
+  - Formatter
+source:
+  id: pypi:pyink
+bin:
+  pyink: pypi:pyink

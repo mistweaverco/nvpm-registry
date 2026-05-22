@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: htmx-lsp
+description: An experimental LSP for HTMX.
+homepage: https://github.com/ThePrimeagen/htmx-lsp
+licenses:
+  - MIT
+languages:
+  - HTMX
+categories:
+  - LSP
+source:
+  id: cargo:htmx-lsp
+bin:
+  htmx-lsp: cargo:htmx-lsp

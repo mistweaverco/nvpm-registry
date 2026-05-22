@@ -1,0 +1,39 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-svelte
+description: Tree-sitter grammars for html_tags, svelte.
+homepage: https://github.com/tree-sitter-grammars/tree-sitter-svelte
+licenses:
+  - MIT
+languages:
+  - html_tags
+  - svelte
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:tree-sitter-grammars/tree-sitter-svelte
+treesitter:
+  build:
+    - language: html_tags
+      integrations:
+        - neovim
+      queries_only: true
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-html_tags
+        semver: true
+    - language: svelte
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-svelte
+        semver: true
+      injections:
+        - css
+        - javascript
+        - scss
+        - typescript
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

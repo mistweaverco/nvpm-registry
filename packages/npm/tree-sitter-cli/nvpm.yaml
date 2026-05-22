@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-cli
+aliases:
+  - treesitter-cli
+description: |
+  Tree-sitter is a parser generator tool and an incremental parsing library. It
+  can build a concrete syntax tree for a source file and efficiently update the
+  syntax tree as the source file is edited.
+homepage: https://tree-sitter.github.io/tree-sitter/
+licenses:
+  - MIT
+languages:
+  - http
+categories:
+  - Compiler
+source:
+  id: npm:tree-sitter-cli
+bin:
+  tree-sitter-cli: npm:tree-sitter-cli

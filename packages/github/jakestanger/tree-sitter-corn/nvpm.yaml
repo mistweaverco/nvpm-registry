@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-corn
+description: Tree-sitter grammar for corn.
+homepage: https://github.com/jakestanger/tree-sitter-corn
+licenses:
+  - MIT
+languages:
+  - corn
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:jakestanger/tree-sitter-corn
+treesitter:
+  build:
+    - language: corn
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-corn
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

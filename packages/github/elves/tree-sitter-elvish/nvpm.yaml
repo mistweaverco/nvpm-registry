@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-elvish
+description: Tree-sitter grammar for elvish.
+homepage: https://github.com/elves/tree-sitter-elvish
+licenses:
+  - MIT
+languages:
+  - elvish
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:elves/tree-sitter-elvish
+treesitter:
+  build:
+    - language: elvish
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-elvish
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

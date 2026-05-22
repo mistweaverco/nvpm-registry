@@ -2,7 +2,7 @@ import * as fs from "fs";
 import * as path from "path";
 import * as yaml from "js-yaml";
 
-import { getZanaYAMLHeader } from "./utils";
+import { getNvpmYAMLHeader } from "./utils";
 import type { PackageInfo } from "./types";
 
 const packagesDir = path.join(__dirname, "..", "packages");
@@ -85,10 +85,10 @@ for (const dirent of dirents) {
   }
 
   const oldPackageDir = path.join(packagesDir, dirent.name);
-  const oldYamlPath = path.join(oldPackageDir, "zana.yaml");
+  const oldYamlPath = path.join(oldPackageDir, "nvpm.yaml");
 
   if (!fs.existsSync(oldYamlPath)) {
-    console.warn(`Skipping ${dirent.name}: no zana.yaml found`);
+    console.warn(`Skipping ${dirent.name}: no nvpm.yaml found`);
     continue;
   }
 
@@ -126,7 +126,7 @@ for (const dirent of dirents) {
     // packagePath might contain slashes for nested structures (like gitlab)
     const pathParts = packagePath.split("/");
     const newPackageDir = path.join(packagesDir, provider, ...pathParts);
-    const newYamlPath = path.join(newPackageDir, "zana.yaml");
+    const newYamlPath = path.join(newPackageDir, "nvpm.yaml");
 
     // Check if target already exists - if so, we need to merge packages
     // that share the same source but have different names (add as alias)
@@ -161,7 +161,7 @@ for (const dirent of dirents) {
 
           // Write updated existing package
           const updatedYamlContent =
-            getZanaYAMLHeader() + "\n" + yaml.dump(existingPackage, { lineWidth: -1 });
+            getNvpmYAMLHeader() + "\n" + yaml.dump(existingPackage, { lineWidth: -1 });
           fs.writeFileSync(newYamlPath, updatedYamlContent);
 
           console.log(
@@ -209,7 +209,7 @@ for (const dirent of dirents) {
     fs.mkdirSync(newPackageDir, { recursive: true });
 
     // Write updated YAML file
-    const newYamlContent = getZanaYAMLHeader() + "\n" + yaml.dump(packageData, { lineWidth: -1 });
+    const newYamlContent = getNvpmYAMLHeader() + "\n" + yaml.dump(packageData, { lineWidth: -1 });
 
     fs.writeFileSync(newYamlPath, newYamlContent);
 

@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: markuplint
+description: An HTML linter for all markup developers.
+homepage: https://markuplint.dev
+licenses:
+  - MIT
+languages:
+  - HTML
+categories:
+  - Linter
+source:
+  id: npm:markuplint
+bin:
+  markuplint: npm:markuplint

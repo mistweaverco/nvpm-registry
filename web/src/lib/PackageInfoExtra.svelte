@@ -26,7 +26,7 @@
 				<h4 class="mb-2 font-semibold">Requires</h4>
 				{#if extra.requires.all.length > 0}
 					<p class="text-base-content/80 mb-1 text-sm">
-						<strong>All of</strong> — every package must be installed:
+						<strong>All of</strong> - every package must be installed:
 					</p>
 					<ul class="list-disc space-y-1 ps-5 text-sm">
 						{#each extra.requires.all as ref (ref)}
@@ -48,7 +48,7 @@
 				{/if}
 				{#if extra.requires.one.length > 0}
 					<p class="text-base-content/80 mt-3 mb-1 text-sm">
-						<strong>One of</strong> — at least one must be installed:
+						<strong>One of</strong> - at least one must be installed:
 					</p>
 					<ul class="list-disc space-y-1 ps-5 text-sm">
 						{#each extra.requires.one as ref (ref)}

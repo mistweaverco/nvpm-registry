@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: prettierd
+description: Prettier, as a daemon, for ludicrous formatting speed.
+homepage: https://github.com/fsouza/prettierd
+licenses:
+  - ISC
+languages:
+  - Angular
+  - CSS
+  - Flow
+  - GraphQL
+  - HTML
+  - JSON
+  - JSX
+  - JavaScript
+  - LESS
+  - Markdown
+  - SCSS
+  - TypeScript
+  - Vue
+  - YAML
+categories:
+  - Formatter
+source:
+  id: npm:@fsouza/prettierd
+bin:
+  prettierd: npm:prettierd

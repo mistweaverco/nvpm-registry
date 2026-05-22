@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: erb-lint
+description: |
+  erb-lint is a tool to help lint your ERB or HTML files using the
+  included linters or by writing your own.
+homepage: https://github.com/Shopify/erb-lint
+licenses:
+  - MIT
+languages:
+  - HTML
+  - Ruby
+categories:
+  - Linter
+source:
+  id: gem:erb_lint
+bin:
+  erblint: gem:erblint

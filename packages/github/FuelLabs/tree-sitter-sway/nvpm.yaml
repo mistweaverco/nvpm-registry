@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-sway
+description: Tree-sitter grammar for sway.
+homepage: https://github.com/FuelLabs/tree-sitter-sway
+licenses:
+  - MIT
+languages:
+  - sway
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:FuelLabs/tree-sitter-sway
+treesitter:
+  build:
+    - language: sway
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-sway
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

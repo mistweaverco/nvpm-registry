@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: doctoc
+description: |
+  API and CLI for generating a markdown TOC (table of contents)
+  for a README or any markdown files.
+homepage: https://github.com/thlorenz/doctoc
+licenses:
+  - MIT
+languages:
+  - Markdown
+categories:
+  - Formatter
+source:
+  id: npm:doctoc
+bin:
+  doctoc: npm:doctoc

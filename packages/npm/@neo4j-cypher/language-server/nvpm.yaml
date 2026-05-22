@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: cypher-language-server
+description: Language Server for Cypher query language.
+homepage: https://github.com/neo4j/cypher-language-support
+licenses:
+  - Apache-2.0
+languages:
+  - Cypher
+categories:
+  - LSP
+source:
+  id: npm:@neo4j-cypher/language-server
+bin:
+  cypher-language-server: npm:cypher-language-server

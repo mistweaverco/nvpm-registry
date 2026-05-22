@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-bitbake
+description: Tree-sitter grammar for bitbake.
+homepage: https://github.com/tree-sitter-grammars/tree-sitter-bitbake
+licenses:
+  - MIT
+languages:
+  - bitbake
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:tree-sitter-grammars/tree-sitter-bitbake
+treesitter:
+  build:
+    - language: bitbake
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-bitbake
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: php-debug-adapter
+description: PHP Debug Adapter 🐞⛔.
+homepage: https://github.com/xdebug/vscode-php-debug
+licenses:
+  - MIT
+languages:
+  - PHP
+categories:
+  - DAP
+source:
+  id: github:xdebug/vscode-php-debug
+  asset:
+    file: php-debug-{{ version | strip_prefix "v" }}.vsix
+bin:
+  php-debug-adapter: node:extension/out/phpDebug.js

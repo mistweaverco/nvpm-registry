@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: ebnf
+description: Tree-sitter grammar for ebnf.
+homepage: https://github.com/RubixDev/ebnf
+licenses:
+  - MIT
+languages:
+  - ebnf
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:RubixDev/ebnf
+treesitter:
+  build:
+    - language: ebnf
+      grammar_dir: crates/tree-sitter-ebnf
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-ebnf
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

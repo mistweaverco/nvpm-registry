@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-faust
+description: Tree-sitter grammar for faust.
+homepage: https://github.com/khiner/tree-sitter-faust
+licenses:
+  - MIT
+languages:
+  - faust
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:khiner/tree-sitter-faust
+treesitter:
+  build:
+    - language: faust
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-faust
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

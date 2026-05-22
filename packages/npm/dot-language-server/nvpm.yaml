@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: dot-language-server
+description: A language server for the DOT language.
+homepage: https://github.com/nikeee/dot-language-server
+licenses:
+  - MIT
+languages:
+  - DOT
+categories:
+  - LSP
+source:
+  id: npm:dot-language-server
+bin:
+  dot-language-server: npm:dot-language-server

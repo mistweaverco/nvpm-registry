@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-prisma
+description: Tree-sitter grammar for prisma.
+homepage: https://github.com/victorhqc/tree-sitter-prisma
+licenses:
+  - MIT
+languages:
+  - prisma
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:victorhqc/tree-sitter-prisma
+treesitter:
+  build:
+    - language: prisma
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-prisma
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

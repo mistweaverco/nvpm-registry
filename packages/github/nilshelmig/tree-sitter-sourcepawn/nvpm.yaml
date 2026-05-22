@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-sourcepawn
+description: Tree-sitter grammar for sourcepawn.
+homepage: https://github.com/nilshelmig/tree-sitter-sourcepawn
+licenses:
+  - MIT
+languages:
+  - sourcepawn
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:nilshelmig/tree-sitter-sourcepawn
+treesitter:
+  build:
+    - language: sourcepawn
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-sourcepawn
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

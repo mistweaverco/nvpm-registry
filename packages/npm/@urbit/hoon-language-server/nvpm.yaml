@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: hoon-language-server
+description: |
+  Language Server for Hoon. Middleware to translate between the
+  Language Server Protocol and your Urbit.
+homepage: https://github.com/urbit/hoon-language-server
+licenses:
+  - MIT
+languages:
+  - Hoon
+categories:
+  - LSP
+source:
+  id: npm:@urbit/hoon-language-server
+bin:
+  hoon-language-server: npm:hoon-language-server

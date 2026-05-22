@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: pylama
+description: Code audit tool for Python.
+homepage: https://klen.github.io/pylama/
+licenses:
+  - MIT
+languages:
+  - Python
+categories:
+  - Linter
+source:
+  id: pypi:pylama
+bin:
+  pylama: pypi:pylama

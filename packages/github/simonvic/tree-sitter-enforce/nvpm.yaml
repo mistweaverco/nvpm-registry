@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-enforce
+description: Tree-sitter grammar for enforce.
+homepage: https://github.com/simonvic/tree-sitter-enforce
+licenses:
+  - MIT
+languages:
+  - enforce
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:simonvic/tree-sitter-enforce
+treesitter:
+  build:
+    - language: enforce
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-enforce
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

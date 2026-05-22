@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: solidity-ls
+description: Solidity language server.
+homepage: https://github.com/qiuxiang/solidity-ls
+licenses:
+  - proprietary
+languages:
+  - Solidity
+categories:
+  - LSP
+source:
+  id: npm:solidity-ls
+bin:
+  solidity-ls: npm:solidity-ls

@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-m68k
+description: Tree-sitter grammar for m68k.
+homepage: https://github.com/grahambates/tree-sitter-m68k
+licenses:
+  - MIT
+languages:
+  - m68k
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:grahambates/tree-sitter-m68k
+treesitter:
+  build:
+    - language: m68k
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-m68k
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

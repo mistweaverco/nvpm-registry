@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-vento
+description: Tree-sitter grammar for vento.
+homepage: https://github.com/ventojs/tree-sitter-vento
+licenses:
+  - MIT
+languages:
+  - vento
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:ventojs/tree-sitter-vento
+treesitter:
+  build:
+    - language: vento
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-vento
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

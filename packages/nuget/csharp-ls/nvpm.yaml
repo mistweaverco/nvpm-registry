@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: csharp-language-server
+description: Roslyn-based LSP language server for C#.
+homepage: https://github.com/razzmatazz/csharp-language-server
+licenses:
+  - MIT
+languages:
+  - C#
+categories:
+  - LSP
+source:
+  id: nuget:csharp-ls
+bin:
+  csharp-ls: nuget:csharp-ls

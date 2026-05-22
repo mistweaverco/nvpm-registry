@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-hoon
+description: Tree-sitter grammar for hoon.
+homepage: https://github.com/urbit-pilled/tree-sitter-hoon
+licenses:
+  - MIT
+languages:
+  - hoon
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:urbit-pilled/tree-sitter-hoon
+treesitter:
+  build:
+    - language: hoon
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-hoon
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: superhtml
+description: Tree-sitter grammar for superhtml.
+homepage: https://github.com/kristoff-it/superhtml
+licenses:
+  - MIT
+languages:
+  - superhtml
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:kristoff-it/superhtml
+treesitter:
+  build:
+    - language: superhtml
+      grammar_dir: tree-sitter-superhtml
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-superhtml
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

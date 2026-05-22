@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: v-analyzer
+description: V language server.
+homepage: https://github.com/v-analyzer/v-analyzer
+licenses:
+  - MIT
+languages:
+  - V
+categories:
+  - LSP
+source:
+  id: github:v-analyzer/v-analyzer
+  asset:
+    - target: darwin_arm64
+      file: v-analyzer-darwin-arm64.zip
+      bin: v-analyzer
+    - target: darwin_x64
+      file: v-analyzer-darwin-x86_64.zip
+      bin: v-analyzer
+    - target: linux_x64_gnu
+      file: v-analyzer-linux-x86_64.zip
+      bin: v-analyzer
+    - target: win_x64
+      file: v-analyzer-windows-x86_64.zip
+      bin: v-analyzer.exe
+schemas:
+  # yamllint disable-line rule:line-length
+  lsp: vscode:https://raw.githubusercontent.com/v-analyzer/v-analyzer/{{version}}/editors/code/package.json
+bin:
+  v-analyzer: "{{source.asset.bin}}"

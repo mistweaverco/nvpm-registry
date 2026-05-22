@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: golines
+description: A golang formatter that fixes long lines.
+homepage: https://github.com/segmentio/golines
+licenses:
+  - MIT
+languages:
+  - Go
+categories:
+  - Formatter
+source:
+  id: golang:github.com/segmentio/golines
+bin:
+  golines: golang:golines

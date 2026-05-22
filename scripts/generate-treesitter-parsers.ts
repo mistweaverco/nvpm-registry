@@ -2,7 +2,7 @@ import * as fs from "fs";
 import * as path from "path";
 import * as yaml from "js-yaml";
 
-import { getZanaYAMLHeader } from "./utils";
+import { getNvpmYAMLHeader } from "./utils";
 
 type RegistryEntry = {
   requires?: string[];
@@ -183,7 +183,7 @@ const main = async () => {
   )) {
     const [owner, repo] = repoKey.split("/");
     const packageDir = path.join(PACKAGES_DIR, owner, repo);
-    const yamlPath = path.join(packageDir, "zana.yaml");
+    const yamlPath = path.join(packageDir, "nvpm.yaml");
 
     if (keepExisting && fs.existsSync(yamlPath)) {
       skippedExisting.push(yamlPath);
@@ -210,7 +210,7 @@ const main = async () => {
     };
 
     ensureDir(packageDir);
-    const content = getZanaYAMLHeader() + "\n" + yaml.dump(doc, { lineWidth: -1, noRefs: true });
+    const content = getNvpmYAMLHeader() + "\n" + yaml.dump(doc, { lineWidth: -1, noRefs: true });
     fs.writeFileSync(yamlPath, content, "utf8");
     generated.push(yamlPath);
   }

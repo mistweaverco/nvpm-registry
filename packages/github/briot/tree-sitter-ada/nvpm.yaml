@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-ada
+description: Tree-sitter grammar for ada.
+homepage: https://github.com/briot/tree-sitter-ada
+licenses:
+  - MIT
+languages:
+  - ada
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:briot/tree-sitter-ada
+treesitter:
+  build:
+    - language: ada
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-ada
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

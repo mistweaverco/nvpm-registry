@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: v-analyzer
+description: Tree-sitter grammar for v.
+homepage: https://github.com/vlang/v-analyzer
+licenses:
+  - MIT
+languages:
+  - v
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:vlang/v-analyzer
+treesitter:
+  build:
+    - language: v
+      grammar_dir: tree_sitter_v
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-v
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

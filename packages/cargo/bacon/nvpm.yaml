@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: bacon
+description: Bacon is a background rust code checker
+homepage: https://github.com/Canop/bacon
+licenses:
+  - AGPL-3.0-or-later
+languages:
+  - Rust
+categories:
+  - Linter
+source:
+  id: cargo:bacon
+bin:
+  bacon: cargo:bacon

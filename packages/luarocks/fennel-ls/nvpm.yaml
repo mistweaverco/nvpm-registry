@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: fennel-ls
+description: Language Server for Fennel
+homepage: https://git.sr.ht/~xerool/fennel-ls
+licenses:
+  - MIT
+languages:
+  - Fennel
+categories:
+  - LSP
+source:
+  id: luarocks:fennel-ls
+bin:
+  fennel-ls: luarocks:fennel-ls
+ci_skip:
+  - darwin_x64
+  - linux_x64
+  - linux_x64_gnu

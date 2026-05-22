@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-markdown
+description: Tree-sitter grammars for markdown, markdown_inline.
+homepage: https://github.com/tree-sitter-grammars/tree-sitter-markdown
+licenses:
+  - MIT
+languages:
+  - markdown
+  - markdown_inline
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:tree-sitter-grammars/tree-sitter-markdown
+treesitter:
+  build:
+    - language: markdown
+      grammar_dir: tree-sitter-markdown
+      integrations:
+        - neovim
+      external_queries:
+        - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-markdown
+          semver: true
+        - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-markdown_inline
+          semver: true
+    - language: markdown_inline
+      grammar_dir: tree-sitter-markdown-inline
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-markdown_inline
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

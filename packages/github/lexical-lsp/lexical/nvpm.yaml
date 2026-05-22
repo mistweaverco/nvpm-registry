@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: lexical
+description: Lexical is a next-generation elixir language server
+homepage: https://github.com/lexical-lsp/lexical
+licenses:
+  - Apache-2.0
+languages:
+  - Elixir
+categories:
+  - LSP
+source:
+  id: github:lexical-lsp/lexical
+  asset:
+    - target: unix
+      file: lexical-{{version}}.zip:libexec/
+      bin: exec:libexec/lexical/bin/start_lexical.sh
+bin:
+  lexical: "{{source.asset.bin}}"

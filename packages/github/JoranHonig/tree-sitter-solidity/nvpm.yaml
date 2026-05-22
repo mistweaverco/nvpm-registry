@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-solidity
+description: Tree-sitter grammar for solidity.
+homepage: https://github.com/JoranHonig/tree-sitter-solidity
+licenses:
+  - MIT
+languages:
+  - solidity
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:JoranHonig/tree-sitter-solidity
+treesitter:
+  build:
+    - language: solidity
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-solidity
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: gomodifytags
+description: Go tool to modify/update field tags in structs.
+homepage: https://github.com/fatih/gomodifytags
+licenses:
+  - MIT
+languages:
+  - Go
+categories:
+  - Formatter
+source:
+  id: golang:github.com/fatih/gomodifytags
+bin:
+  gomodifytags: golang:gomodifytags

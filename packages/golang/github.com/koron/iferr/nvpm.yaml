@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: iferr
+description: Go tool to generate if err != nil block for the current function.
+homepage: https://github.com/koron/iferr
+licenses:
+  - MIT
+languages:
+  - Go
+categories: []
+source:
+  id: golang:github.com/koron/iferr
+bin:
+  iferr: golang:iferr

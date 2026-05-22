@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-jjdescription
+description: Tree-sitter grammar for jjdescription.
+homepage: https://github.com/ribru17/tree-sitter-jjdescription
+licenses:
+  - MIT
+languages:
+  - jjdescription
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:ribru17/tree-sitter-jjdescription
+treesitter:
+  build:
+    - language: jjdescription
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-jjdescription
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

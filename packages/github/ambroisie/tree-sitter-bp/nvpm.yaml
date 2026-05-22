@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-bp
+description: Tree-sitter grammar for bp.
+homepage: https://github.com/ambroisie/tree-sitter-bp
+licenses:
+  - MIT
+languages:
+  - bp
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:ambroisie/tree-sitter-bp
+treesitter:
+  build:
+    - language: bp
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-bp
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-cuda
+description: Tree-sitter grammar for cuda.
+homepage: https://github.com/tree-sitter-grammars/tree-sitter-cuda
+licenses:
+  - MIT
+languages:
+  - cuda
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:tree-sitter-grammars/tree-sitter-cuda
+treesitter:
+  build:
+    - language: cuda
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-cuda
+          semver: true
+        - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-cpp
+          semver: true
+      injections:
+        - cuda
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-t32
+description: Tree-sitter grammar for t32.
+homepage: https://github.com/xasc/tree-sitter-t32
+licenses:
+  - MIT
+languages:
+  - t32
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:xasc/tree-sitter-t32
+treesitter:
+  build:
+    - language: t32
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-t32
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

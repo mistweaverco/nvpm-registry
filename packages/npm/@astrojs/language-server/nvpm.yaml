@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: astro-language-server
+description: |
+  The Astro language server, its structure is inspired by the Svelte Language
+  Server.
+homepage: https://github.com/withastro/language-tools
+licenses:
+  - MIT
+languages:
+  - Astro
+categories:
+  - LSP
+source:
+  id: npm:@astrojs/language-server
+  extra_packages:
+    - typescript
+    - "@astrojs/ts-plugin"
+schemas:
+  # yamllint disable-line rule:line-length
+  lsp: vscode:https://raw.githubusercontent.com/withastro/language-tools/@astrojs/language-server@{{version}}/packages/vscode/package.json
+bin:
+  astro-ls: npm:astro-ls

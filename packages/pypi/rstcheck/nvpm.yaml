@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: rstcheck
+description: Checks syntax of reStructuredText and code blocks nested within it.
+homepage: https://rstcheck.readthedocs.io/
+licenses:
+  - MIT
+languages:
+  - reStructuredText
+categories:
+  - Linter
+source:
+  id: pypi:rstcheck
+bin:
+  rstcheck: pypi:rstcheck

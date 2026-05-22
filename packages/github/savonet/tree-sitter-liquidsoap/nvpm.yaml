@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-liquidsoap
+description: Tree-sitter grammar for liquidsoap.
+homepage: https://github.com/savonet/tree-sitter-liquidsoap
+licenses:
+  - MIT
+languages:
+  - liquidsoap
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:savonet/tree-sitter-liquidsoap
+treesitter:
+  build:
+    - language: liquidsoap
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-liquidsoap
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

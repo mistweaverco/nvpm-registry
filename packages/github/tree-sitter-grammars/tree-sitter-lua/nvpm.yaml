@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-lua
+description: Tree-sitter grammar for lua.
+homepage: https://github.com/tree-sitter-grammars/tree-sitter-lua
+licenses:
+  - MIT
+languages:
+  - lua
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:tree-sitter-grammars/tree-sitter-lua
+treesitter:
+  build:
+    - language: lua
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-lua
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

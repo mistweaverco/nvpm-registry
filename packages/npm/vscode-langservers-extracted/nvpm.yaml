@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: vscode-langservers-extracted
+description: Language Server Protocol implementation for JSON.
+homepage: https://github.com/microsoft/vscode-json-languageservice
+licenses:
+  - MIT
+languages:
+  - JSON
+categories:
+  - LSP
+source:
+  id: npm:vscode-langservers-extracted
+schemas:
+  lsp: vscode:https://raw.githubusercontent.com/microsoft/vscode/master/extensions/json-language-features/package.json
+bin:
+  vscode-json-language-server: npm:vscode-json-language-server
+  vscode-html-language-server: npm:vscode-html-language-server
+  vscode-css-language-server: npm:vscode-css-language-server
+  vscode-eslint-language-server: npm:vscode-eslint-language-server
+aliases:
+  - html-lsp
+  - css-lsp
+  - eslint-lsp

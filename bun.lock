@@ -3,7 +3,7 @@
   "configVersion": 0,
   "workspaces": {
     "": {
-      "name": "zana-registry",
+      "name": "nvpm-registry",
       "dependencies": {
         "ajv": "8.17.1",
         "js-yaml": "^4.1.1",

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: digestif
+description: A language server for TeX and friends
+homepage: https://github.com/astoff/digestif
+licenses:
+  - GPL-3.0+
+languages:
+  - LaTeX
+categories:
+  - LSP
+source:
+  id: luarocks:digestif
+bin:
+  digestif: luarocks:digestif
+ci_skip:
+  - win_x64

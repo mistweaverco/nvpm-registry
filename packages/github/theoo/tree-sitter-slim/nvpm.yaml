@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-slim
+description: Tree-sitter grammar for slim.
+homepage: https://github.com/theoo/tree-sitter-slim
+licenses:
+  - MIT
+languages:
+  - slim
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:theoo/tree-sitter-slim
+treesitter:
+  build:
+    - language: slim
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-slim
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

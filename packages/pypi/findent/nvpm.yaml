@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: findent
+description: |
+  findent indents/beautifies/converts and can optionally generate
+  the dependencies of Fortran sources.
+homepage: https://pypi.org/project/findent/
+licenses:
+  - BSD-2-Clause
+languages:
+  - Fortran
+categories:
+  - Formatter
+source:
+  id: pypi:findent
+bin:
+  findent: pypi:findent

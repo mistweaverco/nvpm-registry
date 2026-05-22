@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-re2c
+description: Tree-sitter grammar for re2c.
+homepage: https://github.com/tree-sitter-grammars/tree-sitter-re2c
+licenses:
+  - MIT
+languages:
+  - re2c
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:tree-sitter-grammars/tree-sitter-re2c
+treesitter:
+  build:
+    - language: re2c
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-re2c
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

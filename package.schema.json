@@ -1,7 +1,7 @@
 {
-  "$id": "https://json.schemastore.org/zana-registry.json",
+  "$id": "https://json.schemastore.org/nvpm-registry.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Zana Registry package schema",
+  "title": "NVPM Registry package schema",
   "description": "Schema for package definitions.",
   "type": "object",
   "additionalProperties": false,

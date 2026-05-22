@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: purescript-tidy
+description: A syntax tidy-upper (formatter) for PureScript.
+homepage: https://github.com/natefaubion/purescript-tidy
+licenses:
+  - MIT
+languages:
+  - PureScript
+categories:
+  - Formatter
+source:
+  id: npm:purs-tidy
+bin:
+  purs-tidy: npm:purs-tidy

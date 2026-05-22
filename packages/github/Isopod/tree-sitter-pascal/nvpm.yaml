@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-pascal
+description: Tree-sitter grammar for pascal.
+homepage: https://github.com/Isopod/tree-sitter-pascal
+licenses:
+  - MIT
+languages:
+  - pascal
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:Isopod/tree-sitter-pascal
+treesitter:
+  build:
+    - language: pascal
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-pascal
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

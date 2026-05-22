@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-prolog
+description: Tree-sitter grammars for problog, prolog.
+homepage: https://github.com/foxyseta/tree-sitter-prolog
+licenses:
+  - MIT
+languages:
+  - problog
+  - prolog
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:foxyseta/tree-sitter-prolog
+treesitter:
+  build:
+    - language: problog
+      grammar_dir: grammars/problog
+      integrations:
+        - neovim
+      external_queries:
+        - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-problog
+          semver: true
+        - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-prolog
+          semver: true
+    - language: prolog
+      grammar_dir: grammars/prolog
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-prolog
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: solidity
+description: Solidity, the Smart Contract Programming Language.
+homepage: https://github.com/ethereum/solidity
+licenses:
+  - GPL-3.0-or-later
+languages:
+  - Solidity
+categories:
+  - Compiler
+  - LSP
+source:
+  id: github:ethereum/solidity
+  asset:
+    - target:
+        - darwin_x64
+        - darwin_arm64
+      file: solc-macos
+    - target: linux_x64
+      file: solc-static-linux
+    - target: win_x64
+      file: solc-windows.exe
+bin:
+  solc: "{{source.asset.file}}"

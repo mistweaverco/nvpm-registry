@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: puppet-editor-services
+description: Puppet Language Server for editors.
+homepage: https://github.com/puppetlabs/puppet-editor-services
+licenses:
+  - Apache-2.0
+languages:
+  - Puppet
+categories:
+  - LSP
+  - DAP
+source:
+  id: github:puppetlabs/puppet-editor-services
+  asset:
+    file: puppet_editor_services_{{version}}.zip:libexec/
+schemas:
+  lsp: vscode:https://raw.githubusercontent.com/puppetlabs/puppet-vscode/main/package.json
+bin:
+  puppet-languageserver: ruby:libexec/puppet-languageserver
+  puppet-debugserver: ruby:libexec/puppet-debugserver

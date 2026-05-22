@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-swift
+description: Tree-sitter grammar for swift.
+homepage: https://github.com/alex-pinkus/tree-sitter-swift
+licenses:
+  - MIT
+languages:
+  - swift
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:alex-pinkus/tree-sitter-swift
+treesitter:
+  build:
+    - language: swift
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-swift
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

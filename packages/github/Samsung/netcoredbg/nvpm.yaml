@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: netcoredbg
+description: |
+  NetCoreDbg is a managed code debugger with MI interface for
+  CoreCLR.
+homepage: https://github.com/Samsung/netcoredbg
+licenses:
+  - MIT
+languages:
+  - .NET
+  - C#
+  - F#
+categories:
+  - DAP
+source:
+  id: github:Samsung/netcoredbg
+  asset:
+    - target:
+        - darwin_arm64
+        - darwin_x64
+      file: netcoredbg-osx-amd64.tar.gz:libexec/
+      bin: exec:libexec/netcoredbg/netcoredbg
+    - target: linux_arm64_gnu
+      file: netcoredbg-linux-arm64.tar.gz:libexec/
+      bin: exec:libexec/netcoredbg/netcoredbg
+    - target: linux_x64_gnu
+      file: netcoredbg-linux-amd64.tar.gz:libexec/
+      bin: exec:libexec/netcoredbg/netcoredbg
+    - target: win_x64
+      file: netcoredbg-win64.zip
+      bin: netcoredbg/netcoredbg.exe
+bin:
+  netcoredbg: "{{source.asset.bin}}"

@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-gleam
+description: Tree-sitter grammar for gleam.
+homepage: https://github.com/gleam-lang/tree-sitter-gleam
+licenses:
+  - MIT
+languages:
+  - gleam
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:gleam-lang/tree-sitter-gleam
+treesitter:
+  build:
+    - language: gleam
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-gleam
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

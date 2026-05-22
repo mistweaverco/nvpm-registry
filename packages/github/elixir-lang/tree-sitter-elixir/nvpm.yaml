@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-elixir
+description: Tree-sitter grammar for elixir.
+homepage: https://github.com/elixir-lang/tree-sitter-elixir
+licenses:
+  - MIT
+languages:
+  - elixir
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:elixir-lang/tree-sitter-elixir
+treesitter:
+  build:
+    - language: elixir
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-elixir
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

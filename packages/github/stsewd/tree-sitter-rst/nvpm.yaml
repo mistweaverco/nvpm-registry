@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-rst
+description: Tree-sitter grammar for rst.
+homepage: https://github.com/stsewd/tree-sitter-rst
+licenses:
+  - MIT
+languages:
+  - rst
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:stsewd/tree-sitter-rst
+treesitter:
+  build:
+    - language: rst
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-rst
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

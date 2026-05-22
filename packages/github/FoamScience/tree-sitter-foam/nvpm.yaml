@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-foam
+description: Tree-sitter grammar for foam.
+homepage: https://github.com/FoamScience/tree-sitter-foam
+licenses:
+  - MIT
+languages:
+  - foam
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:FoamScience/tree-sitter-foam
+treesitter:
+  build:
+    - language: foam
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-foam
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: gotests
+description: |
+  Gotests is a Golang commandline tool that generates table driven tests based
+  on its target source files' function and method signatures.
+homepage: https://github.com/cweill/gotests
+licenses:
+  - MIT
+languages:
+  - Go
+categories:
+  - Formatter
+source:
+  id: golang:github.com/cweill/gotests
+bin:
+  gotests: golang:gotests

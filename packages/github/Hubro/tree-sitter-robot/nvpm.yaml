@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-robot
+description: Tree-sitter grammar for robot.
+homepage: https://github.com/Hubro/tree-sitter-robot
+licenses:
+  - MIT
+languages:
+  - robot
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:Hubro/tree-sitter-robot
+treesitter:
+  build:
+    - language: robot
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-robot
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

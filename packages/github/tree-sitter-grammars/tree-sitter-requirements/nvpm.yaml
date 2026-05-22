@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-requirements
+description: Tree-sitter grammar for requirements.
+homepage: https://github.com/tree-sitter-grammars/tree-sitter-requirements
+licenses:
+  - MIT
+languages:
+  - requirements
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:tree-sitter-grammars/tree-sitter-requirements
+treesitter:
+  build:
+    - language: requirements
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-requirements
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

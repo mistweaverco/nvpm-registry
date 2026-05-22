@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-racket
+description: Tree-sitter grammar for racket.
+homepage: https://github.com/6cdh/tree-sitter-racket
+licenses:
+  - MIT
+languages:
+  - racket
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:6cdh/tree-sitter-racket
+treesitter:
+  build:
+    - language: racket
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-racket
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

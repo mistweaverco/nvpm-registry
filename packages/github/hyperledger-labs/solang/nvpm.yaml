@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: solang
+description: Solidity Compiler for Solana, Substrate, and ewasm.
+homepage: https://solang.readthedocs.io/en/latest/
+licenses:
+  - Apache-2.0
+languages:
+  - Solidity
+categories:
+  - LSP
+  - Compiler
+source:
+  id: github:hyperledger-labs/solang
+  asset:
+    - target: darwin_x64
+      file: solang-mac-intel
+      bin: solang-mac-intel
+    - target: darwin_arm64
+      file: solang-mac-arm
+      bin: solang-mac-arm
+    - target: linux_arm64
+      file: solang-linux-arm64
+      bin: solang-linux-arm64
+    - target: linux_x64
+      file: solang-linux-x86-64
+      bin: solang-linux-x86-64
+    - target: win_x64
+      file: solang.exe
+      bin: solang.exe
+bin:
+  solang: "{{source.asset.bin}}"

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: buf-language-server
+description: |
+  buf-language-server is a prototype for the beginnings of a Protobuf language
+  server compatible with Buf modules and workspaces.
+homepage: https://github.com/bufbuild/buf-language-server
+licenses:
+  - Apache-2.0
+languages:
+  - Protobuf
+categories:
+  - LSP
+source:
+  id: golang:github.com/bufbuild/buf-language-server
+bin:
+  bufls: golang:bufls

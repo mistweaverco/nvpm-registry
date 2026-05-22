@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-html
+description: Tree-sitter grammars for html, html_tags.
+homepage: https://github.com/tree-sitter/tree-sitter-html
+licenses:
+  - MIT
+languages:
+  - html
+  - html_tags
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:tree-sitter/tree-sitter-html
+treesitter:
+  build:
+    - language: html
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-html
+        semver: true
+      injections:
+        - css
+        - graphql
+        - javascript
+        - json
+        - markdown
+        - typescript
+    - language: html_tags
+      integrations:
+        - neovim
+      queries_only: true
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-html_tags
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

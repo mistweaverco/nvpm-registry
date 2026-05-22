@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: rome
+deprecation:
+  message: Rome is deprecated. Use biome, its successor.
+  since: 12.1.3
+description: |
+  Rome is a formatter, linter, bundler, and more for JavaScript,
+  TypeScript, JSON, HTML, Markdown, and CSS.
+homepage: https://rome.tools
+licenses:
+  - MIT
+languages:
+  - JSON
+  - JavaScript
+  - TypeScript
+categories:
+  - LSP
+  - Linter
+  - Formatter
+source:
+  id: npm:rome
+schemas:
+  # yamllint disable-line rule:line-length
+  lsp: vscode:https://raw.githubusercontent.com/rome/tools/cli/v{{version}}/editors/vscode/package.json
+bin:
+  rome: npm:rome

@@ -45,7 +45,7 @@ const findPackageFiles = (dir: string): string[] => {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) out.push(...findPackageFiles(full));
-    else if (entry.isFile() && entry.name === "zana.yaml") out.push(full);
+    else if (entry.isFile() && entry.name === "nvpm.yaml") out.push(full);
   }
   return out;
 };

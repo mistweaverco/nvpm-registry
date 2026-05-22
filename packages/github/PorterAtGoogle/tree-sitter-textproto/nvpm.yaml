@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-textproto
+description: Tree-sitter grammar for textproto.
+homepage: https://github.com/PorterAtGoogle/tree-sitter-textproto
+licenses:
+  - MIT
+languages:
+  - textproto
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:PorterAtGoogle/tree-sitter-textproto
+treesitter:
+  build:
+    - language: textproto
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-textproto
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

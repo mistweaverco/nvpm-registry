@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-scfg
+description: Tree-sitter grammar for scfg.
+homepage: https://github.com/rockorager/tree-sitter-scfg
+licenses:
+  - MIT
+languages:
+  - scfg
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:rockorager/tree-sitter-scfg
+treesitter:
+  build:
+    - language: scfg
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-scfg
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

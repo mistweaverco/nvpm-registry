@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: emmylua_ls
+description: |
+  The language server for Lua, offering extensive features for
+  different Lua versions.
+homepage: https://github.com/CppCXY/emmylua-analyzer-rust/tree/main/crates/emmylua_ls
+licenses:
+  - MIT
+languages:
+  - Lua
+categories:
+  - LSP
+source:
+  id: cargo:emmylua_ls
+bin:
+  emmylua_ls: cargo:emmylua_ls

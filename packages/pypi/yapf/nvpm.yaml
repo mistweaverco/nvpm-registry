@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: yapf
+description: YAPF, Yet Another Python Formatter.
+homepage: https://pypi.org/project/yapf/
+licenses:
+  - Apache-2.0
+languages:
+  - Python
+categories:
+  - Formatter
+source:
+  id: pypi:yapf
+  extra_packages:
+    - toml
+bin:
+  yapf: pypi:yapf

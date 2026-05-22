@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: alex
+description: Catch insensitive, inconsiderate writing.
+homepage: https://github.com/get-alex/alex
+licenses:
+  - MIT
+languages:
+  - Markdown
+categories:
+  - Linter
+source:
+  id: npm:alex
+bin:
+  alex: npm:alex

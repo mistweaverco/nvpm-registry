@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: debugpy
+description: An implementation of the Debug Adapter Protocol for Python.
+homepage: https://github.com/microsoft/debugpy
+licenses:
+  - MIT
+languages:
+  - Python
+categories:
+  - DAP
+source:
+  id: pypi:debugpy
+bin:
+  debugpy: pyvenv:debugpy
+  debugpy-adapter: pyvenv:debugpy.adapter

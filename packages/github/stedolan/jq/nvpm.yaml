@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: jq
+description: Command-line JSON processor.
+homepage: https://github.com/stedolan/jq
+licenses:
+  - MIT
+languages:
+  - JSON
+categories:
+  - Formatter
+source:
+  id: github:stedolan/jq
+  asset:
+    - target: darwin_x64
+      file: jq-macos-amd64
+    - target: darwin_arm64
+      file: jq-macos-arm64
+    - target: linux_x86
+      file: jq-linux-i386
+    - target: linux_x64
+      file: jq-linux-amd64
+    - target: linux_arm64
+      file: jq-linux-arm64
+    - target: win_x86
+      file: jq-windows-i386.exe
+    - target: win_x64
+      file: jq-windows-amd64.exe
+bin:
+  jq: "{{source.asset.file}}"

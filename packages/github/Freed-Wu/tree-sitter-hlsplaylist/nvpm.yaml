@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-hlsplaylist
+description: Tree-sitter grammar for hlsplaylist.
+homepage: https://github.com/Freed-Wu/tree-sitter-hlsplaylist
+licenses:
+  - MIT
+languages:
+  - hlsplaylist
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:Freed-Wu/tree-sitter-hlsplaylist
+treesitter:
+  build:
+    - language: hlsplaylist
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-hlsplaylist
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: vscode-solidity-server
+description: Solidity language server.
+homepage: https://github.com/juanfranblanco/vscode-solidity
+licenses:
+  - MIT
+languages:
+  - Solidity
+categories:
+  - LSP
+source:
+  id: npm:vscode-solidity-server
+bin:
+  vscode-solidity-server: npm:vscode-solidity-server

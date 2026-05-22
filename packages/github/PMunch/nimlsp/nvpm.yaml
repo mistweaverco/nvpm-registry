@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nimlsp
+description: Language Server Protocol implementation for Nim.
+homepage: https://github.com/PMunch/nimlsp
+licenses:
+  - MIT
+languages:
+  - Nim
+categories:
+  - LSP
+source:
+  id: github:PMunch/nimlsp
+  build:
+    - target: unix
+      run: nimble build -y --localdeps
+      bin: nimlsp
+    - target: win
+      run: nimble build -y --localdeps
+      bin: nimlsp.exe
+bin:
+  nimlsp: "{{source.build.bin}}"

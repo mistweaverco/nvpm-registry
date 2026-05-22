@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: vala-language-server
+description: Code Intelligence for Vala & Genie.
+homepage: https://github.com/vala-lang/vala-language-server
+licenses:
+  - LGPL-2.1-or-later
+languages:
+  - Vala
+categories:
+  - LSP
+source:
+  id: github:vala-lang/vala-language-server
+  build:
+    - target: unix
+      run: |
+        meson -Dprefix="$PWD" build
+        ninja -C build install
+      bin: bin/vala-language-server
+    - target: win
+      run: |
+        meson -Dprefix="($pwd).path" build
+        ninja -C build install
+      bin: bin/vala-language-server.exe
+bin:
+  vala-language-server: "{{source.build.bin}}"
+ci_skip: true

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: sqls
+description: SQL language server written in Go.
+homepage: https://github.com/sqls-server/sqls
+licenses:
+  - MIT
+languages:
+  - SQL
+categories:
+  - LSP
+source:
+  id: golang:github.com/sqls-server/sqls
+schemas:
+  # yamllint disable-line rule:line-length
+  lsp: https://raw.githubusercontent.com/sqls-server/sqls/{{version}}/schema.json
+bin:
+  sqls: golang:sqls

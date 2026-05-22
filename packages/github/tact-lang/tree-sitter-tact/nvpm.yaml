@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-tact
+description: Tree-sitter grammar for tact.
+homepage: https://github.com/tact-lang/tree-sitter-tact
+licenses:
+  - MIT
+languages:
+  - tact
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:tact-lang/tree-sitter-tact
+treesitter:
+  build:
+    - language: tact
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-tact
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

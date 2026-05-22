@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-scheme
+description: Tree-sitter grammar for scheme.
+homepage: https://github.com/6cdh/tree-sitter-scheme
+licenses:
+  - MIT
+languages:
+  - scheme
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:6cdh/tree-sitter-scheme
+treesitter:
+  build:
+    - language: scheme
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-scheme
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

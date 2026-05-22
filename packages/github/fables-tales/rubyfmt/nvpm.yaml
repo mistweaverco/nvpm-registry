@@ -1,0 +1,39 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: rubyfmt
+description: Ruby Autoformatter!
+homepage: https://github.com/fables-tales/rubyfmt
+licenses:
+  - MIT
+languages:
+  - Ruby
+categories:
+  - Formatter
+source:
+  id: github:fables-tales/rubyfmt
+  asset:
+    - target:
+        - darwin_x64
+        - darwin_arm64
+      file: rubyfmt-{{version}}-Darwin-arm64.tar.gz
+      bin: tmp/releases/{{version}}-Darwin/rubyfmt
+    - target: linux_x64_gnu
+      file: rubyfmt-{{version}}-Linux-x86_64.tar.gz
+      bin: tmp/releases/{{version}}-Linux/rubyfmt
+    - target: linux_arm64_gnu
+      file: rubyfmt-{{version}}-Linux-aarch64.tar.gz
+      bin: tmp/releases/{{version}}-Linux/rubyfmt
+  version_overrides:
+    - constraint: semver:<=v0.8.1
+      id: github:fables-tales/rubyfmt@v0.8.1
+      asset:
+        - target:
+            - darwin_x64
+            - darwin_arm64
+          file: rubyfmt-{{version}}-Darwin-arm64.tar.gz
+          bin: tmp/releases/{{version}}-Darwin/rubyfmt
+        - target: linux_x64_gnu
+          file: rubyfmt-{{version}}-Linux.tar.gz
+          bin: tmp/releases/{{version}}-Linux/rubyfmt
+bin:
+  rubyfmt: "{{source.asset.bin}}"

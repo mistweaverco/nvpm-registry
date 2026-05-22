@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-xml
+description: Tree-sitter grammars for dtd, xml.
+homepage: https://github.com/tree-sitter-grammars/tree-sitter-xml
+licenses:
+  - MIT
+languages:
+  - dtd
+  - xml
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:tree-sitter-grammars/tree-sitter-xml
+treesitter:
+  build:
+    - language: dtd
+      grammar_dir: dtd
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-dtd
+        semver: true
+    - language: xml
+      grammar_dir: xml
+      integrations:
+        - neovim
+      external_queries:
+        - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-xml
+          semver: true
+        - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-dtd
+          semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

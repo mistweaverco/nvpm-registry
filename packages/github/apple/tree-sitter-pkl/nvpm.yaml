@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-pkl
+description: Tree-sitter grammar for pkl.
+homepage: https://github.com/apple/tree-sitter-pkl
+licenses:
+  - MIT
+languages:
+  - pkl
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:apple/tree-sitter-pkl
+treesitter:
+  build:
+    - language: pkl
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-pkl
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

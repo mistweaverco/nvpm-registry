@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-ledger
+description: Tree-sitter grammar for ledger.
+homepage: https://github.com/cbarrete/tree-sitter-ledger
+licenses:
+  - MIT
+languages:
+  - ledger
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:cbarrete/tree-sitter-ledger
+treesitter:
+  build:
+    - language: ledger
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-ledger
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

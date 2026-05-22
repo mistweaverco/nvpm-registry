@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-proto
+description: Tree-sitter grammar for proto.
+homepage: https://github.com/coder3101/tree-sitter-proto
+licenses:
+  - MIT
+languages:
+  - proto
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:coder3101/tree-sitter-proto
+treesitter:
+  build:
+    - language: proto
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-proto
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-awk
+description: Tree-sitter grammar for awk.
+homepage: https://github.com/Beaglefoot/tree-sitter-awk
+licenses:
+  - MIT
+languages:
+  - awk
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:Beaglefoot/tree-sitter-awk
+treesitter:
+  build:
+    - language: awk
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-awk
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

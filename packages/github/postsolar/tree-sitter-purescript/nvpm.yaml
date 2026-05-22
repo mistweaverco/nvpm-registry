@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-purescript
+description: Tree-sitter grammar for purescript.
+homepage: https://github.com/postsolar/tree-sitter-purescript
+licenses:
+  - MIT
+languages:
+  - purescript
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:postsolar/tree-sitter-purescript
+treesitter:
+  build:
+    - language: purescript
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-purescript
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

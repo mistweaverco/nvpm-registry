@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: jsonnet-language-server
+description: |
+  A Language Server Protocol (LSP) server for Jsonnet
+  (https://jsonnet.org).
+homepage: https://github.com/grafana/jsonnet-language-server
+licenses:
+  - AGPL-3.0-or-later
+languages:
+  - Jsonnet
+categories:
+  - LSP
+source:
+  id: golang:github.com/grafana/jsonnet-language-server
+bin:
+  jsonnet-language-server: golang:jsonnet-language-server

@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-javadoc
+description: Tree-sitter grammar for javadoc.
+homepage: https://github.com/rmuir/tree-sitter-javadoc
+licenses:
+  - MIT
+languages:
+  - javadoc
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:rmuir/tree-sitter-javadoc
+treesitter:
+  build:
+    - language: javadoc
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-javadoc
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter
