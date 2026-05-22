@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: haxe-language-server
+description: Language Server Protocol implementation for the Haxe language.
+homepage: https://github.com/vshaxe/haxe-language-server
+licenses:
+  - MIT
+languages:
+  - Haxe
+categories:
+  - LSP
+source:
+  id: openvsx:nadako/vshaxe
+  download:
+    file: nadako.vshaxe-{{version}}.vsix
+bin:
+  haxe-language-server: node:extension/bin/server.js

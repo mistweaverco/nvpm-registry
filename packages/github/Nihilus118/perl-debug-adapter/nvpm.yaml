@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: perl-debug-adapter
+description: Perl debugger that invokes perl -d.
+homepage: https://github.com/Nihilus118/perl-debug-adapter
+licenses:
+  - MIT
+languages:
+  - Perl
+categories:
+  - DAP
+source:
+  id: github:Nihilus118/perl-debug-adapter
+  build:
+    run: |
+
+      npm install
+      npm run compile
+bin:
+  perl-debug-adapter: node:out/debugAdapter.js

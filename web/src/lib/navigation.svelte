@@ -29,7 +29,7 @@
 				</button>
 			</div>
 		</a>
-		<a href="https://github.com/mistweaverco/zana-registry" target="_blank">
+		<a href="https://github.com/mistweaverco/nvpm-registry" target="_blank">
 			<button class="btn">
 				<span class="icon">
 					<i class="fa-brands fa-github"></i>

@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: codespell
+description: Check code for common misspellings.
+homepage: https://github.com/codespell-project/codespell
+licenses:
+  - GPL-2.0-or-later
+languages: []
+categories:
+  - Linter
+source:
+  id: pypi:codespell
+bin:
+  codespell: pypi:codespell

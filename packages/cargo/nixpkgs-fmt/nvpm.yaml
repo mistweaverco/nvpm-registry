@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nixpkgs-fmt
+description: Nix code formatter for nixpkgs
+homepage: https://github.com/nix-community/nixpkgs-fmt
+licenses:
+  - Apache-2.0
+languages:
+  - Nix
+categories:
+  - Formatter
+source:
+  id: cargo:nixpkgs-fmt
+  supported_platforms:
+    - unix
+bin:
+  nixpkgs-fmt: cargo:nixpkgs-fmt

@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: hyprls
+description: A LSP server for Hyprland config files
+homepage: https://github.com/hyprland-community/hyprls
+licenses:
+  - MIT
+languages:
+  - Hypr
+categories:
+  - LSP
+source:
+  id: golang:github.com/ewen-lbh/hyprls
+bin:
+  hyprls: golang:hyprls

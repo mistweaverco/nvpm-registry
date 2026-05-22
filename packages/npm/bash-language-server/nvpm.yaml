@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: bash-language-server
+description: A language server for Bash.
+homepage: https://github.com/bash-lsp/bash-language-server
+licenses:
+  - MIT
+languages:
+  - Bash
+categories:
+  - LSP
+source:
+  id: npm:bash-language-server
+schemas:
+  # yamllint disable-line rule:line-length
+  lsp: vscode:https://raw.githubusercontent.com/bash-lsp/bash-language-server/server-{{version}}/vscode-client/package.json
+bin:
+  bash-language-server: npm:bash-language-server

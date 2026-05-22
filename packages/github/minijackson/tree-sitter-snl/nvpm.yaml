@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-snl
+description: Tree-sitter grammar for snl.
+homepage: https://github.com/minijackson/tree-sitter-snl
+licenses:
+  - MIT
+languages:
+  - snl
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:minijackson/tree-sitter-snl
+treesitter:
+  build:
+    - language: snl
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-snl
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

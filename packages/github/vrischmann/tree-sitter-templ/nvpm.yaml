@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-templ
+description: Tree-sitter grammar for templ.
+homepage: https://github.com/vrischmann/tree-sitter-templ
+licenses:
+  - MIT
+languages:
+  - templ
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:vrischmann/tree-sitter-templ
+treesitter:
+  build:
+    - language: templ
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-templ
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

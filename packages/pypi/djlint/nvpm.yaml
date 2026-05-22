@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: djlint
+description: |
+  HTML Template Linter and Formatter. Django - Jinja - Nunjucks -
+  Handlebars - GoLang.
+homepage: https://github.com/Riverside-Healthcare/djLint
+licenses:
+  - GPL-3.0-or-later
+languages:
+  - Django
+  - Go
+  - Nunjucks
+  - Twig
+  - Handlebars
+  - Mustache
+  - Angular
+  - Jinja
+categories:
+  - Formatter
+  - Linter
+source:
+  id: pypi:djlint
+bin:
+  djlint: pypi:djlint

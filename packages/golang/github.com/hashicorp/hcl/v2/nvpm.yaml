@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: hclfmt
+description: A command to format HCL files
+homepage: https://github.com/hashicorp/hcl
+licenses:
+  - MPL-2.0
+languages:
+  - HCL
+categories:
+  - Formatter
+source:
+  id: golang:github.com/hashicorp/hcl/v2
+bin:
+  hclfmt: golang:hclfmt

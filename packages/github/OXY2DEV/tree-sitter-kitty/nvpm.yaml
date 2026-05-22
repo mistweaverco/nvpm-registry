@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-kitty
+description: Tree-sitter grammar for kitty.
+homepage: https://github.com/OXY2DEV/tree-sitter-kitty
+licenses:
+  - MIT
+languages:
+  - kitty
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:OXY2DEV/tree-sitter-kitty
+treesitter:
+  build:
+    - language: kitty
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-kitty
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

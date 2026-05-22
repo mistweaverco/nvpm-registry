@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: blackd-client
+description: Tiny HTTP client for the Black (blackd) Python code formatter.
+homepage: https://github.com/disrupted/blackd-client
+licenses:
+  - GPL-3.0-or-later
+languages:
+  - Python
+categories:
+  - Formatter
+source:
+  id: github:disrupted/blackd-client
+  asset:
+    - target:
+        - darwin_x64
+        - darwin_arm64
+      file: blackd-client_macos
+    - target: linux_x64_gnu
+      file: blackd-client_linux
+bin:
+  blackd-client: "{{source.asset.file}}"

@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-yang
+description: Tree-sitter grammar for yang.
+homepage: https://github.com/Hubro/tree-sitter-yang
+licenses:
+  - MIT
+languages:
+  - yang
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:Hubro/tree-sitter-yang
+treesitter:
+  build:
+    - language: yang
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-yang
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

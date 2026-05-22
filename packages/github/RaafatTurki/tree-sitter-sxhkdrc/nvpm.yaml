@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-sxhkdrc
+description: Tree-sitter grammar for sxhkdrc.
+homepage: https://github.com/RaafatTurki/tree-sitter-sxhkdrc
+licenses:
+  - MIT
+languages:
+  - sxhkdrc
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:RaafatTurki/tree-sitter-sxhkdrc
+treesitter:
+  build:
+    - language: sxhkdrc
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-sxhkdrc
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: coffeesense-language-server
+description: Language server for CoffeeScript.
+homepage: https://github.com/phil294/coffeesense
+licenses:
+  - MIT
+languages:
+  - CoffeeScript
+categories:
+  - LSP
+source:
+  id: npm:coffeesense-language-server
+bin:
+  coffeesense-language-server: npm:coffeesense-language-server

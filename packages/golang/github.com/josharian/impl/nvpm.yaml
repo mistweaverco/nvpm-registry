@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: impl
+description: impl generates method stubs for implementing an interface.
+homepage: https://github.com/josharian/impl
+licenses:
+  - MIT
+languages:
+  - Go
+categories: []
+source:
+  id: golang:github.com/josharian/impl
+bin:
+  impl: golang:impl

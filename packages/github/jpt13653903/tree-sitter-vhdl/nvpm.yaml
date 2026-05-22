@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-vhdl
+description: Tree-sitter grammar for vhdl.
+homepage: https://github.com/jpt13653903/tree-sitter-vhdl
+licenses:
+  - MIT
+languages:
+  - vhdl
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:jpt13653903/tree-sitter-vhdl
+treesitter:
+  build:
+    - language: vhdl
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-vhdl
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

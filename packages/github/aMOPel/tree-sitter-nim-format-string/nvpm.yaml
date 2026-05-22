@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-nim-format-string
+description: Tree-sitter grammar for nim_format_string.
+homepage: https://github.com/aMOPel/tree-sitter-nim-format-string
+licenses:
+  - MIT
+languages:
+  - nim_format_string
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:aMOPel/tree-sitter-nim-format-string
+treesitter:
+  build:
+    - language: nim_format_string
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-nim_format_string
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

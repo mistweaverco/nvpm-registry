@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-llvm
+description: Tree-sitter grammar for llvm.
+homepage: https://github.com/benwilliamgraham/tree-sitter-llvm
+licenses:
+  - MIT
+languages:
+  - llvm
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:benwilliamgraham/tree-sitter-llvm
+treesitter:
+  build:
+    - language: llvm
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-llvm
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

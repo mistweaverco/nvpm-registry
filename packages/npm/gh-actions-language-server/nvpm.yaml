@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: gh-actions-language-server
+description: GitHub Actions Language Server
+homepage: https://github.com/lttb/gh-actions-language-server
+licenses:
+  - MIT
+languages:
+  - YAML
+categories:
+  - LSP
+source:
+  id: npm:gh-actions-language-server
+bin:
+  gh-actions-language-server: npm:gh-actions-language-server

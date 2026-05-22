@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: pyproject-flake8
+description: |
+  A monkey patching wrapper to connect flake8 with pyproject.toml
+  configuration.
+homepage: https://github.com/csachs/pyproject-flake8
+licenses:
+  - Unlicense
+languages:
+  - Python
+categories:
+  - Linter
+source:
+  id: pypi:pyproject-flake8
+bin:
+  pflake8: pypi:pflake8

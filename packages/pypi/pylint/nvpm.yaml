@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: pylint
+description: Pylint is a static code analyser for Python 2 or 3.
+homepage: https://pypi.org/project/pylint/
+licenses:
+  - GPL-2.0-or-later
+languages:
+  - Python
+categories:
+  - Linter
+source:
+  id: pypi:pylint
+bin:
+  pylint: pypi:pylint

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: haml-lint
+description: |
+  haml-lint is a tool to help keep your HAML files clean and readable. In
+  addition to HAML-specific style and lint checks, it integrates with RuboCop to
+  bring its powerful static analysis tools to your HAML documents.
+homepage: https://github.com/sds/haml-lint
+licenses:
+  - MIT
+languages:
+  - HAML
+categories:
+  - Linter
+source:
+  id: gem:haml_lint
+bin:
+  haml-lint: gem:haml-lint

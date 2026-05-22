@@ -1,0 +1,42 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-javascript
+description: Tree-sitter grammars for ecma, javascript, jsx.
+homepage: https://github.com/tree-sitter/tree-sitter-javascript
+licenses:
+  - MIT
+languages:
+  - ecma
+  - javascript
+  - jsx
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:tree-sitter/tree-sitter-javascript
+treesitter:
+  build:
+    - language: ecma
+      integrations:
+        - neovim
+      queries_only: true
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-ecma
+        semver: true
+    - language: javascript
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-javascript
+        semver: true
+    - language: jsx
+      integrations:
+        - neovim
+      queries_only: true
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-jsx
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: esbonio
+description: A Language Server for Sphinx projects.
+homepage: https://pypi.org/project/esbonio/
+licenses:
+  - MIT
+languages:
+  - Sphinx
+categories:
+  - LSP
+source:
+  id: pypi:esbonio
+bin:
+  esbonio: pypi:esbonio

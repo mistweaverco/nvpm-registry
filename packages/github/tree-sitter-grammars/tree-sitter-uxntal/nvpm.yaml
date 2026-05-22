@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-uxntal
+description: Tree-sitter grammar for uxntal.
+homepage: https://github.com/tree-sitter-grammars/tree-sitter-uxntal
+licenses:
+  - MIT
+languages:
+  - uxntal
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:tree-sitter-grammars/tree-sitter-uxntal
+treesitter:
+  build:
+    - language: uxntal
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-uxntal
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

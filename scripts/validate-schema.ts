@@ -5,7 +5,7 @@ import Ajv from "ajv";
 
 import type { PackageInfoWithValidationErrorsSupport, SchemaErrors } from "./types";
 
-import { getZanaYAMLHeader } from "./utils";
+import { getNvpmYAMLHeader } from "./utils";
 
 const ajv = new Ajv({
   strict: false,
@@ -15,7 +15,7 @@ const schema = JSON.parse(
   fs.readFileSync(path.join(__dirname, "..", "package.schema.json"), "utf8"),
 );
 
-// Recursively find all zana.yaml files in the packages directory
+// Recursively find all nvpm.yaml files in the packages directory
 const findPackageFiles = (dir: string): string[] => {
   const packageFiles: string[] = [];
   const entries = fs.readdirSync(dir, { withFileTypes: true });
@@ -25,7 +25,7 @@ const findPackageFiles = (dir: string): string[] => {
     if (entry.isDirectory()) {
       // Recursively search subdirectories
       packageFiles.push(...findPackageFiles(fullPath));
-    } else if (entry.isFile() && entry.name === "zana.yaml") {
+    } else if (entry.isFile() && entry.name === "nvpm.yaml") {
       packageFiles.push(fullPath);
     }
   }
@@ -48,7 +48,7 @@ packageFiles.forEach((packageYamlPath) => {
       errors: ajv.errors || [],
     });
   }
-  if (!fileContents.startsWith(getZanaYAMLHeader())) {
+  if (!fileContents.startsWith(getNvpmYAMLHeader())) {
     schemaErrors.push({
       name: packageData[0].name,
       errors: [

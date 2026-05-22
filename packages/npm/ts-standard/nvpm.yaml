@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: ts-standard
+description: Typescript style guide, linter, and formatter using StandardJS.
+homepage: https://github.com/standard/ts-standard
+licenses:
+  - MIT
+languages:
+  - TypeScript
+categories:
+  - Linter
+  - Formatter
+source:
+  id: npm:ts-standard
+bin:
+  ts-standard: npm:ts-standard

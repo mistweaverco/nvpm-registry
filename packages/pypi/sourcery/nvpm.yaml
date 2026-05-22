@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: sourcery
+description: |
+  Sourcery is a tool available in your IDE, GitHub, or as a CLI that suggests
+  refactoring improvements to help make your code more readable and generally
+  higher quality.
+homepage: https://docs.sourcery.ai/
+licenses:
+  - MIT
+languages:
+  - Python
+categories:
+  - LSP
+source:
+  id: pypi:sourcery
+schemas:
+  lsp: vscode:https://raw.githubusercontent.com/swift-server/vscode-swift/main/package.json
+bin:
+  sourcery: pypi:sourcery

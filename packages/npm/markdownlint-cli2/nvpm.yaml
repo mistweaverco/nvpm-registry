@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: markdownlint-cli2
+description: |
+  A fast, flexible, configuration-based command-line interface for
+  linting Markdown/CommonMark files with the markdownlint library
+homepage: https://github.com/DavidAnson/markdownlint-cli2
+licenses:
+  - MIT
+languages:
+  - Markdown
+categories:
+  - Linter
+  - Formatter
+source:
+  id: npm:markdownlint-cli2
+bin:
+  markdownlint-cli2: npm:markdownlint-cli2

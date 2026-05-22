@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: markdownlint
+description: |
+  A Node.js style checker and lint tool for Markdown/CommonMark
+  files.
+homepage: https://github.com/igorshubovych/markdownlint-cli
+licenses:
+  - MIT
+languages:
+  - Markdown
+categories:
+  - Linter
+  - Formatter
+source:
+  id: npm:markdownlint-cli
+bin:
+  markdownlint: npm:markdownlint

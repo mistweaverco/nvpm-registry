@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: vue-language-server
+description: ⚡ Explore high-performance tooling for Vue.
+homepage: https://github.com/vuejs/language-tools
+licenses:
+  - MIT
+languages:
+  - Vue
+categories:
+  - LSP
+source:
+  id: npm:@vue/language-server
+  extra_packages:
+    - typescript
+bin:
+  vue-language-server: npm:vue-language-server

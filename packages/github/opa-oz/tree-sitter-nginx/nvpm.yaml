@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-nginx
+description: Tree-sitter grammar for nginx.
+homepage: https://github.com/opa-oz/tree-sitter-nginx
+licenses:
+  - MIT
+languages:
+  - nginx
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:opa-oz/tree-sitter-nginx
+treesitter:
+  build:
+    - language: nginx
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-nginx
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

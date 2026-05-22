@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: gofumpt
+description: A stricter gofmt.
+homepage: https://pkg.go.dev/mvdan.cc/gofumpt
+licenses:
+  - BSD-3-Clause
+languages:
+  - Go
+categories:
+  - Formatter
+source:
+  id: golang:mvdan.cc/gofumpt
+bin:
+  gofumpt: golang:gofumpt

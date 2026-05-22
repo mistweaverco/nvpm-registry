@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: bibtex-tidy
+description: Cleaner and Formatter for BibTeX files
+homepage: https://github.com/FlamingTempura/bibtex-tidy
+licenses:
+  - MIT
+languages:
+  - LaTeX
+categories:
+  - Formatter
+source:
+  id: npm:bibtex-tidy
+bin:
+  bibtex-tidy: npm:bibtex-tidy

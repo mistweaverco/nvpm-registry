@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-hocon
+description: Tree-sitter grammar for hocon.
+homepage: https://github.com/antosha417/tree-sitter-hocon
+licenses:
+  - MIT
+languages:
+  - hocon
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:antosha417/tree-sitter-hocon
+treesitter:
+  build:
+    - language: hocon
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-hocon
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

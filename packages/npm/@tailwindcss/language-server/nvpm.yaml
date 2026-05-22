@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tailwindcss-language-server
+description: Language Server Protocol implementation for Tailwind CSS.
+homepage: https://github.com/tailwindlabs/tailwindcss-intellisense
+licenses:
+  - MIT
+languages:
+  - CSS
+categories:
+  - LSP
+source:
+  id: npm:@tailwindcss/language-server
+schemas:
+  # yamllint disable-line rule:line-length
+  lsp: vscode:https://raw.githubusercontent.com/tailwindlabs/tailwindcss-intellisense/@tailwindcss/language-server@v{{version}}/packages/vscode-tailwindcss/package.json
+bin:
+  tailwindcss-language-server: npm:tailwindcss-language-server

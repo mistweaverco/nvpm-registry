@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nomicfoundation-solidity-language-server
+description: Solidity language server by NomicFoundation
+homepage: https://github.com/NomicFoundation/hardhat-vscode
+licenses:
+  - MIT
+languages:
+  - Solidity
+categories:
+  - LSP
+source:
+  id: npm:@nomicfoundation/solidity-language-server
+bin:
+  nomicfoundation-solidity-language-server: npm:nomicfoundation-solidity-language-server

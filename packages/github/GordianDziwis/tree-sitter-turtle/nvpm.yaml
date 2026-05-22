@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-turtle
+description: Tree-sitter grammar for turtle.
+homepage: https://github.com/GordianDziwis/tree-sitter-turtle
+licenses:
+  - MIT
+languages:
+  - turtle
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:GordianDziwis/tree-sitter-turtle
+treesitter:
+  build:
+    - language: turtle
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-turtle
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

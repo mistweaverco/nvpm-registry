@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-strace
+description: Tree-sitter grammar for strace.
+homepage: https://github.com/sigmaSd/tree-sitter-strace
+licenses:
+  - MIT
+languages:
+  - strace
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:sigmaSd/tree-sitter-strace
+treesitter:
+  build:
+    - language: strace
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-strace
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

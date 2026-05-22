@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: ktfmt
+description: |
+  A program that reformats Kotlin source code to comply with the
+  common community conventions.
+homepage: https://github.com/facebook/ktfmt
+licenses:
+  - Apache-2.0
+languages:
+  - Kotlin
+categories:
+  - Formatter
+source:
+  id: github:facebook/ktfmt
+  asset:
+    file: ktfmt-{{ version | strip_prefix "v" }}-jar-with-dependencies.jar
+bin:
+  ktfmt: java-jar:{{source.asset.file}}

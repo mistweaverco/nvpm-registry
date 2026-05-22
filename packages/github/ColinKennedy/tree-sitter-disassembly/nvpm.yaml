@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-disassembly
+description: Tree-sitter grammar for disassembly.
+homepage: https://github.com/ColinKennedy/tree-sitter-disassembly
+licenses:
+  - MIT
+languages:
+  - disassembly
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:ColinKennedy/tree-sitter-disassembly
+treesitter:
+  build:
+    - language: disassembly
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-disassembly
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

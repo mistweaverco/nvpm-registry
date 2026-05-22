@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-gren
+description: Tree-sitter grammar for gren.
+homepage: https://github.com/MaeBrooks/tree-sitter-gren
+licenses:
+  - MIT
+languages:
+  - gren
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:MaeBrooks/tree-sitter-gren
+treesitter:
+  build:
+    - language: gren
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-gren
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

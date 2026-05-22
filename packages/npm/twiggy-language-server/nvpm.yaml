@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: twiggy-language-server
+description: Twig Language Server.
+homepage: https://github.com/moetelo/twiggy
+licenses:
+  - MPL-2.0
+languages:
+  - Twig
+  - HTML
+categories:
+  - LSP
+  - Linter
+source:
+  id: npm:twiggy-language-server
+bin:
+  twiggy-language-server: node:node_modules/twiggy-language-server/dist/server.js

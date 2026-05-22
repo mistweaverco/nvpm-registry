@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-gdshader
+description: Tree-sitter grammar for gdshader.
+homepage: https://github.com/airblast-dev/tree-sitter-gdshader
+licenses:
+  - MIT
+languages:
+  - gdshader
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:airblast-dev/tree-sitter-gdshader
+treesitter:
+  build:
+    - language: gdshader
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-gdshader
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

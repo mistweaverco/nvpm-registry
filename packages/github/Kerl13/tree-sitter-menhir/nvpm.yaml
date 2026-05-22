@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-menhir
+description: Tree-sitter grammar for menhir.
+homepage: https://github.com/Kerl13/tree-sitter-menhir
+licenses:
+  - MIT
+languages:
+  - menhir
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:Kerl13/tree-sitter-menhir
+treesitter:
+  build:
+    - language: menhir
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-menhir
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

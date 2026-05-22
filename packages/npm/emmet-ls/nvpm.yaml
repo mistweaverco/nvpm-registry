@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: emmet-ls
+description: Emmet support based on LSP.
+homepage: https://github.com/aca/emmet-ls
+licenses:
+  - MIT
+languages:
+  - Emmet
+categories:
+  - LSP
+source:
+  id: npm:emmet-ls
+bin:
+  emmet-ls: npm:emmet-ls

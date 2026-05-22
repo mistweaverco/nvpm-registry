@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-nickel
+description: Tree-sitter grammar for nickel.
+homepage: https://github.com/nickel-lang/tree-sitter-nickel
+licenses:
+  - MIT
+languages:
+  - nickel
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:nickel-lang/tree-sitter-nickel
+treesitter:
+  build:
+    - language: nickel
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-nickel
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

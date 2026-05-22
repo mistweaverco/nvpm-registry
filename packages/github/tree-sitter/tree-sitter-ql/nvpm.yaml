@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-ql
+description: Tree-sitter grammar for ql.
+homepage: https://github.com/tree-sitter/tree-sitter-ql
+licenses:
+  - MIT
+languages:
+  - ql
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:tree-sitter/tree-sitter-ql
+treesitter:
+  build:
+    - language: ql
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-ql
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-squirrel
+description: Tree-sitter grammar for squirrel.
+homepage: https://github.com/tree-sitter-grammars/tree-sitter-squirrel
+licenses:
+  - MIT
+languages:
+  - squirrel
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:tree-sitter-grammars/tree-sitter-squirrel
+treesitter:
+  build:
+    - language: squirrel
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-squirrel
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

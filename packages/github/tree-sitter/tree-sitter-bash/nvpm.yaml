@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-bash
+description: Tree-sitter grammar for bash.
+homepage: https://github.com/tree-sitter/tree-sitter-bash
+licenses:
+  - MIT
+languages:
+  - bash
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:tree-sitter/tree-sitter-bash
+treesitter:
+  build:
+    - language: bash
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-bash
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

@@ -79,7 +79,7 @@
 	$: availableLanguages = uniqSorted(packages.flatMap((p) => p.languages ?? []));
 	$: availableCategories = uniqSorted(packages.flatMap((p) => p.categories ?? []));
 	$: if (detailsId && activePackageData) {
-		activePackageDataInstallCommand = getZanaInstallCommand(
+		activePackageDataInstallCommand = getNvpmInstallCommand(
 			activePackageData,
 			PackageTreesitterIntegration.Neovim
 		);
@@ -152,17 +152,17 @@
 		await closeDetails();
 	};
 
-	const getZanaInstallCommand = (pkg: Package, integration: PackageTreesitterIntegration) => {
+	const getNvpmInstallCommand = (pkg: Package, integration: PackageTreesitterIntegration) => {
 		if (pkg.treesitter && integration !== PackageTreesitterIntegration.None) {
-			return `zana add --integrate ${integration} ${pkg.source.id}`;
+			return `nvpm add --integrate ${integration} ${pkg.source.id}`;
 		}
-		return `zana add ${pkg.source.id}`;
+		return `nvpm add ${pkg.source.id}`;
 	};
 
 	const onChangeTreesitterIntegration = (e: Event) => {
 		const select = e.currentTarget as HTMLSelectElement;
 		const integration = select.value as PackageTreesitterIntegration;
-		activePackageDataInstallCommand = getZanaInstallCommand(activePackageData, integration);
+		activePackageDataInstallCommand = getNvpmInstallCommand(activePackageData, integration);
 	};
 
 	const navigateToPackageDetails = (pkgId: string) => {
@@ -307,7 +307,7 @@
 	};
 
 	onMount(async () => {
-		const res = await fetch('/zana-registry.json');
+		const res = await fetch('/nvpm-registry.json');
 		const data = await res.json();
 		const sortedData = data.sort((a: Package, b: Package) => {
 			if (a.name < b.name) {
@@ -341,8 +341,8 @@
 
 <Head
 	data={{
-		title: 'Zana Registry: List',
-		description: 'Here you can search for packages in the Zana registry.'
+		title: 'NVPM Registry: List',
+		description: 'Here you can search for packages in the NVPM registry.'
 	}}
 />
 

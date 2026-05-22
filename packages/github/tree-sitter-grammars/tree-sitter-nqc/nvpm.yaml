@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-nqc
+description: Tree-sitter grammar for nqc.
+homepage: https://github.com/tree-sitter-grammars/tree-sitter-nqc
+licenses:
+  - MIT
+languages:
+  - nqc
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:tree-sitter-grammars/tree-sitter-nqc
+treesitter:
+  build:
+    - language: nqc
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-nqc
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

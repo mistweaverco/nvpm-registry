@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: kulala-ls
+description: A minimal language server for HTTP syntax
+homepage: https://github.com/mistweaverco/kulala-ls
+licenses:
+  - MIT
+languages:
+  - http
+categories:
+  - LSP
+source:
+  id: npm:@mistweaverco/kulala-ls
+bin:
+  kulala-ls: npm:kulala-ls

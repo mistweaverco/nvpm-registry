@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-perl
+description: Tree-sitter grammar for perl.
+homepage: https://github.com/tree-sitter-perl/tree-sitter-perl
+licenses:
+  - MIT
+languages:
+  - perl
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:tree-sitter-perl/tree-sitter-perl
+treesitter:
+  build:
+    - language: perl
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-perl
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

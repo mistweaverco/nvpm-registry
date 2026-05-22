@@ -1,5 +1,5 @@
 {
-  "name": "zana-registry",
+  "name": "nvpm-registry",
   "type": "module",
   "module": "scripts/updater/index.ts",
   "scripts": {

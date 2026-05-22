@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-go-work
+description: Tree-sitter grammar for gowork.
+homepage: https://github.com/omertuc/tree-sitter-go-work
+licenses:
+  - MIT
+languages:
+  - gowork
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:omertuc/tree-sitter-go-work
+treesitter:
+  build:
+    - language: gowork
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-gowork
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

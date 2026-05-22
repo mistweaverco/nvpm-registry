@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: revive
+description: |
+  ~6x faster, stricter, configurable, extensible, and beautiful
+  drop-in replacement for golint.
+homepage: https://github.com/mgechev/revive
+licenses:
+  - MIT
+languages:
+  - Go
+categories:
+  - Linter
+source:
+  id: golang:github.com/mgechev/revive
+bin:
+  revive: golang:revive

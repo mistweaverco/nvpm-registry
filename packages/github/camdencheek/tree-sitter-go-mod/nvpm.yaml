@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-go-mod
+description: Tree-sitter grammar for gomod.
+homepage: https://github.com/camdencheek/tree-sitter-go-mod
+licenses:
+  - MIT
+languages:
+  - gomod
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:camdencheek/tree-sitter-go-mod
+treesitter:
+  build:
+    - language: gomod
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-gomod
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

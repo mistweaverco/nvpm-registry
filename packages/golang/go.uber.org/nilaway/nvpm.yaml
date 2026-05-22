@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nilaway
+description: |
+  NilAway is a static analysis tool that seeks to help developers avoid nil
+  panics in production by catching them at compile time rather than at runtime.
+homepage: https://github.com/uber-go/nilaway
+licenses:
+  - Apache-2.0
+languages:
+  - Go
+categories:
+  - Linter
+source:
+  id: golang:go.uber.org/nilaway
+bin:
+  nilaway: golang:nilaway

@@ -1,8 +1,8 @@
 <div align="center">
 
-![Zana Logo](assets/logo.svg)
+![NVPM Logo](assets/logo.svg)
 
-# zana-registry
+# nvpm-registry
 
 [![Made with love][badge-made-with-love]][contributors]
 [![Latest release][badge-latest-release]][latest-release]
@@ -13,7 +13,7 @@
 
 <p></p>
 
-This is the [registry][registry-website] for [Zana][website],
+This is the [registry][registry-website] for [NVPM][website],
 
 <p></p>
 
@@ -28,7 +28,7 @@ This is the [registry][registry-website] for [Zana][website],
 
 ## What?
 
-Zana is a cross-platform package manager for development tools.
+NVPM is a cross-platform package manager for development tools.
 It allows you to easily install, manage, and distribute
 development tools across different environments.
 
@@ -37,7 +37,7 @@ It supports a multitude of [package providers](#supported-providers).
 It's designed to be uncomplicated, fast, and reliable,
 making it easy to manage your development tools.
 
-This is the registry that Zana uses to fetch package information.
+This is the registry that NVPM uses to fetch package information.
 
 ## Supported providers
 
@@ -66,18 +66,18 @@ but differs quite heavily in its implementation.
 
 ### Main differences
 
-Main differences between the Mason registry and the Zana registry:
+Main differences between the Mason registry and the NVPM registry:
 
 - Packages don't have a version included.
-- Packages are located in `packages/<provider>/<package-id>/zana.yaml` where:
+- Packages are located in `packages/<provider>/<package-id>/nvpm.yaml` where:
   - `<provider>` is the package provider
     (e.g., `npm`, `github`, `gitlab`, `...`)
   - `<package-id>` is the package identifier as defined by the provider
   - Examples:
-    - `packages/npm/@mistweaverco/kulala-ls/zana.yaml` for npm scoped packages
-    - `packages/npm/bash-language-server/zana.yaml` for npm top-level packages
-    - `packages/github/dprint/dprint/zana.yaml` for GitHub repositories
-    - `packages/gitlab/mistweaverco/a/b/c/repo-name/zana.yaml`
+    - `packages/npm/@mistweaverco/kulala-ls/nvpm.yaml` for npm scoped packages
+    - `packages/npm/bash-language-server/nvpm.yaml` for npm top-level packages
+    - `packages/github/dprint/dprint/nvpm.yaml` for GitHub repositories
+    - `packages/gitlab/mistweaverco/a/b/c/repo-name/nvpm.yaml`
       for GitLab (supports unlimited sub-folders)
 - Package IDs use the format `<provider>:<package-id>`
   (e.g., `npm:@mistweaverco/kulala-ls`, `github:dprint/dprint`)
@@ -88,11 +88,11 @@ Main differences between the Mason registry and the Zana registry:
 > The original Mason registry is licensed under
 > [Apache 2.0 License](https://github.com/mason-org/mason-registry/blob/main/LICENSE).
 
-[website]: https://getzana.net
-[registry-website]: https://registry.getzana.net
+[website]: https://nvpm.dev
+[registry-website]: https://registry.nvpm.dev
 [badge-made-with-love]: assets/badge-made-with-love.svg
-[contributors]: https://github.com/mistweaverco/zana-registry/graphs/contributors
+[contributors]: https://github.com/mistweaverco/nvpm-registry/graphs/contributors
 [logo]: assets/logo.svg
 [swahili]: https://en.wikipedia.org/wiki/Swahili_language
-[badge-latest-release]: https://img.shields.io/github/v/release/mistweaverco/zana-registry?style=for-the-badge
-[latest-release]: https://github.com/mistweaverco/zana-registry/releases/latest
+[badge-latest-release]: https://img.shields.io/github/v/release/mistweaverco/nvpm-registry?style=for-the-badge
+[latest-release]: https://github.com/mistweaverco/nvpm-registry/releases/latest

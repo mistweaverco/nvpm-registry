@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-vala
+description: Tree-sitter grammar for vala.
+homepage: https://github.com/vala-lang/tree-sitter-vala
+licenses:
+  - MIT
+languages:
+  - vala
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:vala-lang/tree-sitter-vala
+treesitter:
+  build:
+    - language: vala
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-vala
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

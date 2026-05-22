@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: proselint
+description: |
+  proselint is a linter for English prose. It places the world's greatest
+  writers and editors by your side, where they whisper suggestions on how to
+  improve your prose.
+homepage: https://github.com/amperser/proselint
+licenses:
+  - BSD-3-Clause
+languages:
+  - Text
+  - Markdown
+categories:
+  - Linter
+source:
+  id: pypi:proselint
+bin:
+  proselint: pypi:proselint

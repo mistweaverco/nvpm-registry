@@ -2,7 +2,7 @@ import * as fs from "fs";
 import * as path from "path";
 import * as yaml from "js-yaml";
 
-import { getZanaYAMLHeader } from "./utils";
+import { getNvpmYAMLHeader } from "./utils";
 import type { PackageInfo } from "./types";
 
 const MASON_REGISTRY_URL =
@@ -46,7 +46,7 @@ const parsePackageId = (
   return { provider, packageId };
 };
 
-// Convert package ID from Mason format to Zana format
+// Convert package ID from Mason format to NVPM format
 // "pkg:provider/package-id@version" -> "provider:package-id"
 const convertPackageId = (masonId: string): string => {
   const parsed = parsePackageId(masonId);
@@ -151,8 +151,8 @@ const main = async () => {
 
       const { provider, packageId } = parsed;
 
-      // Convert to Zana format
-      const zanaPackageData: PackageInfo = {
+      // Convert to NVPM format
+      const nvpmPackageData: PackageInfo = {
         ...removeMasonFields(masonPackageData),
         source: {
           ...convertVersionOverrides(masonPackageData.source),
@@ -160,14 +160,14 @@ const main = async () => {
         },
       };
 
-      // Remove version field if it exists (Zana doesn't use it)
-      delete (zanaPackageData as any).version;
+      // Remove version field if it exists (NVPM doesn't use it)
+      delete (nvpmPackageData as any).version;
 
       // Build new directory path
       // packagePath might contain slashes for nested structures (like gitlab)
       const pathParts = packageId.split("/");
       const newPackageDir = path.join(packagesDir, provider, ...pathParts);
-      const newYamlPath = path.join(newPackageDir, "zana.yaml");
+      const newYamlPath = path.join(newPackageDir, "nvpm.yaml");
 
       // Check if target already exists - if so, merge with existing package
       if (fs.existsSync(newYamlPath)) {
@@ -178,33 +178,33 @@ const main = async () => {
 
           if (existingPackage) {
             // If the existing package has a different name, add Mason package name as alias
-            if (existingPackage.name !== zanaPackageData.name) {
+            if (existingPackage.name !== nvpmPackageData.name) {
               // Update the existing package with the new alias
               if (!existingPackage.aliases) {
                 existingPackage.aliases = [];
               }
               // Add the Mason package name as an alias if it's different
-              if (!existingPackage.aliases.includes(zanaPackageData.name)) {
-                existingPackage.aliases.push(zanaPackageData.name);
+              if (!existingPackage.aliases.includes(nvpmPackageData.name)) {
+                existingPackage.aliases.push(nvpmPackageData.name);
               }
               // Also add the original Mason package directory name if different
               if (
-                packageName !== zanaPackageData.name &&
+                packageName !== nvpmPackageData.name &&
                 !existingPackage.aliases.includes(packageName)
               ) {
                 existingPackage.aliases.push(packageName);
               }
 
               // Merge bins if they don't conflict (keep existing, add new)
-              if (zanaPackageData.bin) {
+              if (nvpmPackageData.bin) {
                 if (!existingPackage.bin) {
                   existingPackage.bin = {};
                 }
-                Object.assign(existingPackage.bin, zanaPackageData.bin);
+                Object.assign(existingPackage.bin, nvpmPackageData.bin);
               }
 
               // Write updated existing package
-              const updatedYamlContent = getZanaYAMLHeader() +
+              const updatedYamlContent = getNvpmYAMLHeader() +
                 "\n" +
                 yaml.dump(existingPackage, {
                   lineWidth: -1,
@@ -213,7 +213,7 @@ const main = async () => {
               fs.writeFileSync(newYamlPath, updatedYamlContent, "utf8");
 
               console.log(
-                `✓ Added ${zanaPackageData.name} as alias to existing package ${existingPackage.name}`,
+                `✓ Added ${nvpmPackageData.name} as alias to existing package ${existingPackage.name}`,
               );
               console.log(
                 `  Source: ${MASON_REGISTRY_URL}/${packageName}/package.yaml`,
@@ -243,12 +243,12 @@ const main = async () => {
       } else {
         // If Mason package name differs from the converted package name, add it as an alias
         // This happens when Mason uses a different naming convention
-        if (packageName !== zanaPackageData.name) {
-          if (!zanaPackageData.aliases) {
-            zanaPackageData.aliases = [];
+        if (packageName !== nvpmPackageData.name) {
+          if (!nvpmPackageData.aliases) {
+            nvpmPackageData.aliases = [];
           }
-          if (!zanaPackageData.aliases.includes(packageName)) {
-            zanaPackageData.aliases.push(packageName);
+          if (!nvpmPackageData.aliases.includes(packageName)) {
+            nvpmPackageData.aliases.push(packageName);
           }
         }
       }
@@ -257,9 +257,9 @@ const main = async () => {
       fs.mkdirSync(newPackageDir, { recursive: true });
 
       // Write updated YAML file
-      const newYamlContent = getZanaYAMLHeader() +
+      const newYamlContent = getNvpmYAMLHeader() +
         "\n" +
-        yaml.dump(zanaPackageData, {
+        yaml.dump(nvpmPackageData, {
           lineWidth: -1,
           noRefs: true,
         });
@@ -272,7 +272,7 @@ const main = async () => {
       );
       console.log(`  Target: ${newYamlPath}`);
       console.log(
-        `  Package ID: ${masonPackageData.source.id} -> ${zanaPackageData.source.id}`,
+        `  Package ID: ${masonPackageData.source.id} -> ${nvpmPackageData.source.id}`,
       );
     } catch (error) {
       const errorMessage = error instanceof Error

@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-tiger
+description: Tree-sitter grammar for tiger.
+homepage: https://github.com/ambroisie/tree-sitter-tiger
+licenses:
+  - MIT
+languages:
+  - tiger
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:ambroisie/tree-sitter-tiger
+treesitter:
+  build:
+    - language: tiger
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-tiger
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

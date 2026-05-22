@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-teal
+description: Tree-sitter grammar for teal.
+homepage: https://github.com/euclidianAce/tree-sitter-teal
+licenses:
+  - MIT
+languages:
+  - teal
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:euclidianAce/tree-sitter-teal
+treesitter:
+  build:
+    - language: teal
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-teal
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

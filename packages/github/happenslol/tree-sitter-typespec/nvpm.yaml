@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-typespec
+description: Tree-sitter grammar for typespec.
+homepage: https://github.com/happenslol/tree-sitter-typespec
+licenses:
+  - MIT
+languages:
+  - typespec
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:happenslol/tree-sitter-typespec
+treesitter:
+  build:
+    - language: typespec
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-typespec
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-snakemake
+description: Tree-sitter grammar for snakemake.
+homepage: https://github.com/osthomas/tree-sitter-snakemake
+licenses:
+  - MIT
+languages:
+  - snakemake
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:osthomas/tree-sitter-snakemake
+treesitter:
+  build:
+    - language: snakemake
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-snakemake
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

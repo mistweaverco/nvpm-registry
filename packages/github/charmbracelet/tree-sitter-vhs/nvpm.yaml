@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-vhs
+description: Tree-sitter grammar for vhs.
+homepage: https://github.com/charmbracelet/tree-sitter-vhs
+licenses:
+  - MIT
+languages:
+  - vhs
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:charmbracelet/tree-sitter-vhs
+treesitter:
+  build:
+    - language: vhs
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-vhs
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

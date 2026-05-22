@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-glimmer
+description: Tree-sitter grammar for glimmer.
+homepage: https://github.com/ember-tooling/tree-sitter-glimmer
+licenses:
+  - MIT
+languages:
+  - glimmer
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:ember-tooling/tree-sitter-glimmer
+treesitter:
+  build:
+    - language: glimmer
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-glimmer
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

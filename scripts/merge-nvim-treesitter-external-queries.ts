@@ -1,5 +1,5 @@
 /**
- * Merges Neovim tree-sitter parser registry query metadata into Zana package YAMLs.
+ * Merges Neovim tree-sitter parser registry query metadata into NVPM package YAMLs.
  *
  * For each treesitter.build[] row, looks up the language key in the nvim registry
  * and merges query repo metadata into external_queries (single object or array).
@@ -21,7 +21,7 @@ import * as path from "path";
 import { fileURLToPath } from "url";
 import * as yaml from "js-yaml";
 
-import { getZanaYAMLHeader } from "./utils";
+import { getNvpmYAMLHeader } from "./utils";
 
 const WORKSPACE_ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -61,7 +61,7 @@ type BuildRow = {
   external_queries?: ExternalQueriesSpec;
 };
 
-type ZanaDoc = {
+type NvpmDoc = {
   name?: string;
   treesitter?: { build?: BuildRow[] };
   [key: string]: unknown;
@@ -135,7 +135,7 @@ const findPackageFiles = (dir: string): string[] => {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) out.push(...findPackageFiles(full));
-    else if (entry.isFile() && entry.name === "zana.yaml") out.push(full);
+    else if (entry.isFile() && entry.name === "nvpm.yaml") out.push(full);
   }
   return out;
 };
@@ -335,7 +335,7 @@ const main = async () => {
 
   for (const yamlPath of files) {
     const raw = fs.readFileSync(yamlPath, "utf8");
-    const docs = yaml.loadAll(raw) as ZanaDoc[];
+    const docs = yaml.loadAll(raw) as NvpmDoc[];
     const doc = docs[0];
     if (!doc?.treesitter?.build?.length) continue;
     scanned++;
@@ -438,7 +438,7 @@ const main = async () => {
     }
 
     const body = yaml.dump(doc, { lineWidth: -1, noRefs: true });
-    fs.writeFileSync(yamlPath, getZanaYAMLHeader() + "\n" + body, "utf8");
+    fs.writeFileSync(yamlPath, getNvpmYAMLHeader() + "\n" + body, "utf8");
     console.log(`updated ${yamlPath}`);
   }
 

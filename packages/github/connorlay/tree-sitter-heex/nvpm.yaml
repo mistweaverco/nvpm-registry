@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-heex
+description: Tree-sitter grammar for heex.
+homepage: https://github.com/connorlay/tree-sitter-heex
+licenses:
+  - MIT
+languages:
+  - heex
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:connorlay/tree-sitter-heex
+treesitter:
+  build:
+    - language: heex
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-heex
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

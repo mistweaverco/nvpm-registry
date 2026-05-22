@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-liquid
+description: Tree-sitter grammar for liquid.
+homepage: https://github.com/hankthetank27/tree-sitter-liquid
+licenses:
+  - MIT
+languages:
+  - liquid
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:hankthetank27/tree-sitter-liquid
+treesitter:
+  build:
+    - language: liquid
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-liquid
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

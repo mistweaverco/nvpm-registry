@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nginx-language-server
+description: A language server for nginx configuration files.
+homepage: https://github.com/pappasam/nginx-language-server
+licenses:
+  - GPL-3.0-or-later
+languages:
+  - Nginx
+categories:
+  - LSP
+source:
+  id: pypi:nginx-language-server
+bin:
+  nginx-language-server: pypi:nginx-language-server

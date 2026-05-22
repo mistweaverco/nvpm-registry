@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-dart
+description: Tree-sitter grammar for dart.
+homepage: https://github.com/UserNobody14/tree-sitter-dart
+licenses:
+  - MIT
+languages:
+  - dart
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:UserNobody14/tree-sitter-dart
+treesitter:
+  build:
+    - language: dart
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-dart
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

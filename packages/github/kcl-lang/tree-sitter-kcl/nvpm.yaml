@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-kcl
+description: Tree-sitter grammar for kcl.
+homepage: https://github.com/kcl-lang/tree-sitter-kcl
+licenses:
+  - MIT
+languages:
+  - kcl
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:kcl-lang/tree-sitter-kcl
+treesitter:
+  build:
+    - language: kcl
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-kcl
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

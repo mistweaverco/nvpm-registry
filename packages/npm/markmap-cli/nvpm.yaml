@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: markmap-cli
+description: Visualize your Markdown as mindmaps.
+homepage: https://github.com/markmap/markmap
+licenses:
+  - MIT
+languages:
+  - Markdown
+categories: []
+source:
+  id: npm:markmap-cli
+bin:
+  markmap: npm:markmap

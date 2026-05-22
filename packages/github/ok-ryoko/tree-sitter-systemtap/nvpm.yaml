@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-systemtap
+description: Tree-sitter grammar for systemtap.
+homepage: https://github.com/ok-ryoko/tree-sitter-systemtap
+licenses:
+  - MIT
+languages:
+  - systemtap
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:ok-ryoko/tree-sitter-systemtap
+treesitter:
+  build:
+    - language: systemtap
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-systemtap
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

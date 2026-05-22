@@ -422,7 +422,7 @@ const getLatestVersion = async (sourceId: string): Promise<string | null> => {
       break;
     case SourceType.GENERIC:
       // Generic provider doesn't fetch versions from API
-      // Version is typically specified in the zana.yaml file
+      // Version is typically specified in the nvpm.yaml file
       return null;
     default:
       break;
@@ -519,7 +519,7 @@ const convertToMasonFormat = (newFormatId: string): string => {
   return `pkg:${provider}/${encodedPackageId}`;
 };
 
-// Recursively find all zana.yaml files in the packages directory
+// Recursively find all nvpm.yaml files in the packages directory
 const findPackageFiles = (dir: string): string[] => {
   const packageFiles: string[] = [];
   const entries = fs.readdirSync(dir, { withFileTypes: true });
@@ -528,11 +528,11 @@ const findPackageFiles = (dir: string): string[] => {
     if (entry.isDirectory()) {
       // Recursively search subdirectories
       packageFiles.push(...findPackageFiles(fullPath));
-    } else if (entry.isFile() && entry.name === "zana.yaml") {
+    } else if (entry.isFile() && entry.name === "nvpm.yaml") {
       // if parent filterPackagesByNameContains is set,
       // only include if parent directory name contains the filter string
-      // e.g., --filter-by-name=tree-sitter-svelte will include tree-sitter-svelte/zana.yaml
-      // but exclude tree-sitter-python/zana.yaml
+      // e.g., --filter-by-name=tree-sitter-svelte will include tree-sitter-svelte/nvpm.yaml
+      // but exclude tree-sitter-python/nvpm.yaml
       if (filterPackagesByNameContains) {
         const parentDirName = path.basename(path.dirname(fullPath));
         if (!parentDirName.includes(filterPackagesByNameContains)) {
@@ -609,7 +609,7 @@ for (const packageYamlPath of packageFiles) {
   }
 }
 
-const registryJsonPath = path.join(__dirname, "..", "..", "zana-registry.json");
+const registryJsonPath = path.join(__dirname, "..", "..", "nvpm-registry.json");
 const masonRegistryJsonPath = path.join(__dirname, "..", "..", "registry.json");
 fs.writeFileSync(registryJsonPath, JSON.stringify(registry, null, 2));
 fs.writeFileSync(masonRegistryJsonPath, JSON.stringify(masonRegistry, null, 2));

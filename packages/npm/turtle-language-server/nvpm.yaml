@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: turtle-language-server
+description: A language server (by Stardog) for Turtle
+homepage: https://www.npmjs.com/package/turtle-language-server
+licenses:
+  - Apache-2.0
+languages:
+  - turtle
+categories:
+  - LSP
+source:
+  id: npm:turtle-language-server
+bin:
+  turtle-language-server: npm:turtle-language-server

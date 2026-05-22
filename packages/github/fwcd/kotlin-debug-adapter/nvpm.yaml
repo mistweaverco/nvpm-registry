@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: kotlin-debug-adapter
+description: |
+  Kotlin/JVM debugging for any editor/IDE using the Debug Adapter
+  Protocol.
+homepage: https://github.com/fwcd/kotlin-debug-adapter
+licenses:
+  - MIT
+languages:
+  - Kotlin
+categories:
+  - DAP
+source:
+  id: github:fwcd/kotlin-debug-adapter
+  asset:
+    - target:
+        - darwin_x64
+        - darwin_arm64
+        - linux_x64
+        - linux_arm64
+      file: adapter.zip
+      bin: adapter/bin/kotlin-debug-adapter
+    - target:
+        - win_x64
+        - win_arm64
+      file: adapter.zip
+      bin: adapter/bin/kotlin-debug-adapter.bat
+bin:
+  kotlin-debug-adapter: "{{source.asset.bin}}"

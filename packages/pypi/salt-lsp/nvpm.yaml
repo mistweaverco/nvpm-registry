@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: salt-lsp
+description: Salt Language Server Protocol Server.
+homepage: https://github.com/dcermak/salt-lsp
+licenses:
+  - Apache-2.0
+languages:
+  - Salt
+categories:
+  - LSP
+source:
+  id: pypi:salt-lsp
+bin:
+  salt_lsp_server: pypi:salt_lsp_server

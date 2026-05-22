@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: svlangserver
+description: |
+  A language server for systemverilog that has been tested to work with
+  coc.nvim, VSCode, Sublime Text 4, emacs, and Neovim.
+homepage: https://github.com/imc-trading/svlangserver
+licenses:
+  - MIT
+languages:
+  - SystemVerilog
+categories:
+  - LSP
+source:
+  id: npm:@imc-trading/svlangserver
+schemas:
+  lsp: vscode:https://raw.githubusercontent.com/eirikpre/VSCode-SystemVerilog/master/package.json
+bin:
+  svlangserver: npm:svlangserver

@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-leo
+description: Tree-sitter grammar for leo.
+homepage: https://github.com/r001/tree-sitter-leo
+licenses:
+  - MIT
+languages:
+  - leo
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:r001/tree-sitter-leo
+treesitter:
+  build:
+    - language: leo
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-leo
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

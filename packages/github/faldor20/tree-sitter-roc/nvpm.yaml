@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-roc
+description: Tree-sitter grammar for roc.
+homepage: https://github.com/faldor20/tree-sitter-roc
+licenses:
+  - MIT
+languages:
+  - roc
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:faldor20/tree-sitter-roc
+treesitter:
+  build:
+    - language: roc
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-roc
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

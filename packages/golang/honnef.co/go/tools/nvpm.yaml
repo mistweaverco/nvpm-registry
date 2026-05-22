@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: staticcheck
+description: The advanced Go linter.
+homepage: https://staticcheck.io/
+licenses:
+  - MIT
+languages:
+  - Go
+categories:
+  - Linter
+source:
+  id: golang:honnef.co/go/tools
+bin:
+  staticcheck: golang:staticcheck

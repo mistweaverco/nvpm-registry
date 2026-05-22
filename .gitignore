@@ -1,10 +1,10 @@
 .env
 .env.*
-/zana-registry.json
-/zana-checksums.txt
+/nvpm-registry.json
+/nvpm-checksums.txt
 /registry.json
 /checksums.txt
 node_modules
 *.zip
 /web/static/registry.json
-/web/static/zana-registry.json
+/web/static/nvpm-registry.json

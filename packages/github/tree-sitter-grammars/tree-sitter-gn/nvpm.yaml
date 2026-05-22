@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-gn
+description: Tree-sitter grammar for gn.
+homepage: https://github.com/tree-sitter-grammars/tree-sitter-gn
+licenses:
+  - MIT
+languages:
+  - gn
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:tree-sitter-grammars/tree-sitter-gn
+treesitter:
+  build:
+    - language: gn
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-gn
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

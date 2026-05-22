@@ -1,0 +1,39 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: ltex-ls
+description: |
+  LTeX Language Server: LSP language server for LanguageTool 🔍✔️ with support
+  for LaTeX 🎓, Markdown 📝, and others.
+homepage: https://valentjn.github.io/ltex/
+licenses:
+  - MPL-2.0
+languages:
+  - Text
+  - Markdown
+  - LaTeX
+  - reStructuredText
+categories:
+  - LSP
+source:
+  id: github:valentjn/ltex-ls
+  asset:
+    - target: darwin
+      file: ltex-ls-{{version}}-mac-x64.tar.gz
+      bin:
+        lsp: ltex-ls-{{version}}/bin/ltex-ls
+        cli: ltex-ls-{{version}}/bin/ltex-cli
+    - target: win
+      file: ltex-ls-{{version}}-windows-x64.zip
+      bin:
+        lsp: ltex-ls-{{version}}/bin/ltex-ls.bat
+        cli: ltex-ls-{{version}}/bin/ltex-cli.bat
+    - target: linux
+      file: ltex-ls-{{version}}.tar.gz
+      bin:
+        lsp: ltex-ls-{{version}}/bin/ltex-ls
+        cli: ltex-ls-{{version}}/bin/ltex-cli
+schemas:
+  lsp: vscode:https://raw.githubusercontent.com/valentjn/vscode-ltex/develop/package.json
+bin:
+  ltex-ls: "{{source.asset.bin.lsp}}"
+  ltex-cli: "{{source.asset.bin.cli}}"

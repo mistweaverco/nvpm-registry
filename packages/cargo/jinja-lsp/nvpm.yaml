@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: jinja-lsp
+description: |
+  Experimental jinja lsp server, with autocomplete, syntax highlighting, hover,
+  goto definition, code actions and linting.
+homepage: https://github.com/uros-5/jinja-lsp
+licenses:
+  - MIT
+languages:
+  - Django
+  - Jinja
+  - Nunjucks
+categories:
+  - LSP
+  - Linter
+  - Compiler
+source:
+  id: cargo:jinja-lsp
+bin:
+  jinja-lsp: cargo:jinja-lsp

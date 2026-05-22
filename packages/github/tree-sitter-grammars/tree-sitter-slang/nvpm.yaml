@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-slang
+description: Tree-sitter grammar for slang.
+homepage: https://github.com/tree-sitter-grammars/tree-sitter-slang
+licenses:
+  - MIT
+languages:
+  - slang
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:tree-sitter-grammars/tree-sitter-slang
+treesitter:
+  build:
+    - language: slang
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-slang
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

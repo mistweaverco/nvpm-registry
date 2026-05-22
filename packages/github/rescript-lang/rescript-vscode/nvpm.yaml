@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: rescript-lsp
+deprecation:
+  message: |
+    rescript-lsp is deprecated. Use rescript-language-server, its
+    successor.
+  since: 1.22.0
+description: Language Server for ReScript.
+homepage: https://github.com/rescript-lang/rescript-vscode
+licenses:
+  - MIT
+languages:
+  - ReScript
+categories:
+  - LSP
+source:
+  id: github:rescript-lang/rescript-vscode
+  asset:
+    file: rescript-vscode-{{version}}.vsix
+schemas:
+  # yamllint disable-line rule:line-length
+  lsp: vscode:https://raw.githubusercontent.com/rescript-lang/rescript-vscode/{{version}}/package.json
+bin:
+  rescript-lsp: node:extension/server/out/server.js

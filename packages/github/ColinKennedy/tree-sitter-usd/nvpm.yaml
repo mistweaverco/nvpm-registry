@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-usd
+description: Tree-sitter grammar for usd.
+homepage: https://github.com/ColinKennedy/tree-sitter-usd
+licenses:
+  - MIT
+languages:
+  - usd
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:ColinKennedy/tree-sitter-usd
+treesitter:
+  build:
+    - language: usd
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-usd
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

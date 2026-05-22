@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: colorgen-nvim
+description: Blazingly fast colorscheme generator for Neovim written in Rust.
+homepage: https://github.com/ChristianChiarulli/colorgen-nvim
+licenses:
+  - GPL-3.0-or-later
+languages: []
+categories:
+  - Compiler
+source:
+  id: cargo:colorgen-nvim
+bin:
+  colorgen-nvim: cargo:colorgen-nvim

@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: pest-language-server
+description: A language server for Pest grammar.
+homepage: https://github.com/pest-parser/pest-ide-tools
+licenses:
+  - Apache-2.0
+languages:
+  - Pest
+categories:
+  - LSP
+source:
+  id: cargo:pest-language-server
+bin:
+  pest-language-server: cargo:pest-language-server

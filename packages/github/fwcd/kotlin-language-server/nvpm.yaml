@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: kotlin-language-server
+description: |
+  Kotlin code completion, linting and more for any editor/IDE
+  using the Language Server Protocol.
+homepage: https://github.com/fwcd/kotlin-language-server
+licenses:
+  - MIT
+languages:
+  - Kotlin
+categories:
+  - LSP
+source:
+  id: github:fwcd/kotlin-language-server
+  asset:
+    - target: unix
+      file: server.zip
+      bin: server/bin/kotlin-language-server
+    - target: win
+      file: server.zip
+      bin: server/bin/kotlin-language-server.bat
+schemas:
+  lsp: vscode:https://raw.githubusercontent.com/fwcd/vscode-kotlin/master/package.json
+bin:
+  kotlin-language-server: "{{source.asset.bin}}"

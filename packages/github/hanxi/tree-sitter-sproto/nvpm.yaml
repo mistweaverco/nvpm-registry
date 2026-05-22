@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-sproto
+description: Tree-sitter grammar for sproto.
+homepage: https://github.com/hanxi/tree-sitter-sproto
+licenses:
+  - MIT
+languages:
+  - sproto
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:hanxi/tree-sitter-sproto
+treesitter:
+  build:
+    - language: sproto
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-sproto
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

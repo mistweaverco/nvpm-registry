@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: jsonld-lsp
+description: JSON-LD Language Server.
+homepage: https://ajuvercr.github.io/jsonld-lsp/
+licenses:
+  - MIT
+languages:
+  - JSON-LD
+categories:
+  - LSP
+source:
+  id: github:ajuvercr/jsonld-lsp
+  asset:
+    - target:
+        - darwin_arm64
+        - darwin_x64
+      file: jsonld-language-server-x86_64-apple-darwin.tar.gz
+      bin: jsonld-language-server
+    - target: linux_x64_gnu
+      file: jsonld-language-server-x86_64-unknown-linux-gnu.tar.gz
+      bin: jsonld-language-server
+    - target: win_x64
+      file: jsonld-language-server-x86_64-pc-windows-msvc.zip
+      bin: jsonld-language-server.exe
+bin:
+  jsonld-language-server: "{{source.asset.bin}}"

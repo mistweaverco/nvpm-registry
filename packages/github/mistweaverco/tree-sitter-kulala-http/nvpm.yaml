@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-kulala-http
+description: Tree-sitter grammar for http (kulala flavour).
+homepage: https://github.com/mistweaverco/tree-sitter-kulala-http
+licenses:
+  - MIT
+languages:
+  - http
+  - rest
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:mistweaverco/tree-sitter-kulala-http
+treesitter:
+  build:
+    - language: kulala_http
+      grammar_dir: .
+      integrations:
+        - neovim
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

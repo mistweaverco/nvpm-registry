@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: cspell
+description: A Spell Checker for Code.
+homepage: https://github.com/streetsidesoftware/cspell
+licenses:
+  - MIT
+languages: []
+categories:
+  - Linter
+source:
+  id: npm:cspell
+bin:
+  cspell: npm:cspell

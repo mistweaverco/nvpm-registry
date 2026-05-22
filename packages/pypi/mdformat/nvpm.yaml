@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: mdformat
+description: CommonMark compliant Markdown formatter.
+homepage: https://github.com/executablebooks/mdformat
+licenses:
+  - MIT
+languages:
+  - Markdown
+categories:
+  - Formatter
+source:
+  id: pypi:mdformat
+bin:
+  mdformat: pypi:mdformat

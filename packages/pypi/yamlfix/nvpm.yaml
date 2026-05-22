@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: yamlfix
+description: A simple and configurable YAML formatter that keeps comments.
+homepage: https://github.com/lyz-code/yamlfix
+licenses:
+  - GPL-3.0
+languages:
+  - YAML
+categories:
+  - Formatter
+source:
+  id: pypi:yamlfix
+bin:
+  yamlfix: pypi:yamlfix

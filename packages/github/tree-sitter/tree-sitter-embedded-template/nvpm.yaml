@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-embedded-template
+description: Tree-sitter grammar for embedded_template.
+homepage: https://github.com/tree-sitter/tree-sitter-embedded-template
+licenses:
+  - MIT
+languages:
+  - embedded_template
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:tree-sitter/tree-sitter-embedded-template
+treesitter:
+  build:
+    - language: embedded_template
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-embedded_template
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

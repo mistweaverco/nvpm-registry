@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: mypy
+description: Mypy is a static type checker for Python.
+homepage: https://github.com/python/mypy
+licenses:
+  - MIT
+languages:
+  - Python
+categories:
+  - Linter
+source:
+  id: pypi:mypy
+bin:
+  mypy: pypi:mypy

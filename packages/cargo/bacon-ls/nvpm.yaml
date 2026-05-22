@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: bacon-ls
+description: Rust diagnostic provider based on Bacon
+homepage: https://github.com/crisidev/bacon-ls
+licenses:
+  - MIT
+languages:
+  - Rust
+categories:
+  - LSP
+source:
+  id: cargo:bacon-ls
+bin:
+  bacon-ls: cargo:bacon-ls

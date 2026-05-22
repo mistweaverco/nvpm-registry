@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-go-sum
+description: Tree-sitter grammar for gosum.
+homepage: https://github.com/tree-sitter-grammars/tree-sitter-go-sum
+licenses:
+  - MIT
+languages:
+  - gosum
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:tree-sitter-grammars/tree-sitter-go-sum
+treesitter:
+  build:
+    - language: gosum
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-gosum
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

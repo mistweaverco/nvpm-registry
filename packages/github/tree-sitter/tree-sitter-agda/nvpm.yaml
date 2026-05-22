@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-agda
+description: Tree-sitter grammar for agda.
+homepage: https://github.com/tree-sitter/tree-sitter-agda
+licenses:
+  - MIT
+languages:
+  - agda
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:tree-sitter/tree-sitter-agda
+treesitter:
+  build:
+    - language: agda
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-agda
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: black
+description: Black, the uncompromising Python code formatter.
+homepage: https://pypi.org/project/black/
+licenses:
+  - MIT
+languages:
+  - Python
+categories:
+  - Formatter
+source:
+  id: pypi:black
+bin:
+  black: pypi:black

@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-blade
+description: Tree-sitter grammar for blade.
+homepage: https://github.com/EmranMR/tree-sitter-blade
+licenses:
+  - MIT
+languages:
+  - blade
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:EmranMR/tree-sitter-blade
+treesitter:
+  build:
+    - language: blade
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-blade
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter

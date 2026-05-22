@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: regal
+description: A linter for Rego, with support for running as an LSP server.
+homepage: https://github.com/styrainc/regal
+licenses:
+  - Apache-2.0
+languages:
+  - Rego
+categories:
+  - Linter
+  - LSP
+source:
+  id: golang:github.com/styrainc/regal
+bin:
+  regal: golang:regal

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: autopep8
+description: |
+  A tool that automatically formats Python code to conform to the
+  PEP 8 style guide.
+homepage: https://pypi.org/project/autopep8/
+licenses:
+  - MIT
+languages:
+  - Python
+categories:
+  - Formatter
+source:
+  id: pypi:autopep8
+bin:
+  autopep8: pypi:autopep8

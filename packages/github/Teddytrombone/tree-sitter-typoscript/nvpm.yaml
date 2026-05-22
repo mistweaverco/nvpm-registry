@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-sitter-typoscript
+description: Tree-sitter grammar for typoscript.
+homepage: https://github.com/Teddytrombone/tree-sitter-typoscript
+licenses:
+  - MIT
+languages:
+  - typoscript
+categories:
+  - Tree-sitter-parser
+source:
+  id: github:Teddytrombone/tree-sitter-typoscript
+treesitter:
+  build:
+    - language: typoscript
+      grammar_dir: .
+      integrations:
+        - neovim
+      external_queries:
+        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-typoscript
+        semver: true
+requires:
+  one:
+    - npm:tree-sitter-cli
+    - github:tree-sitter/tree-sitter
