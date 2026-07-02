@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-cursorword
+description: Part of nvim-cursorline. Highlight the word under the cursor.
+homepage: https://github.com/xiyaowong/nvim-cursorword
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+  - cursorline
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - xiyaowong/nvim-cursorword
+editor_integration:
+  - neovim
+source:
+  id: github:xiyaowong/nvim-cursorword

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tokyonight.nvim
+description: A clean, dark and light Neovim theme written in Lua, with support for LSP, Tree-sitter and lots of plugins.
+homepage: https://github.com/folke/tokyonight.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - folke/tokyonight.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:folke/tokyonight.nvim

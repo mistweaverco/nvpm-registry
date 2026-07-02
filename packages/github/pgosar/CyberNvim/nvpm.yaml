@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: CyberNvim
+description: The world's simplest and most extensible Neovim distribution.
+homepage: https://github.com/pgosar/CyberNvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - pgosar/CyberNvim
+editor_integration:
+  - neovim
+source:
+  id: github:pgosar/CyberNvim

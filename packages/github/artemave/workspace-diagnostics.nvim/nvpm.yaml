@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: workspace-diagnostics.nvim
+description: Populate diagnostics for all projects files, not just the opened ones.
+homepage: https://github.com/artemave/workspace-diagnostics.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+  - diagnostics
+aliases:
+  - artemave/workspace-diagnostics.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:artemave/workspace-diagnostics.nvim

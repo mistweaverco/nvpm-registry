@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: dashboard-nvim
+description: A minimalist dashboard, inspired by doom-emacs.
+homepage: https://github.com/nvimdev/dashboard-nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - startup
+aliases:
+  - nvimdev/dashboard-nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nvimdev/dashboard-nvim

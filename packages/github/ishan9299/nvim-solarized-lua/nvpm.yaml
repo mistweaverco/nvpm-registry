@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-solarized-lua
+description: Solarized colorscheme in Lua (Neovim >= 0.5).
+homepage: https://github.com/ishan9299/nvim-solarized-lua
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - ishan9299/nvim-solarized-lua
+editor_integration:
+  - neovim
+source:
+  id: github:ishan9299/nvim-solarized-lua

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: boilit
+description: Create boilerplate structure plugins.
+homepage: https://github.com/gennaro-tedesco/boilit
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - external
+  - boilerplate
+aliases:
+  - gennaro-tedesco/boilit
+editor_integration:
+  - neovim
+source:
+  id: github:gennaro-tedesco/boilit

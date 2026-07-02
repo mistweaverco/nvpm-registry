@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: scratchpad.nvim
+description: Effortlessly manage scratchpads within your favorite editor.
+homepage: https://github.com/athar-qadri/scratchpad.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - note-taking
+aliases:
+  - athar-qadri/scratchpad.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:athar-qadri/scratchpad.nvim

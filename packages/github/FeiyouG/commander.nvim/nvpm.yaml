@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: commander.nvim
+description: Create and manage keybindings and commands in a more organized manner and search them quickly through Telescope.
+homepage: https://github.com/FeiyouG/commander.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - keybinding
+aliases:
+  - FeiyouG/commander.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:FeiyouG/commander.nvim

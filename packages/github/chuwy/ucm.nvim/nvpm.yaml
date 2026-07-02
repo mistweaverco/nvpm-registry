@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: ucm.nvim
+description: NavigatingUnisonprojects.
+homepage: https://github.com/chuwy/ucm.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+aliases:
+  - chuwy/ucm.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:chuwy/ucm.nvim

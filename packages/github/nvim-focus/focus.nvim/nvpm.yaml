@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: focus.nvim
+description: Auto-Focusing and Auto-Resizing Splits/Windows written in Lua! Vim splits on steroids.
+homepage: https://github.com/nvim-focus/focus.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - split-and-window
+aliases:
+  - nvim-focus/focus.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nvim-focus/focus.nvim

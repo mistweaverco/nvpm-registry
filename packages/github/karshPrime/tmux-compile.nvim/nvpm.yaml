@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tmux-compile.nvim
+description: >-
+  Set up same key, like F5, to run any compile/run command per language, likemakefor C andcargo buildfor Rust, and have
+  the project run or compile in a new tmux pane or window.
+homepage: https://github.com/karshPrime/tmux-compile.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - split-and-window
+  - tmux
+aliases:
+  - karshPrime/tmux-compile.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:karshPrime/tmux-compile.nvim

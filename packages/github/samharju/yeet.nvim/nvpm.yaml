@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: yeet.nvim
+description: Run shell commands in terminal buffers or tmux panes.
+homepage: https://github.com/samharju/yeet.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - terminal-integration
+aliases:
+  - samharju/yeet.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:samharju/yeet.nvim

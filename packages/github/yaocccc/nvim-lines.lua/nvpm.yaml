@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-lines.lua
+description: A fast, light, customizable Neovim statusline and tabline(buffers) plugin.
+homepage: https://github.com/yaocccc/nvim-lines.lua
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+  - statusline
+aliases:
+  - yaocccc/nvim-lines.lua
+editor_integration:
+  - neovim
+source:
+  id: github:yaocccc/nvim-lines.lua

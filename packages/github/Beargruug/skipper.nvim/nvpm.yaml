@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: skipper.nvim
+description: Jump between functions in a file with ease.
+homepage: https://github.com/Beargruug/skipper.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - marks
+aliases:
+  - Beargruug/skipper.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Beargruug/skipper.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: lua-console.nvim
+description: A handy scratch pad / REPL / debug console for Lua development and Neovim exploration and configuration.
+homepage: https://github.com/YaroSpace/lua-console.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - neovim-lua-development
+aliases:
+  - YaroSpace/lua-console.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:YaroSpace/lua-console.nvim

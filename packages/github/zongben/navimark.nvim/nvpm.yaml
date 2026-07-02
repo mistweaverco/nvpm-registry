@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: navimark.nvim
+description: An easy and powerful bookmark manager with telescope.
+homepage: https://github.com/zongben/navimark.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - marks
+aliases:
+  - zongben/navimark.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:zongben/navimark.nvim

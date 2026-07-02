@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: neorg
+description: Modernity meets insane extensibility. The future of organizing your life.
+homepage: https://github.com/nvim-neorg/neorg
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - note-taking
+aliases:
+  - nvim-neorg/neorg
+editor_integration:
+  - neovim
+source:
+  id: github:nvim-neorg/neorg

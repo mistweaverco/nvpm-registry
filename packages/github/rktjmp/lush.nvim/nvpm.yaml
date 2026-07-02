@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: lush.nvim
+description: Define Neovim themes as a DSL in Lua, with real-time feedback.
+homepage: https://github.com/rktjmp/lush.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - colorscheme-creation
+aliases:
+  - rktjmp/lush.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:rktjmp/lush.nvim

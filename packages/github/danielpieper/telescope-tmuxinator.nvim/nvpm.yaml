@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: telescope-tmuxinator.nvim
+description: Integration for tmuxinator with telescope.nvim.
+homepage: https://github.com/danielpieper/telescope-tmuxinator.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - split-and-window
+  - tmux
+aliases:
+  - danielpieper/telescope-tmuxinator.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:danielpieper/telescope-tmuxinator.nvim

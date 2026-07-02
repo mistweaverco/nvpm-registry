@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: marko.nvim
+description: Behind the scenes, global marks management for different projects.
+homepage: https://github.com/mohseenrm/marko.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - marks
+aliases:
+  - mohseenrm/marko.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mohseenrm/marko.nvim

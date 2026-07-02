@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-terminal
+description: A simple & easy to use multi-terminal plugin.
+homepage: https://github.com/s1n7ax/nvim-terminal
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - terminal-integration
+aliases:
+  - s1n7ax/nvim-terminal
+editor_integration:
+  - neovim
+source:
+  id: github:s1n7ax/nvim-terminal

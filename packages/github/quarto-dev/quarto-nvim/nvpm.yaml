@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: quarto-nvim
+description: Tools for working withQuartodocuments.
+homepage: https://github.com/quarto-dev/quarto-nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - license:unrecognized=NOASSERTION
+  - license:raw=NOASSERTION
+aliases:
+  - quarto-dev/quarto-nvim
+editor_integration:
+  - neovim
+source:
+  id: github:quarto-dev/quarto-nvim

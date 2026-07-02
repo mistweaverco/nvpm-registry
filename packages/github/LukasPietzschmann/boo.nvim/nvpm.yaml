@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: boo.nvim
+description: Quickly pop-up some LSP-powered information of the thing your cursor is on.
+homepage: https://github.com/LukasPietzschmann/boo.nvim
+licenses:
+  - BSD-3-Clause
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - LukasPietzschmann/boo.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:LukasPietzschmann/boo.nvim

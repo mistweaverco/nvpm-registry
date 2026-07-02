@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: neo-tree.nvim
+description: >-
+  Neo-tree is a Neovim plugin to browse the file system and other tree like structures in whatever style suits you,
+  including sidebars, floating windows, netrw split style, or all of them at once.
+homepage: https://github.com/nvim-neo-tree/neo-tree.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - file-explorer
+aliases:
+  - nvim-neo-tree/neo-tree.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nvim-neo-tree/neo-tree.nvim

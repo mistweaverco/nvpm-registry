@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: neovim-session-manager
+description: A simple wrapper around :mksession.
+homepage: https://github.com/Shatur/neovim-session-manager
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - session
+aliases:
+  - Shatur/neovim-session-manager
+editor_integration:
+  - neovim
+source:
+  id: github:Shatur/neovim-session-manager

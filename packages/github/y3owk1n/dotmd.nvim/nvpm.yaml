@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: dotmd.nvim
+description: Managing notes, todos, journal entries and inbox all with markdown.
+homepage: https://github.com/y3owk1n/dotmd.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - note-taking
+aliases:
+  - y3owk1n/dotmd.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:y3owk1n/dotmd.nvim

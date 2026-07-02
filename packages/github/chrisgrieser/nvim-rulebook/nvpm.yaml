@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-rulebook
+description: Add inline-comments to ignore rules, or lookup rule documentation online.
+homepage: https://github.com/chrisgrieser/nvim-rulebook
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+  - diagnostics
+aliases:
+  - chrisgrieser/nvim-rulebook
+editor_integration:
+  - neovim
+source:
+  id: github:chrisgrieser/nvim-rulebook

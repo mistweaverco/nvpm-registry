@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: gruvbox-baby
+description: A modern gruvbox theme with full Tree-sitter support.
+homepage: https://github.com/luisiacc/gruvbox-baby
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - luisiacc/gruvbox-baby
+editor_integration:
+  - neovim
+source:
+  id: github:luisiacc/gruvbox-baby

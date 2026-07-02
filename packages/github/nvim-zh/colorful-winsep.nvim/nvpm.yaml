@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: colorful-winsep.nvim
+description: A configurable color split line.
+homepage: https://github.com/nvim-zh/colorful-winsep.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - split-and-window
+aliases:
+  - nvim-zh/colorful-winsep.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nvim-zh/colorful-winsep.nvim

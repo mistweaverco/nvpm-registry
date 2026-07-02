@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: melange-nvim
+description: Warm colorscheme written in Lua with support for various terminal emulators.
+homepage: https://github.com/savq/melange-nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - savq/melange-nvim
+editor_integration:
+  - neovim
+source:
+  id: github:savq/melange-nvim

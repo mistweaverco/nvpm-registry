@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: hibiscus.nvim
+description: Highly opinionated macros to elegantly write your config.
+homepage: https://github.com/udayvir-singh/hibiscus.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - fennel
+aliases:
+  - udayvir-singh/hibiscus.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:udayvir-singh/hibiscus.nvim

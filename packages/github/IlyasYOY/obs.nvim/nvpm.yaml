@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: obs.nvim
+description: Your Obsidian notes at the speed of thought.
+homepage: https://github.com/IlyasYOY/obs.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - note-taking
+aliases:
+  - IlyasYOY/obs.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:IlyasYOY/obs.nvim

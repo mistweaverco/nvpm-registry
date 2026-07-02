@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: yanky.nvim
+description: Improved Yank and Put functionalities.
+homepage: https://github.com/gbprod/yanky.nvim
+licenses:
+  - WTFPL
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - gbprod/yanky.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:gbprod/yanky.nvim

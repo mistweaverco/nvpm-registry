@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: telescope-zoxide
+description: Telescope integration forzoxide, a smart directory picker that tracks your usage.
+homepage: https://github.com/jvgrootveld/telescope-zoxide
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - fuzzy-finder
+aliases:
+  - jvgrootveld/telescope-zoxide
+editor_integration:
+  - neovim
+source:
+  id: github:jvgrootveld/telescope-zoxide

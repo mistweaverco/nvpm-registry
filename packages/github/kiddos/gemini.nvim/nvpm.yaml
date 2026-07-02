@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: gemini.nvim
+description: Bindings to Google Gemini API.
+homepage: https://github.com/kiddos/gemini.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - ai
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - kiddos/gemini.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:kiddos/gemini.nvim

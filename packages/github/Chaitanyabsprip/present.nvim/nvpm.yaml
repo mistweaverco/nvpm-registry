@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: present.nvim
+description: A Presentation plugin written in Lua.
+homepage: https://github.com/Chaitanyabsprip/present.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - media
+aliases:
+  - Chaitanyabsprip/present.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Chaitanyabsprip/present.nvim

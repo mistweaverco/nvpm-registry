@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: serene.nvim
+description: A soothing and dark Tree-sitter/LSP-supported theme for relaxing your eyes after using more vibrant colorschemes.
+homepage: https://github.com/samharju/serene.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - samharju/serene.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:samharju/serene.nvim

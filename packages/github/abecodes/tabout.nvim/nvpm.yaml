@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tabout.nvim
+description: Jump out of brackets, quotes, objects, etc.
+homepage: https://github.com/abecodes/tabout.nvim
+licenses:
+  - Unlicense
+categories:
+  - Plugin
+tags:
+  - motion
+aliases:
+  - abecodes/tabout.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:abecodes/tabout.nvim

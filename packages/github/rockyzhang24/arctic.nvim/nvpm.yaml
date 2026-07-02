@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: arctic.nvim
+description: >-
+  A Neovim colorscheme ported from VSCode Dark+ theme with the strict and precise color picking for both the editor and
+  UI.
+homepage: https://github.com/rockyzhang24/arctic.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - rockyzhang24/arctic.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:rockyzhang24/arctic.nvim

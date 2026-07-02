@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: easypick.nvim
+description: Easypick lets you easily create Telescope pickers from arbitrary console commands.
+homepage: https://github.com/axkirillov/easypick.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - fuzzy-finder
+aliases:
+  - axkirillov/easypick.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:axkirillov/easypick.nvim

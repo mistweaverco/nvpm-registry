@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: haskell-tools.nvim
+description: Seamless integration of Neovim with Haskell development tools like haskell-language-server and Hoogle.
+homepage: https://github.com/mrcjkb/haskell-tools.nvim
+licenses:
+  - GPL-2.0
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - mrcjkb/haskell-tools.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mrcjkb/haskell-tools.nvim

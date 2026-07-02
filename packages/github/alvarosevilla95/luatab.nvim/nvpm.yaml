@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: luatab.nvim
+description: A simple tabline written in Lua.
+homepage: https://github.com/alvarosevilla95/luatab.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+  - tabline
+aliases:
+  - alvarosevilla95/luatab.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:alvarosevilla95/luatab.nvim

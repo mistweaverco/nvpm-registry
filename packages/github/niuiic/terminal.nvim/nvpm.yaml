@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: terminal.nvim
+description: Manage terminal as buffer, multiple terminals support.
+homepage: https://github.com/niuiic/terminal.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - terminal-integration
+aliases:
+  - niuiic/terminal.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:niuiic/terminal.nvim

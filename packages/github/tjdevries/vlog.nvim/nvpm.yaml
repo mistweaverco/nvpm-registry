@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: vlog.nvim
+description: Single file, no dependency, easy copy & paste log file to add to your Neovim Lua plugins.
+homepage: https://github.com/tjdevries/vlog.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - neovim-lua-development
+aliases:
+  - tjdevries/vlog.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:tjdevries/vlog.nvim

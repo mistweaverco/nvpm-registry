@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: quicker.nvim
+description: Improved quickfix UI and editable quickfix buffer.
+homepage: https://github.com/stevearc/quicker.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - debugging
+  - quickfix
+aliases:
+  - stevearc/quicker.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:stevearc/quicker.nvim

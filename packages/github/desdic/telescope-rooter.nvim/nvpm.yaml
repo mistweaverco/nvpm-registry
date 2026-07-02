@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: telescope-rooter.nvim
+description: Makes sure to always start telescope (and only telescope) from the project/root directory.
+homepage: https://github.com/desdic/telescope-rooter.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - project
+aliases:
+  - desdic/telescope-rooter.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:desdic/telescope-rooter.nvim

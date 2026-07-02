@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-lspimport
+description: Automatically resolves imports for undefined terms. Useful withpyrightlanguage server.
+homepage: https://github.com/stevanmilic/nvim-lspimport
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - stevanmilic/nvim-lspimport
+editor_integration:
+  - neovim
+source:
+  id: github:stevanmilic/nvim-lspimport

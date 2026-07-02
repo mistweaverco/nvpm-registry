@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: ronny.nvim
+description: A dark colorscheme, which mostly was inspired by the Monokai originally created by Wimem Hazenberg.
+homepage: https://github.com/judaew/ronny.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - judaew/ronny.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:judaew/ronny.nvim

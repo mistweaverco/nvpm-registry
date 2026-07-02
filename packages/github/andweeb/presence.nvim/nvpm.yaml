@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: presence.nvim
+description: Fast and lite Discord Rich Presence plugin written in Lua.
+homepage: https://github.com/andweeb/presence.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - media
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - andweeb/presence.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:andweeb/presence.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: csharp.nvim
+description: Enhances the development experience for .NET developers.
+homepage: https://github.com/iabdelkareem/csharp.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+aliases:
+  - iabdelkareem/csharp.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:iabdelkareem/csharp.nvim

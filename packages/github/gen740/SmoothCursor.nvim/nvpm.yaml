@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: SmoothCursor.nvim
+description: Add fancy sub-cursor to signcolumn to show your scroll or jump direction.
+homepage: https://github.com/gen740/SmoothCursor.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - motion
+aliases:
+  - gen740/SmoothCursor.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:gen740/SmoothCursor.nvim

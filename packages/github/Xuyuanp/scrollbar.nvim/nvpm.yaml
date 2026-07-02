@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: scrollbar.nvim
+description: Scrollbar.
+homepage: https://github.com/Xuyuanp/scrollbar.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - scrolling
+  - scrollbar
+aliases:
+  - Xuyuanp/scrollbar.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Xuyuanp/scrollbar.nvim

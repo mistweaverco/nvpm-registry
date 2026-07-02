@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: wtf.nvim
+description: AI powered diagnostic debugging, helps explain complex errors and offers custom tailored solutions.
+homepage: https://github.com/piersolenski/wtf.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+  - diagnostics
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - piersolenski/wtf.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:piersolenski/wtf.nvim

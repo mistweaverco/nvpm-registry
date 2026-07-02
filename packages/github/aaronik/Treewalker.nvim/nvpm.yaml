@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: Treewalker.nvim
+description: Move seamlessly around the abstract syntax tree.
+homepage: https://github.com/aaronik/Treewalker.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - motion
+aliases:
+  - aaronik/Treewalker.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:aaronik/Treewalker.nvim

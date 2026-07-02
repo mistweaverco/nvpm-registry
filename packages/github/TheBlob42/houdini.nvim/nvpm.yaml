@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: houdini.nvim
+description: Create shortcut to escape modes without delay.
+homepage: https://github.com/TheBlob42/houdini.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - keybinding
+aliases:
+  - TheBlob42/houdini.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:TheBlob42/houdini.nvim

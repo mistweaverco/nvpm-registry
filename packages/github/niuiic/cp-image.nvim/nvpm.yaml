@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: cp-image.nvim
+description: Paste image from clipboard and insert the reference code.
+homepage: https://github.com/niuiic/cp-image.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - media
+aliases:
+  - niuiic/cp-image.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:niuiic/cp-image.nvim

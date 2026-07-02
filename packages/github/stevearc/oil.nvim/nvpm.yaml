@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: oil.nvim
+description: Edit your filesystem like a buffer.
+homepage: https://github.com/stevearc/oil.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - file-explorer
+aliases:
+  - stevearc/oil.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:stevearc/oil.nvim

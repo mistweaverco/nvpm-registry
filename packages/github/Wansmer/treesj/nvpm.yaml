@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: treesj
+description: >-
+  Splitting/joining blocks of code like arrays, hashes, statements, objects, dictionaries, etc. Using Tree-sitter.
+  Inspired by greatest splitjoin.vim.
+homepage: https://github.com/Wansmer/treesj
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - Wansmer/treesj
+editor_integration:
+  - neovim
+source:
+  id: github:Wansmer/treesj

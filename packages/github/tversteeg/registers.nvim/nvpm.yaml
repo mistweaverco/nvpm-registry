@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: registers.nvim
+description: Non-obtrusive minimal preview of Vim registers.
+homepage: https://github.com/tversteeg/registers.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - register
+aliases:
+  - tversteeg/registers.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:tversteeg/registers.nvim

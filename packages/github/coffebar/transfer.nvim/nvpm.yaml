@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: transfer.nvim
+description: Sync and diff with remote server using rsync and OpenSSH.
+homepage: https://github.com/coffebar/transfer.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - deployment
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - coffebar/transfer.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:coffebar/transfer.nvim

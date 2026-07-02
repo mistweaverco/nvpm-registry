@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: marp-nvim
+description: Present using markdown withMarp.
+homepage: https://github.com/mpas/marp-nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - markdown-and-latex
+aliases:
+  - mpas/marp-nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mpas/marp-nvim

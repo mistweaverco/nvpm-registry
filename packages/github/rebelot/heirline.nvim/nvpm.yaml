@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: heirline.nvim
+description: >-
+  Heirline.nvim is a no-nonsense Neovim Statusline plugin designed around recursive inheritance to be exceptionally fast
+  and versatile.
+homepage: https://github.com/rebelot/heirline.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+  - statusline
+aliases:
+  - rebelot/heirline.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:rebelot/heirline.nvim

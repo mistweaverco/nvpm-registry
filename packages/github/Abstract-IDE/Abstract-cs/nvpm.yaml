@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: Abstract-cs
+description: Colorscheme written in Lua, specially made for roshnivim with Tree-sitter support.
+homepage: https://github.com/Abstract-IDE/Abstract-cs
+licenses:
+  - proprietary
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - Abstract-IDE/Abstract-cs
+editor_integration:
+  - neovim
+source:
+  id: github:Abstract-IDE/Abstract-cs

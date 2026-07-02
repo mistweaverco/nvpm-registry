@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: evergarden
+description: A comfy Neovim colorscheme for cozy morning coding.
+homepage: https://github.com/comfysage/evergarden
+licenses:
+  - GPL-3.0
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - comfysage/evergarden
+editor_integration:
+  - neovim
+source:
+  id: github:comfysage/evergarden

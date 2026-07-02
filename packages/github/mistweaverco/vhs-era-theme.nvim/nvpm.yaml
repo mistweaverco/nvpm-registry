@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: vhs-era-theme.nvim
+description: |-
+  VHS Era is a nostalgic colorscheme for Neovim that
+  brings back the vibrant and distinct aesthetics of the VHS era.
+homepage: https://neovim.theme.vhs-era.com/
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - dark
+  - retro
+  - synthwave
+  - vhs
+  - 80s
+  - 90s
+aliases:
+  - mistweaverco/vhs-era-theme.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mistweaverco/vhs-era-theme.nvim

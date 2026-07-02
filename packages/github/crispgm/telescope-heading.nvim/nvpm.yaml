@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: telescope-heading.nvim
+description: Telescope extension to switch between headings of AsciiDoc, Markdown, Vimdoc, etc.
+homepage: https://github.com/crispgm/telescope-heading.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - fuzzy-finder
+aliases:
+  - crispgm/telescope-heading.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:crispgm/telescope-heading.nvim

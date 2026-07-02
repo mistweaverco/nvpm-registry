@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: codeium.nvim
+description: Free, ultrafast Copilot alternative. Supports LSP and Tree-sitter.
+homepage: https://github.com/Exafunction/codeium.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - ai
+aliases:
+  - Exafunction/codeium.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Exafunction/codeium.nvim

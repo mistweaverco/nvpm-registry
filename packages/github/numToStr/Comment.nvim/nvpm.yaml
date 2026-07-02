@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: Comment.nvim
+description: Smart and Powerful comment plugin. Supports commentstring, motions, dot-repeat and more.
+homepage: https://github.com/numToStr/Comment.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+  - comment
+aliases:
+  - numToStr/Comment.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:numToStr/Comment.nvim

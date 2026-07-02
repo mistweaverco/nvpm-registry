@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: NeoTerm.lua
+description: Attach a terminal for eachbuffer, now with stable toggle and astonishing cursor restoring.
+homepage: https://github.com/nyngwang/NeoTerm.lua
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - terminal-integration
+aliases:
+  - nyngwang/NeoTerm.lua
+editor_integration:
+  - neovim
+source:
+  id: github:nyngwang/NeoTerm.lua

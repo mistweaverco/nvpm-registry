@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: ts-node-action
+description: >-
+  A framework for executing functional transformations on Tree-sitter nodes - Has a lot of built-in actions for
+  transforming text.
+homepage: https://github.com/CKolkey/ts-node-action
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - editing-support
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - CKolkey/ts-node-action
+editor_integration:
+  - neovim
+source:
+  id: github:CKolkey/ts-node-action

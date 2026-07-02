@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: lsp-lens.nvim
+description: Display function references above function definition like IDEA codelens.
+homepage: https://github.com/VidocqH/lsp-lens.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - VidocqH/lsp-lens.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:VidocqH/lsp-lens.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: cheovim
+description: Neovim configuration switcher written in Lua. Inspired by chemacs.
+homepage: https://github.com/NTBBloodbath/cheovim
+licenses:
+  - GPL-2.0
+categories:
+  - Plugin
+tags:
+  - plugin-manager
+aliases:
+  - NTBBloodbath/cheovim
+editor_integration:
+  - neovim
+source:
+  id: github:NTBBloodbath/cheovim

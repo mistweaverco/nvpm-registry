@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: modus-theme-vim
+description: This is a color scheme developed by Protesilaos Stavrou for emacs.
+homepage: https://github.com/ishan9299/modus-theme-vim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - ishan9299/modus-theme-vim
+editor_integration:
+  - neovim
+source:
+  id: github:ishan9299/modus-theme-vim

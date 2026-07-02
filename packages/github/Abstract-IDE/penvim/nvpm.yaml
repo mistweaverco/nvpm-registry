@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: penvim
+description: Project's root directory and documents Indentation detector with project based config loader.
+homepage: https://github.com/Abstract-IDE/penvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - project
+aliases:
+  - Abstract-IDE/penvim
+editor_integration:
+  - neovim
+source:
+  id: github:Abstract-IDE/penvim

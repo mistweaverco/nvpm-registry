@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: which-key.nvim
+description: Neovim plugin that shows a popup with possible keybindings of the command you started typing.
+homepage: https://github.com/folke/which-key.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - keybinding
+aliases:
+  - folke/which-key.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:folke/which-key.nvim

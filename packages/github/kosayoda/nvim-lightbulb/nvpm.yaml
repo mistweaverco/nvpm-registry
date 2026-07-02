@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-lightbulb
+description: >-
+  The plugin shows a lightbulb in the sign column whenever atextDocument/codeActionis available at the current cursor
+  position.
+homepage: https://github.com/kosayoda/nvim-lightbulb
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - kosayoda/nvim-lightbulb
+editor_integration:
+  - neovim
+source:
+  id: github:kosayoda/nvim-lightbulb

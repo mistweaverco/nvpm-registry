@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: satellite.nvim
+description: Decorate scrollbar.
+homepage: https://github.com/lewis6991/satellite.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - scrolling
+  - scrollbar
+aliases:
+  - lewis6991/satellite.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:lewis6991/satellite.nvim

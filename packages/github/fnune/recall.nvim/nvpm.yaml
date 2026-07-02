@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: recall.nvim
+description: >-
+  Recall refines the use of marks by focusing on global marks, streamlining their usage and enhancing their visibility
+  and navigability.
+homepage: https://github.com/fnune/recall.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - marks
+aliases:
+  - fnune/recall.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:fnune/recall.nvim

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: heirline-components.nvim
+description: 30+ Heirline.nvim components you can use out of the box to create your perfect user interface.
+homepage: https://github.com/Zeioth/heirline-components.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+  - statusline
+aliases:
+  - Zeioth/heirline-components.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Zeioth/heirline-components.nvim

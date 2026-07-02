@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-colorizer.lua
+description: A high-performance color highlighter which has no external dependencies.
+homepage: https://github.com/catgoose/nvim-colorizer.lua
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - color
+  - license:unrecognized=NOASSERTION
+  - license:raw=NOASSERTION
+aliases:
+  - catgoose/nvim-colorizer.lua
+editor_integration:
+  - neovim
+source:
+  id: github:catgoose/nvim-colorizer.lua

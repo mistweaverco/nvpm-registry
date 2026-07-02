@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-goc.lua
+description: Highlight your buffer with Golang Code Coverage.
+homepage: https://github.com/rafaelsq/nvim-goc.lua
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - golang
+aliases:
+  - rafaelsq/nvim-goc.lua
+editor_integration:
+  - neovim
+source:
+  id: github:rafaelsq/nvim-goc.lua

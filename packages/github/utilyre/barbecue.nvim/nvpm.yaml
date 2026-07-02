@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: barbecue.nvim
+description: A VS Code like winbar.
+homepage: https://github.com/utilyre/barbecue.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+aliases:
+  - utilyre/barbecue.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:utilyre/barbecue.nvim

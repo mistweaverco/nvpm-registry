@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: inline-fold.nvim
+description: Hide certain elements inline like long CSS classes orhrefcontent.
+homepage: https://github.com/malbertzard/inline-fold.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - malbertzard/inline-fold.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:malbertzard/inline-fold.nvim

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: memento.nvim
+description: Keeps track of your visited file history after a buffer is closed. Reopen files more easily.
+homepage: https://github.com/gaborvecsei/memento.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - search
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - gaborvecsei/memento.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:gaborvecsei/memento.nvim

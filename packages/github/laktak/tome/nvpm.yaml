@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tome
+description: Interactive Script playbooks for your terminal (optionally with Tmux).
+homepage: https://github.com/laktak/tome
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - terminal-integration
+aliases:
+  - laktak/tome
+editor_integration:
+  - neovim
+source:
+  id: github:laktak/tome

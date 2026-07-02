@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: image.nvim
+description: Add image support through Kitty's graphics protocol or ueberzugpp.
+homepage: https://github.com/3rd/image.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - media
+aliases:
+  - 3rd/image.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:3rd/image.nvim

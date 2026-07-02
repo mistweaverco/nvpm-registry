@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: lualine.nvim
+description: A blazing fast and easy to configure Neovim statusline.
+homepage: https://github.com/nvim-lualine/lualine.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+  - statusline
+aliases:
+  - nvim-lualine/lualine.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nvim-lualine/lualine.nvim

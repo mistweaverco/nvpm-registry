@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: codecompanion.nvim
+description: Copilot Chat like experience, complete with inline assistant. Supports Anthropic, Gemini, Ollama and OpenAI.
+homepage: https://github.com/olimorris/codecompanion.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - ai
+aliases:
+  - olimorris/codecompanion.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:olimorris/codecompanion.nvim

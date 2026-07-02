@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-recorder
+description: Simplifying and improving how you interact with macros.
+homepage: https://github.com/chrisgrieser/nvim-recorder
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - chrisgrieser/nvim-recorder
+editor_integration:
+  - neovim
+source:
+  id: github:chrisgrieser/nvim-recorder

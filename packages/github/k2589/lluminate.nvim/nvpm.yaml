@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: lluminate.nvim
+description: Enrich context for LLM with LSP hover added to clipboard.
+homepage: https://github.com/k2589/lluminate.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - ai
+aliases:
+  - k2589/lluminate.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:k2589/lluminate.nvim

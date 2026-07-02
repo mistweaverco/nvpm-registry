@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: vim-nightfly-colors
+description: A dark midnight colorscheme with modern Neovim support including Tree-sitter.
+homepage: https://github.com/bluz71/vim-nightfly-colors
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - bluz71/vim-nightfly-colors
+editor_integration:
+  - neovim
+source:
+  id: github:bluz71/vim-nightfly-colors

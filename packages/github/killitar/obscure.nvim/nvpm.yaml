@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: obscure.nvim
+description: >-
+  A pastel dark colorscheme inspired by the palette Mellow. Support Tree-sitter, LSP(including semantic tokens)and lots
+  of plugins.
+homepage: https://github.com/killitar/obscure.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - killitar/obscure.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:killitar/obscure.nvim

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: follow-md-links.nvim
+description: Press enter to follow internal markdown links.
+homepage: https://github.com/jghauser/follow-md-links.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - markdown-and-latex
+aliases:
+  - jghauser/follow-md-links.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:jghauser/follow-md-links.nvim

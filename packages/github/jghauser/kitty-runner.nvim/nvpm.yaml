@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: kitty-runner.nvim
+description: Poor man's REPL. Easily send buffer lines and commands to a kitty terminal.
+homepage: https://github.com/jghauser/kitty-runner.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - terminal-integration
+aliases:
+  - jghauser/kitty-runner.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:jghauser/kitty-runner.nvim

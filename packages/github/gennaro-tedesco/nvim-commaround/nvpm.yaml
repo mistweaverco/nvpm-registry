@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-commaround
+description: Fast and light commenting plugin written in Lua.
+homepage: https://github.com/gennaro-tedesco/nvim-commaround
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+  - comment
+aliases:
+  - gennaro-tedesco/nvim-commaround
+editor_integration:
+  - neovim
+source:
+  id: github:gennaro-tedesco/nvim-commaround

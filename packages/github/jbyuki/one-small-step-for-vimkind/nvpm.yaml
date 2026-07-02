@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: one-small-step-for-vimkind
+description: >-
+  An adapter for the Neovim Lua language. It allows you to debug any Lua code running in a Neovim instance (A Lua plugin
+  that can debug Neovim Lua plugins).
+homepage: https://github.com/jbyuki/one-small-step-for-vimkind
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - neovim-lua-development
+aliases:
+  - jbyuki/one-small-step-for-vimkind
+editor_integration:
+  - neovim
+source:
+  id: github:jbyuki/one-small-step-for-vimkind

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: modus-themes.nvim
+description: Accessible theme, conforming with the highest standard for color contrast (WCAG AAA).
+homepage: https://github.com/miikanissi/modus-themes.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - miikanissi/modus-themes.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:miikanissi/modus-themes.nvim

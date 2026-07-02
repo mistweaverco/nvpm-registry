@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-cmp
+description: A completion plugin written in Lua. New version of nvim-compe.
+homepage: https://github.com/hrsh7th/nvim-cmp
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - completion
+aliases:
+  - hrsh7th/nvim-cmp
+editor_integration:
+  - neovim
+source:
+  id: github:hrsh7th/nvim-cmp

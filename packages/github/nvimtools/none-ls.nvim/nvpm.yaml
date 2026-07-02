@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: none-ls.nvim
+description: Null-ls.nvim reloaded / Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua.
+homepage: https://github.com/nvimtools/none-ls.nvim
+licenses:
+  - Unlicense
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - nvimtools/none-ls.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nvimtools/none-ls.nvim

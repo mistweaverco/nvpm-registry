@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: ChatGPT.nvim
+description: Effortless Natural Language Generation with OpenAI's ChatGPT API.
+homepage: https://github.com/jackMort/ChatGPT.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - ai
+aliases:
+  - jackMort/ChatGPT.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:jackMort/ChatGPT.nvim

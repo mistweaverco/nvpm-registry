@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-treesitter-textobjects
+description: Create your own textobjects using Tree-sitter queries.
+homepage: https://github.com/nvim-treesitter/nvim-treesitter-textobjects
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - syntax
+aliases:
+  - nvim-treesitter/nvim-treesitter-textobjects
+editor_integration:
+  - neovim
+source:
+  id: github:nvim-treesitter/nvim-treesitter-textobjects

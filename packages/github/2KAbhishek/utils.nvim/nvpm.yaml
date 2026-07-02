@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: utils.nvim
+description: Powerful utilities to speed up plugin development.
+homepage: https://github.com/2KAbhishek/utils.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - neovim-lua-development
+aliases:
+  - 2KAbhishek/utils.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:2KAbhishek/utils.nvim

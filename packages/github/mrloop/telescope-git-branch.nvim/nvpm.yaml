@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: telescope-git-branch.nvim
+description: >-
+  A telescope picker to find which files and preview what changes have been made to your git branch across multiple
+  commits.
+homepage: https://github.com/mrloop/telescope-git-branch.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - git
+aliases:
+  - mrloop/telescope-git-branch.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mrloop/telescope-git-branch.nvim

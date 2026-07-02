@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: Korean-IME.nvim
+description: OS-independent Korean input method that converts English inputs to Korean in-place.
+homepage: https://github.com/kiyoon/Korean-IME.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - language
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - kiyoon/Korean-IME.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:kiyoon/Korean-IME.nvim

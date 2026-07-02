@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: trailblazer.nvim
+description: >-
+  TrailBlazer introduces a stack based mark system that enables a completely new dynamic and super fast workflow using
+  project wide marks.
+homepage: https://github.com/LeonHeidelbach/trailblazer.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - marks
+aliases:
+  - LeonHeidelbach/trailblazer.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:LeonHeidelbach/trailblazer.nvim

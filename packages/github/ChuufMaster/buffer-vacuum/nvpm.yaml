@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: buffer-vacuum
+description: Set a maximum number of buffers to keep open and intelligently delete the oldest buffers over the maximum.
+homepage: https://github.com/ChuufMaster/buffer-vacuum
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - ChuufMaster/buffer-vacuum
+editor_integration:
+  - neovim
+source:
+  id: github:ChuufMaster/buffer-vacuum

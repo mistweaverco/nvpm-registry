@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-jdtls
+description: Extensions for the built-in LSP support for eclipse.jdt.ls.
+homepage: https://github.com/mfussenegger/nvim-jdtls
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - mfussenegger/nvim-jdtls
+editor_integration:
+  - neovim
+source:
+  id: github:mfussenegger/nvim-jdtls

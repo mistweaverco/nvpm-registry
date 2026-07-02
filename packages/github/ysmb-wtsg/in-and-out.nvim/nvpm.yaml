@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: in-and-out.nvim
+description: Quick navigation in and out of surrounding characters.
+homepage: https://github.com/ysmb-wtsg/in-and-out.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - ysmb-wtsg/in-and-out.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ysmb-wtsg/in-and-out.nvim

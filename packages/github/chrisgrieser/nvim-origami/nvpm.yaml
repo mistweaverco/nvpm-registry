@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-origami
+description: Fold with relentless elegance.
+homepage: https://github.com/chrisgrieser/nvim-origami
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - chrisgrieser/nvim-origami
+editor_integration:
+  - neovim
+source:
+  id: github:chrisgrieser/nvim-origami

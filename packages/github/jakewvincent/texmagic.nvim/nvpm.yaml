@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: texmagic.nvim
+description: >-
+  Enhance the lspconfig settings for Texlab by defining any number of custom LaTeX build engines and selecting them with
+  magic comments.
+homepage: https://github.com/jakewvincent/texmagic.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - jakewvincent/texmagic.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:jakewvincent/texmagic.nvim

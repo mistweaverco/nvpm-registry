@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: dial.nvim
+description: Extended increment/decrement.
+homepage: https://github.com/monaqa/dial.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - monaqa/dial.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:monaqa/dial.nvim

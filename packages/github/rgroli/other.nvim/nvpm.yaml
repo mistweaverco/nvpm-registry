@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: other.nvim
+description: Open alternative files for the current buffer.
+homepage: https://github.com/rgroli/other.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - rgroli/other.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:rgroli/other.nvim

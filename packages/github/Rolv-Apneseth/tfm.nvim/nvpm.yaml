@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tfm.nvim
+description: Similar tofm-nvim, this provides Neovim integration for several popular terminal file managers (includingyazi).
+homepage: https://github.com/Rolv-Apneseth/tfm.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - file-explorer
+aliases:
+  - Rolv-Apneseth/tfm.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Rolv-Apneseth/tfm.nvim

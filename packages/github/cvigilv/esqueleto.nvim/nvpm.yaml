@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: esqueleto.nvim
+description: Simple templates to use when creating new files.
+homepage: https://github.com/cvigilv/esqueleto.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - snippet
+aliases:
+  - cvigilv/esqueleto.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:cvigilv/esqueleto.nvim

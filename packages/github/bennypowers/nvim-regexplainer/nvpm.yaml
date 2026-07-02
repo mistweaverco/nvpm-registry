@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-regexplainer
+description: Explain the regular expression under the cursor.
+homepage: https://github.com/bennypowers/nvim-regexplainer
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - editing-support
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - bennypowers/nvim-regexplainer
+editor_integration:
+  - neovim
+source:
+  id: github:bennypowers/nvim-regexplainer

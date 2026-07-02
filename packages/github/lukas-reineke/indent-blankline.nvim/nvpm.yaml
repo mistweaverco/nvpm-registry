@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: indent-blankline.nvim
+description: IndentLine replacement in Lua with more features and Tree-sitter support.
+homepage: https://github.com/lukas-reineke/indent-blankline.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - formatting
+  - indent
+aliases:
+  - lukas-reineke/indent-blankline.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:lukas-reineke/indent-blankline.nvim

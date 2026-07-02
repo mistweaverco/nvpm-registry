@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: syntax-tree-surfer
+description: Navigate and swap Tree-sitter's AST Nodes. Step into, step out, step over, step back.
+homepage: https://github.com/ziontee113/syntax-tree-surfer
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - motion
+  - tree-sitter-based
+aliases:
+  - ziontee113/syntax-tree-surfer
+editor_integration:
+  - neovim
+source:
+  id: github:ziontee113/syntax-tree-surfer

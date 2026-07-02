@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: sniprun
+description: Run parts of code of any language directly from Neovim.
+homepage: https://github.com/michaelb/sniprun
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - code-runner
+aliases:
+  - michaelb/sniprun
+editor_integration:
+  - neovim
+source:
+  id: github:michaelb/sniprun

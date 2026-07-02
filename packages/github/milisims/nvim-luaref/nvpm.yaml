@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-luaref
+description: A reference for builtin Lua functions.
+homepage: https://github.com/milisims/nvim-luaref
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - neovim-lua-development
+aliases:
+  - milisims/nvim-luaref
+editor_integration:
+  - neovim
+source:
+  id: github:milisims/nvim-luaref

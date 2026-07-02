@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: SchemaStore.nvim
+description: Provide access to theSchemaStorecatalog.
+homepage: https://github.com/b0o/SchemaStore.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - b0o/SchemaStore.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:b0o/SchemaStore.nvim

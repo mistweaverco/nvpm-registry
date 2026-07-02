@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: svrana-neosolarized.nvim
+description: Dark solarized colorscheme using colorbuddy for easy customization.
+homepage: https://github.com/svrana/neosolarized.nvim
+licenses:
+  - proprietary
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+  - license:unrecognized=NOASSERTION
+  - license:raw=NOASSERTION
+aliases:
+  - svrana/neosolarized.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:svrana/neosolarized.nvim

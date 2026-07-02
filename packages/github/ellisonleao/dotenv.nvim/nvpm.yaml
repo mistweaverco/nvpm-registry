@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: dotenv.nvim
+description: Minimalist .env support.
+homepage: https://github.com/ellisonleao/dotenv.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - ellisonleao/dotenv.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ellisonleao/dotenv.nvim

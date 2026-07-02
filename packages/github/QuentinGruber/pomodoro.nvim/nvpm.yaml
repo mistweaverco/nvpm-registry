@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: pomodoro.nvim
+description: Use the Pomodoro Technique with built-in session tracking and break reminders.
+homepage: https://github.com/QuentinGruber/pomodoro.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - utility
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - QuentinGruber/pomodoro.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:QuentinGruber/pomodoro.nvim

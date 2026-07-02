@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: copy_with_context.nvim
+description: Copy lines with file path and line number metadata for sharing code snippets with context.
+homepage: https://github.com/zhisme/copy_with_context.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - zhisme/copy_with_context.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:zhisme/copy_with_context.nvim

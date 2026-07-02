@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: flit.nvim
+description: Enhanced f/t motions for Leap.
+homepage: https://github.com/ggandor/flit.nvim
+licenses:
+  - Unlicense
+categories:
+  - Plugin
+tags:
+  - motion
+aliases:
+  - ggandor/flit.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ggandor/flit.nvim

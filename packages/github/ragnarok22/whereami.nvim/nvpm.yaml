@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: whereami.nvim
+description: Test your VPN by getting you current location.
+homepage: https://github.com/ragnarok22/whereami.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - ragnarok22/whereami.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ragnarok22/whereami.nvim

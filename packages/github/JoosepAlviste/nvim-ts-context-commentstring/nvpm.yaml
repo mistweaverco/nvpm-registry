@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-ts-context-commentstring
+description: Sets thecommentstringoption based on the cursor location in the file. The location is checked via Tree-sitter queries.
+homepage: https://github.com/JoosepAlviste/nvim-ts-context-commentstring
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+  - comment
+aliases:
+  - JoosepAlviste/nvim-ts-context-commentstring
+editor_integration:
+  - neovim
+source:
+  id: github:JoosepAlviste/nvim-ts-context-commentstring

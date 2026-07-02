@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: retro-theme.nvim
+description: |-
+  A minimal retro theme for Neovim.
+  Synthwave, 80s, and 90s vibes.
+homepage: https://github.com/mistweaverco/retro-theme.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - dark
+  - retro
+  - synthwave
+  - 80s
+  - 90s
+aliases:
+  - mistweaverco/retro-theme.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mistweaverco/retro-theme.nvim

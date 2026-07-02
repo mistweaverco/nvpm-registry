@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: mellifluous.nvim
+description: Pleasant and productive colorscheme.
+homepage: https://github.com/ramojus/mellifluous.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - ramojus/mellifluous.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ramojus/mellifluous.nvim

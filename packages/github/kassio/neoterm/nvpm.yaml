@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: neoterm
+description: Wrapper of some:terminalfunctions.
+homepage: https://github.com/kassio/neoterm
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - terminal-integration
+  - license:unrecognized=NOASSERTION
+  - license:raw=NOASSERTION
+aliases:
+  - kassio/neoterm
+editor_integration:
+  - neovim
+source:
+  id: github:kassio/neoterm

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: colorbox.nvim
+description: Load all the ultra colorschemes into your Neovim player!
+homepage: https://github.com/linrongbin16/colorbox.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - colorscheme-switchers
+aliases:
+  - linrongbin16/colorbox.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:linrongbin16/colorbox.nvim

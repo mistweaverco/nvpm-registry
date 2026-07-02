@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: indent-o-matic
+description: Dumb automatic fast indentation detection written in Lua.
+homepage: https://github.com/Darazaki/indent-o-matic
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - formatting
+  - indent
+aliases:
+  - Darazaki/indent-o-matic
+editor_integration:
+  - neovim
+source:
+  id: github:Darazaki/indent-o-matic

@@ -145,6 +145,7 @@ export interface PackageInfo {
   licenses: string[];
   languages: string[];
   categories: string[];
+  editor_integration?: string[];
   experimental?: boolean;
   aliases?: string[];
   treesitter?: {

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: lean.nvim
+description: Neovim support for theLean Theorem Prover.
+homepage: https://github.com/Julian/lean.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+aliases:
+  - Julian/lean.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Julian/lean.nvim

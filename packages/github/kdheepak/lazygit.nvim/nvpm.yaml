@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: lazygit.nvim
+description: Plugin for calling lazygit.
+homepage: https://github.com/kdheepak/lazygit.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - git
+aliases:
+  - kdheepak/lazygit.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:kdheepak/lazygit.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: one.nvim
+description: All-in-one config framework in Lua.
+homepage: https://github.com/adoyle-h/one.nvim
+licenses:
+  - BSD-3-Clause
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - adoyle-h/one.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:adoyle-h/one.nvim

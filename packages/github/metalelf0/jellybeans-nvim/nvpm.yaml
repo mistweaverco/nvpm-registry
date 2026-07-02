@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: jellybeans-nvim
+description: A port of jellybeans colorscheme.
+homepage: https://github.com/metalelf0/jellybeans-nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - lua-colorscheme
+aliases:
+  - metalelf0/jellybeans-nvim
+editor_integration:
+  - neovim
+source:
+  id: github:metalelf0/jellybeans-nvim

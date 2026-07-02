@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: jupynium.nvim
+description: Selenium-automated Jupyter Notebook that is synchronised with Neovim in real-time.
+homepage: https://github.com/kiyoon/jupynium.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - kiyoon/jupynium.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:kiyoon/jupynium.nvim

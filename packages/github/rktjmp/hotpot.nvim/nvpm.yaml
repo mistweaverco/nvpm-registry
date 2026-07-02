@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: hotpot.nvim
+description: Seamless, transparent Fennel inside Neovim.
+homepage: https://github.com/rktjmp/hotpot.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - fennel
+aliases:
+  - rktjmp/hotpot.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:rktjmp/hotpot.nvim

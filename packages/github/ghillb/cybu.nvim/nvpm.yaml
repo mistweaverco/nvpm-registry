@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: cybu.nvim
+description: Displays a notification window with context when cycling buffers.
+homepage: https://github.com/ghillb/cybu.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - ghillb/cybu.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ghillb/cybu.nvim

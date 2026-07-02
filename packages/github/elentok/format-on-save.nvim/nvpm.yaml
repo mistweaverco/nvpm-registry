@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: format-on-save.nvim
+description: >-
+  A synchronous formatter that combines LSP and non-LSP formatting (e.g. shfmt, stylua, prettier), focused specifically
+  on format-on-save.
+homepage: https://github.com/elentok/format-on-save.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - formatting
+aliases:
+  - elentok/format-on-save.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:elentok/format-on-save.nvim

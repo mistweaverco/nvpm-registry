@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: palenight.nvim
+description: Palenight colorscheme supporting Tree-sitter, LSP(including semantic tokens)and lots of plugins.
+homepage: https://github.com/alexmozaidze/palenight.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - alexmozaidze/palenight.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:alexmozaidze/palenight.nvim

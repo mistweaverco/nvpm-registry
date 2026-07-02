@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: outline.nvim
+description: A significantly enhanced and refactored fork ofsymbols-outline.nvim.
+homepage: https://github.com/hedyhli/outline.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - hedyhli/outline.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:hedyhli/outline.nvim

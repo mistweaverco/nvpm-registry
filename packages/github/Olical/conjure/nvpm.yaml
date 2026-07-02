@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: conjure
+description: Interactive evaluation (Clojure, Fennel, Janet, Racket, Hy, MIT Scheme, Guile).
+homepage: https://github.com/Olical/conjure
+licenses:
+  - Unlicense
+categories:
+  - Plugin
+tags:
+  - fennel
+aliases:
+  - Olical/conjure
+editor_integration:
+  - neovim
+source:
+  id: github:Olical/conjure

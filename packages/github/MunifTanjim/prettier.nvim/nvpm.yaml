@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: prettier.nvim
+description: Prettier integration.
+homepage: https://github.com/MunifTanjim/prettier.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - formatting
+aliases:
+  - MunifTanjim/prettier.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:MunifTanjim/prettier.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: termim.nvim
+description: Neovim Terminal, Improved.
+homepage: https://github.com/2KAbhishek/termim.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - terminal-integration
+aliases:
+  - 2KAbhishek/termim.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:2KAbhishek/termim.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: proot.nvim
+description: Lightweight project navigator with telescope.
+homepage: https://github.com/zongben/proot.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - project
+aliases:
+  - zongben/proot.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:zongben/proot.nvim

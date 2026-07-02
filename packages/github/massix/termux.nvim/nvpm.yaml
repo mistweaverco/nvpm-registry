@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: termux.nvim
+description: >-
+  Interact with Termux APIs, useful to gather various information about your Android phone to display in the statusline
+  (e.g. battery level).
+homepage: https://github.com/massix/termux.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - external
+  - os-specific
+  - license:unrecognized=NOASSERTION
+  - license:raw=NOASSERTION
+aliases:
+  - massix/termux.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:massix/termux.nvim

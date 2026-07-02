@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: zephyr-nvim
+description: A dark colorscheme with Tree-sitter support.
+homepage: https://github.com/nvimdev/zephyr-nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - nvimdev/zephyr-nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nvimdev/zephyr-nvim

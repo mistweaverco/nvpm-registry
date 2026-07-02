@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nwm
+description: X11 window manager.
+homepage: https://github.com/altermo/nwm
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - split-and-window
+aliases:
+  - altermo/nwm
+editor_integration:
+  - neovim
+source:
+  id: github:altermo/nwm

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: LspUI.nvim
+description: A modern and useful UI that wraps LSP operations.
+homepage: https://github.com/jinzhongjia/LspUI.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - jinzhongjia/LspUI.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:jinzhongjia/LspUI.nvim

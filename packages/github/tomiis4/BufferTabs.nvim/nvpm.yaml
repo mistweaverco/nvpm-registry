@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: BufferTabs.nvim
+description: Simple and Fancy tabline.
+homepage: https://github.com/tomiis4/BufferTabs.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+  - tabline
+aliases:
+  - tomiis4/BufferTabs.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:tomiis4/BufferTabs.nvim

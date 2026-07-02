@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: none-ls-autoload.nvim
+description: Auto-load/Auto-unload none-ls sources installed with mason. It supports builtin sources and external sources.
+homepage: https://github.com/zeioth/none-ls-autoload.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - zeioth/none-ls-autoload.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:zeioth/none-ls-autoload.nvim

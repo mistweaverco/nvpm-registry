@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: autocomplete.nvim
+description: Very simple and minimal autocompletion for cmdline and buffer using LSP and Tree-sitter with signature help.
+homepage: https://github.com/deathbeam/autocomplete.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - completion
+aliases:
+  - deathbeam/autocomplete.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:deathbeam/autocomplete.nvim

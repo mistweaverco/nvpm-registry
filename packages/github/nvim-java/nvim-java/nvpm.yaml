@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-java
+description: Everything you need for a painless Java experience.
+homepage: https://github.com/nvim-java/nvim-java
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+aliases:
+  - nvim-java/nvim-java
+editor_integration:
+  - neovim
+source:
+  id: github:nvim-java/nvim-java

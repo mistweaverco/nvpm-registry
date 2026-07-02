@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: yankbank-nvim
+description: Enable streamlined access to recent yanks and deletions in a quick-access popup menu.
+homepage: https://github.com/ptdewey/yankbank-nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - ptdewey/yankbank-nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ptdewey/yankbank-nvim

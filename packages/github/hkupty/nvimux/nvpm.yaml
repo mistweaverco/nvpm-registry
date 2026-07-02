@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvimux
+description: Neovim as tmux replacement.
+homepage: https://github.com/hkupty/nvimux
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - split-and-window
+  - tmux
+aliases:
+  - hkupty/nvimux
+editor_integration:
+  - neovim
+source:
+  id: github:hkupty/nvimux

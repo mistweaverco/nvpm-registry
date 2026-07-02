@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: cutlass.nvim
+description: Plugin that adds a 'cut' operation separate from 'delete'.
+homepage: https://github.com/gbprod/cutlass.nvim
+licenses:
+  - WTFPL
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - gbprod/cutlass.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:gbprod/cutlass.nvim

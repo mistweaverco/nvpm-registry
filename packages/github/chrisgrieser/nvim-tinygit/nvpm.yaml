@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-tinygit
+description: Lightweight and nimble Git client.
+homepage: https://github.com/chrisgrieser/nvim-tinygit
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - git
+aliases:
+  - chrisgrieser/nvim-tinygit
+editor_integration:
+  - neovim
+source:
+  id: github:chrisgrieser/nvim-tinygit

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: roshnivim
+description: >-
+  Roshnivim, can be called Neovim's distro, is a predefined configs so that you don't need 1000hr to setup Neovim as an
+  IDE.
+homepage: https://github.com/shaeinst/roshnivim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - shaeinst/roshnivim
+editor_integration:
+  - neovim
+source:
+  id: github:shaeinst/roshnivim

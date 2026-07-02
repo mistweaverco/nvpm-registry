@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-remote-containers
+description: Develop inside docker containers, just like VSCode.
+homepage: https://github.com/jamestthompson3/nvim-remote-containers
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - remote-development
+  - license:unrecognized=NOASSERTION
+  - license:raw=NOASSERTION
+aliases:
+  - jamestthompson3/nvim-remote-containers
+editor_integration:
+  - neovim
+source:
+  id: github:jamestthompson3/nvim-remote-containers

@@ -1,26 +1,17 @@
 # yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
 ---
-name: tree-sitter-just
-description: Tree-sitter grammar for just.
+name: IndianBoy42-tree-sitter-just
+description: Tree-sitter grammar forJustfiles.
 homepage: https://github.com/IndianBoy42/tree-sitter-just
 licenses:
-  - MIT
-languages:
-  - just
+  - Apache-2.0
 categories:
-  - Tree-sitter-parser
+  - Plugin
+tags:
+  - syntax
+aliases:
+  - IndianBoy42/tree-sitter-just
+editor_integration:
+  - neovim
 source:
   id: github:IndianBoy42/tree-sitter-just
-treesitter:
-  build:
-    - language: just
-      grammar_dir: .
-      integrations:
-        - neovim
-      external_queries:
-        repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-just
-        semver: true
-requires:
-  one:
-    - npm:tree-sitter-cli
-    - github:tree-sitter/tree-sitter

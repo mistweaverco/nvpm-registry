@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: telescope.nvim
+description: >-
+  Telescope.nvim is a highlyextendablefuzzy finder over lists. Built on the latest awesome features from Neovim core.
+  Telescope is centered around modularity, allowing for easy customization.
+homepage: https://github.com/nvim-telescope/telescope.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - fuzzy-finder
+aliases:
+  - nvim-telescope/telescope.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nvim-telescope/telescope.nvim

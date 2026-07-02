@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-treesitter-textsubjects
+description: Location and syntax aware text objects whichdo what you mean.
+homepage: https://github.com/RRethy/nvim-treesitter-textsubjects
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - syntax
+aliases:
+  - RRethy/nvim-treesitter-textsubjects
+editor_integration:
+  - neovim
+source:
+  id: github:RRethy/nvim-treesitter-textsubjects

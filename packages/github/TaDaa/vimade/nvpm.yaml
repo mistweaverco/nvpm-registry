@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: vimade
+description: Dim, fade, tint, animate, and customize colors in your windows and buffers.
+homepage: https://github.com/TaDaa/vimade
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - color
+aliases:
+  - TaDaa/vimade
+editor_integration:
+  - neovim
+source:
+  id: github:TaDaa/vimade

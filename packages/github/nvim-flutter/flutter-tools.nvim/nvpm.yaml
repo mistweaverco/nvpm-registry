@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: flutter-tools.nvim
+description: Build Flutter and Dart applications using the native LSP.
+homepage: https://github.com/nvim-flutter/flutter-tools.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+aliases:
+  - nvim-flutter/flutter-tools.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nvim-flutter/flutter-tools.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: dark_flat.nvim
+description: A Neovim colorscheme written in Lua ported from Dark Flat iTerm2 theme, with LSP and Tree-sitter support.
+homepage: https://github.com/uncleTen276/dark_flat.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - uncleTen276/dark_flat.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:uncleTen276/dark_flat.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: venn.nvim
+description: Draw ASCII diagrams.
+homepage: https://github.com/jbyuki/venn.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - note-taking
+aliases:
+  - jbyuki/venn.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:jbyuki/venn.nvim

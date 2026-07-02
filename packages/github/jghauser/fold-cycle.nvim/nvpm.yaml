@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: fold-cycle.nvim
+description: Cycle folds open or closed.
+homepage: https://github.com/jghauser/fold-cycle.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - jghauser/fold-cycle.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:jghauser/fold-cycle.nvim

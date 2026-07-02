@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-autopairs
+description: A minimalist autopairs written by Lua.
+homepage: https://github.com/windwp/nvim-autopairs
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - windwp/nvim-autopairs
+editor_integration:
+  - neovim
+source:
+  id: github:windwp/nvim-autopairs

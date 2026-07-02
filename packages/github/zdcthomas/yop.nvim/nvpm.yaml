@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: yop.nvim
+description: Easily create your own operators (likedandy).
+homepage: https://github.com/zdcthomas/yop.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - zdcthomas/yop.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:zdcthomas/yop.nvim

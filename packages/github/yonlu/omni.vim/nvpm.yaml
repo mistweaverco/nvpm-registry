@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: omni.vim
+description: Omni color scheme for Vim.
+homepage: https://github.com/yonlu/omni.vim
+licenses:
+  - proprietary
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - yonlu/omni.vim
+editor_integration:
+  - neovim
+source:
+  id: github:yonlu/omni.vim

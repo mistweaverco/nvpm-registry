@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: IceNvim
+description: A beautiful, powerful and customizable config that is blazingly fast.
+homepage: https://github.com/Shaobin-Jiang/IceNvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - Shaobin-Jiang/IceNvim
+editor_integration:
+  - neovim
+source:
+  id: github:Shaobin-Jiang/IceNvim

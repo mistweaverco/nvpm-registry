@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-projectconfig
+description: Load Neovim config depend on project directory.
+homepage: https://github.com/windwp/nvim-projectconfig
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - project
+aliases:
+  - windwp/nvim-projectconfig
+editor_integration:
+  - neovim
+source:
+  id: github:windwp/nvim-projectconfig

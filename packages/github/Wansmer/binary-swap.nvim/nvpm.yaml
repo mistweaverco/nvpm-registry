@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: binary-swap.nvim
+description: 'Swapping operands and operators in binary expressions: comparison and mathematical operations.'
+homepage: https://github.com/Wansmer/binary-swap.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - Wansmer/binary-swap.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Wansmer/binary-swap.nvim

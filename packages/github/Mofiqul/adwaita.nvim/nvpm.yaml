@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: adwaita.nvim
+description: Colorscheme based on GNOME Adwaita syntax with support for popular plugins.
+homepage: https://github.com/Mofiqul/adwaita.nvim
+licenses:
+  - proprietary
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - Mofiqul/adwaita.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Mofiqul/adwaita.nvim

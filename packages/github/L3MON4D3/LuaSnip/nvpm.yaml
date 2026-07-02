@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: LuaSnip
+description: A snippet engine written in Lua.
+homepage: https://github.com/L3MON4D3/LuaSnip
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - snippet
+aliases:
+  - L3MON4D3/LuaSnip
+editor_integration:
+  - neovim
+source:
+  id: github:L3MON4D3/LuaSnip

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: highlight-current-n.nvim
+description: Highlights the current /, ? or*match under your cursor when pressing n or N and gets out of the way afterwards.
+homepage: https://github.com/rktjmp/highlight-current-n.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - search
+aliases:
+  - rktjmp/highlight-current-n.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:rktjmp/highlight-current-n.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: jaq-nvim
+description: Just Another Quickrun Plugin in Lua.
+homepage: https://github.com/is0n/jaq-nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - code-runner
+aliases:
+  - is0n/jaq-nvim
+editor_integration:
+  - neovim
+source:
+  id: github:is0n/jaq-nvim

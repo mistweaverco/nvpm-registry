@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: telescope-tabs
+description: Quickly navigate between tabs using telescope.
+homepage: https://github.com/LukasPietzschmann/telescope-tabs
+licenses:
+  - BSD-3-Clause
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - LukasPietzschmann/telescope-tabs
+editor_integration:
+  - neovim
+source:
+  id: github:LukasPietzschmann/telescope-tabs

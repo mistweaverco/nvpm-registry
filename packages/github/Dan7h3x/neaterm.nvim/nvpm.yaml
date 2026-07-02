@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: neaterm.nvim
+description: A little smart terminal/REPL manager with awesome features.
+homepage: https://github.com/Dan7h3x/neaterm.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - terminal-integration
+aliases:
+  - Dan7h3x/neaterm.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Dan7h3x/neaterm.nvim

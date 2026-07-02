@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: moveline.nvim
+description: Move lines and blocks up and down easily, with indenting handled automatically as you move. Written in Rust.
+homepage: https://github.com/willothy/moveline.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - willothy/moveline.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:willothy/moveline.nvim

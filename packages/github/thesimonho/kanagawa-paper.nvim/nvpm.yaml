@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: kanagawa-paper.nvim
+description: Remixed light and dark Kanagawa colourschemes with muted colors.
+homepage: https://github.com/thesimonho/kanagawa-paper.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - thesimonho/kanagawa-paper.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:thesimonho/kanagawa-paper.nvim

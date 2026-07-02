@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: code-shot.nvim
+description: Take a picture of the code.
+homepage: https://github.com/niuiic/code-shot.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - media
+aliases:
+  - niuiic/code-shot.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:niuiic/code-shot.nvim

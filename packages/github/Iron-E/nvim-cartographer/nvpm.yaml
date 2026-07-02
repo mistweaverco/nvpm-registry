@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-cartographer
+description: a more convenient:mapping syntax for Lua environments.
+homepage: https://github.com/Iron-E/nvim-cartographer
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - keybinding
+  - license:unrecognized=NOASSERTION
+  - license:raw=NOASSERTION
+aliases:
+  - Iron-E/nvim-cartographer
+editor_integration:
+  - neovim
+source:
+  id: github:Iron-E/nvim-cartographer

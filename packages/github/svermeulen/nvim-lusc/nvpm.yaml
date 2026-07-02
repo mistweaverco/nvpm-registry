@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-lusc
+description: Adds support for Structured Async/Concurrency in Lua.
+homepage: https://github.com/svermeulen/nvim-lusc
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - neovim-lua-development
+aliases:
+  - svermeulen/nvim-lusc
+editor_integration:
+  - neovim
+source:
+  id: github:svermeulen/nvim-lusc

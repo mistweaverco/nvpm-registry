@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: buffish.nvim
+description: A buffer switcher in the spirit of dirvish or vinegar.
+homepage: https://github.com/mong8se/buffish.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - mong8se/buffish.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mong8se/buffish.nvim

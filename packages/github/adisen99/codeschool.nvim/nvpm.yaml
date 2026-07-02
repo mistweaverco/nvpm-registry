@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: codeschool.nvim
+description: Codeschool colorscheme written in Lua with Tree-sitter and built-in LSP support.
+homepage: https://github.com/adisen99/codeschool.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - adisen99/codeschool.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:adisen99/codeschool.nvim

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: diffview.nvim
+description: Single tabpage interface for easily cycling through diffs for all modified files for any Git rev.
+homepage: https://github.com/sindrets/diffview.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - git
+  - license:unrecognized=NOASSERTION
+  - license:raw=NOASSERTION
+aliases:
+  - sindrets/diffview.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:sindrets/diffview.nvim

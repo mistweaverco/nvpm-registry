@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: zenbones.nvim
+description: A collection of Vim/Neovim colorschemes designed to highlight code using contrasts and font variations.
+homepage: https://github.com/zenbones-theme/zenbones.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - zenbones-theme/zenbones.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:zenbones-theme/zenbones.nvim

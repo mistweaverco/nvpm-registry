@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: kikao.nvim
+description: |-
+  It's a simple plugin that allows you to automatically save and
+  restore your session when you open and close neovim.
+
+  It basically saves the state of your editor when
+  you close it and restores it when you open it.
+
+  So you have your window layout and buffers just as you left them.
+homepage: https://github.com/mistweaverco/kikao.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - session
+  - restore
+aliases:
+  - mistweaverco/kikao.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mistweaverco/kikao.nvim

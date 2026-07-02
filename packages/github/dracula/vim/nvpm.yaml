@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: vim
+description: Famous beautiful dark powered theme.
+homepage: https://github.com/dracula/vim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - dracula/vim
+editor_integration:
+  - neovim
+source:
+  id: github:dracula/vim

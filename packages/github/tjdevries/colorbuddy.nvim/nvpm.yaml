@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: colorbuddy.nvim
+description: A colorscheme helper. Written in Lua! Quick & Easy Color Schemes.
+homepage: https://github.com/tjdevries/colorbuddy.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - colorscheme-creation
+aliases:
+  - tjdevries/colorbuddy.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:tjdevries/colorbuddy.nvim

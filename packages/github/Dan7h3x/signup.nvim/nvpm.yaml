@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: signup.nvim
+description: a little smartlsp_signaturehelper with awesome features.
+homepage: https://github.com/Dan7h3x/signup.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - Dan7h3x/signup.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Dan7h3x/signup.nvim

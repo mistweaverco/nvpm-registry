@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: wilder.nvim
+description: A plugin for fuzzy command line autocompletion.
+homepage: https://github.com/gelguy/wilder.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - command-line
+aliases:
+  - gelguy/wilder.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:gelguy/wilder.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: pilot.nvim
+description: Run your projects and files quickly with keybindings, and configure how to run them on the fly.
+homepage: https://github.com/pewpewnor/pilot.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - code-runner
+aliases:
+  - pewpewnor/pilot.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:pewpewnor/pilot.nvim

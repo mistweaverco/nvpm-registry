@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: flow.nvim
+description: Carefully designed colors to help focusing during coding plus fluorescent details. Support many plugins and tools.
+homepage: https://github.com/0xstepit/flow.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - 0xstepit/flow.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:0xstepit/flow.nvim

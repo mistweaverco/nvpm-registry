@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: caskey.nvim
+description: Utility to keymappings configuration using declarative cascading trees, optionally integrates withwhich-key.
+homepage: https://github.com/Nexmean/caskey.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - keybinding
+aliases:
+  - Nexmean/caskey.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Nexmean/caskey.nvim

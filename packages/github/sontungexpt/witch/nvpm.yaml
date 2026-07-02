@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: witch
+description: >-
+  The primary stinvim distro colorscheme includes the default feature of dimming inactive windows, along with various
+  other customization options for users.
+homepage: https://github.com/sontungexpt/witch
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - sontungexpt/witch
+editor_integration:
+  - neovim
+source:
+  id: github:sontungexpt/witch

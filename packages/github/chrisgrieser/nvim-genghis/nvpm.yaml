@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-genghis
+description: Convenience file operations, written in Lua.
+homepage: https://github.com/chrisgrieser/nvim-genghis
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - chrisgrieser/nvim-genghis
+editor_integration:
+  - neovim
+source:
+  id: github:chrisgrieser/nvim-genghis

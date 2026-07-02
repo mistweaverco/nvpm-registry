@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-kickstart-python
+description: A launch point for your Neovim configuration for Python.
+homepage: https://github.com/chrisgrieser/nvim-kickstart-python
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - chrisgrieser/nvim-kickstart-python
+editor_integration:
+  - neovim
+source:
+  id: github:chrisgrieser/nvim-kickstart-python

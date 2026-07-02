@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: competitest.nvim
+description: A plugin to automate testcases management and checking for Competitive Programming contests.
+homepage: https://github.com/xeluxee/competitest.nvim
+licenses:
+  - LGPL-3.0
+categories:
+  - Plugin
+tags:
+  - game
+  - competitive-programming
+aliases:
+  - xeluxee/competitest.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:xeluxee/competitest.nvim

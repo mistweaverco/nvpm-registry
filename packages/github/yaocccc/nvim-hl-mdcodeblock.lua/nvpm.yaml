@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-hl-mdcodeblock.lua
+description: Highlight markdown codeblock using Tree-sitter.
+homepage: https://github.com/yaocccc/nvim-hl-mdcodeblock.lua
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - markdown-and-latex
+aliases:
+  - yaocccc/nvim-hl-mdcodeblock.lua
+editor_integration:
+  - neovim
+source:
+  id: github:yaocccc/nvim-hl-mdcodeblock.lua

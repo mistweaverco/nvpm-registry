@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-gdb
+description: Thin wrapper for GDB, LLDB, PDB/PDB++ and BashDB.
+homepage: https://github.com/sakhnik/nvim-gdb
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - debugging
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - sakhnik/nvim-gdb
+editor_integration:
+  - neovim
+source:
+  id: github:sakhnik/nvim-gdb

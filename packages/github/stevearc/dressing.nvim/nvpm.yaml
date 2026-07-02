@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: dressing.nvim
+description: Improve the built-invim.uiinterfaces with telescope, fzf, etc.
+homepage: https://github.com/stevearc/dressing.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - stevearc/dressing.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:stevearc/dressing.nvim

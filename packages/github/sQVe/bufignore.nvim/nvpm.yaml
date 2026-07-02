@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: bufignore.nvim
+description: Unlist hidden buffers matching specified ignore sources.
+homepage: https://github.com/sQVe/bufignore.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - sQVe/bufignore.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:sQVe/bufignore.nvim

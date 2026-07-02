@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: visidata.nvim
+description: Render pandas dataframes in nvim-dap using the power of visidata.
+homepage: https://github.com/Willem-J-an/visidata.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - debugging
+aliases:
+  - Willem-J-an/visidata.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Willem-J-an/visidata.nvim

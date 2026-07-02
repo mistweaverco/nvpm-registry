@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: ns-textobject.nvim
+description: Awesome textobject plugin works with nvim-surround.
+homepage: https://github.com/XXiaoA/ns-textobject.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - XXiaoA/ns-textobject.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:XXiaoA/ns-textobject.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: compiler.nvim
+description: Compiler for building and running your code without having to configure anything.
+homepage: https://github.com/Zeioth/compiler.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - code-runner
+aliases:
+  - Zeioth/compiler.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Zeioth/compiler.nvim

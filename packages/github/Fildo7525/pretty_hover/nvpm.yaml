@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: pretty_hover
+description: Highly customizable hover formatter, extendable to blink.cmp. As native hover supports multiple LSP servers.
+homepage: https://github.com/Fildo7525/pretty_hover
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - Fildo7525/pretty_hover
+editor_integration:
+  - neovim
+source:
+  id: github:Fildo7525/pretty_hover

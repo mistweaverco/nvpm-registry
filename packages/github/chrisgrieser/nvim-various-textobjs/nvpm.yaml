@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-various-textobjs
+description: Bundle of more than 30 new text objects.
+homepage: https://github.com/chrisgrieser/nvim-various-textobjs
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - chrisgrieser/nvim-various-textobjs
+editor_integration:
+  - neovim
+source:
+  id: github:chrisgrieser/nvim-various-textobjs

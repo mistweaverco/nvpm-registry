@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: OneTerm.nvim
+description: Plugin framework for running commands in the terminal.
+homepage: https://github.com/LoricAndre/OneTerm.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - terminal-integration
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - LoricAndre/OneTerm.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:LoricAndre/OneTerm.nvim

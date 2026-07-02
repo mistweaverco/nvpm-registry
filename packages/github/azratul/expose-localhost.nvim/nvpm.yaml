@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: expose-localhost.nvim
+description: Expose your local server to the internet with cloudflared or ngrok.
+homepage: https://github.com/azratul/expose-localhost.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - web-development
+aliases:
+  - azratul/expose-localhost.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:azratul/expose-localhost.nvim

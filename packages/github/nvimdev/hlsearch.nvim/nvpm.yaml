@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: hlsearch.nvim
+description: Auto remove search highlight and rehighlight when using n or N.
+homepage: https://github.com/nvimdev/hlsearch.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - search
+aliases:
+  - nvimdev/hlsearch.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nvimdev/hlsearch.nvim

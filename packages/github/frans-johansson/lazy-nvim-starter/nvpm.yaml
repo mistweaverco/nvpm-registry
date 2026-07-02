@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: lazy-nvim-starter
+description: Starter boilerplate with lazy plugin manager.
+homepage: https://github.com/frans-johansson/lazy-nvim-starter
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - starter-templates
+aliases:
+  - frans-johansson/lazy-nvim-starter
+editor_integration:
+  - neovim
+source:
+  id: github:frans-johansson/lazy-nvim-starter

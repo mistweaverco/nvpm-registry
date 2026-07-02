@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: render-markdown.nvim
+description: Improve viewing markdown files directly.
+homepage: https://github.com/MeanderingProgrammer/render-markdown.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - markdown-and-latex
+aliases:
+  - MeanderingProgrammer/render-markdown.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:MeanderingProgrammer/render-markdown.nvim

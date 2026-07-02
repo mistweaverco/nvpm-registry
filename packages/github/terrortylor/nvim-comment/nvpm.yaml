@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-comment
+description: Toggle comments using the built-in commentstring option.
+homepage: https://github.com/terrortylor/nvim-comment
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+  - comment
+aliases:
+  - terrortylor/nvim-comment
+editor_integration:
+  - neovim
+source:
+  id: github:terrortylor/nvim-comment

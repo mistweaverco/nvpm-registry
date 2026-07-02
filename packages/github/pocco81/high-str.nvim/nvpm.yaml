@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: high-str.nvim
+description: Highlight visual selections like in a normal document editor!
+homepage: https://github.com/pocco81/high-str.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - pocco81/high-str.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:pocco81/high-str.nvim

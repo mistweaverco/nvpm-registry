@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: fcitx.nvim
+description: Switching and restoring fcitx state for each buffer separately.
+homepage: https://github.com/h-hg/fcitx.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - h-hg/fcitx.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:h-hg/fcitx.nvim

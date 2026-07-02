@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: trim.nvim
+description: This plugin trims trailing whitespace and lines.
+homepage: https://github.com/cappyzawa/trim.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - formatting
+aliases:
+  - cappyzawa/trim.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:cappyzawa/trim.nvim

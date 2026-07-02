@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: .sea.nvim
+description: A modular Neovim configuration with beautiful UI and some useful features(Pomodoro Clock, Window Number).
+homepage: https://github.com/cstsunfu/.sea.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - cstsunfu/.sea.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:cstsunfu/.sea.nvim

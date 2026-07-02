@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: alpha-nvim
+description: A fast and highly customizable greeter likevim-startify/dashboard-nvim.
+homepage: https://github.com/goolord/alpha-nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - startup
+aliases:
+  - goolord/alpha-nvim
+editor_integration:
+  - neovim
+source:
+  id: github:goolord/alpha-nvim

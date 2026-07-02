@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: color-picker.nvim
+description: Plugin that lets users choose & modify RGB/HSL/HEX colors inside Neovim.
+homepage: https://github.com/ziontee113/color-picker.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - color
+aliases:
+  - ziontee113/color-picker.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ziontee113/color-picker.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: perfanno.nvim
+description: Annotate your code with callgraph profiling data. Native support for perf, flamegraph and the LuaJit profiler.
+homepage: https://github.com/t-troebst/perfanno.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - debugging
+aliases:
+  - t-troebst/perfanno.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:t-troebst/perfanno.nvim

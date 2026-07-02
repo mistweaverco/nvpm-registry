@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-plug
+description: Asynchronous Neovim plugin manager written in Lua.
+homepage: https://github.com/wsdjeg/nvim-plug
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - plugin-manager
+aliases:
+  - wsdjeg/nvim-plug
+editor_integration:
+  - neovim
+source:
+  id: github:wsdjeg/nvim-plug

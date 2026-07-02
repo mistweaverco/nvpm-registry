@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: neofs
+description: A file manager written in Lua.
+homepage: https://github.com/TimUntersberger/neofs
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - file-explorer
+aliases:
+  - TimUntersberger/neofs
+editor_integration:
+  - neovim
+source:
+  id: github:TimUntersberger/neofs

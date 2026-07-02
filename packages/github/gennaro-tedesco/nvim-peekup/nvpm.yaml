@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-peekup
+description: Dynamically interact with Vim registers.
+homepage: https://github.com/gennaro-tedesco/nvim-peekup
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - register
+aliases:
+  - gennaro-tedesco/nvim-peekup
+editor_integration:
+  - neovim
+source:
+  id: github:gennaro-tedesco/nvim-peekup

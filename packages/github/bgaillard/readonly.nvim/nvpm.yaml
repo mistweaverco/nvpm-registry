@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: readonly.nvim
+description: Secure edition of files containing sensible / secret information, passwords, API keys, SSH keys, etc.
+homepage: https://github.com/bgaillard/readonly.nvim
+licenses:
+  - CC0-1.0
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - bgaillard/readonly.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:bgaillard/readonly.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: lspmark.nvim
+description: Sane project-wise bookmarks with persistent storage based on LSP.
+homepage: https://github.com/tristone13th/lspmark.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - marks
+aliases:
+  - tristone13th/lspmark.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:tristone13th/lspmark.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: hlargs.nvim
+description: Highlight arguments' definitions and usages, using Tree-sitter.
+homepage: https://github.com/m-demare/hlargs.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - syntax
+aliases:
+  - m-demare/hlargs.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:m-demare/hlargs.nvim

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nlsp-settings.nvim
+description: Setup LSP with JSON or YAML files.
+homepage: https://github.com/tamago324/nlsp-settings.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - tamago324/nlsp-settings.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:tamago324/nlsp-settings.nvim

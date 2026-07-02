@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: telescope-lazy-plugins.nvim
+description: A Telescope picker to quickly access plugins configurations from the lazy.nvim spec.
+homepage: https://github.com/polirritmico/telescope-lazy-plugins.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - search
+aliases:
+  - polirritmico/telescope-lazy-plugins.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:polirritmico/telescope-lazy-plugins.nvim

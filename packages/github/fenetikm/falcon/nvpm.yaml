@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: falcon
+description: A colour scheme for terminals, Vim and friends.
+homepage: https://github.com/fenetikm/falcon
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - fenetikm/falcon
+editor_integration:
+  - neovim
+source:
+  id: github:fenetikm/falcon

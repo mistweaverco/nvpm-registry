@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-smartbufs
+description: Smart buffer management.
+homepage: https://github.com/johann2357/nvim-smartbufs
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+  - tabline
+aliases:
+  - johann2357/nvim-smartbufs
+editor_integration:
+  - neovim
+source:
+  id: github:johann2357/nvim-smartbufs

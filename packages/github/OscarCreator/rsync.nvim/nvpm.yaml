@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: rsync.nvim
+description: Automatically sync up/down project to a remote with rsync.
+homepage: https://github.com/OscarCreator/rsync.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - deployment
+aliases:
+  - OscarCreator/rsync.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:OscarCreator/rsync.nvim

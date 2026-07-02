@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: avante.nvim
+description: Chat with your code as if you are in Cursor AI IDE.
+homepage: https://github.com/yetone/avante.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - ai
+aliases:
+  - yetone/avante.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:yetone/avante.nvim

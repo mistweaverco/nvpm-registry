@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: plenary.nvim
+description: 'Plenary: full; complete; entire; absolute; unqualified. All the Lua functions I don''t want to write twice.'
+homepage: https://github.com/nvim-lua/plenary.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - neovim-lua-development
+aliases:
+  - nvim-lua/plenary.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nvim-lua/plenary.nvim

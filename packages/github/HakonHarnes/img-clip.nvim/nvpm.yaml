@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: img-clip.nvim
+description: Effortlessly embed images into any markup language, like LaTeX, Markdown or Typst.
+homepage: https://github.com/HakonHarnes/img-clip.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - media
+aliases:
+  - HakonHarnes/img-clip.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:HakonHarnes/img-clip.nvim

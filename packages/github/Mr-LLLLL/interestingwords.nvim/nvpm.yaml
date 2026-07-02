@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: interestingwords.nvim
+description: >-
+  Highlight multiple word same time and navigate word under cursor with scrolling smoothly, display search count in
+  virualtext.
+homepage: https://github.com/Mr-LLLLL/interestingwords.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - color
+aliases:
+  - Mr-LLLLL/interestingwords.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Mr-LLLLL/interestingwords.nvim

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: eagle.nvim
+description: Mouse-hover LSP hints.
+homepage: https://github.com/soulis-1256/eagle.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - soulis-1256/eagle.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:soulis-1256/eagle.nvim

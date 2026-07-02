@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: ofirkai.nvim
+description: Monokai theme that aims to feel like Sublime Text.
+homepage: https://github.com/ofirgall/ofirkai.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - ofirgall/ofirkai.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ofirgall/ofirkai.nvim

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: knap
+description: Plugin for creating automatic updating-as-you-type previews for markdown, LaTeX and other documents.
+homepage: https://github.com/frabjous/knap
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - markdown-and-latex
+aliases:
+  - frabjous/knap
+editor_integration:
+  - neovim
+source:
+  id: github:frabjous/knap

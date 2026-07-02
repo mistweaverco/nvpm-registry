@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: CSSVarHighlight
+description: Quickly highlight the color you defined in your CSS variables with the help ofmini.hipatterns.
+homepage: https://github.com/farias-hecdin/CSSVarHighlight
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - web-development
+aliases:
+  - farias-hecdin/CSSVarHighlight
+editor_integration:
+  - neovim
+source:
+  id: github:farias-hecdin/CSSVarHighlight

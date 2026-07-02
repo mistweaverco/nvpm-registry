@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: repolink.nvim
+description: Generate shareable HTTP permalinks for various Git web frontends.
+homepage: https://github.com/9seconds/repolink.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - git
+aliases:
+  - 9seconds/repolink.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:9seconds/repolink.nvim

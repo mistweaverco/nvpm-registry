@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: zk-nvim
+description: Neovim extension for zk, a plain text note-taking assistant.
+homepage: https://github.com/zk-org/zk-nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - note-taking
+aliases:
+  - zk-org/zk-nvim
+editor_integration:
+  - neovim
+source:
+  id: github:zk-org/zk-nvim

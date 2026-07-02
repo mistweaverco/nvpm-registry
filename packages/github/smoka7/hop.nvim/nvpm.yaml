@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: hop.nvim
+description: Hop is an EasyMotion-like plugin allowing you to jump anywhere in a document with as few keystrokes as possible.
+homepage: https://github.com/smoka7/hop.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - motion
+  - license:unrecognized=NOASSERTION
+  - license:raw=NOASSERTION
+aliases:
+  - smoka7/hop.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:smoka7/hop.nvim

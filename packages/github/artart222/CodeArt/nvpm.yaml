@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: CodeArt
+description: >-
+  A fast general-purpose IDE written entirely in Lua with an installer for Linux/Windows/macOS and built
+  in:CodeArtUpdatecommand for updating it.
+homepage: https://github.com/artart222/CodeArt
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - artart222/CodeArt
+editor_integration:
+  - neovim
+source:
+  id: github:artart222/CodeArt

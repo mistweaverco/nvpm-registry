@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: neovim-boilerplate
+description: Starter boilerplate for making new configurations.
+homepage: https://github.com/tokiory/neovim-boilerplate
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - starter-templates
+aliases:
+  - tokiory/neovim-boilerplate
+editor_integration:
+  - neovim
+source:
+  id: github:tokiory/neovim-boilerplate

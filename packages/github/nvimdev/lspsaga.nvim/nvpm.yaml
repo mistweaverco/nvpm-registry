@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: lspsaga.nvim
+description: A light-weight LSP plugin based on Neovim's built-in LSP with a highly performant UI.
+homepage: https://github.com/nvimdev/lspsaga.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - nvimdev/lspsaga.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nvimdev/lspsaga.nvim

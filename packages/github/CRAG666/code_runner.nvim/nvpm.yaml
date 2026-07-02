@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: code_runner.nvim
+description: The best code runner you could have, with super powers.
+homepage: https://github.com/CRAG666/code_runner.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - code-runner
+aliases:
+  - CRAG666/code_runner.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:CRAG666/code_runner.nvim

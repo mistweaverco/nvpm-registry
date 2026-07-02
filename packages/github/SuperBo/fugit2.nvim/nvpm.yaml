@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: fugit2.nvim
+description: Git GUI powered bylibgit2.
+homepage: https://github.com/SuperBo/fugit2.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - git
+aliases:
+  - SuperBo/fugit2.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:SuperBo/fugit2.nvim

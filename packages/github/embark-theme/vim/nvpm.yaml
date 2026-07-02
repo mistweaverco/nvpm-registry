@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: embark-theme-vim
+description: A deep inky purple theme leveraging bright colors.
+homepage: https://github.com/embark-theme/vim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - embark-theme/vim
+editor_integration:
+  - neovim
+source:
+  id: github:embark-theme/vim

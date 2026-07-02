@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: stinvim
+description: Ready Neovim's configuration for fullstack developers.
+homepage: https://github.com/sontungexpt/stinvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - sontungexpt/stinvim
+editor_integration:
+  - neovim
+source:
+  id: github:sontungexpt/stinvim

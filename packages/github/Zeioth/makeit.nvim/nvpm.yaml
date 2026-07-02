@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: makeit.nvim
+description: Makefile runner based on overseer.
+homepage: https://github.com/Zeioth/makeit.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - code-runner
+aliases:
+  - Zeioth/makeit.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Zeioth/makeit.nvim

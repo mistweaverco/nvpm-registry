@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-notify
+description: A fancy, configurable, notification manager.
+homepage: https://github.com/rcarriga/nvim-notify
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - rcarriga/nvim-notify
+editor_integration:
+  - neovim
+source:
+  id: github:rcarriga/nvim-notify

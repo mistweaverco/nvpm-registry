@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: flatten.nvim
+description: Open files from terminal buffers in your current Neovim instance instead of launching a nested instance.
+homepage: https://github.com/willothy/flatten.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - terminal-integration
+aliases:
+  - willothy/flatten.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:willothy/flatten.nvim

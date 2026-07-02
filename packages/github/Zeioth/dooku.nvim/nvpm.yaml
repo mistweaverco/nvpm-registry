@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: dooku.nvim
+description: Generate and open your HTML code documentation.
+homepage: https://github.com/Zeioth/dooku.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - editing-support
+  - comment
+aliases:
+  - Zeioth/dooku.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Zeioth/dooku.nvim

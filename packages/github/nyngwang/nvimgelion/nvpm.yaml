@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvimgelion
+description: Neon Genesis Evangelion but for Vimmers.
+homepage: https://github.com/nyngwang/nvimgelion
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - nyngwang/nvimgelion
+editor_integration:
+  - neovim
+source:
+  id: github:nyngwang/nvimgelion

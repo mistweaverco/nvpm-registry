@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: leap.nvim
+description: >-
+  A refined successor of Lightspeed, aiming to establish a widely accepted standard interface extension for moving
+  around in Vim-like editors.
+homepage: https://github.com/ggandor/leap.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - motion
+aliases:
+  - ggandor/leap.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ggandor/leap.nvim

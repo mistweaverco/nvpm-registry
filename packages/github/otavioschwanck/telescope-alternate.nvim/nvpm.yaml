@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: telescope-alternate.nvim
+description: Alternate between common files using telescope.
+homepage: https://github.com/otavioschwanck/telescope-alternate.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - project
+  - license:unrecognized=NOASSERTION
+  - license:raw=NOASSERTION
+aliases:
+  - otavioschwanck/telescope-alternate.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:otavioschwanck/telescope-alternate.nvim

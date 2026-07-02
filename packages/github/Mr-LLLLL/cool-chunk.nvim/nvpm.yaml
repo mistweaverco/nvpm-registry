@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: cool-chunk.nvim
+description: Simpler and faster chunking with animations.
+homepage: https://github.com/Mr-LLLLL/cool-chunk.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - formatting
+  - indent
+aliases:
+  - Mr-LLLLL/cool-chunk.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Mr-LLLLL/cool-chunk.nvim

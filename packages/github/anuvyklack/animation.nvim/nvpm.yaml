@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: animation.nvim
+description: Create animations.
+homepage: https://github.com/anuvyklack/animation.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - neovim-lua-development
+aliases:
+  - anuvyklack/animation.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:anuvyklack/animation.nvim

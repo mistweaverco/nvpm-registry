@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: friendly-snippets
+description: Set of preconfigured snippets for different languages.
+homepage: https://github.com/rafamadriz/friendly-snippets
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - snippet
+aliases:
+  - rafamadriz/friendly-snippets
+editor_integration:
+  - neovim
+source:
+  id: github:rafamadriz/friendly-snippets

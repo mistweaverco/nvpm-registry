@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: rayso.nvim
+description: Create code snippets in Neovim usingray.so.
+homepage: https://github.com/TobinPalmer/rayso.nvim
+licenses:
+  - Unlicense
+categories:
+  - Plugin
+tags:
+  - snippet
+aliases:
+  - TobinPalmer/rayso.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:TobinPalmer/rayso.nvim

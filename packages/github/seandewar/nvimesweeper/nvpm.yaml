@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvimesweeper
+description: Play Minesweeper in your favourite text editor.
+homepage: https://github.com/seandewar/nvimesweeper
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - game
+aliases:
+  - seandewar/nvimesweeper
+editor_integration:
+  - neovim
+source:
+  id: github:seandewar/nvimesweeper

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: sqlite.lua
+description: SQLite/LuaJIT binding for Lua and Neovim.
+homepage: https://github.com/kkharji/sqlite.lua
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - neovim-lua-development
+aliases:
+  - kkharji/sqlite.lua
+editor_integration:
+  - neovim
+source:
+  id: github:kkharji/sqlite.lua

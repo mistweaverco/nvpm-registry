@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: kitty-scrollback.nvim
+description: Open your Kitty scrollback buffer. Ameowzing.
+homepage: https://github.com/mikesmithgh/kitty-scrollback.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - terminal-integration
+aliases:
+  - mikesmithgh/kitty-scrollback.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mikesmithgh/kitty-scrollback.nvim

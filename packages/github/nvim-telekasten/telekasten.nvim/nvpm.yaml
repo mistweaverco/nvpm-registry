@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: telekasten.nvim
+description: Work with a text-based, markdown zettelkasten / wiki and mix it with a journal, based on telescope.nvim.
+homepage: https://github.com/nvim-telekasten/telekasten.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - note-taking
+aliases:
+  - nvim-telekasten/telekasten.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nvim-telekasten/telekasten.nvim

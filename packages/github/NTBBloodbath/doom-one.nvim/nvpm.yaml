@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: doom-one.nvim
+description: Lua port of doom-emacs' doom-one.
+homepage: https://github.com/NTBBloodbath/doom-one.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - NTBBloodbath/doom-one.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:NTBBloodbath/doom-one.nvim

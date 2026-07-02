@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: leap-spooky.nvim
+description: Spooky (Leap) actions at a distance.
+homepage: https://github.com/ggandor/leap-spooky.nvim
+licenses:
+  - Unlicense
+categories:
+  - Plugin
+tags:
+  - motion
+aliases:
+  - ggandor/leap-spooky.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ggandor/leap-spooky.nvim

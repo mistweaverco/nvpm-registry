@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: unimpaired.nvim
+description: Lua port oftpope/vim-unimpaired.
+homepage: https://github.com/tummetott/unimpaired.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - tummetott/unimpaired.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:tummetott/unimpaired.nvim

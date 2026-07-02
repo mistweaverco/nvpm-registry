@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: copilot.lua
+description: Fully featured Lua replacement forGitHub/copilot.vim.
+homepage: https://github.com/zbirenbaum/copilot.lua
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - completion
+aliases:
+  - zbirenbaum/copilot.lua
+editor_integration:
+  - neovim
+source:
+  id: github:zbirenbaum/copilot.lua

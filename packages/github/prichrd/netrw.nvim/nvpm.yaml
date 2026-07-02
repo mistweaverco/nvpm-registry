@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: netrw.nvim
+description: Add icons and custom keybindings to netrw.
+homepage: https://github.com/prichrd/netrw.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - file-explorer
+aliases:
+  - prichrd/netrw.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:prichrd/netrw.nvim

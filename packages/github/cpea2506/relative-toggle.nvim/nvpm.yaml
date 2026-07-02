@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: relative-toggle.nvim
+description: Toggles smoothly between number and relative numbers, supporting various number combinations, highly customizable.
+homepage: https://github.com/cpea2506/relative-toggle.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - cpea2506/relative-toggle.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:cpea2506/relative-toggle.nvim

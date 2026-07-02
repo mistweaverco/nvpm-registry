@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: better-diagnostic-virtual-text
+description: >-
+  Enhances the display of virtual text for diagnostics. This function aims to provide a more user-friendly and
+  informative presentation of diagnostic messages directly within the editor.
+homepage: https://github.com/sontungexpt/better-diagnostic-virtual-text
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+  - diagnostics
+aliases:
+  - sontungexpt/better-diagnostic-virtual-text
+editor_integration:
+  - neovim
+source:
+  id: github:sontungexpt/better-diagnostic-virtual-text

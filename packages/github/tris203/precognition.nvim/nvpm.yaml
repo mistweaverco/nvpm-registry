@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: precognition.nvim
+description: Precognition uses virtual text and gutter signs to show available motions.
+homepage: https://github.com/tris203/precognition.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - motion
+aliases:
+  - tris203/precognition.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:tris203/precognition.nvim

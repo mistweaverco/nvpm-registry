@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: action-hints.nvim
+description: Show information about the word under the cursor in the statusline or as virtual text.
+homepage: https://github.com/roobert/action-hints.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - roobert/action-hints.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:roobert/action-hints.nvim

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: poimandres.nvim
+description: Neovim port ofpoimandres VSCode themewith Tree-sitter support, written in Lua.
+homepage: https://github.com/olivercederborg/poimandres.nvim
+licenses:
+  - proprietary
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - olivercederborg/poimandres.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:olivercederborg/poimandres.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-dap-virtual-text
+description: Virtual text support for nvim-dap.
+homepage: https://github.com/theHamsta/nvim-dap-virtual-text
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - debugging
+aliases:
+  - theHamsta/nvim-dap-virtual-text
+editor_integration:
+  - neovim
+source:
+  id: github:theHamsta/nvim-dap-virtual-text

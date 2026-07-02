@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: bookmarks.nvim
+description: 'Your new bookmarks option: simple yet powerful.'
+homepage: https://github.com/LintaoAmons/bookmarks.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - marks
+aliases:
+  - LintaoAmons/bookmarks.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:LintaoAmons/bookmarks.nvim

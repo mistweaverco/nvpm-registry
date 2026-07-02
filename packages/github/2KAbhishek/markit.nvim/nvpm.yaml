@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: markit.nvim
+description: Improved global marks and project wide bookmarks, to quickly navigate files.
+homepage: https://github.com/2KAbhishek/markit.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - marks
+aliases:
+  - 2KAbhishek/markit.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:2KAbhishek/markit.nvim

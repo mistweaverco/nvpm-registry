@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nordic.nvim
+description: Nord for Neovim, but warmer and darker. Supports a variety of plugins and other platforms.
+homepage: https://github.com/AlexvZyl/nordic.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - AlexvZyl/nordic.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:AlexvZyl/nordic.nvim

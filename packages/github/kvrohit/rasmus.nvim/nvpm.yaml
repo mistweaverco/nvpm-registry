@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: rasmus.nvim
+description: A dark color scheme written in Lua ported fromrsms/sublime-themetheme.
+homepage: https://github.com/kvrohit/rasmus.nvim
+licenses:
+  - proprietary
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - kvrohit/rasmus.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:kvrohit/rasmus.nvim

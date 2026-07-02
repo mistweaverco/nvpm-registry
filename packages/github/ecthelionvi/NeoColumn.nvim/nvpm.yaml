@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: NeoColumn.nvim
+description: Toggleable colorcolumn highlighting specific characters.
+homepage: https://github.com/ecthelionvi/NeoColumn.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+aliases:
+  - ecthelionvi/NeoColumn.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ecthelionvi/NeoColumn.nvim

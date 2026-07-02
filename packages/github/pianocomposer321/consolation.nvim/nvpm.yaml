@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: consolation.nvim
+description: A general-purpose terminal wrapper and management plugin, written in Lua.
+homepage: https://github.com/pianocomposer321/consolation.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - terminal-integration
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - pianocomposer321/consolation.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:pianocomposer321/consolation.nvim

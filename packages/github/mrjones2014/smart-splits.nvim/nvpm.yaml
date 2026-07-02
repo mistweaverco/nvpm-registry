@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: smart-splits.nvim
+description: Smart, seamless, directional navigation and resizing of splits.
+homepage: https://github.com/mrjones2014/smart-splits.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - split-and-window
+aliases:
+  - mrjones2014/smart-splits.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mrjones2014/smart-splits.nvim

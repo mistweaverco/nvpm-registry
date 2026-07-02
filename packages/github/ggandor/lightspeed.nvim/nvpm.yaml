@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: lightspeed.nvim
+description: >-
+  A Sneak-like plugin offering unparalleled navigation speed via ahead-of-time displayed labels, that eliminate the
+  pause between entering the search pattern and selecting the target.
+homepage: https://github.com/ggandor/lightspeed.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - motion
+aliases:
+  - ggandor/lightspeed.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ggandor/lightspeed.nvim

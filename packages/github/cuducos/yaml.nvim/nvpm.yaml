@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: yaml.nvim
+description: Utils to work with YAML files.
+homepage: https://github.com/cuducos/yaml.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - yaml
+aliases:
+  - cuducos/yaml.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:cuducos/yaml.nvim

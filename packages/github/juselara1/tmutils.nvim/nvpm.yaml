@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tmutils.nvim
+description: Tmux utilities that enable sending lines, capturing content, creating terminals, and managing REPLs.
+homepage: https://github.com/juselara1/tmutils.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - split-and-window
+  - tmux
+aliases:
+  - juselara1/tmutils.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:juselara1/tmutils.nvim

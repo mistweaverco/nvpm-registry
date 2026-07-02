@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-dap-ui
+description: A UI for nvim-dap.
+homepage: https://github.com/rcarriga/nvim-dap-ui
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - debugging
+aliases:
+  - rcarriga/nvim-dap-ui
+editor_integration:
+  - neovim
+source:
+  id: github:rcarriga/nvim-dap-ui

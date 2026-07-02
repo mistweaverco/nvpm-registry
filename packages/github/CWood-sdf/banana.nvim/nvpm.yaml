@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: banana.nvim
+description: HTML renderer for plugin UIs.
+homepage: https://github.com/CWood-sdf/banana.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - neovim-lua-development
+aliases:
+  - CWood-sdf/banana.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:CWood-sdf/banana.nvim

@@ -593,24 +593,29 @@ for (const packageYamlPath of packageFiles) {
   const { stable, prerelease } = await getLatestVersions(packageData.source.id);
   // Prefer stable version when available; fall back to prerelease
   const version = stable ?? prerelease;
-  if (version) {
-    packageData.version = version;
-    if (prerelease) {
-      packageData.prerelease_version = prerelease;
-    }
-    // Add version to Mason format: pkg:provider/package-id@version
-    masonPackageData.source.id = `${masonSourceId}@${version}`;
-    registry.push(packageData);
-    masonRegistry.push(masonPackageData);
-    counter.success++;
-  } else {
+  if (!version) {
+    // We still include the package in nvpm-registry.json so the web UI can show it.
+    // Mason registry entries require a concrete version in the source id, so we skip those.
     console.error(`Failed to get latest version for ${packageData.name}`);
+    packageData.version = "unknown";
+    registry.push(packageData);
     counter.failure++;
+    continue;
   }
+
+  packageData.version = version;
+  if (prerelease) {
+    packageData.prerelease_version = prerelease;
+  }
+  // Add version to Mason format: pkg:provider/package-id@version
+  masonPackageData.source.id = `${masonSourceId}@${version}`;
+  registry.push(packageData);
+  masonRegistry.push(masonPackageData);
+  counter.success++;
 }
 
-const registryJsonPath = path.join(__dirname, "..", "..", "nvpm-registry.json");
-const masonRegistryJsonPath = path.join(__dirname, "..", "..", "registry.json");
+const registryJsonPath = path.join(__dirname, "..", "..", ".tmp", "nvpm-registry.json");
+const masonRegistryJsonPath = path.join(__dirname, "..", "..", ".tmp", "registry.json");
 fs.writeFileSync(registryJsonPath, JSON.stringify(registry, null, 2));
 fs.writeFileSync(masonRegistryJsonPath, JSON.stringify(masonRegistry, null, 2));
 

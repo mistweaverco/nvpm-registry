@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: grapple.nvim
+description: Provides tagging, cursor tracking, and immediate navigation to important project files.
+homepage: https://github.com/cbochs/grapple.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - marks
+aliases:
+  - cbochs/grapple.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:cbochs/grapple.nvim

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: bamboo.nvim
+description: A warm green theme.
+homepage: https://github.com/ribru17/bamboo.nvim
+licenses:
+  - proprietary
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+  - license:unrecognized=NOASSERTION
+  - license:raw=NOASSERTION
+aliases:
+  - ribru17/bamboo.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ribru17/bamboo.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: cellular-automaton.nvim
+description: It lets you execute aesthetically pleasing, cellular automaton animations based on the content of Neovim buffer.
+homepage: https://github.com/Eandrju/cellular-automaton.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - game
+aliases:
+  - Eandrju/cellular-automaton.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Eandrju/cellular-automaton.nvim

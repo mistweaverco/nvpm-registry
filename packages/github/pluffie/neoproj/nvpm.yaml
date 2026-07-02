@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: neoproj
+description: Small yet powerful project (and session) manager.
+homepage: https://github.com/pluffie/neoproj
+licenses:
+  - MPL-2.0
+categories:
+  - Plugin
+tags:
+  - project
+aliases:
+  - pluffie/neoproj
+editor_integration:
+  - neovim
+source:
+  id: github:pluffie/neoproj

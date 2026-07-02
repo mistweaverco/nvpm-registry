@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nui.nvim
+description: UI Component Library.
+homepage: https://github.com/MunifTanjim/nui.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - neovim-lua-development
+aliases:
+  - MunifTanjim/nui.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:MunifTanjim/nui.nvim

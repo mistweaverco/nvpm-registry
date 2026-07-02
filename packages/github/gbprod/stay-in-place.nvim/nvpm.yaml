@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: stay-in-place.nvim
+description: Neovim plugin that prevent cursor from moving when using shift and filter actions.
+homepage: https://github.com/gbprod/stay-in-place.nvim
+licenses:
+  - WTFPL
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - gbprod/stay-in-place.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:gbprod/stay-in-place.nvim

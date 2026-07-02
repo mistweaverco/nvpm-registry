@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: model.nvim
+description: >-
+  Integrate LLMs via a prompt builder interface. Multi-providers including OpenAI (+ compatibles), PaLM, HuggingFace and
+  local engines like llamacpp.
+homepage: https://github.com/gsuuon/model.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - ai
+aliases:
+  - gsuuon/model.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:gsuuon/model.nvim

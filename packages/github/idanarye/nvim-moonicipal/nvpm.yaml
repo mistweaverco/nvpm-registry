@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-moonicipal
+description: Task runner with focus on rapidly changing personal tasks.
+homepage: https://github.com/idanarye/nvim-moonicipal
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - code-runner
+aliases:
+  - idanarye/nvim-moonicipal
+editor_integration:
+  - neovim
+source:
+  id: github:idanarye/nvim-moonicipal

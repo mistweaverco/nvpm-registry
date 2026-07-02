@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-tetris
+description: Bringing emacs' greatest feature to Neovim - Tetris!.
+homepage: https://github.com/alec-gibson/nvim-tetris
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - game
+aliases:
+  - alec-gibson/nvim-tetris
+editor_integration:
+  - neovim
+source:
+  id: github:alec-gibson/nvim-tetris

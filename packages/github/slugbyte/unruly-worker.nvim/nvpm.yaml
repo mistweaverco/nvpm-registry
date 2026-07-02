@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: unruly-worker.nvim
+description: >-
+  A ridiculously fun alternative keymap for the workman keyboard layout, with lots of powerful features for working with
+  yank, marks, macros, LSP, and more. Built and configured with Lua.
+homepage: https://github.com/slugbyte/unruly-worker.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - keybinding
+aliases:
+  - slugbyte/unruly-worker.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:slugbyte/unruly-worker.nvim

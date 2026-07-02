@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: image_preview.nvim
+description: Image preview based on terminal's Image Protocol support.
+homepage: https://github.com/adelarsq/image_preview.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - media
+aliases:
+  - adelarsq/image_preview.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:adelarsq/image_preview.nvim

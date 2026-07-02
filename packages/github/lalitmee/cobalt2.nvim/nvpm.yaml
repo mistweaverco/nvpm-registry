@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: cobalt2.nvim
+description: A port of cobalt2 colorscheme using colorbuddy.
+homepage: https://github.com/lalitmee/cobalt2.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - lua-colorscheme
+aliases:
+  - lalitmee/cobalt2.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:lalitmee/cobalt2.nvim

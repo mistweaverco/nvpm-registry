@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: drex.nvim
+description: A simple and configurable file explorer written in Lua.
+homepage: https://github.com/TheBlob42/drex.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - file-explorer
+aliases:
+  - TheBlob42/drex.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:TheBlob42/drex.nvim

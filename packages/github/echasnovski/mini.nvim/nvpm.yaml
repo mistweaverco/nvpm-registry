@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: mini.nvim
+description: Module ofmini.nvimfor buffer removing (unshow, delete, wipeout) while saving window layout.
+homepage: https://github.com/echasnovski/mini.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - split-and-window
+aliases:
+  - echasnovski/mini.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:echasnovski/mini.nvim

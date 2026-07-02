@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: ModuleVim
+description: |-
+  A very easy to use
+  for backend and frontend, install LSP automatically.
+homepage: https://github.com/jrychn/ModuleVim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - jrychn/ModuleVim
+editor_integration:
+  - neovim
+source:
+  id: github:jrychn/ModuleVim

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: cosmic-ui
+description: >-
+  Cosmic-UI is a simple wrapper around specific Vim functionality. Built in order to provide a quick and easy way to
+  create a Cosmic UI experience with Neovim!
+homepage: https://github.com/CosmicNvim/cosmic-ui
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - CosmicNvim/cosmic-ui
+editor_integration:
+  - neovim
+source:
+  id: github:CosmicNvim/cosmic-ui

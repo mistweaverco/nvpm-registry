@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: feed.nvim
+description: Web feed reader written in Lua (RSS, atom, json feed).
+homepage: https://github.com/neo451/feed.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - media
+aliases:
+  - neo451/feed.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:neo451/feed.nvim

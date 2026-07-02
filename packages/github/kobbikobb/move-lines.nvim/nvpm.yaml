@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: move-lines.nvim
+description: Moves lines selected in virtual mode.
+homepage: https://github.com/kobbikobb/move-lines.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - kobbikobb/move-lines.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:kobbikobb/move-lines.nvim

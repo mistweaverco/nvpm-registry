@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: visual_studio_code
+description: >-
+  A Neovim theme that highly restores vscode, so that your friends will no longer be surprised that you use Neovim,
+  because they will think you are using vscode.
+homepage: https://github.com/askfiy/visual_studio_code
+licenses:
+  - MPL-2.0
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - askfiy/visual_studio_code
+editor_integration:
+  - neovim
+source:
+  id: github:askfiy/visual_studio_code

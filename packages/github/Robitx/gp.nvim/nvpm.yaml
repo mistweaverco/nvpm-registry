@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: gp.nvim
+description: ChatGPT like sessions and instructable text/code operations in your favorite editor.
+homepage: https://github.com/Robitx/gp.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - ai
+aliases:
+  - Robitx/gp.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Robitx/gp.nvim

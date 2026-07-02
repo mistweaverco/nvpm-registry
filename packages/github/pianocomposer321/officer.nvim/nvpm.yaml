@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: officer.nvim
+description: Like dispatch.vim but using overseer.nvim.
+homepage: https://github.com/pianocomposer321/officer.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - code-runner
+aliases:
+  - pianocomposer321/officer.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:pianocomposer321/officer.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: VapourNvim
+description: A Neovim config for THE ULTIMATE Vim IDE-like experience.
+homepage: https://github.com/hackorum/VapourNvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - hackorum/VapourNvim
+editor_integration:
+  - neovim
+source:
+  id: github:hackorum/VapourNvim

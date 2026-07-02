@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nterm.nvim
+description: Interact with the terminal, with notifications.
+homepage: https://github.com/jlesquembre/nterm.nvim
+licenses:
+  - EPL-2.0
+categories:
+  - Plugin
+tags:
+  - terminal-integration
+aliases:
+  - jlesquembre/nterm.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:jlesquembre/nterm.nvim

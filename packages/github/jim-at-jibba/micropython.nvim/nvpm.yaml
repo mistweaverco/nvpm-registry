@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: micropython.nvim
+description: Enhances the development experience for developers using Micro-python for IoT and maker projects.
+homepage: https://github.com/jim-at-jibba/micropython.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+aliases:
+  - jim-at-jibba/micropython.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:jim-at-jibba/micropython.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: due.nvim
+description: Displays due for a date string as a virtual text.
+homepage: https://github.com/nfrid/due.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - note-taking
+aliases:
+  - nfrid/due.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nfrid/due.nvim

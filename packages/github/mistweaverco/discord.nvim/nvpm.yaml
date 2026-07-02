@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: discord.nvim
+description: An unobtrusive Discord Rich Presence plugin that just works.
+homepage: https://github.com/mistweaverco/discord.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - discord
+  - status
+  - social
+aliases:
+  - mistweaverco/discord.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mistweaverco/discord.nvim

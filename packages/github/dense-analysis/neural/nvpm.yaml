@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: neural
+description: Integrate LLMs for generating code, interacting with chat bots, and more.
+homepage: https://github.com/dense-analysis/neural
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - ai
+aliases:
+  - dense-analysis/neural
+editor_integration:
+  - neovim
+source:
+  id: github:dense-analysis/neural

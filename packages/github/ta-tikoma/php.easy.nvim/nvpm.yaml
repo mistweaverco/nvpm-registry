@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: php.easy.nvim
+description: >-
+  Methods of assistance in PHP development: create classes, constants, methods, properties; simple copying and deleting
+  of an entity.
+homepage: https://github.com/ta-tikoma/php.easy.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - php
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - ta-tikoma/php.easy.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ta-tikoma/php.easy.nvim

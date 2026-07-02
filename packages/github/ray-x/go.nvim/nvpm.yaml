@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: go.nvim
+description: Golang plugin based on LSP and Tree-sitter.
+homepage: https://github.com/ray-x/go.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - golang
+aliases:
+  - ray-x/go.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ray-x/go.nvim

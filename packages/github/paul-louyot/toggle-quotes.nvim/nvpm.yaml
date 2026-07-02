@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: toggle-quotes.nvim
+description: Toggle between quotes.
+homepage: https://github.com/paul-louyot/toggle-quotes.nvim
+licenses:
+  - CC0-1.0
+categories:
+  - Plugin
+tags:
+  - formatting
+aliases:
+  - paul-louyot/toggle-quotes.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:paul-louyot/toggle-quotes.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: cord.nvim
+description: Highly extensible Rich Presence for Discord.
+homepage: https://github.com/vyfor/cord.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - media
+aliases:
+  - vyfor/cord.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:vyfor/cord.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: boo-colorscheme-nvim
+description: A colorscheme with handcrafted support for LSP, Tree-sitter.
+homepage: https://github.com/rockerBOO/boo-colorscheme-nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - rockerBOO/boo-colorscheme-nvim
+editor_integration:
+  - neovim
+source:
+  id: github:rockerBOO/boo-colorscheme-nvim

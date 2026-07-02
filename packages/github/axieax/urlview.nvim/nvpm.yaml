@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: urlview.nvim
+description: Browse all URLs in the current buffer.
+homepage: https://github.com/axieax/urlview.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - axieax/urlview.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:axieax/urlview.nvim

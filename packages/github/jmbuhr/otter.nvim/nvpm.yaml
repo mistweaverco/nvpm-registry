@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: otter.nvim
+description: Provides LSP features and a nvim-cmp completion source for languages embedded in other documents.
+homepage: https://github.com/jmbuhr/otter.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - jmbuhr/otter.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:jmbuhr/otter.nvim

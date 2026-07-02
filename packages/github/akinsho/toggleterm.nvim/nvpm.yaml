@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: toggleterm.nvim
+description: Easily manage multiple terminal windows.
+homepage: https://github.com/akinsho/toggleterm.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - terminal-integration
+aliases:
+  - akinsho/toggleterm.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:akinsho/toggleterm.nvim

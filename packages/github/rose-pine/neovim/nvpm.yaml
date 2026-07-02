@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: neovim
+description: All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
+homepage: https://github.com/rose-pine/neovim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - rose-pine/neovim
+editor_integration:
+  - neovim
+source:
+  id: github:rose-pine/neovim

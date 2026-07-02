@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: luau-lsp.nvim
+description: A luau-lsp extension to improve your experience.
+homepage: https://github.com/lopi-py/luau-lsp.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - lopi-py/luau-lsp.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:lopi-py/luau-lsp.nvim

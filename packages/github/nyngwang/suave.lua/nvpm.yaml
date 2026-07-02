@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: suave.lua
+description: Multi-tabs project session automation.
+homepage: https://github.com/nyngwang/suave.lua
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - project
+aliases:
+  - nyngwang/suave.lua
+editor_integration:
+  - neovim
+source:
+  id: github:nyngwang/suave.lua

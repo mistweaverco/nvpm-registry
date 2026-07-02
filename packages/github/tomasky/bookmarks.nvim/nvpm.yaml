@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tomasky-bookmarks.nvim
+description: Bookmarks with global file storage, written in Lua.
+homepage: https://github.com/tomasky/bookmarks.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - marks
+aliases:
+  - tomasky/bookmarks.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:tomasky/bookmarks.nvim

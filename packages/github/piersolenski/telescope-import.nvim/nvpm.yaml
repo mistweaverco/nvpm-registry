@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: telescope-import.nvim
+description: Import modules faster based on what you've already imported in your project.
+homepage: https://github.com/piersolenski/telescope-import.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - dependency-management
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - piersolenski/telescope-import.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:piersolenski/telescope-import.nvim

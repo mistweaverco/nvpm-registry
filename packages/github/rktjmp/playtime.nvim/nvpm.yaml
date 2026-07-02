@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: playtime.nvim
+description: A collection of games such as Freecell, Shenzhen Solitaire and The Emissary.
+homepage: https://github.com/rktjmp/playtime.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - game
+aliases:
+  - rktjmp/playtime.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:rktjmp/playtime.nvim

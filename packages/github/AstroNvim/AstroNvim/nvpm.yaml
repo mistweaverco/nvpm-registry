@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: AstroNvim
+description: >-
+  AstroNvim is an aesthetic and feature-rich Neovim config that is extensible and easy to use with a great set of
+  plugins.
+homepage: https://github.com/AstroNvim/AstroNvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - AstroNvim/AstroNvim
+editor_integration:
+  - neovim
+source:
+  id: github:AstroNvim/AstroNvim

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tabtree.nvim
+description: Jump between significant code elements, such as brackets, quotes, etc.
+homepage: https://github.com/roobert/tabtree.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - motion
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - roobert/tabtree.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:roobert/tabtree.nvim

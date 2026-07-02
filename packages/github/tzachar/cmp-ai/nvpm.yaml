@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: cmp-ai
+description: This is a general purpose AI source for nvim-cmp, easily adapted to any REST API supporting remote code completion.
+homepage: https://github.com/tzachar/cmp-ai
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - ai
+aliases:
+  - tzachar/cmp-ai
+editor_integration:
+  - neovim
+source:
+  id: github:tzachar/cmp-ai

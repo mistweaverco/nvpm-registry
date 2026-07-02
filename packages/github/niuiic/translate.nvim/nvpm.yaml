@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: translate.nvim
+description: Invoke any translation engine via shell command.
+homepage: https://github.com/niuiic/translate.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - language
+aliases:
+  - niuiic/translate.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:niuiic/translate.nvim

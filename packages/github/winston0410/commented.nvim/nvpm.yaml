@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: commented.nvim
+description: A commenting plugin that supports counts and multiple comment patterns and much more.
+homepage: https://github.com/winston0410/commented.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+  - comment
+aliases:
+  - winston0410/commented.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:winston0410/commented.nvim

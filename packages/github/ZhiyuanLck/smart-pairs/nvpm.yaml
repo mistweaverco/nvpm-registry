@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: smart-pairs
+description: Ultimate smart pairs written by Lua.
+homepage: https://github.com/ZhiyuanLck/smart-pairs
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - ZhiyuanLck/smart-pairs
+editor_integration:
+  - neovim
+source:
+  id: github:ZhiyuanLck/smart-pairs

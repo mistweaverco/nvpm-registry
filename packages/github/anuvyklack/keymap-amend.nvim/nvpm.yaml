@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: keymap-amend.nvim
+description: Amend the existing keymap.
+homepage: https://github.com/anuvyklack/keymap-amend.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - keybinding
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - anuvyklack/keymap-amend.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:anuvyklack/keymap-amend.nvim

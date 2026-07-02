@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: launch.nvim
+description: >-
+  A simple and quick task launcher which allows dynamically configuring tasks on the fly, with optional support for
+  debugging.
+homepage: https://github.com/dasupradyumna/launch.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - code-runner
+aliases:
+  - dasupradyumna/launch.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:dasupradyumna/launch.nvim

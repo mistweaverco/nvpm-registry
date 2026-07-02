@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: gruvy
+description: Gruvbuddy without colorbuddy using Lush.
+homepage: https://github.com/RishabhRD/gruvy
+licenses:
+  - proprietary
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - RishabhRD/gruvy
+editor_integration:
+  - neovim
+source:
+  id: github:RishabhRD/gruvy

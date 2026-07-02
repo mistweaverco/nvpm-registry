@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: aurora
+description: A 24-bit dark theme with Tree-sitter and LSP support.
+homepage: https://github.com/ray-x/aurora
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - ray-x/aurora
+editor_integration:
+  - neovim
+source:
+  id: github:ray-x/aurora

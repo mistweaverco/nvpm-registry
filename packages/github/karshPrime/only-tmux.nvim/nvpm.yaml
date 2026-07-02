@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: only-tmux.nvim
+description: >-
+  Expand the functionality of:onlywith tmux panes in the same window, with either moving them to a new window or closing
+  them.
+homepage: https://github.com/karshPrime/only-tmux.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - split-and-window
+  - tmux
+aliases:
+  - karshPrime/only-tmux.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:karshPrime/only-tmux.nvim

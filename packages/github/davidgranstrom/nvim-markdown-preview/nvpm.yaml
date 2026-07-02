@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-markdown-preview
+description: Markdown preview in the browser using pandoc and live-server through Neovim's job-control API.
+homepage: https://github.com/davidgranstrom/nvim-markdown-preview
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - markdown-and-latex
+aliases:
+  - davidgranstrom/nvim-markdown-preview
+editor_integration:
+  - neovim
+source:
+  id: github:davidgranstrom/nvim-markdown-preview

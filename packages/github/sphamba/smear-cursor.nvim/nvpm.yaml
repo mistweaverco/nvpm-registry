@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: smear-cursor.nvim
+description: Animate the cursor with a smear effect in all terminals. Inspired by Neovide's animated cursor.
+homepage: https://github.com/sphamba/smear-cursor.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - motion
+aliases:
+  - sphamba/smear-cursor.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:sphamba/smear-cursor.nvim

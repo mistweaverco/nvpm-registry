@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: chocolatier.nvim
+description: An espresso/kimbie inspired chocolatey theme adapted from ellisonleao/gruvbox.nvim theme as a code template.
+homepage: https://github.com/qaptoR-nvim/chocolatier.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - qaptoR-nvim/chocolatier.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:qaptoR-nvim/chocolatier.nvim

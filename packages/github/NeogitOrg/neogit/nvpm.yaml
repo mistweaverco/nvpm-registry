@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: neogit
+description: A Magit clone that may change some things to fit the Vim philosophy.
+homepage: https://github.com/NeogitOrg/neogit
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - git
+aliases:
+  - NeogitOrg/neogit
+editor_integration:
+  - neovim
+source:
+  id: github:NeogitOrg/neogit

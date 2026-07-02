@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-hybrid
+description: A Neovim colorscheme write in Lua.
+homepage: https://github.com/PHSix/nvim-hybrid
+licenses:
+  - proprietary
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - PHSix/nvim-hybrid
+editor_integration:
+  - neovim
+source:
+  id: github:PHSix/nvim-hybrid

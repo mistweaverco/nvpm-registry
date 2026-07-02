@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: neotest
+description: An extensible framework for interacting with tests within Neovim.
+homepage: https://github.com/nvim-neotest/neotest
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - test
+aliases:
+  - nvim-neotest/neotest
+editor_integration:
+  - neovim
+source:
+  id: github:nvim-neotest/neotest

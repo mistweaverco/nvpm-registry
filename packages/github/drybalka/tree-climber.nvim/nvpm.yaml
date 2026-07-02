@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tree-climber.nvim
+description: Easy navigation around the Tree-sitter's tree that works in multi-language files and in normal mode.
+homepage: https://github.com/drybalka/tree-climber.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - motion
+  - tree-sitter-based
+aliases:
+  - drybalka/tree-climber.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:drybalka/tree-climber.nvim

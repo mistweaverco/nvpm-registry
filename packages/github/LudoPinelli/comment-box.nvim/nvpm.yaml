@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: comment-box.nvim
+description: Clarify and beautify your comments using boxes and lines.
+homepage: https://github.com/LudoPinelli/comment-box.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+  - comment
+aliases:
+  - LudoPinelli/comment-box.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:LudoPinelli/comment-box.nvim

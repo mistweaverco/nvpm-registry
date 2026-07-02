@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: blink.cmp
+description: >-
+  Really fast completion with LSP & snippet support, along with signature help, cmdline completion, and autobracket
+  support (based on semantic tokens).
+homepage: https://github.com/Saghen/blink.cmp
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - completion
+aliases:
+  - Saghen/blink.cmp
+editor_integration:
+  - neovim
+source:
+  id: github:Saghen/blink.cmp

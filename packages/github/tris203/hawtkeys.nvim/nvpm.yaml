@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: hawtkeys.nvim
+description: Suggest new easy-to-hit keymaps and find issues with your current keymap configurations.
+homepage: https://github.com/tris203/hawtkeys.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - keybinding
+aliases:
+  - tris203/hawtkeys.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:tris203/hawtkeys.nvim

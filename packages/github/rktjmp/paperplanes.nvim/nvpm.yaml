@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: paperplanes.nvim
+description: Post selections or buffers to online paste bins.
+homepage: https://github.com/rktjmp/paperplanes.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - rktjmp/paperplanes.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:rktjmp/paperplanes.nvim

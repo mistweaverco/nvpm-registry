@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-base16.lua
+description: Programmatic Lua library for setting base16 themes.
+homepage: https://github.com/norcalli/nvim-base16.lua
+licenses:
+  - proprietary
+categories:
+  - Theme
+tags:
+  - colorscheme-creation
+  - license:unrecognized=NOASSERTION
+  - license:raw=NOASSERTION
+aliases:
+  - norcalli/nvim-base16.lua
+editor_integration:
+  - neovim
+source:
+  id: github:norcalli/nvim-base16.lua

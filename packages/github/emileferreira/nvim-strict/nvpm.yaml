@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-strict
+description: >-
+  Strict, native code style formatting which exposes deep nesting, overlong lines, trailing whitespace, trailing empty
+  lines, todos and inconsistent indentation.
+homepage: https://github.com/emileferreira/nvim-strict
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - formatting
+aliases:
+  - emileferreira/nvim-strict
+editor_integration:
+  - neovim
+source:
+  id: github:emileferreira/nvim-strict

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: alduin.nvim
+description: A port ofalduintheme to Lua with Tree-sitter and semantic highlights support.
+homepage: https://github.com/bakageddy/alduin.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - bakageddy/alduin.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:bakageddy/alduin.nvim

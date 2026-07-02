@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: structrue-go.nvim
+description: A better structured display of Golang symbols information.
+homepage: https://github.com/crusj/structrue-go.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - golang
+aliases:
+  - crusj/structrue-go.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:crusj/structrue-go.nvim

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nougat.nvim
+description: Hyperextensible Statusline / Tabline / Winbar.
+homepage: https://github.com/MunifTanjim/nougat.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+  - statusline
+aliases:
+  - MunifTanjim/nougat.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:MunifTanjim/nougat.nvim

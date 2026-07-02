@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: multiple-session.nvim
+description: Provides multi-session management capabilities.
+homepage: https://github.com/niuiic/multiple-session.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - session
+aliases:
+  - niuiic/multiple-session.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:niuiic/multiple-session.nvim

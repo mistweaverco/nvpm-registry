@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: palette.nvim
+description: A beautiful, versatile, systematic, theme system.
+homepage: https://github.com/roobert/palette.nvim
+licenses:
+  - proprietary
+categories:
+  - Theme
+tags:
+  - colorscheme-creation
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - roobert/palette.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:roobert/palette.nvim

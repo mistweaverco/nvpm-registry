@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tiny-code-action.nvim
+description: Provides a simple way to run and visualize code actions with Telescope.
+homepage: https://github.com/rachartier/tiny-code-action.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - rachartier/tiny-code-action.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:rachartier/tiny-code-action.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: static.nvim
+description: Run static site generator commands.
+homepage: https://github.com/jaytyrrell13/static.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - code-runner
+aliases:
+  - jaytyrrell13/static.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:jaytyrrell13/static.nvim

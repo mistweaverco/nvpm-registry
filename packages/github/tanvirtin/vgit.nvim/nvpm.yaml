@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: vgit.nvim
+description: Visual Git Plugin to enhance your Git experience.
+homepage: https://github.com/tanvirtin/vgit.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - git
+aliases:
+  - tanvirtin/vgit.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:tanvirtin/vgit.nvim

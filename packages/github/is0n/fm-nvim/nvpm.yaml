@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: fm-nvim
+description: Neovim plugin that lets you use your favorite terminal file managers (and fuzzy finders).
+homepage: https://github.com/is0n/fm-nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - file-explorer
+aliases:
+  - is0n/fm-nvim
+editor_integration:
+  - neovim
+source:
+  id: github:is0n/fm-nvim

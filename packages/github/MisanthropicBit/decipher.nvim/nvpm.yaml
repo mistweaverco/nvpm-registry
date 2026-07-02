@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: decipher.nvim
+description: Encode and decode text using various codecs such as base64.
+homepage: https://github.com/MisanthropicBit/decipher.nvim
+licenses:
+  - BSD-3-Clause
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - MisanthropicBit/decipher.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:MisanthropicBit/decipher.nvim

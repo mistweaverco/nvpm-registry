@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: pretty-fold.nvim
+description: Foldtext customization.
+homepage: https://github.com/anuvyklack/pretty-fold.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - anuvyklack/pretty-fold.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:anuvyklack/pretty-fold.nvim

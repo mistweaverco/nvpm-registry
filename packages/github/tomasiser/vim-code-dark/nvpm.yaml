@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: vim-code-dark
+description: A dark color scheme heavily inspired by the look of the Dark+ scheme of Visual Studio Code.
+homepage: https://github.com/tomasiser/vim-code-dark
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - tomasiser/vim-code-dark
+editor_integration:
+  - neovim
+source:
+  id: github:tomasiser/vim-code-dark

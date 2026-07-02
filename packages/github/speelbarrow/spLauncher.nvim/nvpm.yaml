@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: spLauncher.nvim
+description: For launching tasks, I guess.
+homepage: https://github.com/speelbarrow/spLauncher.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - code-runner
+aliases:
+  - speelbarrow/spLauncher.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:speelbarrow/spLauncher.nvim

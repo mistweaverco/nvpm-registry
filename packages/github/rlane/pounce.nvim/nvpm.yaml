@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: pounce.nvim
+description: An EasyMotion-like plugin for quick cursor movement using fuzzy search.
+homepage: https://github.com/rlane/pounce.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - motion
+  - license:unrecognized=NOASSERTION
+  - license:raw=NOASSERTION
+aliases:
+  - rlane/pounce.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:rlane/pounce.nvim

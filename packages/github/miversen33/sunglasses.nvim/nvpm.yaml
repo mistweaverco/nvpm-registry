@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: sunglasses.nvim
+description: Dynamic Colorscheme/highlight adjuster on window switching.
+homepage: https://github.com/miversen33/sunglasses.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - color
+aliases:
+  - miversen33/sunglasses.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:miversen33/sunglasses.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: helpview.nvim
+description: A hackable & fancyvimdoc/helpfile viewer.
+homepage: https://github.com/OXY2DEV/helpview.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - neovim-lua-development
+aliases:
+  - OXY2DEV/helpview.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:OXY2DEV/helpview.nvim

@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: mason.nvim
+description: >-
+  Portable package manager that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers,
+  linters, and formatters.
+homepage: https://github.com/williamboman/mason.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+  - lsp-installer
+aliases:
+  - williamboman/mason.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:williamboman/mason.nvim

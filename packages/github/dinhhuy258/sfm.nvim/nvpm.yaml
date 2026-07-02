@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: sfm.nvim
+description: An alternative to Nvim-tree designed to be extensible and minimalist.
+homepage: https://github.com/dinhhuy258/sfm.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - file-explorer
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - dinhhuy258/sfm.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:dinhhuy258/sfm.nvim

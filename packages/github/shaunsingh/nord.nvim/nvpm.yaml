@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: shaunsingh-nord.nvim
+description: Neovim theme based off of the Nord Color Palette.
+homepage: https://github.com/shaunsingh/nord.nvim
+licenses:
+  - GPL-2.0
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - shaunsingh/nord.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:shaunsingh/nord.nvim

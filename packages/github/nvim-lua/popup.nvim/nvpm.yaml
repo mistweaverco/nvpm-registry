@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: popup.nvim
+description: An implementation of the Popup API from Vim.
+homepage: https://github.com/nvim-lua/popup.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - neovim-lua-development
+aliases:
+  - nvim-lua/popup.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nvim-lua/popup.nvim

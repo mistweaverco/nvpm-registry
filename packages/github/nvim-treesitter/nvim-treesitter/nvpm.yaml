@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-treesitter
+description: Neovim Tree-sitter configurations and abstraction layer.
+homepage: https://github.com/nvim-treesitter/nvim-treesitter
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - syntax
+aliases:
+  - nvim-treesitter/nvim-treesitter
+editor_integration:
+  - neovim
+source:
+  id: github:nvim-treesitter/nvim-treesitter

@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: browsher.nvim
+description: Create commit pinned links to GitHub hosted files/lines. Avoid stale links.
+homepage: https://github.com/claydugo/browsher.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - git
+  - github
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - claydugo/browsher.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:claydugo/browsher.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-ipy
+description: Make interfacing with IPython/Jupyter easier.
+homepage: https://github.com/bfredl/nvim-ipy
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - code-runner
+aliases:
+  - bfredl/nvim-ipy
+editor_integration:
+  - neovim
+source:
+  id: github:bfredl/nvim-ipy

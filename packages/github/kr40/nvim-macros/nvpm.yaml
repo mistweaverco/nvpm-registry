@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-macros
+description: Easy way to save and load Macros, with backup and formatting options.
+homepage: https://github.com/kr40/nvim-macros
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - register
+aliases:
+  - kr40/nvim-macros
+editor_integration:
+  - neovim
+source:
+  id: github:kr40/nvim-macros

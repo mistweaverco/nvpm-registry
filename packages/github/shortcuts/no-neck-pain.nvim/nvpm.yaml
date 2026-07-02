@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: no-neck-pain.nvim
+description: Center the currently focused buffer to the middle of your terminal.
+homepage: https://github.com/shortcuts/no-neck-pain.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - shortcuts/no-neck-pain.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:shortcuts/no-neck-pain.nvim

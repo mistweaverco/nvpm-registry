@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: CSSVarViewer
+description: Easily visualize the content of your CSS variables in a virtual text.
+homepage: https://github.com/farias-hecdin/CSSVarViewer
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - web-development
+aliases:
+  - farias-hecdin/CSSVarViewer
+editor_integration:
+  - neovim
+source:
+  id: github:farias-hecdin/CSSVarViewer

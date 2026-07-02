@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: distant.nvim
+description: Edit files, run programs, and work with LSP on a remote machine from the comfort of your local environment.
+homepage: https://github.com/chipsenkbeil/distant.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - remote-development
+aliases:
+  - chipsenkbeil/distant.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:chipsenkbeil/distant.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nekifoch.nvim
+description: Managing Kitty terminal font settings.
+homepage: https://github.com/NeViRAIDE/nekifoch.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - terminal-integration
+aliases:
+  - NeViRAIDE/nekifoch.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:NeViRAIDE/nekifoch.nvim

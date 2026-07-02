@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: neovim-project
+description: Declarative project management, automatic saving of sessions, uses Telescope.
+homepage: https://github.com/coffebar/neovim-project
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - session
+aliases:
+  - coffebar/neovim-project
+editor_integration:
+  - neovim
+source:
+  id: github:coffebar/neovim-project

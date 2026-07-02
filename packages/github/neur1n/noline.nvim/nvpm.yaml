@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: noline.nvim
+description: Fully customizable bars and lines components with no presets or constraints. Seeconstructionandsetupexamples.
+homepage: https://github.com/neur1n/noline.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+aliases:
+  - neur1n/noline.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:neur1n/noline.nvim

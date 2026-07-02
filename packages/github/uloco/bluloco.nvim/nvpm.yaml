@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: bluloco.nvim
+description: >-
+  A fancy and sophisticated colorscheme for night and day coding. Supports LSP, Tree-sitter and all the plugins you
+  love.
+homepage: https://github.com/uloco/bluloco.nvim
+licenses:
+  - LGPL-3.0
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - uloco/bluloco.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:uloco/bluloco.nvim

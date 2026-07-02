@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-lazyman
+description: Neovim configuration manager and modular configuration, supports over 40 preconfigured configurations.
+homepage: https://github.com/doctorfree/nvim-lazyman
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - doctorfree/nvim-lazyman
+editor_integration:
+  - neovim
+source:
+  id: github:doctorfree/nvim-lazyman

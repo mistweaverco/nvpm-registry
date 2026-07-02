@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: hlchunk.nvim
+description: A Lua implementation ofnvim-hlchunk, contains more features, such as highlight{}chunk, indent line, space blank etc.
+homepage: https://github.com/shellRaining/hlchunk.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - formatting
+  - indent
+aliases:
+  - shellRaining/hlchunk.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:shellRaining/hlchunk.nvim

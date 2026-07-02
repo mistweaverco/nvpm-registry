@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: neko-night-nvim
+description: A buffet of colorschemes for every taste and mood.
+homepage: https://github.com/neko-night/nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - neko-night/nvim
+editor_integration:
+  - neovim
+source:
+  id: github:neko-night/nvim

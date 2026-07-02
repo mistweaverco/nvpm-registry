@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-lspconfig
+description: Quickstart configurations for the LSP client.
+homepage: https://github.com/neovim/nvim-lspconfig
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - neovim/nvim-lspconfig
+editor_integration:
+  - neovim
+source:
+  id: github:neovim/nvim-lspconfig

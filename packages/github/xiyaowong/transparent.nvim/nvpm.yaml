@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: transparent.nvim
+description: Make your Neovim transparent.
+homepage: https://github.com/xiyaowong/transparent.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - color
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - xiyaowong/transparent.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:xiyaowong/transparent.nvim

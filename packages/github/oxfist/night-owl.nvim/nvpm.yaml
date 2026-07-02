@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: night-owl.nvim
+description: ANight Owl colorscheme port from VSCodewith support for Tree-sitter and semantic tokens.
+homepage: https://github.com/oxfist/night-owl.nvim
+licenses:
+  - BSD-3-Clause
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - oxfist/night-owl.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:oxfist/night-owl.nvim

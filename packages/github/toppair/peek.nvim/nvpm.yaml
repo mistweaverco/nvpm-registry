@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: peek.nvim
+description: Preview markdown in a webview window.
+homepage: https://github.com/toppair/peek.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - markdown-and-latex
+aliases:
+  - toppair/peek.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:toppair/peek.nvim

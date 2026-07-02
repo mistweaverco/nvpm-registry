@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: cyberdream.nvim
+description: A high-contrast, futuristic & vibrant coloursheme.
+homepage: https://github.com/scottmckendry/cyberdream.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - scottmckendry/cyberdream.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:scottmckendry/cyberdream.nvim

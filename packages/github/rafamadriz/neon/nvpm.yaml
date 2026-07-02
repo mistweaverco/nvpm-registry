@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: neon
+description: >-
+  Customizable colorscheme with excellent italic and bold support, dark and light variants. Made to work and look good
+  with Tree-sitter.
+homepage: https://github.com/rafamadriz/neon
+licenses:
+  - GPL-3.0
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - rafamadriz/neon
+editor_integration:
+  - neovim
+source:
+  id: github:rafamadriz/neon

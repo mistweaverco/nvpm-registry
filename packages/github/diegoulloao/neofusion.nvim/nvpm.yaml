@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: neofusion.nvim
+description: A theme compatible with Tree-sitter inspired bygruvbox.nvim.
+homepage: https://github.com/diegoulloao/neofusion.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - diegoulloao/neofusion.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:diegoulloao/neofusion.nvim

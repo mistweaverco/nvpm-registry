@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: iswap.nvim
+description: Interactively select and swap function arguments, list elements, and more. Powered by Tree-sitter.
+homepage: https://github.com/mizlan/iswap.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - mizlan/iswap.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mizlan/iswap.nvim

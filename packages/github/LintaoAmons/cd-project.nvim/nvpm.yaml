@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: cd-project.nvim
+description: All you need is just an easier way tocdto another project directory.
+homepage: https://github.com/LintaoAmons/cd-project.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - project
+aliases:
+  - LintaoAmons/cd-project.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:LintaoAmons/cd-project.nvim

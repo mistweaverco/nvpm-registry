@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: true-zen.nvim
+description: Clean and elegant distraction-free writing.
+homepage: https://github.com/pocco81/true-zen.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - pocco81/true-zen.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:pocco81/true-zen.nvim

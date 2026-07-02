@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: exercism.nvim
+description: Browse and solve Exercism problems.
+homepage: https://github.com/2KAbhishek/exercism.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - game
+  - competitive-programming
+aliases:
+  - 2KAbhishek/exercism.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:2KAbhishek/exercism.nvim

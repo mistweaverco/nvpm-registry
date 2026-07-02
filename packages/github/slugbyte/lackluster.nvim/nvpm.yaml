@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: lackluster.nvim
+description: A delightful mostly grayscale colorscheme that is soft on the eyes, and supports heaps of plugins.
+homepage: https://github.com/slugbyte/lackluster.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - slugbyte/lackluster.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:slugbyte/lackluster.nvim

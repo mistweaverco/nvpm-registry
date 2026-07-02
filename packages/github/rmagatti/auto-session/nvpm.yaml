@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: auto-session
+description: A small automated session manager.
+homepage: https://github.com/rmagatti/auto-session
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - session
+aliases:
+  - rmagatti/auto-session
+editor_integration:
+  - neovim
+source:
+  id: github:rmagatti/auto-session

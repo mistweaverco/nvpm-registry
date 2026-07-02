@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: yawnc.nvim
+description: Theming using pywal, with a Base16 twist.
+homepage: https://github.com/sonjiku/yawnc.nvim
+licenses:
+  - proprietary
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+  - license:unrecognized=NOASSERTION
+  - license:raw=NOASSERTION
+aliases:
+  - sonjiku/yawnc.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:sonjiku/yawnc.nvim

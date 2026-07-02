@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: themery.nvim
+description: A new way to change the colorscheme on the fly like in vscode.
+homepage: https://github.com/zaldih/themery.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Theme
+tags:
+  - colorscheme-switchers
+aliases:
+  - zaldih/themery.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:zaldih/themery.nvim

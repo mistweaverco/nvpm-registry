@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: json-to-types.nvim
+description: Convert JSON objects to type definitions for multiple languages.
+homepage: https://github.com/redoxahmii/json-to-types.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - redoxahmii/json-to-types.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:redoxahmii/json-to-types.nvim

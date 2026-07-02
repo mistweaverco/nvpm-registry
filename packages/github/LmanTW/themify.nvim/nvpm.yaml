@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: themify.nvim
+description: A lightweight colorscheme manager and switcher inspired by Themery.nvim and Lazy.nvim.
+homepage: https://github.com/LmanTW/themify.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Theme
+tags:
+  - colorscheme-switchers
+aliases:
+  - LmanTW/themify.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:LmanTW/themify.nvim

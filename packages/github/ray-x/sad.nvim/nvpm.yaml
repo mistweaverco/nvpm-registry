@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: sad.nvim
+description: Space Age seD in Neovim. Batch file edit tool, a wrapper forsad
+homepage: https://github.com/ray-x/sad.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - search
+aliases:
+  - ray-x/sad.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ray-x/sad.nvim

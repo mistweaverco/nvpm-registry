@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: bob
+description: A cross platform and easy to use Neovim version manager.
+homepage: https://github.com/MordechaiHadad/bob
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - external
+  - version-manager
+aliases:
+  - MordechaiHadad/bob
+editor_integration:
+  - neovim
+source:
+  id: github:MordechaiHadad/bob

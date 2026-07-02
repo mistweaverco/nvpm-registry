@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: im-select.nvim
+description: Switching and restoring input method automatically depends on Neovim's edit mode.
+homepage: https://github.com/keaising/im-select.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - keaising/im-select.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:keaising/im-select.nvim

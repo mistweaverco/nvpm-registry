@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: git-blame.nvim
+description: Show Git blame info.
+homepage: https://github.com/f-person/git-blame.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - git
+aliases:
+  - f-person/git-blame.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:f-person/git-blame.nvim

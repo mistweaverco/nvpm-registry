@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: obsidian
+description: Base Obsidian functionality.
+homepage: https://github.com/ada0l/obsidian
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - note-taking
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - ada0l/obsidian
+editor_integration:
+  - neovim
+source:
+  id: github:ada0l/obsidian

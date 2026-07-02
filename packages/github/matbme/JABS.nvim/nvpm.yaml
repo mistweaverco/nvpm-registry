@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: JABS.nvim
+description: Pretty and minimal buffer switcher window.
+homepage: https://github.com/matbme/JABS.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - matbme/JABS.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:matbme/JABS.nvim

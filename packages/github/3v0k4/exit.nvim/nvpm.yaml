@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: exit.nvim
+description: Prompt LLMs (large language models) to write Vim commands.
+homepage: https://github.com/3v0k4/exit.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - ai
+aliases:
+  - 3v0k4/exit.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:3v0k4/exit.nvim

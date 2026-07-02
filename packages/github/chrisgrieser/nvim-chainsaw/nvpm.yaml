@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-chainsaw
+description: >-
+  Speed up log creation. Creates various kinds of language-specific log statements, like logs of variables, assertions,
+  or time-measuring.
+homepage: https://github.com/chrisgrieser/nvim-chainsaw
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - debugging
+aliases:
+  - chrisgrieser/nvim-chainsaw
+editor_integration:
+  - neovim
+source:
+  id: github:chrisgrieser/nvim-chainsaw

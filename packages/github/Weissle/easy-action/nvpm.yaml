@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: easy-action
+description: Easily perform an action on where you can see.
+homepage: https://github.com/Weissle/easy-action
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - motion
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - Weissle/easy-action
+editor_integration:
+  - neovim
+source:
+  id: github:Weissle/easy-action

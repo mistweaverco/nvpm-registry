@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tesoura.nvim
+description: A flexible snippet system using Neovim's new snippet API.
+homepage: https://github.com/guilherme-puida/tesoura.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - snippet
+aliases:
+  - guilherme-puida/tesoura.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:guilherme-puida/tesoura.nvim

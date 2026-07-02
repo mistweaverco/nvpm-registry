@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: flash.nvim
+description: Navigate your code with search labels, enhanced character motions and Tree-sitter integration.
+homepage: https://github.com/folke/flash.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - motion
+aliases:
+  - folke/flash.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:folke/flash.nvim

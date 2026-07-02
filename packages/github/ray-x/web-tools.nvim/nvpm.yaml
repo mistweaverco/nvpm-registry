@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: web-tools.nvim
+description: Launch a local development server with live reload feature for static & dynamic pages, HTML & CSS tag rename with LSP.
+homepage: https://github.com/ray-x/web-tools.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - web-development
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - ray-x/web-tools.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ray-x/web-tools.nvim

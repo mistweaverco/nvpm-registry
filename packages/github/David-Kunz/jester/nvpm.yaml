@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: jester
+description: Easily run and debug Jest tests.
+homepage: https://github.com/David-Kunz/jester
+licenses:
+  - Unlicense
+categories:
+  - Plugin
+tags:
+  - test
+aliases:
+  - David-Kunz/jester
+editor_integration:
+  - neovim
+source:
+  id: github:David-Kunz/jester

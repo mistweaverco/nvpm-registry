@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: scnvim
+description: Neovim frontend for SuperCollider.
+homepage: https://github.com/davidgranstrom/scnvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - media
+aliases:
+  - davidgranstrom/scnvim
+editor_integration:
+  - neovim
+source:
+  id: github:davidgranstrom/scnvim

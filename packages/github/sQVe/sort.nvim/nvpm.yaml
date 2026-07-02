@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: sort.nvim
+description: Sorting plugin that intelligently supports line-wise and delimiter sorting.
+homepage: https://github.com/sQVe/sort.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - sQVe/sort.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:sQVe/sort.nvim

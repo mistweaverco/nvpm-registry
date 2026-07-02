@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: beacon.nvim
+description: Highlights cursor when it moves, changes windows and more. Inspired by Emacs beacon package.
+homepage: https://github.com/DanilaMihailov/beacon.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - motion
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - DanilaMihailov/beacon.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:DanilaMihailov/beacon.nvim

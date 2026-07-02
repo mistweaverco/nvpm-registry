@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tangerine.nvim
+description: Tangerine provides a painless way to add fennel to your config.
+homepage: https://github.com/udayvir-singh/tangerine.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - fennel
+aliases:
+  - udayvir-singh/tangerine.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:udayvir-singh/tangerine.nvim

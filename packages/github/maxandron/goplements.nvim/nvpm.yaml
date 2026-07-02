@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: goplements.nvim
+description: Visualize Go struct and interface implementations.
+homepage: https://github.com/maxandron/goplements.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - golang
+aliases:
+  - maxandron/goplements.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:maxandron/goplements.nvim

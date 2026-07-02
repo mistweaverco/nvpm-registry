@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-scrollbar
+description: Extensible scrollbar that shows diagnostics and search results.
+homepage: https://github.com/petertriho/nvim-scrollbar
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - scrolling
+  - scrollbar
+aliases:
+  - petertriho/nvim-scrollbar
+editor_integration:
+  - neovim
+source:
+  id: github:petertriho/nvim-scrollbar

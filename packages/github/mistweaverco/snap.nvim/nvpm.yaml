@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: snap.nvim
+description: Neovim screenshots that match your color scheme and font settings.
+homepage: https://snap.nvim.forthelazy.dev
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - screenshot
+aliases:
+  - mistweaverco/snap.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mistweaverco/snap.nvim

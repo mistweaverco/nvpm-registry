@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-treesitter-context
+description: Shows floating hover with the current function/block context.
+homepage: https://github.com/nvim-treesitter/nvim-treesitter-context
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - nvim-treesitter/nvim-treesitter-context
+editor_integration:
+  - neovim
+source:
+  id: github:nvim-treesitter/nvim-treesitter-context

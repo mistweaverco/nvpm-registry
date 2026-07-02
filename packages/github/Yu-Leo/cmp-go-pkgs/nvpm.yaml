@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: Yu-Leo-cmp-go-pkgs
+description: Cmp source providing the names of Go packages to import.
+homepage: https://github.com/Yu-Leo/cmp-go-pkgs
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - golang
+aliases:
+  - Yu-Leo/cmp-go-pkgs
+editor_integration:
+  - neovim
+source:
+  id: github:Yu-Leo/cmp-go-pkgs

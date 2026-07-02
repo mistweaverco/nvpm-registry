@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: gentags.nvim
+description: The tags generator/management for old school vimers.
+homepage: https://github.com/linrongbin16/gentags.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - linrongbin16/gentags.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:linrongbin16/gentags.nvim

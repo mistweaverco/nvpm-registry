@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: andersevenrud-nordic.nvim
+description: A nord-esque colorscheme.
+homepage: https://github.com/andersevenrud/nordic.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - andersevenrud/nordic.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:andersevenrud/nordic.nvim

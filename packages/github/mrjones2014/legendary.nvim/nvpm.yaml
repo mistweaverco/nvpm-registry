@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: legendary.nvim
+description: >-
+  Define your keymaps, commands, and autocommands as simple Lua tables, and create a legend for them at the same time
+  (like VS Code's Command Palette), integrates withwhich-key.nvim.
+homepage: https://github.com/mrjones2014/legendary.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - keybinding
+aliases:
+  - mrjones2014/legendary.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mrjones2014/legendary.nvim

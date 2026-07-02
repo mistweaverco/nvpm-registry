@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: utilities.nvim
+description: A repository to collect some little utility functions.
+homepage: https://github.com/Mr-LLLLL/utilities.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - utility
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - Mr-LLLLL/utilities.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Mr-LLLLL/utilities.nvim

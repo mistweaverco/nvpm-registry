@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-puppeteer
+description: Automatically convert strings to f-strings or template strings and back.
+homepage: https://github.com/chrisgrieser/nvim-puppeteer
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - chrisgrieser/nvim-puppeteer
+editor_integration:
+  - neovim
+source:
+  id: github:chrisgrieser/nvim-puppeteer

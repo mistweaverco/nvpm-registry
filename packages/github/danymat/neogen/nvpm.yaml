@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: neogen
+description: A better annotation generator. Supports multiple languages and annotation conventions.
+homepage: https://github.com/danymat/neogen
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - editing-support
+  - comment
+aliases:
+  - danymat/neogen
+editor_integration:
+  - neovim
+source:
+  id: github:danymat/neogen

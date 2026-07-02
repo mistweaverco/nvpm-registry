@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-window
+description: Easily jump between Neovim windows.
+homepage: https://github.com/yorickpeterse/nvim-window
+licenses:
+  - MPL-2.0
+categories:
+  - Plugin
+tags:
+  - split-and-window
+aliases:
+  - yorickpeterse/nvim-window
+editor_integration:
+  - neovim
+source:
+  id: github:yorickpeterse/nvim-window
