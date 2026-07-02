@@ -20,8 +20,12 @@ This is the [registry][registry-website] for [NVPM][website],
 </div>
 
 > [!IMPORTANT]
-> Package versions are updated every twelve hours.
+> Package versions are updated once every day.
+>
+> The update starts at 12 Central European Time (CET) and
+> takes around 30 minutes to complete.
 > The updater only **updates** the monthly release.
+>
 > It does also update the release notes if there are any changes.
 > This is to avoid spamming the registry with releases.
 > This means, there is one **release** per month.
