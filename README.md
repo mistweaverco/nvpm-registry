@@ -81,7 +81,8 @@ Main differences between the Mason registry and the NVPM registry:
       for GitLab (supports unlimited sub-folders)
 - Package IDs use the format `<provider>:<package-id>`
   (e.g., `npm:@mistweaverco/kulala-ls`, `github:dprint/dprint`)
-- Releases are done every twelve hours, but do only **update** the monthly release.
+- Releases are done every day at 12 Central European Time (CET),
+  but do only **update** the monthly release.
   - This is to avoid spamming the registry.
 
 > [!NOTE]

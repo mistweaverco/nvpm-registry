@@ -9,10 +9,12 @@ NOTES_BODY=""
 
 create_registry() {
   bun . || exit 1
-  cd .tmp || exit 2
-  zip -r registry.json.zip registry.json && zip -r nvpm-registry.json.zip nvpm-registry.json || exit 3
-  sha256sum nvpm-registry.json nvpm-registry.json.zip > nvpm-checksums.txt || exit 4
-  sha256sum registry.json registry.json.zip > checksums.txt || exit 5
+  (
+    cd .tmp || exit 2
+    zip -r registry.json.zip registry.json && zip -r nvpm-registry.json.zip nvpm-registry.json || exit 3
+    sha256sum nvpm-registry.json nvpm-registry.json.zip > nvpm-checksums.txt || exit 4
+    sha256sum registry.json registry.json.zip > checksums.txt || exit 5
+  ) || exit $?
 }
 
 set_release_action() {
@@ -63,7 +65,7 @@ do_gh_release() {
       .tmp/nvpm-registry.json.zip \
       .tmp/nvpm-checksums.txt \
       .tmp/registry.json.zip \
-      ./tmp/checksums.txt \
+      .tmp/checksums.txt \
       --title "$NOTES_TITLE" \
       --notes-file <(echo "$NOTES_BODY") || exit 8
   fi
