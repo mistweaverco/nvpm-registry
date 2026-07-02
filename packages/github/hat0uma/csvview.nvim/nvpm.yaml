@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: csvview.nvim
+description: >-
+  An asynchronous CSV/TSV table viewer with real-time updates, configurable comments and delimiters, and multiple
+  display modes.
+homepage: https://github.com/hat0uma/csvview.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+  - csv-files
+aliases:
+  - hat0uma/csvview.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:hat0uma/csvview.nvim

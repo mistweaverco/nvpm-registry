@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-web-devicons
+description: A Lua fork ofvim-devicons.
+homepage: https://github.com/nvim-tree/nvim-web-devicons
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - icon
+aliases:
+  - nvim-tree/nvim-web-devicons
+editor_integration:
+  - neovim
+source:
+  id: github:nvim-tree/nvim-web-devicons

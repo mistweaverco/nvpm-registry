@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: vim-illuminate
+description: >-
+  Highlight the word under the cursor. Neovim's builtin LSP is available, it can be used to highlight more
+  intelligently.
+homepage: https://github.com/RRethy/vim-illuminate
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+  - cursorline
+aliases:
+  - RRethy/vim-illuminate
+editor_integration:
+  - neovim
+source:
+  id: github:RRethy/vim-illuminate

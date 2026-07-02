@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: gist.nvim
+description: Create a GitHub Gist from the current file (powered by gh).
+homepage: https://github.com/rawnly/gist.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - git
+  - github
+aliases:
+  - rawnly/gist.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:rawnly/gist.nvim

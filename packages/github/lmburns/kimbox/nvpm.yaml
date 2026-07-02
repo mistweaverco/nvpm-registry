@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: kimbox
+description: >-
+  A colorscheme with a dark background, and vibrant foreground that is centered around the color brown. A modification
+  ofKimbie Dark.
+homepage: https://github.com/lmburns/kimbox
+licenses:
+  - proprietary
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - lmburns/kimbox
+editor_integration:
+  - neovim
+source:
+  id: github:lmburns/kimbox

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tmux-send.nvim
+description: Copy and paste buffer content or file path in Nvim-Tree, Neo-Tree, Oil to another tmux pane in Neovim.
+homepage: https://github.com/kiyoon/tmux-send.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - split-and-window
+  - tmux
+aliases:
+  - kiyoon/tmux-send.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:kiyoon/tmux-send.nvim

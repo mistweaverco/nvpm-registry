@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: everforest-nvim
+description: A Lua port of the Everforest colour scheme.
+homepage: https://github.com/neanias/everforest-nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - neanias/everforest-nvim
+editor_integration:
+  - neovim
+source:
+  id: github:neanias/everforest-nvim

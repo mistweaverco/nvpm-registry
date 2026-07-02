@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: lazy.nvim
+description: A modern plugin manager, featuring a graphical interface, async execution, a lockfile and more.
+homepage: https://github.com/folke/lazy.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - plugin-manager
+aliases:
+  - folke/lazy.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:folke/lazy.nvim

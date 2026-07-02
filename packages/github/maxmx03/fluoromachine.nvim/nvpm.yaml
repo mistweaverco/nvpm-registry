@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: fluoromachine.nvim
+description: Synthwave x Fluoromachine port.
+homepage: https://github.com/maxmx03/fluoromachine.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - maxmx03/fluoromachine.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:maxmx03/fluoromachine.nvim

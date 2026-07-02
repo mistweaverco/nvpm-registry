@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: flygrep.nvim
+description: Search text in a floating window asynchronously.
+homepage: https://github.com/wsdjeg/flygrep.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - search
+aliases:
+  - wsdjeg/flygrep.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:wsdjeg/flygrep.nvim

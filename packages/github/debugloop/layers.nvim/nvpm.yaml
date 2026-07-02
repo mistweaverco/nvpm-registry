@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: layers.nvim
+description: Craft temporary keymap overlays and layered modes with ease.
+homepage: https://github.com/debugloop/layers.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - keybinding
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - debugloop/layers.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:debugloop/layers.nvim

@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: barbar.nvim
+description: The Neovim tabline plugin.
+homepage: https://github.com/romgrk/barbar.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+  - tabline
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - romgrk/barbar.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:romgrk/barbar.nvim

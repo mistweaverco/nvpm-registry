@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: statusline.lua
+description: A zero-config minimal statusline written in Lua featuring awesome integrations and blazing speed!
+homepage: https://github.com/beauwilliams/statusline.lua
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+  - statusline
+aliases:
+  - beauwilliams/statusline.lua
+editor_integration:
+  - neovim
+source:
+  id: github:beauwilliams/statusline.lua

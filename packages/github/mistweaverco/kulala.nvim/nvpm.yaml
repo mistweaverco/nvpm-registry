@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: kulala.nvim
+description: |-
+  A fully-featured REST Client Interface for Neovim.
+
+  ## Features
+
+  - Protocols: HTTP, GRPC, GraphQL, WebSocket, Streaming
+  - Specs: HTTP File Spec and IntelliJ HTTP Client compliant
+homepage: https://kulala.app
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - rest
+  - graphql
+  - websocket
+  - grpc
+  - curl
+aliases:
+  - mistweaverco/kulala.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mistweaverco/kulala.nvim

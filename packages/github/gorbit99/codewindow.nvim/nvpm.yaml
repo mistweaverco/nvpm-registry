@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: codewindow.nvim
+description: >-
+  Minimap plugin, that is closely integrated with Tree-sitter and the builtin LSP to display more information to the
+  user.
+homepage: https://github.com/gorbit99/codewindow.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - scrolling
+  - scrollbar
+aliases:
+  - gorbit99/codewindow.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:gorbit99/codewindow.nvim

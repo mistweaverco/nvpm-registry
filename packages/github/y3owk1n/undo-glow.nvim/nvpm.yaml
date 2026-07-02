@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: undo-glow.nvim
+description: >-
+  Animated glow/highlight effects for Neovim operations (undo, redo, yank, paste, etc.) with fully customizable
+  animations and appearance.
+homepage: https://github.com/y3owk1n/undo-glow.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - y3owk1n/undo-glow.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:y3owk1n/undo-glow.nvim

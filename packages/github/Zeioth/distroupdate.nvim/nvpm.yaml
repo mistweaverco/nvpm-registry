@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: distroupdate.nvim
+description: Distro agnostic updater to get the latest changes from the Git repository of your config.
+homepage: https://github.com/Zeioth/distroupdate.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - Zeioth/distroupdate.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Zeioth/distroupdate.nvim

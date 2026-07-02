@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nyoom.nvim
+description: >-
+  Blazing fast, configurable, minimal and lispy Neovim config written in Fennel. Base config for users to extend and add
+  upon, leading to a more unique editing experience.
+homepage: https://github.com/shaunsingh/nyoom.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - shaunsingh/nyoom.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:shaunsingh/nyoom.nvim

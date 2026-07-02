@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: gloombuddy
+description: Gloom inspired theme.
+homepage: https://github.com/bkegley/gloombuddy
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - bkegley/gloombuddy
+editor_integration:
+  - neovim
+source:
+  id: github:bkegley/gloombuddy

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: gitsigns.nvim
+description: 'Git integration: signs, hunk actions, blame, etc.'
+homepage: https://github.com/lewis6991/gitsigns.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - git
+aliases:
+  - lewis6991/gitsigns.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:lewis6991/gitsigns.nvim

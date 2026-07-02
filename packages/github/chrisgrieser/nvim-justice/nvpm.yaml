@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-justice
+description: Lightweight integration of thejusttask runner.
+homepage: https://github.com/chrisgrieser/nvim-justice
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - code-runner
+aliases:
+  - chrisgrieser/nvim-justice
+editor_integration:
+  - neovim
+source:
+  id: github:chrisgrieser/nvim-justice

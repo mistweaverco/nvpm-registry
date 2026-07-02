@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: ts-error-translator.nvim
+description: >-
+  A port of Matt Pocock's ts-error-translator for VSCode for turning messy and confusing TypeScript errors into plain
+  English.
+homepage: https://github.com/dmmulroy/ts-error-translator.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+aliases:
+  - dmmulroy/ts-error-translator.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:dmmulroy/ts-error-translator.nvim

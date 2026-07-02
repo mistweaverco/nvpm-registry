@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: github-nvim-theme
+description: A GitHub theme, kitty, alacritty written in Lua. Support built-in LSP and Tree-sitter.
+homepage: https://github.com/projekt0n/github-nvim-theme
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - projekt0n/github-nvim-theme
+editor_integration:
+  - neovim
+source:
+  id: github:projekt0n/github-nvim-theme

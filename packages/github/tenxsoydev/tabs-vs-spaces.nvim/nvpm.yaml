@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tabs-vs-spaces.nvim
+description: Hint and fix deviating indentation.
+homepage: https://github.com/tenxsoydev/tabs-vs-spaces.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - formatting
+aliases:
+  - tenxsoydev/tabs-vs-spaces.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:tenxsoydev/tabs-vs-spaces.nvim

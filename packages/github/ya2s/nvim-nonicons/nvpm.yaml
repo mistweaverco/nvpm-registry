@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-nonicons
+description: Collection of configurations for nvim-web-devicons.
+homepage: https://github.com/ya2s/nvim-nonicons
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - icon
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - ya2s/nvim-nonicons
+editor_integration:
+  - neovim
+source:
+  id: github:ya2s/nvim-nonicons

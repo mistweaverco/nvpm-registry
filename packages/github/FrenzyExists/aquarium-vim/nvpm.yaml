@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: aquarium-vim
+description: A dark, yet vibrant colorscheme.
+homepage: https://github.com/FrenzyExists/aquarium-vim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - FrenzyExists/aquarium-vim
+editor_integration:
+  - neovim
+source:
+  id: github:FrenzyExists/aquarium-vim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-unception
+description: Automatic unnesting of Neovim sessions started from terminal buffers.
+homepage: https://github.com/samjwill/nvim-unception
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - terminal-integration
+aliases:
+  - samjwill/nvim-unception
+editor_integration:
+  - neovim
+source:
+  id: github:samjwill/nvim-unception

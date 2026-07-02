@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: dusk.nvim
+description: >-
+  Dusk is a lightweight, aesthetically minimal Neovim config, written in Lua, able to provide for web and Java
+  development.
+homepage: https://github.com/imbacraft/dusk.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - imbacraft/dusk.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:imbacraft/dusk.nvim

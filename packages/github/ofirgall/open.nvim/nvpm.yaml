@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: open.nvim
+description: Open the current word with custom openers, GitHub shorthand for example.
+homepage: https://github.com/ofirgall/open.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - marks
+aliases:
+  - ofirgall/open.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ofirgall/open.nvim

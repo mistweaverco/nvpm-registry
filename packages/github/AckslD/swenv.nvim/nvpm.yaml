@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: swenv.nvim
+description: Tiny plugin to quickly switch Python virtual environments without restarting.
+homepage: https://github.com/AckslD/swenv.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - AckslD/swenv.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:AckslD/swenv.nvim

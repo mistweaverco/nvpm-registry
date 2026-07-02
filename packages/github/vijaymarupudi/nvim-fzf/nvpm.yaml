@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-fzf
+description: A Lua API for using FZF (Neovim >= 0.5). Allows for full asynchronicity for UI speed and usability.
+homepage: https://github.com/vijaymarupudi/nvim-fzf
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - fuzzy-finder
+aliases:
+  - vijaymarupudi/nvim-fzf
+editor_integration:
+  - neovim
+source:
+  id: github:vijaymarupudi/nvim-fzf

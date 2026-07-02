@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: karen-yank.nvim
+description: More intentional register handling with delete, cut and yank mappings.
+homepage: https://github.com/tenxsoydev/karen-yank.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - register
+aliases:
+  - tenxsoydev/karen-yank.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:tenxsoydev/karen-yank.nvim

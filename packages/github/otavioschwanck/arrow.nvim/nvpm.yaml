@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: arrow.nvim
+description: Like harpoon, but with a different UX, single keybinding needed and statusline support.
+homepage: https://github.com/otavioschwanck/arrow.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - marks
+  - license:unrecognized=NOASSERTION
+  - license:raw=NOASSERTION
+aliases:
+  - otavioschwanck/arrow.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:otavioschwanck/arrow.nvim

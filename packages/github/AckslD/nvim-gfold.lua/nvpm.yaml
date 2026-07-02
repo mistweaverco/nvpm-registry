@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-gfold.lua
+description: Plugin usinggfoldto switch repo and have statusline component.
+homepage: https://github.com/AckslD/nvim-gfold.lua
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - git
+aliases:
+  - AckslD/nvim-gfold.lua
+editor_integration:
+  - neovim
+source:
+  id: github:AckslD/nvim-gfold.lua

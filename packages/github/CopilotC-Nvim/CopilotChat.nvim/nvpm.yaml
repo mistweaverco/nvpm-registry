@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: CopilotChat.nvim
+description: A chat interface for GitHub Copilot that allows you to directly ask and receive answers to coding-related questions.
+homepage: https://github.com/CopilotC-Nvim/CopilotChat.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - ai
+aliases:
+  - CopilotC-Nvim/CopilotChat.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:CopilotC-Nvim/CopilotChat.nvim

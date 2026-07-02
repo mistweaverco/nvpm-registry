@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: numb.nvim
+description: Peek lines in a non-obtrusive way.
+homepage: https://github.com/nacro90/numb.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - nacro90/numb.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nacro90/numb.nvim

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tidy.nvim
+description: Clear trailing whitespace and empty lines at end of file on every save.
+homepage: https://github.com/mcauley-penney/tidy.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - formatting
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - mcauley-penney/tidy.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mcauley-penney/tidy.nvim

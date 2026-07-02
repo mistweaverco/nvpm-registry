@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: music-controls.nvim
+description: Quickly control your favorite music player (Spotify, VLC, and more).
+homepage: https://github.com/AntonVanAssche/music-controls.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - media
+aliases:
+  - AntonVanAssche/music-controls.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:AntonVanAssche/music-controls.nvim

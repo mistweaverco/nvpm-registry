@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: quicktest.nvim
+description: Run your tests in split window or popup with live feedback.
+homepage: https://github.com/quolpr/quicktest.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - test
+aliases:
+  - quolpr/quicktest.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:quolpr/quicktest.nvim

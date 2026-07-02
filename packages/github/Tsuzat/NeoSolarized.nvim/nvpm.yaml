@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: NeoSolarized.nvim
+description: NeoSolarized colorscheme with full transparency.
+homepage: https://github.com/Tsuzat/NeoSolarized.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - Tsuzat/NeoSolarized.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Tsuzat/NeoSolarized.nvim

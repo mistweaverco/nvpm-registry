@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: buffon.nvim
+description: Buffers navigation, reorganize and close.
+homepage: https://github.com/francescarpi/buffon.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - marks
+aliases:
+  - francescarpi/buffon.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:francescarpi/buffon.nvim

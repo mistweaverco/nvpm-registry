@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-config-local
+description: Secure load local config files from working directories.
+homepage: https://github.com/klen/nvim-config-local
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - project
+aliases:
+  - klen/nvim-config-local
+editor_integration:
+  - neovim
+source:
+  id: github:klen/nvim-config-local

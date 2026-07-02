@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-llama
+description: LLM (Llama 2 and llama.cpp) wrappers.
+homepage: https://github.com/jpmcb/nvim-llama
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - ai
+aliases:
+  - jpmcb/nvim-llama
+editor_integration:
+  - neovim
+source:
+  id: github:jpmcb/nvim-llama

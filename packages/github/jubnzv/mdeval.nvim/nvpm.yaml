@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: mdeval.nvim
+description: Evaluate code blocks inside markdown documents.
+homepage: https://github.com/jubnzv/mdeval.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - markdown-and-latex
+aliases:
+  - jubnzv/mdeval.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:jubnzv/mdeval.nvim

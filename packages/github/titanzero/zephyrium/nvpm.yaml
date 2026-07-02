@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: zephyrium
+description: A zephyr-esque theme, written in Lua, with Tree-sitter support.
+homepage: https://github.com/titanzero/zephyrium
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - titanzero/zephyrium
+editor_integration:
+  - neovim
+source:
+  id: github:titanzero/zephyrium

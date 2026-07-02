@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: ferris.nvim
+description: Interact with Rust-Analyzer's LSP extensions.
+homepage: https://github.com/vxpm/ferris.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - vxpm/ferris.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:vxpm/ferris.nvim

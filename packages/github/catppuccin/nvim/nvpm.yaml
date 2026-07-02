@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: catppuccin-nvim
+description: Warm mid-tone dark theme to show off your vibrant self! With support for native LSP, Tree-sitter, and more.
+homepage: https://github.com/catppuccin/nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - catppuccin/nvim
+editor_integration:
+  - neovim
+source:
+  id: github:catppuccin/nvim

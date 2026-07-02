@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: bmessages.nvim
+description: Replace the default :messages window with a configurable, auto-updating buffer.
+homepage: https://github.com/ariel-frischer/bmessages.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - ariel-frischer/bmessages.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ariel-frischer/bmessages.nvim

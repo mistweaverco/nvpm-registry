@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: edge
+description: Clean & Elegant Color Scheme inspired by Atom One and Material.
+homepage: https://github.com/sainnhe/edge
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - sainnhe/edge
+editor_integration:
+  - neovim
+source:
+  id: github:sainnhe/edge

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: neopyter
+description: The bridge between Neovim and jupyter lab, edit in Neovim and preview/run in jupyter lab.
+homepage: https://github.com/SUSTech-data/neopyter
+licenses:
+  - BSD-3-Clause
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - SUSTech-data/neopyter
+editor_integration:
+  - neovim
+source:
+  id: github:SUSTech-data/neopyter

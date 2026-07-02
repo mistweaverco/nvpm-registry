@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: goto-breakpoints.nvim
+description: Cycle between breakpoints for nvim-dap.
+homepage: https://github.com/ofirgall/goto-breakpoints.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - debugging
+aliases:
+  - ofirgall/goto-breakpoints.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ofirgall/goto-breakpoints.nvim

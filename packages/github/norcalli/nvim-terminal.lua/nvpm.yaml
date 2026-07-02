@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-terminal.lua
+description: A high performance filetype mode which leverages conceal and highlights your buffer with the correct color codes.
+homepage: https://github.com/norcalli/nvim-terminal.lua
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - terminal-integration
+aliases:
+  - norcalli/nvim-terminal.lua
+editor_integration:
+  - neovim
+source:
+  id: github:norcalli/nvim-terminal.lua

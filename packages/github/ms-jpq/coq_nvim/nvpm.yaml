@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: coq_nvim
+description: Fast as FUCK Neovim completion. SQLite, concurrent scheduler, hundreds of hours of optimization.
+homepage: https://github.com/ms-jpq/coq_nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - completion
+aliases:
+  - ms-jpq/coq_nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ms-jpq/coq_nvim

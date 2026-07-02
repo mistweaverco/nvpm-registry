@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: md-pdf.nvim
+description: Preview markdown files and convert to PDF.
+homepage: https://github.com/arminveres/md-pdf.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - markdown-and-latex
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - arminveres/md-pdf.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:arminveres/md-pdf.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: ecolog.nvim
+description: Sophisticated all-in-one toolkit to work with.envfiles and environment variables.
+homepage: https://github.com/philosofonusus/ecolog.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - philosofonusus/ecolog.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:philosofonusus/ecolog.nvim

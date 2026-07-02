@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: dracula.nvim
+description: Dracula colorscheme for Neovim written in Lua.
+homepage: https://github.com/Mofiqul/dracula.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - Mofiqul/dracula.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Mofiqul/dracula.nvim

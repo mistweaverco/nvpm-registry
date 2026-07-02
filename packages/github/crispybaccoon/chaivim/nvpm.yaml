@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: chaivim
+description: Easily configurable distro with solid defaults and a cozy editor experience.
+homepage: https://github.com/crispybaccoon/chaivim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - crispybaccoon/chaivim
+editor_integration:
+  - neovim
+source:
+  id: github:crispybaccoon/chaivim

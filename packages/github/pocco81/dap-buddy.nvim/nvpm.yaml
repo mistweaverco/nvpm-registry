@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: dap-buddy.nvim
+description: Manage several debuggers for nvim-dap.
+homepage: https://github.com/pocco81/dap-buddy.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - debugging
+aliases:
+  - pocco81/dap-buddy.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:pocco81/dap-buddy.nvim

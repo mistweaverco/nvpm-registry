@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-ghost.nvim
+description: GhostText support with zero dependencies.
+homepage: https://github.com/subnut/nvim-ghost.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - subnut/nvim-ghost.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:subnut/nvim-ghost.nvim

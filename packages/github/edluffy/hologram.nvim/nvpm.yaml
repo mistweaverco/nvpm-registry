@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: hologram.nvim
+description: A cross platform terminal image viewer. Works on macOS and Linux.
+homepage: https://github.com/edluffy/hologram.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - media
+aliases:
+  - edluffy/hologram.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:edluffy/hologram.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: base16-nvim
+description: Neovim plugin for building base16 colorschemes. Includes support for Tree-sitter and LSP highlight groups.
+homepage: https://github.com/RRethy/base16-nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - RRethy/base16-nvim
+editor_integration:
+  - neovim
+source:
+  id: github:RRethy/base16-nvim

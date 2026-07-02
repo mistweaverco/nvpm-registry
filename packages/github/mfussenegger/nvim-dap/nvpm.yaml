@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-dap
+description: Debug Adapter Protocol client implementation.
+homepage: https://github.com/mfussenegger/nvim-dap
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - debugging
+aliases:
+  - mfussenegger/nvim-dap
+editor_integration:
+  - neovim
+source:
+  id: github:mfussenegger/nvim-dap

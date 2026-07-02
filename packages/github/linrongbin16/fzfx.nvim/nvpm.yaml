@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: fzfx.nvim
+description: A fuzzy finder that updates on every keystroke.
+homepage: https://github.com/linrongbin16/fzfx.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - fuzzy-finder
+aliases:
+  - linrongbin16/fzfx.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:linrongbin16/fzfx.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: twilight.nvim
+description: Dim inactive portions of the code you're editing using Tree-sitter.
+homepage: https://github.com/folke/twilight.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - color
+aliases:
+  - folke/twilight.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:folke/twilight.nvim

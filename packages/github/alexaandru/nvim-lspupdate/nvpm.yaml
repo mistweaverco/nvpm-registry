@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-lspupdate
+description: Updates installed (or auto installs if missing) LSP servers.
+homepage: https://github.com/alexaandru/nvim-lspupdate
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+  - lsp-installer
+aliases:
+  - alexaandru/nvim-lspupdate
+editor_integration:
+  - neovim
+source:
+  id: github:alexaandru/nvim-lspupdate

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: carbon.nvim
+description: The simple directory tree viewer written in Lua.
+homepage: https://github.com/SidOfc/carbon.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - file-explorer
+aliases:
+  - SidOfc/carbon.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:SidOfc/carbon.nvim

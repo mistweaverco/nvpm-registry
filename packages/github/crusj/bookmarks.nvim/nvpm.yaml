@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: crusj-bookmarks.nvim
+description: Remember file locations and sort by time and frequency.
+homepage: https://github.com/crusj/bookmarks.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - crusj/bookmarks.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:crusj/bookmarks.nvim

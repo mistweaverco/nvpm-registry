@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-pqf
+description: Prettier quickfix/location list windows.
+homepage: https://github.com/yorickpeterse/nvim-pqf
+licenses:
+  - MPL-2.0
+categories:
+  - Plugin
+tags:
+  - debugging
+  - quickfix
+aliases:
+  - yorickpeterse/nvim-pqf
+editor_integration:
+  - neovim
+source:
+  id: github:yorickpeterse/nvim-pqf

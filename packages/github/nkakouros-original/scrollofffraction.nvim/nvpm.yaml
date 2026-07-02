@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: scrollofffraction.nvim
+description: Scrolloff as a fraction of the window height.
+homepage: https://github.com/nkakouros-original/scrollofffraction.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - scrolling
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - nkakouros-original/scrollofffraction.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nkakouros-original/scrollofffraction.nvim

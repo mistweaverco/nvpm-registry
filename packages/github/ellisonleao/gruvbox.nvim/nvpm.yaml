@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: gruvbox.nvim
+description: Gruvbox community colorscheme Lua port.
+homepage: https://github.com/ellisonleao/gruvbox.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - lua-colorscheme
+aliases:
+  - ellisonleao/gruvbox.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ellisonleao/gruvbox.nvim

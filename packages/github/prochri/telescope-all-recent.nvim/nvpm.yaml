@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: telescope-all-recent.nvim
+description: Frequency and recency sorter for any Telescope picker.
+homepage: https://github.com/prochri/telescope-all-recent.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - search
+aliases:
+  - prochri/telescope-all-recent.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:prochri/telescope-all-recent.nvim

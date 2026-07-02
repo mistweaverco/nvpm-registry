@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvoid
+description: Simple Neovim config written in Lua with all the modern features available in anyIDE
+homepage: https://github.com/nvoid-lua/nvoid
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - nvoid-lua/nvoid
+editor_integration:
+  - neovim
+source:
+  id: github:nvoid-lua/nvoid

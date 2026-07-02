@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: darkearth-nvim
+description: A dark and earthy colorscheme supporting Tree-sitter and LSP.
+homepage: https://github.com/ptdewey/darkearth-nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - ptdewey/darkearth-nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ptdewey/darkearth-nvim

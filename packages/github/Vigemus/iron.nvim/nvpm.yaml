@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: iron.nvim
+description: Interactive REPLs of over 30 languages embedded.
+homepage: https://github.com/Vigemus/iron.nvim
+licenses:
+  - BSD-3-Clause
+categories:
+  - Plugin
+tags:
+  - code-runner
+aliases:
+  - Vigemus/iron.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Vigemus/iron.nvim

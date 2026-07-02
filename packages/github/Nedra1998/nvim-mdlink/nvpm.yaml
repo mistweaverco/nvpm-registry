@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-mdlink
+description: Simplify creating and following markdown links.
+homepage: https://github.com/Nedra1998/nvim-mdlink
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - markdown-and-latex
+aliases:
+  - Nedra1998/nvim-mdlink
+editor_integration:
+  - neovim
+source:
+  id: github:Nedra1998/nvim-mdlink

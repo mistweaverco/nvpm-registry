@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: cheatsheet.nvim
+description: Searchable cheatsheet.
+homepage: https://github.com/doctorfree/cheatsheet.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - utility
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - doctorfree/cheatsheet.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:doctorfree/cheatsheet.nvim

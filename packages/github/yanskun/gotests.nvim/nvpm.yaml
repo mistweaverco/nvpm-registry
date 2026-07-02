@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: gotests.nvim
+description: Make Go tests easy withgotests.
+homepage: https://github.com/yanskun/gotests.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - golang
+aliases:
+  - yanskun/gotests.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:yanskun/gotests.nvim

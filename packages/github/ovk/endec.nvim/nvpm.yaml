@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: endec.nvim
+description: Encode, decode and re-encode text using Base64, Base64URL and URL (percent) encodings.
+homepage: https://github.com/ovk/endec.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - ovk/endec.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ovk/endec.nvim

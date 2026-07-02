@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-metals
+description: Neovim plugin for Metals, the Scala language server, using Neovim's builtin LSP.
+homepage: https://github.com/scalameta/nvim-metals
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - scalameta/nvim-metals
+editor_integration:
+  - neovim
+source:
+  id: github:scalameta/nvim-metals

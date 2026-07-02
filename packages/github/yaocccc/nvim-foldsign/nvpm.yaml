@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-foldsign
+description: Display folds on sign column.
+homepage: https://github.com/yaocccc/nvim-foldsign
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - yaocccc/nvim-foldsign
+editor_integration:
+  - neovim
+source:
+  id: github:yaocccc/nvim-foldsign

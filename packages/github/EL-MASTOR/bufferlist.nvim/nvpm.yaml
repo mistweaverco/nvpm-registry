@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: bufferlist.nvim
+description: A super fast, lightweight, minimal and super easy buffer manager.
+homepage: https://github.com/EL-MASTOR/bufferlist.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - utility
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - EL-MASTOR/bufferlist.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:EL-MASTOR/bufferlist.nvim

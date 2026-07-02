@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: deadcolumn.nvim
+description: Shows your colorcolumn dynamically.
+homepage: https://github.com/Bekaboo/deadcolumn.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+aliases:
+  - Bekaboo/deadcolumn.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Bekaboo/deadcolumn.nvim

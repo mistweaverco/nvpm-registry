@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: pantran.nvim
+description: Translate your text with an interactive translation window.
+homepage: https://github.com/potamides/pantran.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - language
+aliases:
+  - potamides/pantran.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:potamides/pantran.nvim

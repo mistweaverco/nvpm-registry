@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: editorconfig.nvim
+description: An EditorConfig plugin written in Fennel.
+homepage: https://github.com/gpanders/editorconfig.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - formatting
+aliases:
+  - gpanders/editorconfig.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:gpanders/editorconfig.nvim

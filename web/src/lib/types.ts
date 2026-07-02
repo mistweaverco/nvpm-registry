@@ -34,6 +34,7 @@ export interface Package {
 	languages?: string[];
 	tags?: string[];
 	categories: string[];
+	editor_integration?: string[];
 	aliases?: string[];
 	requires?: PackageRequires;
 	searchMatchInfo?: string;

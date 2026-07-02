@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: lir.nvim
+description: Simple file explorer.
+homepage: https://github.com/tamago324/lir.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - file-explorer
+aliases:
+  - tamago324/lir.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:tamago324/lir.nvim

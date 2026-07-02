@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-spectre
+description: Search and replace panel.
+homepage: https://github.com/nvim-pack/nvim-spectre
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - search
+aliases:
+  - nvim-pack/nvim-spectre
+editor_integration:
+  - neovim
+source:
+  id: github:nvim-pack/nvim-spectre

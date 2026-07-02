@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: cmake-tools.nvim
+description: CMake integration.
+homepage: https://github.com/Civitasv/cmake-tools.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - code-runner
+aliases:
+  - Civitasv/cmake-tools.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Civitasv/cmake-tools.nvim

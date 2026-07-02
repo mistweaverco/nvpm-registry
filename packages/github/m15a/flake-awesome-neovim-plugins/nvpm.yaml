@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: flake-awesome-neovim-plugins
+description: Nix flake that provides Awesome Neovim plugins collection as Nix packages.
+homepage: https://github.com/m15a/flake-awesome-neovim-plugins
+licenses:
+  - BSD-3-Clause
+categories:
+  - Plugin
+tags:
+  - external
+  - os-specific
+aliases:
+  - m15a/flake-awesome-neovim-plugins
+editor_integration:
+  - neovim
+source:
+  id: github:m15a/flake-awesome-neovim-plugins

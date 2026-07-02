@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-nu
+description: Basic editor support for the nushell language.
+homepage: https://github.com/LhKipp/nvim-nu
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - syntax
+aliases:
+  - LhKipp/nvim-nu
+editor_integration:
+  - neovim
+source:
+  id: github:LhKipp/nvim-nu

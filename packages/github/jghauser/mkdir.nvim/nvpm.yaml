@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: mkdir.nvim
+description: Automatically create missing directories when saving files.
+homepage: https://github.com/jghauser/mkdir.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - jghauser/mkdir.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:jghauser/mkdir.nvim

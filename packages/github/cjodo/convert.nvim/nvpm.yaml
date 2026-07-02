@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: convert.nvim
+description: A tool for CSS unit conversions.
+homepage: https://github.com/cjodo/convert.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - web-development
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - cjodo/convert.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:cjodo/convert.nvim

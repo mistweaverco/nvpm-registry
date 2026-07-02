@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: yanklock.nvim
+description: >-
+  Temporarily lock the paste register to"0, and used,c, andsmotions while keeping the most recent yanked content easily
+  accessible.
+homepage: https://github.com/daltongd/yanklock.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - daltongd/yanklock.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:daltongd/yanklock.nvim

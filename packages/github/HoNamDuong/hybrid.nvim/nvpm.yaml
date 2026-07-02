@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: hybrid.nvim
+description: A dark theme written in Lua.
+homepage: https://github.com/HoNamDuong/hybrid.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - HoNamDuong/hybrid.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:HoNamDuong/hybrid.nvim

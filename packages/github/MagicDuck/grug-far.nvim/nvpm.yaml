@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: grug-far.nvim
+description: Buffer-based live search and replace with full power ofrgflags. Grug like!
+homepage: https://github.com/MagicDuck/grug-far.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - search
+aliases:
+  - MagicDuck/grug-far.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:MagicDuck/grug-far.nvim

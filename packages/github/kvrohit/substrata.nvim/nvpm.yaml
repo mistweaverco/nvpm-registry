@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: substrata.nvim
+description: A cold, dark color scheme written in Lua ported fromarzg/vim-substratatheme.
+homepage: https://github.com/kvrohit/substrata.nvim
+licenses:
+  - proprietary
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - kvrohit/substrata.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:kvrohit/substrata.nvim

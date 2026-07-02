@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: everforest
+description: A green based colorscheme designed to be warm, soft and easy on the eyes.
+homepage: https://github.com/sainnhe/everforest
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - sainnhe/everforest
+editor_integration:
+  - neovim
+source:
+  id: github:sainnhe/everforest

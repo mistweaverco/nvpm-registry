@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: sos.nvim
+description: Automatically save all your modified buffers according to a predefined timeout value.
+homepage: https://github.com/tmillr/sos.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - tmillr/sos.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:tmillr/sos.nvim

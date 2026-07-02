@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: LunarVim
+description: This project aims to help one transition away from VSCode, and into a superior text editing experience.
+homepage: https://github.com/LunarVim/LunarVim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - LunarVim/LunarVim
+editor_integration:
+  - neovim
+source:
+  id: github:LunarVim/LunarVim

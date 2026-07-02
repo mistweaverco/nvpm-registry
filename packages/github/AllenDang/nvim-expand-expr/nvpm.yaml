@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-expand-expr
+description: Expand and repeat expression to multiple lines.
+homepage: https://github.com/AllenDang/nvim-expand-expr
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - AllenDang/nvim-expand-expr
+editor_integration:
+  - neovim
+source:
+  id: github:AllenDang/nvim-expand-expr

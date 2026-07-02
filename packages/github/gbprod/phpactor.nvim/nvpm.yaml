@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: phpactor.nvim
+description: Lua version of the Phpactor Vim plugin to take advantage of the latest Neovim features.
+homepage: https://github.com/gbprod/phpactor.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - php
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - gbprod/phpactor.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:gbprod/phpactor.nvim

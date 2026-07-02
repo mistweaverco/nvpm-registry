@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-aider
+description: Seamlessly integrate Aider for an AI-assisted coding experience.
+homepage: https://github.com/GeorgesAlkhouri/nvim-aider
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - ai
+aliases:
+  - GeorgesAlkhouri/nvim-aider
+editor_integration:
+  - neovim
+source:
+  id: github:GeorgesAlkhouri/nvim-aider

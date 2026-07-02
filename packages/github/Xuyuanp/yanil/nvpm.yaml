@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: yanil
+description: Yet Another Nerdtree In Lua.
+homepage: https://github.com/Xuyuanp/yanil
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - file-explorer
+aliases:
+  - Xuyuanp/yanil
+editor_integration:
+  - neovim
+source:
+  id: github:Xuyuanp/yanil

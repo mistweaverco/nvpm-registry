@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: telescope-egrepify.nvim
+description: Telescope plugin for betterrgflags inlive_grep.
+homepage: https://github.com/fdschmidt93/telescope-egrepify.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - fuzzy-finder
+aliases:
+  - fdschmidt93/telescope-egrepify.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:fdschmidt93/telescope-egrepify.nvim

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: java.nvim
+description: Some utilities regarding Java development (e.g. updating symbol usages when renaming or moving a file in nvim-tree).
+homepage: https://github.com/simaxme/java.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - simaxme/java.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:simaxme/java.nvim

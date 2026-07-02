@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-navic
+description: A simple statusline/winbar component that uses LSP to show your current code context.
+homepage: https://github.com/SmiteshP/nvim-navic
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+aliases:
+  - SmiteshP/nvim-navic
+editor_integration:
+  - neovim
+source:
+  id: github:SmiteshP/nvim-navic

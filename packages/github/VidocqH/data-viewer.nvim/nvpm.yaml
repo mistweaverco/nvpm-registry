@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: data-viewer.nvim
+description: Provide a simple table view to inspect data files such ascsv,tsv.
+homepage: https://github.com/VidocqH/data-viewer.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+  - csv-files
+aliases:
+  - VidocqH/data-viewer.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:VidocqH/data-viewer.nvim

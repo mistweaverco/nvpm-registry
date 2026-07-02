@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: NeoPlus
+description: NeoPlus is a free, open source IDE with tools that works on Neovim.
+homepage: https://github.com/Cris-lml007/NeoPlus
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - Cris-lml007/NeoPlus
+editor_integration:
+  - neovim
+source:
+  id: github:Cris-lml007/NeoPlus

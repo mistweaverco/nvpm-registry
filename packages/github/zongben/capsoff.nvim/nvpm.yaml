@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: capsoff.nvim
+description: Turns off CapsLock when you leaving insert mode.
+homepage: https://github.com/zongben/capsoff.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - zongben/capsoff.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:zongben/capsoff.nvim

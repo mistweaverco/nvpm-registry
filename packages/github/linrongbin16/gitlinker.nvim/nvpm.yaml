@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: gitlinker.nvim
+description: Maintained fork of "ruifm's gitlinker", refactored with bug fixes, ssh aliases, blame support and other improvements.
+homepage: https://github.com/linrongbin16/gitlinker.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - git
+aliases:
+  - linrongbin16/gitlinker.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:linrongbin16/gitlinker.nvim

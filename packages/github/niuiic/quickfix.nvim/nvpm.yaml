@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: quickfix.nvim
+description: Extended functionality for quickfix, including store, restore, make, remove, etc.
+homepage: https://github.com/niuiic/quickfix.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - debugging
+  - quickfix
+aliases:
+  - niuiic/quickfix.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:niuiic/quickfix.nvim

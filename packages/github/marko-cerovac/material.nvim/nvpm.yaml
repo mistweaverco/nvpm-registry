@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: material.nvim
+description: Material.nvim is a highly configurable colorscheme written in Lua and based on the material palette.
+homepage: https://github.com/marko-cerovac/material.nvim
+licenses:
+  - GPL-2.0
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - marko-cerovac/material.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:marko-cerovac/material.nvim

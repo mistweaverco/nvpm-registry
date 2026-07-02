@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: navigator.lua
+description: >-
+  Learn existing code quickly and navigate code like a breeze. A swiss army knife makes exploring LSP and Tree-sitter
+  symbols a piece of cake.
+homepage: https://github.com/ray-x/navigator.lua
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - ray-x/navigator.lua
+editor_integration:
+  - neovim
+source:
+  id: github:ray-x/navigator.lua

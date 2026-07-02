@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: auto-dark-mode.nvim
+description: Follow the system appearance on macOS.
+homepage: https://github.com/f-person/auto-dark-mode.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Theme
+tags:
+  - colorscheme-switchers
+aliases:
+  - f-person/auto-dark-mode.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:f-person/auto-dark-mode.nvim

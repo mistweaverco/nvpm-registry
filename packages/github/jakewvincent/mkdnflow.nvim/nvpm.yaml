@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: mkdnflow.nvim
+description: >-
+  Fluent markdown notebook navigation & management (create links, follow links, create and manage to-do lists, reference
+  bib files, and more).
+homepage: https://github.com/jakewvincent/mkdnflow.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - note-taking
+aliases:
+  - jakewvincent/mkdnflow.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:jakewvincent/mkdnflow.nvim

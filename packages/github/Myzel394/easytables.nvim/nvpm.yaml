@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: easytables.nvim
+description: Easily insert and edit markdown tables with a live preview and useful helpers.
+homepage: https://github.com/Myzel394/easytables.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - markdown-and-latex
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - Myzel394/easytables.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Myzel394/easytables.nvim

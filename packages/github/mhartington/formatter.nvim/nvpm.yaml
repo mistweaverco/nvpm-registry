@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: formatter.nvim
+description: A format runner written in Lua.
+homepage: https://github.com/mhartington/formatter.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - formatting
+aliases:
+  - mhartington/formatter.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mhartington/formatter.nvim

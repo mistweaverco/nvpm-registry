@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: simctl.nvim
+description: Interact with iOS Simulators.
+homepage: https://github.com/terje/simctl.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - terje/simctl.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:terje/simctl.nvim

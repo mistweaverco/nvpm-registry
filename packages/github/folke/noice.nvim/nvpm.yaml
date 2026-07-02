@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: noice.nvim
+description: Highly experimental plugin that completely replaces the UI for messages, cmdline and the popupmenu.
+homepage: https://github.com/folke/noice.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - folke/noice.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:folke/noice.nvim

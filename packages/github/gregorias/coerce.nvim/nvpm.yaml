@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: coerce.nvim
+description: Change keyword case.
+homepage: https://github.com/gregorias/coerce.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - gregorias/coerce.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:gregorias/coerce.nvim

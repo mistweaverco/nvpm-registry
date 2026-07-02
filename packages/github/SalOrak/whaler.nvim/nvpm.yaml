@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: whaler.nvim
+description: Telescope extension to move between directories blazingly fast.
+homepage: https://github.com/SalOrak/whaler.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - project
+aliases:
+  - SalOrak/whaler.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:SalOrak/whaler.nvim

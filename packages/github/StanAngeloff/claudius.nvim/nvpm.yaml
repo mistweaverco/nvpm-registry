@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: claudius.nvim
+description: Text-based interface for chatting with Claude AI directly in your buffer.
+homepage: https://github.com/StanAngeloff/claudius.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - ai
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - StanAngeloff/claudius.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:StanAngeloff/claudius.nvim

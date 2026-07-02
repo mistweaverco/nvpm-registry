@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: CosmicNvim
+description: >-
+  CosmicNvim is a lightweight and opinionated Neovim config for web development, specifically designed to provide a
+  COSMIC programming experience!
+homepage: https://github.com/CosmicNvim/CosmicNvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - CosmicNvim/CosmicNvim
+editor_integration:
+  - neovim
+source:
+  id: github:CosmicNvim/CosmicNvim

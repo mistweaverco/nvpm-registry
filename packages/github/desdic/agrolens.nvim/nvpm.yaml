@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: agrolens.nvim
+description: Navigate via Tree-sitter nodes using Telescope or FZF.
+homepage: https://github.com/desdic/agrolens.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - syntax
+aliases:
+  - desdic/agrolens.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:desdic/agrolens.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvimdots
+description: A well-configured and structured configuration with NixOS support.
+homepage: https://github.com/ayamir/nvimdots
+licenses:
+  - BSD-3-Clause
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - ayamir/nvimdots
+editor_integration:
+  - neovim
+source:
+  id: github:ayamir/nvimdots

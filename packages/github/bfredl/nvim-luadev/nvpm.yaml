@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-luadev
+description: >-
+  REPL/debug console Lua plugins. The:Luadevcommand will open an scratch window which will show output from executing
+  Lua code.
+homepage: https://github.com/bfredl/nvim-luadev
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - neovim-lua-development
+aliases:
+  - bfredl/nvim-luadev
+editor_integration:
+  - neovim
+source:
+  id: github:bfredl/nvim-luadev

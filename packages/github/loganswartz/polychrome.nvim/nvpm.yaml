@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: polychrome.nvim
+description: >-
+  A colorscheme micro-framework, with support for specifying colors directly in many different formats (sRGB, HSL,
+  Oklab, XYZ and more, with intelligent chroma clipping), live editing preview, and a simple DSL.
+homepage: https://github.com/loganswartz/polychrome.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - colorscheme-creation
+aliases:
+  - loganswartz/polychrome.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:loganswartz/polychrome.nvim

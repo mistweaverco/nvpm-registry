@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-buffls
+description: Add LSP functionality to specific Neovim buffers.
+homepage: https://github.com/idanarye/nvim-buffls
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - idanarye/nvim-buffls
+editor_integration:
+  - neovim
+source:
+  id: github:idanarye/nvim-buffls

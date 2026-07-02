@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: qfview.nvim
+description: Pretty quickfix/location view with consistent path-shorten and folding.
+homepage: https://github.com/ashfinal/qfview.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - debugging
+  - quickfix
+aliases:
+  - ashfinal/qfview.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ashfinal/qfview.nvim

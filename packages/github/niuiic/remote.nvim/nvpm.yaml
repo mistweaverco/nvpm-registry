@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: remote.nvim
+description: Edit remote files with local configuration.
+homepage: https://github.com/niuiic/remote.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - remote-development
+aliases:
+  - niuiic/remote.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:niuiic/remote.nvim

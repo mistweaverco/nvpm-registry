@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: indentmini.nvim
+description: A minimal and blazing fast indentline plugin by using nvim_set_decoration_provide API.
+homepage: https://github.com/nvimdev/indentmini.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - formatting
+  - indent
+aliases:
+  - nvimdev/indentmini.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nvimdev/indentmini.nvim

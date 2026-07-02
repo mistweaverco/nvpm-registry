@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim_context_vt
+description: Shows virtual text of the current context.
+homepage: https://github.com/andersevenrud/nvim_context_vt
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - andersevenrud/nvim_context_vt
+editor_integration:
+  - neovim
+source:
+  id: github:andersevenrud/nvim_context_vt

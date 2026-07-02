@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: renamer.nvim
+description: VS Code-like renaming UI, written in Lua.
+homepage: https://github.com/filipdutescu/renamer.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - filipdutescu/renamer.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:filipdutescu/renamer.nvim

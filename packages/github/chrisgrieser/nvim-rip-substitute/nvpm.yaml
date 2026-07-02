@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-rip-substitute
+description: >-
+  Search and replace in the current buffer with a modern UI and modern regex flavor. A substitute for
+  Vim's:substituteusingripgrep.
+homepage: https://github.com/chrisgrieser/nvim-rip-substitute
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - search
+aliases:
+  - chrisgrieser/nvim-rip-substitute
+editor_integration:
+  - neovim
+source:
+  id: github:chrisgrieser/nvim-rip-substitute

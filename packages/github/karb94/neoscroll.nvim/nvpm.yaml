@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: neoscroll.nvim
+description: Smooth scrolling.
+homepage: https://github.com/karb94/neoscroll.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - scrolling
+aliases:
+  - karb94/neoscroll.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:karb94/neoscroll.nvim

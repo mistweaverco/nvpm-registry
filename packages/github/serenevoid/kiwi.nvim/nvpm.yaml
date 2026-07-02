@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: kiwi.nvim
+description: A stripped down VimWiki with necessary features.
+homepage: https://github.com/serenevoid/kiwi.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - note-taking
+aliases:
+  - serenevoid/kiwi.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:serenevoid/kiwi.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-miniyank
+description: The killring-alike plugin with no default mappings.
+homepage: https://github.com/bfredl/nvim-miniyank
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - bfredl/nvim-miniyank
+editor_integration:
+  - neovim
+source:
+  id: github:bfredl/nvim-miniyank

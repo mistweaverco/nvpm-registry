@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: alfred-neovim-utilities
+description: Search Neovim plugins and online:helpvia Alfred (macOS).
+homepage: https://github.com/chrisgrieser/alfred-neovim-utilities
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - external
+  - os-specific
+aliases:
+  - chrisgrieser/alfred-neovim-utilities
+editor_integration:
+  - neovim
+source:
+  id: github:chrisgrieser/alfred-neovim-utilities

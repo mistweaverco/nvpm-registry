@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: oh-lucy.nvim
+description: Two Tree-sitter supported colorschemes, inspired by oh-lucy in vscode.
+homepage: https://github.com/Yazeed1s/oh-lucy.nvim
+licenses:
+  - proprietary
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - Yazeed1s/oh-lucy.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Yazeed1s/oh-lucy.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: actually.nvim
+description: Load the file you actually meant to load.
+homepage: https://github.com/mong8se/actually.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - startup
+aliases:
+  - mong8se/actually.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mong8se/actually.nvim

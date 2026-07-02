@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: spaceport.nvim
+description: The start screen that gets you to your projects blazingly fast.
+homepage: https://github.com/CWood-sdf/spaceport.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - startup
+aliases:
+  - CWood-sdf/spaceport.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:CWood-sdf/spaceport.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: dirbuf.nvim
+description: A file manager which lets you edit your filesystem like you edit text.
+homepage: https://github.com/elihunter173/dirbuf.nvim
+licenses:
+  - AGPL-3.0
+categories:
+  - Plugin
+tags:
+  - file-explorer
+aliases:
+  - elihunter173/dirbuf.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:elihunter173/dirbuf.nvim

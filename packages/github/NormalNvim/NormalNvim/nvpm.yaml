@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: NormalNvim
+description: Focused on stability for your daily work. From the creator of Compiler.nvim.
+homepage: https://github.com/NormalNvim/NormalNvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - NormalNvim/NormalNvim
+editor_integration:
+  - neovim
+source:
+  id: github:NormalNvim/NormalNvim

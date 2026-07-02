@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nap.nvim
+description: Jump between next/previous buffer, tab, diagnostic, etc, with a single key.
+homepage: https://github.com/liangxianzhe/nap.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - motion
+aliases:
+  - liangxianzhe/nap.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:liangxianzhe/nap.nvim

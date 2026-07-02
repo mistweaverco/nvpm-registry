@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: rocks.nvim
+description: A modern approach to plugin management using Luarocks, inspired by Cargo.
+homepage: https://github.com/nvim-neorocks/rocks.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - plugin-manager
+aliases:
+  - nvim-neorocks/rocks.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nvim-neorocks/rocks.nvim

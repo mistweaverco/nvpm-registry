@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-picgo
+description: >-
+  A picgo-core-based Neovim plugin, written in Lua, that allows you to upload images to the image bed, which means you
+  can view your images from anywhere on the internet.
+homepage: https://github.com/askfiy/nvim-picgo
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - media
+aliases:
+  - askfiy/nvim-picgo
+editor_integration:
+  - neovim
+source:
+  id: github:askfiy/nvim-picgo

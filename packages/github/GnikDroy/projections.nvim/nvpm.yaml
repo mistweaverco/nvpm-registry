@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: projections.nvim
+description: Tiny project + session manager.
+homepage: https://github.com/GnikDroy/projections.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - project
+aliases:
+  - GnikDroy/projections.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:GnikDroy/projections.nvim

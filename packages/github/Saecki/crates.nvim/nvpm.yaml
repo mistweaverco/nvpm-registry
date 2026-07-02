@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: crates.nvim
+description: Rust dependency management forCargo.toml.
+homepage: https://github.com/Saecki/crates.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - dependency-management
+aliases:
+  - Saecki/crates.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Saecki/crates.nvim

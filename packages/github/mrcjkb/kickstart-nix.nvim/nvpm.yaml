@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: kickstart-nix.nvim
+description: >-
+  A simpleNix flaketemplate repo for Neovim derivations, with the goal of simplifying the migration from existing Neovim
+  configurations.
+homepage: https://github.com/mrcjkb/kickstart-nix.nvim
+licenses:
+  - GPL-2.0
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - mrcjkb/kickstart-nix.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mrcjkb/kickstart-nix.nvim

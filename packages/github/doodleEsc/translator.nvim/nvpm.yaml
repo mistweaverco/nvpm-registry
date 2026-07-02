@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: translator.nvim
+description: >-
+  A powerful AI-powered translation plugin, leveraging OpenAI's GPT models to provide high-quality translations with
+  natural language understanding.
+homepage: https://github.com/doodleEsc/translator.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - language
+aliases:
+  - doodleEsc/translator.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:doodleEsc/translator.nvim

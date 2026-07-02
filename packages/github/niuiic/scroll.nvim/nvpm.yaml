@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: scroll.nvim
+description: Smooth scrolling, custom smooth strategy.
+homepage: https://github.com/niuiic/scroll.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - scrolling
+aliases:
+  - niuiic/scroll.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:niuiic/scroll.nvim

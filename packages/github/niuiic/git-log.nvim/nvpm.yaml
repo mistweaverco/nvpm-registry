@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: git-log.nvim
+description: Check Git log of the selected code.
+homepage: https://github.com/niuiic/git-log.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - git
+aliases:
+  - niuiic/git-log.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:niuiic/git-log.nvim

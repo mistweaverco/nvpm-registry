@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: wezterm.nvim
+description: Functions for interacting with Wezterm.
+homepage: https://github.com/willothy/wezterm.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - terminal-integration
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - willothy/wezterm.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:willothy/wezterm.nvim

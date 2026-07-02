@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: squirrel.nvim
+description: Quickly jump between Tree-sitter nodes.
+homepage: https://github.com/xiaoshihou514/squirrel.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - motion
+aliases:
+  - xiaoshihou514/squirrel.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:xiaoshihou514/squirrel.nvim

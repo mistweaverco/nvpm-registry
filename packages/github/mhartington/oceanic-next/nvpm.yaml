@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: oceanic-next
+description: Oceanic Next theme.
+homepage: https://github.com/mhartington/oceanic-next
+licenses:
+  - proprietary
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+  - license:unrecognized=NOASSERTION
+  - license:raw=NOASSERTION
+aliases:
+  - mhartington/oceanic-next
+editor_integration:
+  - neovim
+source:
+  id: github:mhartington/oceanic-next

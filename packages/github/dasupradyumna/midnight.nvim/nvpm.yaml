@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: midnight.nvim
+description: >-
+  A modern black Neovim theme with comfortable color contrast for a pleasant visual experience, with LSP and Tree-sitter
+  support.
+homepage: https://github.com/dasupradyumna/midnight.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - dasupradyumna/midnight.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:dasupradyumna/midnight.nvim

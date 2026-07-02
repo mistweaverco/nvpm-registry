@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: ssr.nvim
+description: Tree-sitter based structural search and replace.
+homepage: https://github.com/cshuaimin/ssr.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - cshuaimin/ssr.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:cshuaimin/ssr.nvim

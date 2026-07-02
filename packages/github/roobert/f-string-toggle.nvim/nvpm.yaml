@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: f-string-toggle.nvim
+description: Toggle Python f-strings.
+homepage: https://github.com/roobert/f-string-toggle.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - roobert/f-string-toggle.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:roobert/f-string-toggle.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: flyboy
+description: Simple interaction with ChatGPT in a markdown buffer. Supports GPT-4 and Azure OpenAI.
+homepage: https://github.com/CamdenClark/flyboy
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - ai
+aliases:
+  - CamdenClark/flyboy
+editor_integration:
+  - neovim
+source:
+  id: github:CamdenClark/flyboy

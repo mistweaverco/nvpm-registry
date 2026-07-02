@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: onenord.nvim
+description: A Neovim theme that combines the Nord and Atom One Dark color palettes for a more vibrant programming experience.
+homepage: https://github.com/rmehri01/onenord.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - rmehri01/onenord.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:rmehri01/onenord.nvim

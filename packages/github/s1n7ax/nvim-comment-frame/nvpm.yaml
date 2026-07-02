@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-comment-frame
+description: Adds a comment frame based on the source file.
+homepage: https://github.com/s1n7ax/nvim-comment-frame
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+  - comment
+aliases:
+  - s1n7ax/nvim-comment-frame
+editor_integration:
+  - neovim
+source:
+  id: github:s1n7ax/nvim-comment-frame

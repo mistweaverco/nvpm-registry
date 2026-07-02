@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: marlin.nvim
+description: Like harpoon, but with key differences like project path, split support, no UI.
+homepage: https://github.com/desdic/marlin.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - marks
+aliases:
+  - desdic/marlin.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:desdic/marlin.nvim

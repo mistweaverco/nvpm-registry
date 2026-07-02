@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: kickstart.nvim
+description: A launch point for your personal Neovim configuration.
+homepage: https://github.com/nvim-lua/kickstart.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - nvim-lua/kickstart.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nvim-lua/kickstart.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: overseer.nvim
+description: A task runner and job management plugin.
+homepage: https://github.com/stevearc/overseer.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - code-runner
+aliases:
+  - stevearc/overseer.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:stevearc/overseer.nvim

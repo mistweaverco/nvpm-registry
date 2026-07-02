@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: GPTModels.nvim
+description: GPTModels - a stable, clean, multi model, window based LLM AI tool.
+homepage: https://github.com/Aaronik/GPTModels.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - ai
+aliases:
+  - Aaronik/GPTModels.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Aaronik/GPTModels.nvim

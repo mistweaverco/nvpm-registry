@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-snippy
+description: Snippet plugin written in Lua with support forvim-snippets.
+homepage: https://github.com/dcampos/nvim-snippy
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - snippet
+aliases:
+  - dcampos/nvim-snippy
+editor_integration:
+  - neovim
+source:
+  id: github:dcampos/nvim-snippy

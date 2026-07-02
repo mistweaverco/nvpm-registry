@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: clipboard-image.nvim
+description: Neovim Lua plugin to paste image from clipboard.
+homepage: https://github.com/ekickx/clipboard-image.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - media
+aliases:
+  - ekickx/clipboard-image.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ekickx/clipboard-image.nvim

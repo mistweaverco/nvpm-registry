@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-channelot
+description: Operate Neovim jobs from Lua coroutines.
+homepage: https://github.com/idanarye/nvim-channelot
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - terminal-integration
+aliases:
+  - idanarye/nvim-channelot
+editor_integration:
+  - neovim
+source:
+  id: github:idanarye/nvim-channelot

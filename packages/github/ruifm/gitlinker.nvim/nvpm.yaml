@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: ruifm-gitlinker.nvim
+description: Generate shareable file permalinks for several Git hosts. Inspired by tpope/vim-fugitive's :GBrowse.
+homepage: https://github.com/ruifm/gitlinker.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - git
+aliases:
+  - ruifm/gitlinker.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ruifm/gitlinker.nvim

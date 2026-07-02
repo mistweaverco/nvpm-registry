@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: ccc.nvim
+description: Super powerful color picker / colorizer plugin.
+homepage: https://github.com/uga-rosa/ccc.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - color
+aliases:
+  - uga-rosa/ccc.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:uga-rosa/ccc.nvim

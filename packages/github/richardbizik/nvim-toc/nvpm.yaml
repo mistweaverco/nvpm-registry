@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-toc
+description: Easily generate table of contents for markdown files.
+homepage: https://github.com/richardbizik/nvim-toc
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - markdown-and-latex
+aliases:
+  - richardbizik/nvim-toc
+editor_integration:
+  - neovim
+source:
+  id: github:richardbizik/nvim-toc

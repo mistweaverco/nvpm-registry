@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-cokeline
+description: A bufferline for people with addictive personalities.
+homepage: https://github.com/willothy/nvim-cokeline
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+  - tabline
+aliases:
+  - willothy/nvim-cokeline
+editor_integration:
+  - neovim
+source:
+  id: github:willothy/nvim-cokeline

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-surround
+description: A plugin for adding/changing/deleting surrounding delimiter pairs.
+homepage: https://github.com/kylechui/nvim-surround
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - syntax
+aliases:
+  - kylechui/nvim-surround
+editor_integration:
+  - neovim
+source:
+  id: github:kylechui/nvim-surround

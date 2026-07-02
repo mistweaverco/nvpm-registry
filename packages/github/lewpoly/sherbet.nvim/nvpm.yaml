@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: sherbet.nvim
+description: A soothing colorscheme with support for popular plugins and Tree-sitter.
+homepage: https://github.com/lewpoly/sherbet.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - lewpoly/sherbet.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:lewpoly/sherbet.nvim

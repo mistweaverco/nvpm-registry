@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: apprentice.nvim
+description: Colorscheme written in Lua based on theApprenticecolor palette with Tree-sitter and built-in LSP support.
+homepage: https://github.com/adisen99/apprentice.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - adisen99/apprentice.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:adisen99/apprentice.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: sentiment.nvim
+description: Enhanced matchparen.
+homepage: https://github.com/utilyre/sentiment.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - utilyre/sentiment.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:utilyre/sentiment.nvim

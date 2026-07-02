@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: automkdir.nvim
+description: Automatically create non-existent parent directories when writing a file.
+homepage: https://github.com/mateuszwieloch/automkdir.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - mateuszwieloch/automkdir.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mateuszwieloch/automkdir.nvim

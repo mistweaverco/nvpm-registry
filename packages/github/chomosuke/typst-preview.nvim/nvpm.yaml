@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: typst-preview.nvim
+description: Preview typst documents in the browser, instant update on each keystroke, and cross jump between code and preview.
+homepage: https://github.com/chomosuke/typst-preview.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+aliases:
+  - chomosuke/typst-preview.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:chomosuke/typst-preview.nvim

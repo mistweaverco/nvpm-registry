@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: kurayami.nvim
+description: Dark (only) theme.
+homepage: https://github.com/kevinm6/kurayami.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - kevinm6/kurayami.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:kevinm6/kurayami.nvim

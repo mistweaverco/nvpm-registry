@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: snippets.nvim
+description: Snippets in Lua.
+homepage: https://github.com/norcalli/snippets.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - snippet
+aliases:
+  - norcalli/snippets.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:norcalli/snippets.nvim

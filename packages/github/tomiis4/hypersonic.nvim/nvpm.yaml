@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: hypersonic.nvim
+description: Provides explanation for RegExp.
+homepage: https://github.com/tomiis4/hypersonic.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - tomiis4/hypersonic.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:tomiis4/hypersonic.nvim

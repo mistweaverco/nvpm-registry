@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tsc.nvim
+description: >-
+  Asynchronous project-wide TypeScript type-checking using the TypeScript compiler (TSC) with results loaded into a
+  quickfix list.
+homepage: https://github.com/dmmulroy/tsc.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+aliases:
+  - dmmulroy/tsc.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:dmmulroy/tsc.nvim

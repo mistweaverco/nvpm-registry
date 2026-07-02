@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: efmls-configs-nvim
+description: An unofficial collection of linters and formatters configured for efm-langserver to work with builtin LSP.
+homepage: https://github.com/creativenull/efmls-configs-nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - creativenull/efmls-configs-nvim
+editor_integration:
+  - neovim
+source:
+  id: github:creativenull/efmls-configs-nvim

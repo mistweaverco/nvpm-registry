@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-bqf
+description: The goal of nvim-bqf is to make Neovim's quickfix window better.
+homepage: https://github.com/kevinhwang91/nvim-bqf
+licenses:
+  - BSD-3-Clause
+categories:
+  - Plugin
+tags:
+  - debugging
+  - quickfix
+aliases:
+  - kevinhwang91/nvim-bqf
+editor_integration:
+  - neovim
+source:
+  id: github:kevinhwang91/nvim-bqf

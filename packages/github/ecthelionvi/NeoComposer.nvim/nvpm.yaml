@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: NeoComposer.nvim
+description: Simplify macro management, enhance productivity, and create harmonious workflows.
+homepage: https://github.com/ecthelionvi/NeoComposer.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - ecthelionvi/NeoComposer.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ecthelionvi/NeoComposer.nvim

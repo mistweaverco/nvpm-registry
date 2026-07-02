@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: scretch.nvim
+description: Create and manage scratch files, scratch templates, with picker integrations.
+homepage: https://github.com/0xJohnnyboy/scretch.nvim
+licenses:
+  - AGPL-3.0
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - 0xJohnnyboy/scretch.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:0xJohnnyboy/scretch.nvim

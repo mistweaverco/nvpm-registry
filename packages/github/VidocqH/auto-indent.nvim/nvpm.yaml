@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: auto-indent.nvim
+description: Auto indent cursor when cursor at the first column and press<TAB>key like VSCode.
+homepage: https://github.com/VidocqH/auto-indent.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - formatting
+  - indent
+aliases:
+  - VidocqH/auto-indent.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:VidocqH/auto-indent.nvim

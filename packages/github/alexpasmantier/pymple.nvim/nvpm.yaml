@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: pymple.nvim
+description: Refactor Python imports on file move/rename.
+homepage: https://github.com/alexpasmantier/pymple.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - alexpasmantier/pymple.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:alexpasmantier/pymple.nvim

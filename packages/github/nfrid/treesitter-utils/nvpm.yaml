@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: treesitter-utils
+description: Some useful Tree-sitter methods.
+homepage: https://github.com/nfrid/treesitter-utils
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - neovim-lua-development
+aliases:
+  - nfrid/treesitter-utils
+editor_integration:
+  - neovim
+source:
+  id: github:nfrid/treesitter-utils

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: molten-nvim
+description: >-
+  Enables running code chunks via the jupyter kernel. Output (including image output) is rendered in a floating window
+  below the code.
+homepage: https://github.com/benlubas/molten-nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - code-runner
+aliases:
+  - benlubas/molten-nvim
+editor_integration:
+  - neovim
+source:
+  id: github:benlubas/molten-nvim

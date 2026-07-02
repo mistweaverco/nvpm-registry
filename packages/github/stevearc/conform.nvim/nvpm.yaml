@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: conform.nvim
+description: A lightweight formatting engine that plays nice with LSP.
+homepage: https://github.com/stevearc/conform.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - formatting
+aliases:
+  - stevearc/conform.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:stevearc/conform.nvim

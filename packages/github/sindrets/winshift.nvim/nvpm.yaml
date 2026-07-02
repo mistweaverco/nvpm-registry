@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: winshift.nvim
+description: Rearrange your windows with ease.
+homepage: https://github.com/sindrets/winshift.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - split-and-window
+aliases:
+  - sindrets/winshift.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:sindrets/winshift.nvim

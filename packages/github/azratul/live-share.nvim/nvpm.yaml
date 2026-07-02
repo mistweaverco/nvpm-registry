@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: live-share.nvim
+description: Provides remote collaboration capabilities from anywhere, making it ideal for pair-programming scenarios.
+homepage: https://github.com/azratul/live-share.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - remote-development
+aliases:
+  - azratul/live-share.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:azratul/live-share.nvim

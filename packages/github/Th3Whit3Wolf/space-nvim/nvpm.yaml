@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: space-nvim
+description: A spacemacs inspired dark and light colorscheme.
+homepage: https://github.com/Th3Whit3Wolf/space-nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - Th3Whit3Wolf/space-nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Th3Whit3Wolf/space-nvim

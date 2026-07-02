@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: winmove.nvim
+description: Easily move, swap, and resize windows.
+homepage: https://github.com/MisanthropicBit/winmove.nvim
+licenses:
+  - BSD-3-Clause
+categories:
+  - Plugin
+tags:
+  - split-and-window
+aliases:
+  - MisanthropicBit/winmove.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:MisanthropicBit/winmove.nvim

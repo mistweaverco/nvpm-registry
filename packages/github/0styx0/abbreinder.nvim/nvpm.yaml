@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: abbreinder.nvim
+description: Abbreviation reminders (Neovim >= 0.5).
+homepage: https://github.com/0styx0/abbreinder.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - note-taking
+aliases:
+  - 0styx0/abbreinder.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:0styx0/abbreinder.nvim

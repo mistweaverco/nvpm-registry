@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: reach.nvim
+description: Buffer, mark, tabpage switcher.
+homepage: https://github.com/toppair/reach.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - toppair/reach.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:toppair/reach.nvim

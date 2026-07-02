@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: text-to-colorscheme
+description: Dynamically generated colorschemes generated on the fly with a text prompt using ChatGPT.
+homepage: https://github.com/svermeulen/text-to-colorscheme
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - svermeulen/text-to-colorscheme
+editor_integration:
+  - neovim
+source:
+  id: github:svermeulen/text-to-colorscheme

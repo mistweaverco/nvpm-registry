@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: simplegpt.nvim
+description: Provide a simple yet flexible way to construct and send questions to ChatGPT.
+homepage: https://github.com/you-n-g/simplegpt.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - ai
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - you-n-g/simplegpt.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:you-n-g/simplegpt.nvim

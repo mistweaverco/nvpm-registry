@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: goto-preview
+description: Previewing native LSP's goto definition calls in floating windows.
+homepage: https://github.com/rmagatti/goto-preview
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - rmagatti/goto-preview
+editor_integration:
+  - neovim
+source:
+  id: github:rmagatti/goto-preview

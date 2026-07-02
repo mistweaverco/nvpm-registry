@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: compl.nvim
+description: A minimal and dependency-free auto-completion built on top of Vim's ins-completion mechanism.
+homepage: https://github.com/brianaung/compl.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - completion
+aliases:
+  - brianaung/compl.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:brianaung/compl.nvim

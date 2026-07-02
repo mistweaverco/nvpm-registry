@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nerdy.nvim
+description: Find and insert the latest nerd font glyphs.
+homepage: https://github.com/2KAbhishek/nerdy.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - icon
+aliases:
+  - 2KAbhishek/nerdy.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:2KAbhishek/nerdy.nvim

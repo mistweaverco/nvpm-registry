@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-dev-container
+description: Neovim devcontainer.json and general development container support.
+homepage: https://github.com/esensar/nvim-dev-container
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - remote-development
+aliases:
+  - esensar/nvim-dev-container
+editor_integration:
+  - neovim
+source:
+  id: github:esensar/nvim-dev-container

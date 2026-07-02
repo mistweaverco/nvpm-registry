@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: cunderw-nvim
+description: Neovim custom configuration, focused on JS/TS, Go, and Java development. Very IDE like.
+homepage: https://github.com/cunderw/nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - cunderw/nvim
+editor_integration:
+  - neovim
+source:
+  id: github:cunderw/nvim

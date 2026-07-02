@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: kickstart-modular.nvim
+description: This is a fork of nvim-lua/kickstart.nvim that moves from a single file to a multi file configuration.
+homepage: https://github.com/dam9000/kickstart-modular.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - dam9000/kickstart-modular.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:dam9000/kickstart-modular.nvim

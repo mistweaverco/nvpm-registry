@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tdo.nvim
+description: Fast and simple note taking.
+homepage: https://github.com/2KAbhishek/tdo.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - note-taking
+aliases:
+  - 2KAbhishek/tdo.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:2KAbhishek/tdo.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: triptych.nvim
+description: A directory browser inspired by Ranger.
+homepage: https://github.com/simonmclean/triptych.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - file-explorer
+aliases:
+  - simonmclean/triptych.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:simonmclean/triptych.nvim

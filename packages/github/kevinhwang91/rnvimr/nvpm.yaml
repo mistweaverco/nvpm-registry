@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: rnvimr
+description: A simple yet amazing file explorer.
+homepage: https://github.com/kevinhwang91/rnvimr
+licenses:
+  - BSD-3-Clause
+categories:
+  - Plugin
+tags:
+  - file-explorer
+aliases:
+  - kevinhwang91/rnvimr
+editor_integration:
+  - neovim
+source:
+  id: github:kevinhwang91/rnvimr

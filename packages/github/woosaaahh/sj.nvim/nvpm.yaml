@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: sj.nvim
+description: Search based navigation combined with quick jump features.
+homepage: https://github.com/woosaaahh/sj.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - motion
+aliases:
+  - woosaaahh/sj.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:woosaaahh/sj.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: blackjack.nvim
+description: Classic Black Jack game.
+homepage: https://github.com/alanfortlink/blackjack.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - game
+aliases:
+  - alanfortlink/blackjack.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:alanfortlink/blackjack.nvim

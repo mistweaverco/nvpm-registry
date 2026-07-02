@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: better-escape.nvim
+description: Create shortcuts to escape insert mode without getting delay.
+homepage: https://github.com/max397574/better-escape.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - keybinding
+aliases:
+  - max397574/better-escape.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:max397574/better-escape.nvim

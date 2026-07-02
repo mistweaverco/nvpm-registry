@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: markview.nvim
+description: A hackable markdown, typst, LaTeX, html(inline) & YAML renderer.
+homepage: https://github.com/OXY2DEV/markview.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - markdown-and-latex
+aliases:
+  - OXY2DEV/markview.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:OXY2DEV/markview.nvim

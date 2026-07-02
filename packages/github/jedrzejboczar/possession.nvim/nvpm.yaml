@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: possession.nvim
+description: Flexible session management with arbitrary persistent data stored as JSON.
+homepage: https://github.com/jedrzejboczar/possession.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - session
+aliases:
+  - jedrzejboczar/possession.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:jedrzejboczar/possession.nvim

@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: slimux.nvim
+description: Send content from the current buffer to a configurable tmux pane.
+homepage: https://github.com/EvWilson/slimux.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - split-and-window
+  - tmux
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - EvWilson/slimux.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:EvWilson/slimux.nvim

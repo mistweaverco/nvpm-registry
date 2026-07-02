@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: splitjoin.nvim
+description: Split and join various syntax structures.
+homepage: https://github.com/bennypowers/splitjoin.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - bennypowers/splitjoin.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:bennypowers/splitjoin.nvim

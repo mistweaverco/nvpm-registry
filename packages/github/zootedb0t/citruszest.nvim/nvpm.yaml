@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: citruszest.nvim
+description: >-
+  A colorscheme that features a combination of bright and juicy colors reminiscent of various citrus fruits, with LSP
+  and Tree-sitter support.
+homepage: https://github.com/zootedb0t/citruszest.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - zootedb0t/citruszest.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:zootedb0t/citruszest.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: telepath.nvim
+description: Another Leap extension for performing remote actions with a different approach.
+homepage: https://github.com/rasulomaroff/telepath.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - motion
+aliases:
+  - rasulomaroff/telepath.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:rasulomaroff/telepath.nvim

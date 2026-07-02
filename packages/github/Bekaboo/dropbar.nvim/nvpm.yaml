@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: dropbar.nvim
+description: IDE-like breadcrumbs, out of the box.
+homepage: https://github.com/Bekaboo/dropbar.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+aliases:
+  - Bekaboo/dropbar.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Bekaboo/dropbar.nvim

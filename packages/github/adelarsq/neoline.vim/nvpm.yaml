@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: neoline.vim
+description: A light statusline/tabline plugin using Lua.
+homepage: https://github.com/adelarsq/neoline.vim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+  - statusline
+aliases:
+  - adelarsq/neoline.vim
+editor_integration:
+  - neovim
+source:
+  id: github:adelarsq/neoline.vim

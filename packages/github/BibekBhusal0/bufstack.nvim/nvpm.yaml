@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: bufstack.nvim
+description: Track recently visited buffers and reopen recently closed buffers.
+homepage: https://github.com/BibekBhusal0/bufstack.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - BibekBhusal0/bufstack.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:BibekBhusal0/bufstack.nvim

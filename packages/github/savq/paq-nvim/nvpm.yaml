@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: paq-nvim
+description: Neovim package manager written in Lua.
+homepage: https://github.com/savq/paq-nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - plugin-manager
+aliases:
+  - savq/paq-nvim
+editor_integration:
+  - neovim
+source:
+  id: github:savq/paq-nvim

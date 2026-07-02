@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: minimal.nvim
+description: Two Tree-sitter supported colorschemes that are inspired by base16-tomorrow-night and monokai-pro.
+homepage: https://github.com/Yazeed1s/minimal.nvim
+licenses:
+  - proprietary
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - Yazeed1s/minimal.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Yazeed1s/minimal.nvim

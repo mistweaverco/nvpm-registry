@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: one_monokai.nvim
+description: One Monokai theme written in Lua.
+homepage: https://github.com/cpea2506/one_monokai.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - cpea2506/one_monokai.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:cpea2506/one_monokai.nvim

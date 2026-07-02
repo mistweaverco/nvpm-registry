@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: bad-practices.nvim
+description: Helping you give up bad practices in Vim.
+homepage: https://github.com/antonk52/bad-practices.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - workflow
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - antonk52/bad-practices.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:antonk52/bad-practices.nvim

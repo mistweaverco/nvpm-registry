@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: SingleComment.nvim
+description: Always single line, comment sensitive, indentation preserving commenting.
+homepage: https://github.com/LucasTavaresA/SingleComment.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - editing-support
+  - comment
+aliases:
+  - LucasTavaresA/SingleComment.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:LucasTavaresA/SingleComment.nvim

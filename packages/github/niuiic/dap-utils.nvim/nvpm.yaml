@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: dap-utils.nvim
+description: Utilities to provide a better experience for using nvim-dap.
+homepage: https://github.com/niuiic/dap-utils.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - debugging
+aliases:
+  - niuiic/dap-utils.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:niuiic/dap-utils.nvim

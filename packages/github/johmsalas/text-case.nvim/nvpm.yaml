@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: text-case.nvim
+description: Text case changes via keybindings and custom substitute command with Telescope and LSP support.
+homepage: https://github.com/johmsalas/text-case.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - editing-support
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - johmsalas/text-case.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:johmsalas/text-case.nvim

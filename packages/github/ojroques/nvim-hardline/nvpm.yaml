@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-hardline
+description: A statusline / bufferline. It is inspired byvim-airlinebut aims to be as light and simple as possible.
+homepage: https://github.com/ojroques/nvim-hardline
+licenses:
+  - BSD-2-Clause
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+  - statusline
+aliases:
+  - ojroques/nvim-hardline
+editor_integration:
+  - neovim
+source:
+  id: github:ojroques/nvim-hardline

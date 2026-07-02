@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: compiler-explorer.nvim
+description: Async Lua plugin for interacting withcompiler-explorer.
+homepage: https://github.com/krady21/compiler-explorer.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - media
+aliases:
+  - krady21/compiler-explorer.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:krady21/compiler-explorer.nvim

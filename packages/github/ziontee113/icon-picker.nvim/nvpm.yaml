@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: icon-picker.nvim
+description: Help you pick 𝑨𝕃𝚻 Font Characters, Symbols Σ, Nerd Font Icons  & Emojis.
+homepage: https://github.com/ziontee113/icon-picker.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - icon
+aliases:
+  - ziontee113/icon-picker.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ziontee113/icon-picker.nvim

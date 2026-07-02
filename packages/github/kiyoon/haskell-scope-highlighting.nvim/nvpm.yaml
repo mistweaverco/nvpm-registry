@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: haskell-scope-highlighting.nvim
+description: >-
+  Haskell syntax highlighting that considers variable scopes. Inspired from "Context Coloring" by prof. Douglas
+  Crockford.
+homepage: https://github.com/kiyoon/haskell-scope-highlighting.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+aliases:
+  - kiyoon/haskell-scope-highlighting.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:kiyoon/haskell-scope-highlighting.nvim

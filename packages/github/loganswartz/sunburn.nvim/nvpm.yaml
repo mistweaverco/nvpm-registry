@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: sunburn.nvim
+description: >-
+  A colorscheme sitting somewhere between pastels and solarized, emphasizing readability and hue uniformity above all
+  else.
+homepage: https://github.com/loganswartz/sunburn.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - loganswartz/sunburn.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:loganswartz/sunburn.nvim

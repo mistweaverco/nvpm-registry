@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: keepcursor.nvim
+description: A collection of functions to control how the screen is positioned around the cursor.
+homepage: https://github.com/rlychrisg/keepcursor.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - scrolling
+aliases:
+  - rlychrisg/keepcursor.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:rlychrisg/keepcursor.nvim

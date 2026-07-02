@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: sonokai
+description: High Contrast & Vivid Color Scheme based on Monokai Pro.
+homepage: https://github.com/sainnhe/sonokai
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - sainnhe/sonokai
+editor_integration:
+  - neovim
+source:
+  id: github:sainnhe/sonokai

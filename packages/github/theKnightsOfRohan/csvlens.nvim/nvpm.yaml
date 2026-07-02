@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: csvlens.nvim
+description: A port ofYS-L/csvlens, for easy previewing of tabular data.
+homepage: https://github.com/theKnightsOfRohan/csvlens.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+  - csv-files
+aliases:
+  - theKnightsOfRohan/csvlens.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:theKnightsOfRohan/csvlens.nvim

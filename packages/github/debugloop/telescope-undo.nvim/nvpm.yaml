@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: telescope-undo.nvim
+description: A telescope extension to visualize your undo tree and fuzzy-search changes in it.
+homepage: https://github.com/debugloop/telescope-undo.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - debugloop/telescope-undo.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:debugloop/telescope-undo.nvim

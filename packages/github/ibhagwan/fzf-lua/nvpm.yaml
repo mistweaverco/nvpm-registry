@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: fzf-lua
+description: >-
+  The Lua version offzf.vim, high-performance and fully async, supportsnvim-web-devicons, Git indicators, LSP,
+  quickfix/location lists and more. Also supports`skim`as its fzf binary.
+homepage: https://github.com/ibhagwan/fzf-lua
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - fuzzy-finder
+aliases:
+  - ibhagwan/fzf-lua
+editor_integration:
+  - neovim
+source:
+  id: github:ibhagwan/fzf-lua

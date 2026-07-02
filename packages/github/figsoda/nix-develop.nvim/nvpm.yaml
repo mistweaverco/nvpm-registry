@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nix-develop.nvim
+description: Runnix developwithout restarting Neovim.
+homepage: https://github.com/figsoda/nix-develop.nvim
+licenses:
+  - MPL-2.0
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - figsoda/nix-develop.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:figsoda/nix-develop.nvim

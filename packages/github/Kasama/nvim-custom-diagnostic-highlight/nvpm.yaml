@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-custom-diagnostic-highlight
+description: Inline diagnostics popup-highlight much like coc-nvim but based onvim.diagnostic.
+homepage: https://github.com/Kasama/nvim-custom-diagnostic-highlight
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - Kasama/nvim-custom-diagnostic-highlight
+editor_integration:
+  - neovim
+source:
+  id: github:Kasama/nvim-custom-diagnostic-highlight

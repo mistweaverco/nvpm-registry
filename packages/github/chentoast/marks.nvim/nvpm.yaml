@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: marks.nvim
+description: A better user experience for viewing and interacting with Vim marks.
+homepage: https://github.com/chentoast/marks.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - marks
+aliases:
+  - chentoast/marks.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:chentoast/marks.nvim

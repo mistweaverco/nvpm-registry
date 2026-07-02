@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: sttusline
+description: Very lightweight, super fast and lazyloading statusline.
+homepage: https://github.com/sontungexpt/sttusline
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+  - statusline
+aliases:
+  - sontungexpt/sttusline
+editor_integration:
+  - neovim
+source:
+  id: github:sontungexpt/sttusline

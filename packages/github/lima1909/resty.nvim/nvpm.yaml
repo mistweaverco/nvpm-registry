@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: resty.nvim
+description: Fast and easy-to-use HTTP-Rest-Client.
+homepage: https://github.com/lima1909/resty.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - web-development
+aliases:
+  - lima1909/resty.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:lima1909/resty.nvim

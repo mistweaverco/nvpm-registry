@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: stopinsert.nvim
+description: Automatically exit Insert mode after inactivity.
+homepage: https://github.com/csessh/stopinsert.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - csessh/stopinsert.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:csessh/stopinsert.nvim

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: navigate-note.nvim
+description: Integrating note-taking capabilities with navigation/marking.
+homepage: https://github.com/you-n-g/navigate-note.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - marks
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - you-n-g/navigate-note.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:you-n-g/navigate-note.nvim

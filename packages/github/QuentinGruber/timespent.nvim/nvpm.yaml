@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: timespent.nvim
+description: Display time spent on projects / files.
+homepage: https://github.com/QuentinGruber/timespent.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - utility
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - QuentinGruber/timespent.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:QuentinGruber/timespent.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: neotree-file-nesting-config
+description: Pre-defined file nesting rules forneo-tree.nvim.
+homepage: https://github.com/saifulapm/neotree-file-nesting-config
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - file-explorer
+aliases:
+  - saifulapm/neotree-file-nesting-config
+editor_integration:
+  - neovim
+source:
+  id: github:saifulapm/neotree-file-nesting-config

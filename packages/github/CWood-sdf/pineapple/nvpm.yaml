@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: pineapple
+description: >-
+  Install any colorscheme in your config without leaving your terminal. Collects every colorscheme on the internet and
+  allows you to preview them all before installing.
+homepage: https://github.com/CWood-sdf/pineapple
+licenses:
+  - Apache-2.0
+categories:
+  - Theme
+tags:
+  - colorscheme-switchers
+aliases:
+  - CWood-sdf/pineapple
+editor_integration:
+  - neovim
+source:
+  id: github:CWood-sdf/pineapple

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: actions-preview.nvim
+description: Fully customizable previewer for LSP code actions.
+homepage: https://github.com/aznhe21/actions-preview.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - aznhe21/actions-preview.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:aznhe21/actions-preview.nvim

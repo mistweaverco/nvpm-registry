@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: just.nvim
+description: Task runner for justfiles.
+homepage: https://github.com/al1-ce/just.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - code-runner
+aliases:
+  - al1-ce/just.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:al1-ce/just.nvim

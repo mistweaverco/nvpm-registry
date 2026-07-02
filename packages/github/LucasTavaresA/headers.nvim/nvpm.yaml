@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: headers.nvim
+description: Zero-config header/footer warnings.
+homepage: https://github.com/LucasTavaresA/headers.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - project
+aliases:
+  - LucasTavaresA/headers.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:LucasTavaresA/headers.nvim

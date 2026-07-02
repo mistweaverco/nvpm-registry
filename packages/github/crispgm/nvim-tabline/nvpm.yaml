@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-tabline
+description: Neovim port of tabline.vim with Lua.
+homepage: https://github.com/crispgm/nvim-tabline
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+  - tabline
+aliases:
+  - crispgm/nvim-tabline
+editor_integration:
+  - neovim
+source:
+  id: github:crispgm/nvim-tabline

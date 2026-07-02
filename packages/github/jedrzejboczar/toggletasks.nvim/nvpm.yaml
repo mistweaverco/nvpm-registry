@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: toggletasks.nvim
+description: Task runner with JSON/YAML configs, using toggleterm.nvim and telescope.nvim.
+homepage: https://github.com/jedrzejboczar/toggletasks.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - code-runner
+aliases:
+  - jedrzejboczar/toggletasks.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:jedrzejboczar/toggletasks.nvim

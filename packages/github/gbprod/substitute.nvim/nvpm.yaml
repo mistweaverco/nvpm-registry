@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: substitute.nvim
+description: Neovim plugin introducing a new operator motions to quickly replace and exchange text.
+homepage: https://github.com/gbprod/substitute.nvim
+licenses:
+  - WTFPL
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - gbprod/substitute.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:gbprod/substitute.nvim

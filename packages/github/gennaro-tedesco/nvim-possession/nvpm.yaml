@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-possession
+description: The no-nonsense session manager.
+homepage: https://github.com/gennaro-tedesco/nvim-possession
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - session
+aliases:
+  - gennaro-tedesco/nvim-possession
+editor_integration:
+  - neovim
+source:
+  id: github:gennaro-tedesco/nvim-possession

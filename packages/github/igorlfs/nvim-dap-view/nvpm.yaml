@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-dap-view
+description: A modern, minimalistic UI for nvim-dap.
+homepage: https://github.com/igorlfs/nvim-dap-view
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - debugging
+aliases:
+  - igorlfs/nvim-dap-view
+editor_integration:
+  - neovim
+source:
+  id: github:igorlfs/nvim-dap-view

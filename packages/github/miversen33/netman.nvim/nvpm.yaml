@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: netman.nvim
+description: Lua powered Network Resource Manager.
+homepage: https://github.com/miversen33/netman.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - remote-development
+aliases:
+  - miversen33/netman.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:miversen33/netman.nvim

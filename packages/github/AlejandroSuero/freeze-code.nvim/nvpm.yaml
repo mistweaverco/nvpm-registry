@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: freeze-code.nvim
+description: >-
+  Code screenshot plugin that makes use offreezeinside the editor, it lets youcopythe generated image topaste it
+  anywhere.
+homepage: https://github.com/AlejandroSuero/freeze-code.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - AlejandroSuero/freeze-code.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:AlejandroSuero/freeze-code.nvim

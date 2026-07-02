@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-hlslens
+description: Helps you better glance searched information, seamlessly jump matched instances.
+homepage: https://github.com/kevinhwang91/nvim-hlslens
+licenses:
+  - BSD-3-Clause
+categories:
+  - Plugin
+tags:
+  - search
+aliases:
+  - kevinhwang91/nvim-hlslens
+editor_integration:
+  - neovim
+source:
+  id: github:kevinhwang91/nvim-hlslens

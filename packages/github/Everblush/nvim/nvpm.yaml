@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim
+description: A dark, vibrant and beautiful colorscheme written in Lua.
+homepage: https://github.com/Everblush/nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - Everblush/nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Everblush/nvim

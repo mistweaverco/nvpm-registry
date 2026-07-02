@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: galaxyline.nvim
+description: >-
+  Galaxyline componentizes Vim's statusline by having a provider for each text area. This means you can use the API
+  provided by galaxyline to create the statusline that you want, easily.
+homepage: https://github.com/NTBBloodbath/galaxyline.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+  - statusline
+aliases:
+  - NTBBloodbath/galaxyline.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:NTBBloodbath/galaxyline.nvim

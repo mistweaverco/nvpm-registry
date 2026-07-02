@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: rest.nvim
+description: A fast Neovim HTTP client written in Lua.
+homepage: https://github.com/rest-nvim/rest.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - web-development
+aliases:
+  - rest-nvim/rest.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:rest-nvim/rest.nvim

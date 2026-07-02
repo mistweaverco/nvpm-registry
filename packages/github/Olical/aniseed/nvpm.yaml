@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: aniseed
+description: Configure and extend Neovim with Fennel (Lisp to Lua).
+homepage: https://github.com/Olical/aniseed
+licenses:
+  - Unlicense
+categories:
+  - Plugin
+tags:
+  - fennel
+aliases:
+  - Olical/aniseed
+editor_integration:
+  - neovim
+source:
+  id: github:Olical/aniseed

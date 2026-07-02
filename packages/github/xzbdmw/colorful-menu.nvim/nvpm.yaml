@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: colorful-menu.nvim
+description: Colorize your auto completion menu using Tree-sitter.
+homepage: https://github.com/xzbdmw/colorful-menu.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - color
+aliases:
+  - xzbdmw/colorful-menu.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:xzbdmw/colorful-menu.nvim

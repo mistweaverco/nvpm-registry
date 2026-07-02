@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nochat.nvim
+description: >-
+  Cursor-like effortless natural language generation with multiple AI providers including Ollama, Anthropic (Claude),
+  and ChatGPT.
+homepage: https://github.com/heilgar/nochat.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - ai
+  - license:unrecognized=NOASSERTION
+  - license:raw=NOASSERTION
+aliases:
+  - heilgar/nochat.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:heilgar/nochat.nvim

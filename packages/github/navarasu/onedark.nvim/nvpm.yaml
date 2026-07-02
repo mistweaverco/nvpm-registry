@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: onedark.nvim
+description: A One Dark Theme (Neovim >= 0.5) written in Lua based on Atom's One Dark Theme.
+homepage: https://github.com/navarasu/onedark.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - navarasu/onedark.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:navarasu/onedark.nvim

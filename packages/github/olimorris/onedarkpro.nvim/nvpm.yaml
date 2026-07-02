@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: onedarkpro.nvim
+description: >-
+  Atom's iconic One Dark theme. Cacheable, fully customisable, Tree-sitter and LSP semantic token support. Comes with
+  light and dark variants.
+homepage: https://github.com/olimorris/onedarkpro.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - olimorris/onedarkpro.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:olimorris/onedarkpro.nvim

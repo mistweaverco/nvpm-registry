@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-treehopper
+description: Region selection with hints on the AST nodes of a document powered by Tree-sitter.
+homepage: https://github.com/mfussenegger/nvim-treehopper
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - motion
+  - tree-sitter-based
+aliases:
+  - mfussenegger/nvim-treehopper
+editor_integration:
+  - neovim
+source:
+  id: github:mfussenegger/nvim-treehopper

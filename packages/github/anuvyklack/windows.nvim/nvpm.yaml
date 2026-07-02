@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: windows.nvim
+description: Automatically expand width of the current window. Maximizes and restore it. And all this with nice animations!
+homepage: https://github.com/anuvyklack/windows.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - split-and-window
+aliases:
+  - anuvyklack/windows.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:anuvyklack/windows.nvim

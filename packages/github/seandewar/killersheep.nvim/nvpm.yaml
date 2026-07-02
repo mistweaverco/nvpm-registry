@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: killersheep.nvim
+description: Neovim port of killersheep.
+homepage: https://github.com/seandewar/killersheep.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - game
+  - license:unrecognized=NOASSERTION
+  - license:raw=NOASSERTION
+aliases:
+  - seandewar/killersheep.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:seandewar/killersheep.nvim

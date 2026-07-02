@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nfnl
+description: Streamlined successor to Aniseed, compiling Fennel to Lua on file write.
+homepage: https://github.com/Olical/nfnl
+licenses:
+  - Unlicense
+categories:
+  - Plugin
+tags:
+  - fennel
+aliases:
+  - Olical/nfnl
+editor_integration:
+  - neovim
+source:
+  id: github:Olical/nfnl

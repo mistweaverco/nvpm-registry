@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-biscuits
+description: A Neovim port of Assorted Biscuits. Ends up with more supported languages too.
+homepage: https://github.com/code-biscuits/nvim-biscuits
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - code-biscuits/nvim-biscuits
+editor_integration:
+  - neovim
+source:
+  id: github:code-biscuits/nvim-biscuits

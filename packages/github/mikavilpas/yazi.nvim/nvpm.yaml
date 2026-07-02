@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: yazi.nvim
+description: Integration with the Yazi terminal file manager.
+homepage: https://github.com/mikavilpas/yazi.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - file-explorer
+aliases:
+  - mikavilpas/yazi.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mikavilpas/yazi.nvim

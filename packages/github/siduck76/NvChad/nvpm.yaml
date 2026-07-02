@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: NvChad
+description: An attempt to make Neovim cli as functional as an IDE while being very beautiful and less bloated.
+homepage: https://github.com/siduck76/NvChad
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - siduck76/NvChad
+editor_integration:
+  - neovim
+source:
+  id: github:siduck76/NvChad

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-spider
+description: Use the w, e, b motions like a spider. Considers camelCase and skips insignificant punctuation.
+homepage: https://github.com/chrisgrieser/nvim-spider
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - motion
+aliases:
+  - chrisgrieser/nvim-spider
+editor_integration:
+  - neovim
+source:
+  id: github:chrisgrieser/nvim-spider

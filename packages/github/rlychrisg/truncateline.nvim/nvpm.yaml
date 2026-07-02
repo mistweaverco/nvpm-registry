@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: truncateline.nvim
+description: Truncate long lines to keep track of where you are when the start gets lost off the left side of the screen.
+homepage: https://github.com/rlychrisg/truncateline.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - rlychrisg/truncateline.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:rlychrisg/truncateline.nvim

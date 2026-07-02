@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: gh.nvim
+description: A fully featured GitHub integration for performing code reviews.
+homepage: https://github.com/ldelossa/gh.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - git
+  - github
+aliases:
+  - ldelossa/gh.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ldelossa/gh.nvim

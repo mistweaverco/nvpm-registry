@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: treesitter-outer
+description: Jump to outer node with smart.
+homepage: https://github.com/Mr-LLLLL/treesitter-outer
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - motion
+aliases:
+  - Mr-LLLLL/treesitter-outer
+editor_integration:
+  - neovim
+source:
+  id: github:Mr-LLLLL/treesitter-outer

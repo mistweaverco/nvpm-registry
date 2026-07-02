@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: apc.nvim
+description: >-
+  "On this day" style calendar, which provides information about worldwide history of working class movements and
+  liberation struggles.
+homepage: https://github.com/aPeoplesCalendar/apc.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - aPeoplesCalendar/apc.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:aPeoplesCalendar/apc.nvim

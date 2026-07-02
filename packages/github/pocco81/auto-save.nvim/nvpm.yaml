@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: pocco81-auto-save.nvim
+description: Save your work before the world collapses or you type :qa!
+homepage: https://github.com/pocco81/auto-save.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - pocco81/auto-save.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:pocco81/auto-save.nvim

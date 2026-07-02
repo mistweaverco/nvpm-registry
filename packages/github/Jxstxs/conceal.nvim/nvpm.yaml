@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: conceal.nvim
+description: Use Tree-sitter to conceal common boilerplate code.
+homepage: https://github.com/Jxstxs/conceal.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - Jxstxs/conceal.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Jxstxs/conceal.nvim

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: miss.nvim
+description: >-
+  Simple popup with changedunsavedfiles, allowing you to save and open them. Helps to avoid forgetting to add something
+  to GitHub or similar.
+homepage: https://github.com/Enigama/miss.nvim
+licenses:
+  - CC0-1.0
+categories:
+  - Plugin
+tags:
+  - file-explorer
+aliases:
+  - Enigama/miss.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Enigama/miss.nvim

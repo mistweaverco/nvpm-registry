@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: sqls.nvim
+description: SQL database connection plugin + LSP client.
+homepage: https://github.com/nanotee/sqls.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+aliases:
+  - nanotee/sqls.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nanotee/sqls.nvim

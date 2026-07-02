@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: smartcolumn.nvim
+description: Hide your colorcolumn when unneeded.
+homepage: https://github.com/m4xshen/smartcolumn.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+aliases:
+  - m4xshen/smartcolumn.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:m4xshen/smartcolumn.nvim

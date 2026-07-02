@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-scissors
+description: Automagical editing and creation of snippets.
+homepage: https://github.com/chrisgrieser/nvim-scissors
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - snippet
+aliases:
+  - chrisgrieser/nvim-scissors
+editor_integration:
+  - neovim
+source:
+  id: github:chrisgrieser/nvim-scissors

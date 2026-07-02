@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: guard.nvim
+description: Minimalist async formatting and linting plugin.
+homepage: https://github.com/nvimdev/guard.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - formatting
+aliases:
+  - nvimdev/guard.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nvimdev/guard.nvim

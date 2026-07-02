@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: calvera-dark.nvim
+description: A port ofVSCode Calvara DarkTheme to Neovim with Tree-sitter and many other plugins support.
+homepage: https://github.com/niyabits/calvera-dark.nvim
+licenses:
+  - GPL-2.0
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - niyabits/calvera-dark.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:niyabits/calvera-dark.nvim

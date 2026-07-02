@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: persistence.nvim
+description: Simple automated session management.
+homepage: https://github.com/folke/persistence.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - session
+aliases:
+  - folke/persistence.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:folke/persistence.nvim

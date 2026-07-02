@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: mdmath.nvim
+description: A markdown equation previewer, using Kitty Graphics Protocol.
+homepage: https://github.com/Thiago4532/mdmath.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - markdown-and-latex
+aliases:
+  - Thiago4532/mdmath.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Thiago4532/mdmath.nvim

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: gardenal
+description: >-
+  Gardenal is a theme switcher, which allows the user to create keyboard shortcuts to switch between themes with one
+  click.
+homepage: https://github.com/BrunoCiccarino/gardenal
+licenses:
+  - GPL-3.0
+categories:
+  - Theme
+tags:
+  - colorscheme-switchers
+aliases:
+  - BrunoCiccarino/gardenal
+editor_integration:
+  - neovim
+source:
+  id: github:BrunoCiccarino/gardenal

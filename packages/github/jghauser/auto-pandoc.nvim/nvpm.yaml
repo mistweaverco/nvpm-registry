@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: auto-pandoc.nvim
+description: Easy pandoc conversion leveraging YAML blocks.
+homepage: https://github.com/jghauser/auto-pandoc.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - markdown-and-latex
+aliases:
+  - jghauser/auto-pandoc.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:jghauser/auto-pandoc.nvim

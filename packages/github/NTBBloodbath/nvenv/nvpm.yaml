@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvenv
+description: A lightweight and blazing fast Neovim version manager.
+homepage: https://github.com/NTBBloodbath/nvenv
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - external
+  - version-manager
+aliases:
+  - NTBBloodbath/nvenv
+editor_integration:
+  - neovim
+source:
+  id: github:NTBBloodbath/nvenv

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-srcerite
+description: A colorscheme inspired bySrcery, based onnvim-highlite.
+homepage: https://github.com/m15a/nvim-srcerite
+licenses:
+  - BSD-3-Clause
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - m15a/nvim-srcerite
+editor_integration:
+  - neovim
+source:
+  id: github:m15a/nvim-srcerite

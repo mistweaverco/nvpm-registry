@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: bufferline.nvim
+description: A snazzy buffer line built using Lua.
+homepage: https://github.com/akinsho/bufferline.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - bars-and-lines
+  - tabline
+aliases:
+  - akinsho/bufferline.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:akinsho/bufferline.nvim

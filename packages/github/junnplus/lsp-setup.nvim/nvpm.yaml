@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: lsp-setup.nvim
+description: A simple wrapper for nvim-lspconfig and nvim-lsp-installer to easily setup LSP servers.
+homepage: https://github.com/junnplus/lsp-setup.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - junnplus/lsp-setup.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:junnplus/lsp-setup.nvim

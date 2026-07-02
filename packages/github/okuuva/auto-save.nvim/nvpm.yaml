@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: auto-save.nvim
+description: >-
+  Automatically saves your work as often as needed and as seldom as possible. Customizable with smart defaults.
+  Maintained fork of Pocco81/auto-save.nvim.
+homepage: https://github.com/okuuva/auto-save.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - okuuva/auto-save.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:okuuva/auto-save.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: darkman.nvim
+description: Follow the system dark-mode setting on Linux.
+homepage: https://github.com/4e554c4c/darkman.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - colorscheme-switchers
+aliases:
+  - 4e554c4c/darkman.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:4e554c4c/darkman.nvim

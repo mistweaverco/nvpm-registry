@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: persistent-breakpoints.nvim
+description: Persistent breakpoints for nvim-dap.
+homepage: https://github.com/Weissle/persistent-breakpoints.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - debugging
+aliases:
+  - Weissle/persistent-breakpoints.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Weissle/persistent-breakpoints.nvim

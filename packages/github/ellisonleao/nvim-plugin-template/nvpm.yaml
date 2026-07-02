@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-plugin-template
+description: Another Neovim plugin template, using GitHub's template feature.
+homepage: https://github.com/ellisonleao/nvim-plugin-template
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - external
+  - boilerplate
+aliases:
+  - ellisonleao/nvim-plugin-template
+editor_integration:
+  - neovim
+source:
+  id: github:ellisonleao/nvim-plugin-template

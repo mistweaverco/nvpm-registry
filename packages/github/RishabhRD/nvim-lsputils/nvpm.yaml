@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-lsputils
+description: Better defaults for nvim-lsp actions.
+homepage: https://github.com/RishabhRD/nvim-lsputils
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - RishabhRD/nvim-lsputils
+editor_integration:
+  - neovim
+source:
+  id: github:RishabhRD/nvim-lsputils

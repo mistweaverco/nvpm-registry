@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: spelunk.nvim
+description: Create and manage bookmarks as stacks with a friendly UI.
+homepage: https://github.com/EvWilson/spelunk.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - marks
+aliases:
+  - EvWilson/spelunk.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:EvWilson/spelunk.nvim

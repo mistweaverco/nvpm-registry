@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: visual-whitespace.nvim
+description: See whitespace characters in Visual selections, like VSCode.
+homepage: https://github.com/mcauley-penney/visual-whitespace.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - utility
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - mcauley-penney/visual-whitespace.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mcauley-penney/visual-whitespace.nvim

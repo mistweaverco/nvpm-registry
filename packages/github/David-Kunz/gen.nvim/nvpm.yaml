@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: gen.nvim
+description: Generate text using LLMs (via Ollama) with customizable prompts.
+homepage: https://github.com/David-Kunz/gen.nvim
+licenses:
+  - Unlicense
+categories:
+  - Plugin
+tags:
+  - ai
+aliases:
+  - David-Kunz/gen.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:David-Kunz/gen.nvim

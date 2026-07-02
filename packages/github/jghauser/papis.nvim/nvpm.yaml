@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: papis.nvim
+description: Manage your bibliography from within your favourite editor.
+homepage: https://github.com/jghauser/papis.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - note-taking
+aliases:
+  - jghauser/papis.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:jghauser/papis.nvim

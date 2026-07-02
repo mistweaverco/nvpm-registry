@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-ufo
+description: Ultra fold with modern looking and performance boosting.
+homepage: https://github.com/kevinhwang91/nvim-ufo
+licenses:
+  - BSD-3-Clause
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - kevinhwang91/nvim-ufo
+editor_integration:
+  - neovim
+source:
+  id: github:kevinhwang91/nvim-ufo

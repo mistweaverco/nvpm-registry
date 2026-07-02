@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nest.nvim
+description: Lua utility to map keys concisely using cascading trees. Also allows binding Lua functions to keys.
+homepage: https://github.com/LionC/nest.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - keybinding
+aliases:
+  - LionC/nest.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:LionC/nest.nvim

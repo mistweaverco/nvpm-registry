@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: iedit.nvim
+description: Edit one occurrence of text and simultaneously have other selected occurrences edited in the same way.
+homepage: https://github.com/altermo/iedit.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - altermo/iedit.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:altermo/iedit.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-ts-autotag
+description: Use Tree-sitter to autoclose and autorename XML, HTML, JSX tag.
+homepage: https://github.com/windwp/nvim-ts-autotag
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - windwp/nvim-ts-autotag
+editor_integration:
+  - neovim
+source:
+  id: github:windwp/nvim-ts-autotag

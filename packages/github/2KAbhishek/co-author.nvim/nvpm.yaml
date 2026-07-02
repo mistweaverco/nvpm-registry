@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: co-author.nvim
+description: Quickly add co-authors to commits.
+homepage: https://github.com/2KAbhishek/co-author.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - git
+aliases:
+  - 2KAbhishek/co-author.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:2KAbhishek/co-author.nvim

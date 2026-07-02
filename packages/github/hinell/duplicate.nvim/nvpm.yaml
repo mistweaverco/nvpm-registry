@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: duplicate.nvim
+description: Duplicate lines & blocks of lines easily; undo & unfolding support; full OOP.
+homepage: https://github.com/hinell/duplicate.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - editing-support
+  - license:unrecognized=NOASSERTION
+  - license:raw=NOASSERTION
+aliases:
+  - hinell/duplicate.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:hinell/duplicate.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-ide
+description: A full featured IDE layer heavily inspired by VSCode.
+homepage: https://github.com/ldelossa/nvim-ide
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - ldelossa/nvim-ide
+editor_integration:
+  - neovim
+source:
+  id: github:ldelossa/nvim-ide

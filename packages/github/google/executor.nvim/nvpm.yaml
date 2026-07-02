@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: executor.nvim
+description: Allows you to run command line tasks in the background and be notified of results.
+homepage: https://github.com/google/executor.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - code-runner
+aliases:
+  - google/executor.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:google/executor.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: reactive.nvim
+description: Set global and window-specific highlights or trigger callbacks when modes/operators change or windows are switched.
+homepage: https://github.com/rasulomaroff/reactive.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - color
+aliases:
+  - rasulomaroff/reactive.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:rasulomaroff/reactive.nvim

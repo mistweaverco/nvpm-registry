@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: comfy-line-numbers.nvim
+description: Limits relative numbers to only show left-hand digits on the keyboard.
+homepage: https://github.com/mluders/comfy-line-numbers.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - mluders/comfy-line-numbers.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mluders/comfy-line-numbers.nvim

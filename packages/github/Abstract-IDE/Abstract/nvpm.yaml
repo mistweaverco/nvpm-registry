@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: Abstract
+description: Abstract, The Neovim configuration to achieve the power of Modern IDE.
+homepage: https://github.com/Abstract-IDE/Abstract
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - Abstract-IDE/Abstract
+editor_integration:
+  - neovim
+source:
+  id: github:Abstract-IDE/Abstract

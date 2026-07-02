@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: l7-devenv
+description: Security-focused IDE with a hackable (in the right way) framework based on Neovim and shell.
+homepage: https://github.com/legobeat/l7-devenv
+licenses:
+  - AGPL-3.0
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - legobeat/l7-devenv
+editor_integration:
+  - neovim
+source:
+  id: github:legobeat/l7-devenv

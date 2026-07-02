@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: part-edit.nvim
+description: Edit a part of a file individually.
+homepage: https://github.com/niuiic/part-edit.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - niuiic/part-edit.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:niuiic/part-edit.nvim

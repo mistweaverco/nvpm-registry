@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: format.nvim
+description: An asynchronous, multitasking, and highly configurable formatting plugin.
+homepage: https://github.com/niuiic/format.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - formatting
+aliases:
+  - niuiic/format.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:niuiic/format.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: advanced-git-search.nvim
+description: Search your Git history by commit content, message and author with Telescope.
+homepage: https://github.com/aaronhallaert/advanced-git-search.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - git
+aliases:
+  - aaronhallaert/advanced-git-search.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:aaronhallaert/advanced-git-search.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: zenburn.nvim
+description: A low-contrast dark colorscheme with support for various plugins.
+homepage: https://github.com/phha/zenburn.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - phha/zenburn.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:phha/zenburn.nvim

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-lspfuzzy
+description: A small plugin to make the LSP client use FZF.
+homepage: https://github.com/ojroques/nvim-lspfuzzy
+licenses:
+  - BSD-2-Clause
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - ojroques/nvim-lspfuzzy
+editor_integration:
+  - neovim
+source:
+  id: github:ojroques/nvim-lspfuzzy

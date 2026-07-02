@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: project.nvim
+description: An all in one Neovim plugin that provides superior project management.
+homepage: https://github.com/ahmedkhalf/project.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - project
+aliases:
+  - ahmedkhalf/project.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ahmedkhalf/project.nvim

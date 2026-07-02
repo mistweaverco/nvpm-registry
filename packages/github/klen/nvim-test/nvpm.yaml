@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-test
+description: A Neovim wrapper for running tests.
+homepage: https://github.com/klen/nvim-test
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - test
+aliases:
+  - klen/nvim-test
+editor_integration:
+  - neovim
+source:
+  id: github:klen/nvim-test

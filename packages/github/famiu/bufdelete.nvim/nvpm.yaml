@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: bufdelete.nvim
+description: Delete Neovim buffers without losing your window layout.
+homepage: https://github.com/famiu/bufdelete.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - split-and-window
+aliases:
+  - famiu/bufdelete.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:famiu/bufdelete.nvim

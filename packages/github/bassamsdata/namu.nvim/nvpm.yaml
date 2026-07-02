@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: namu.nvim
+description: Flexible and sleek fuzzy picker, LSP symbol navigator, and more. Inspired by Zed.
+homepage: https://github.com/bassamsdata/namu.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - fuzzy-finder
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - bassamsdata/namu.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:bassamsdata/namu.nvim

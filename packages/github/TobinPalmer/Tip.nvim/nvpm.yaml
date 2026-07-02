@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: Tip.nvim
+description: Get a simple tip when you launch Neovim.
+homepage: https://github.com/TobinPalmer/Tip.nvim
+licenses:
+  - Unlicense
+categories:
+  - Plugin
+tags:
+  - startup
+aliases:
+  - TobinPalmer/Tip.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:TobinPalmer/Tip.nvim

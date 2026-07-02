@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: blame-column.nvim
+description: Show Git blame info.
+homepage: https://github.com/Yu-Leo/blame-column.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - git
+aliases:
+  - Yu-Leo/blame-column.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Yu-Leo/blame-column.nvim

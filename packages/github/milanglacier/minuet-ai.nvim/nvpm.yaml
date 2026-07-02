@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: minuet-ai.nvim
+description: >-
+  Minuet offers code completion from LLM providers including OpenAI (compatible), Gemini, Claude, Ollama, Deepseek and
+  more providers, with support for nvim-cmp, blink.cmp and virtual-text frontend.
+homepage: https://github.com/milanglacier/minuet-ai.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - ai
+aliases:
+  - milanglacier/minuet-ai.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:milanglacier/minuet-ai.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: hot.nvim
+description: A hot reloader that works with any programming language.
+homepage: https://github.com/sachinsenal0x64/hot.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - deployment
+aliases:
+  - sachinsenal0x64/hot.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:sachinsenal0x64/hot.nvim

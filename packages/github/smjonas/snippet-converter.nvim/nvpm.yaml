@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: snippet-converter.nvim
+description: Convert snippets between the most common snippet formats and modify them using a few lines of Lua code.
+homepage: https://github.com/smjonas/snippet-converter.nvim
+licenses:
+  - MPL-2.0
+categories:
+  - Plugin
+tags:
+  - snippet
+aliases:
+  - smjonas/snippet-converter.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:smjonas/snippet-converter.nvim

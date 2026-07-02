@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tiny-devicons-auto-colors.nvim
+description: Automatically updates nvim-web-devicons colors based on your current colorscheme.
+homepage: https://github.com/rachartier/tiny-devicons-auto-colors.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - color
+aliases:
+  - rachartier/tiny-devicons-auto-colors.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:rachartier/tiny-devicons-auto-colors.nvim

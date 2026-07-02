@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: url-open
+description: Open URLs under the cursor and create highlight effects for them.
+homepage: https://github.com/sontungexpt/url-open
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - sontungexpt/url-open
+editor_integration:
+  - neovim
+source:
+  id: github:sontungexpt/url-open

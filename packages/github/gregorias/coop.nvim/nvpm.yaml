@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: coop.nvim
+description: Structured concurrency with Lua coroutines.
+homepage: https://github.com/gregorias/coop.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - neovim-lua-development
+aliases:
+  - gregorias/coop.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:gregorias/coop.nvim

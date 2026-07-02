@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: macrothis.nvim
+description: Save and load macros/registers.
+homepage: https://github.com/desdic/macrothis.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - register
+aliases:
+  - desdic/macrothis.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:desdic/macrothis.nvim

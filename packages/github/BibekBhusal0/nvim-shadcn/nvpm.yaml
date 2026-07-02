@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-shadcn
+description: Easily add Shadcn UI components with telescope.
+homepage: https://github.com/BibekBhusal0/nvim-shadcn
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - web-development
+aliases:
+  - BibekBhusal0/nvim-shadcn
+editor_integration:
+  - neovim
+source:
+  id: github:BibekBhusal0/nvim-shadcn

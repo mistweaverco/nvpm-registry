@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: package-info.nvim
+description: Display latest package version as virtual text in package.json.
+homepage: https://github.com/vuki656/package-info.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - dependency-management
+aliases:
+  - vuki656/package-info.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:vuki656/package-info.nvim

@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: fzf-symbols.nvim
+description: |-
+  Provide its users with the ability of
+  picking symbols and insert them at point using fzf-lua.
+homepage: https://github.com/mistweaverco/fzf-symbols.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - fzf
+  - fuzzy-finder
+  - emoji
+  - symbols
+aliases:
+  - mistweaverco/fzf-symbols.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mistweaverco/fzf-symbols.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-coverage
+description: Displays coverage information in the sign column.
+homepage: https://github.com/andythigpen/nvim-coverage
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - test
+aliases:
+  - andythigpen/nvim-coverage
+editor_integration:
+  - neovim
+source:
+  id: github:andythigpen/nvim-coverage

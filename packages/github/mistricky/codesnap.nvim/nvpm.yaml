@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: codesnap.nvim
+description: Snapshot plugin with rich features that can make pretty code snapshots.
+homepage: https://github.com/mistricky/codesnap.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - mistricky/codesnap.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mistricky/codesnap.nvim

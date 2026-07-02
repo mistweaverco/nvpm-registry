@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: todo-comments.nvim
+description: Highlight, list and search todo comments in your projects.
+homepage: https://github.com/folke/todo-comments.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - editing-support
+  - comment
+aliases:
+  - folke/todo-comments.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:folke/todo-comments.nvim

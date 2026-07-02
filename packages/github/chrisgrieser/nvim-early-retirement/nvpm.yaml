@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-early-retirement
+description: Send buffers into early retirement by automatically closing them after x minutes of inactivity.
+homepage: https://github.com/chrisgrieser/nvim-early-retirement
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - chrisgrieser/nvim-early-retirement
+editor_integration:
+  - neovim
+source:
+  id: github:chrisgrieser/nvim-early-retirement

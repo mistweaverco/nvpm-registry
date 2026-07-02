@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tiny-glimmer.nvim
+description: Adds subtle animations to various operations.
+homepage: https://github.com/rachartier/tiny-glimmer.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - rachartier/tiny-glimmer.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:rachartier/tiny-glimmer.nvim

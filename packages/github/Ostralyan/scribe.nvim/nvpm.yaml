@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: scribe.nvim
+description: Take notes, easily.
+homepage: https://github.com/Ostralyan/scribe.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - note-taking
+aliases:
+  - Ostralyan/scribe.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Ostralyan/scribe.nvim

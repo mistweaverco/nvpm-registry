@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: monochrome.nvim
+description: >-
+  A 16 bit monochrome colorscheme that uses hsluv for perceptually distinct gray colors, with support for Tree-sitter
+  and other commonly used plugins.
+homepage: https://github.com/kdheepak/monochrome.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - kdheepak/monochrome.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:kdheepak/monochrome.nvim

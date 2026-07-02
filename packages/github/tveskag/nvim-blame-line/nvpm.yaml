@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-blame-line
+description: A small plugin that uses Neovim's virtual text to print Git blame info at the end of the current line.
+homepage: https://github.com/tveskag/nvim-blame-line
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - git
+aliases:
+  - tveskag/nvim-blame-line
+editor_integration:
+  - neovim
+source:
+  id: github:tveskag/nvim-blame-line

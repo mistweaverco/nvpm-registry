@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: NotebookNavigator.nvim
+description: Navigate and execute code cells.
+homepage: https://github.com/GCBallesteros/NotebookNavigator.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - utility
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - GCBallesteros/NotebookNavigator.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:GCBallesteros/NotebookNavigator.nvim

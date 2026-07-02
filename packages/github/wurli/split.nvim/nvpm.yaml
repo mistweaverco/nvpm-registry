@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: split.nvim
+description: Provides a mapping to split text by delimiter, giving an inverse of the native J command.
+homepage: https://github.com/wurli/split.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - wurli/split.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:wurli/split.nvim

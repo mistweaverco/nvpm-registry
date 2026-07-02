@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: vim-be-good
+description: Vim-be-good is a Neovim plugin designed to make you better at Vim Movements.
+homepage: https://github.com/ThePrimeagen/vim-be-good
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - game
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - ThePrimeagen/vim-be-good
+editor_integration:
+  - neovim
+source:
+  id: github:ThePrimeagen/vim-be-good

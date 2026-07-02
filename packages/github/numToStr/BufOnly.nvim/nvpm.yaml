@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: BufOnly.nvim
+description: Lua/Neovim port of BufOnly.vim with some changes.
+homepage: https://github.com/numToStr/BufOnly.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - utility
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - numToStr/BufOnly.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:numToStr/BufOnly.nvim

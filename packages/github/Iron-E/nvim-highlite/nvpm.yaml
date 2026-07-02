@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-highlite
+description: A colorscheme generator that is "lite" on logic for the developer.
+homepage: https://github.com/Iron-E/nvim-highlite
+licenses:
+  - proprietary
+categories:
+  - Theme
+tags:
+  - colorscheme-creation
+  - license:unrecognized=NOASSERTION
+  - license:raw=NOASSERTION
+aliases:
+  - Iron-E/nvim-highlite
+editor_integration:
+  - neovim
+source:
+  id: github:Iron-E/nvim-highlite

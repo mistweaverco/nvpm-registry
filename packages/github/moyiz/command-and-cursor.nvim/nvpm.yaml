@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: command-and-cursor.nvim
+description: Highlight cursor and visual selections when entering command mode.
+homepage: https://github.com/moyiz/command-and-cursor.nvim
+licenses:
+  - BSD-3-Clause
+categories:
+  - Plugin
+tags:
+  - color
+aliases:
+  - moyiz/command-and-cursor.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:moyiz/command-and-cursor.nvim

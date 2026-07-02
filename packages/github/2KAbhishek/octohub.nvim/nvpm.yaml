@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: octohub.nvim
+description: Access all your gihub repos, stats and more in simple keystrokes.
+homepage: https://github.com/2KAbhishek/octohub.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - git
+  - github
+aliases:
+  - 2KAbhishek/octohub.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:2KAbhishek/octohub.nvim

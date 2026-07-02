@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: langmapper.nvim
+description: Auto translating your mappings for non-English input methods.
+homepage: https://github.com/Wansmer/langmapper.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - keybinding
+aliases:
+  - Wansmer/langmapper.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Wansmer/langmapper.nvim

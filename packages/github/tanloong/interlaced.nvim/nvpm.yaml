@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: interlaced.nvim
+description: Help align bilingual parallel texts.
+homepage: https://github.com/tanloong/interlaced.nvim
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - language
+aliases:
+  - tanloong/interlaced.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:tanloong/interlaced.nvim

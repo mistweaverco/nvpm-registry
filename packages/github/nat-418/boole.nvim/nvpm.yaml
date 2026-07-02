@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: boole.nvim
+description: Toggle booleans and common string values.
+homepage: https://github.com/nat-418/boole.nvim
+licenses:
+  - 0BSD
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - nat-418/boole.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nat-418/boole.nvim

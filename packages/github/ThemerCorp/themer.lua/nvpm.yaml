@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: themer.lua
+description: >-
+  A simple highlighter plugin for Neovim. It has a huge collection of colorschemes. It also has ability to create
+  colorschemes for Vim/Neovim and other supported apps (such as kitty and alacritty).
+homepage: https://github.com/ThemerCorp/themer.lua
+licenses:
+  - GPL-3.0
+categories:
+  - Theme
+tags:
+  - colorscheme-creation
+aliases:
+  - ThemerCorp/themer.lua
+editor_integration:
+  - neovim
+source:
+  id: github:ThemerCorp/themer.lua

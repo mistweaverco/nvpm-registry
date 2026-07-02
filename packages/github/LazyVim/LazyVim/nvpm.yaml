@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: LazyVim
+description: Full-fledged IDE powered bylazy.nvimto make it easy to customize and extend your config.
+homepage: https://github.com/LazyVim/LazyVim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - LazyVim/LazyVim
+editor_integration:
+  - neovim
+source:
+  id: github:LazyVim/LazyVim

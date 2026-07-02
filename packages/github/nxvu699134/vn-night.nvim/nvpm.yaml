@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: vn-night.nvim
+description: A dark Neovim colorscheme written in Lua. Support built-in LSP and Tree-sitter.
+homepage: https://github.com/nxvu699134/vn-night.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - nxvu699134/vn-night.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nxvu699134/vn-night.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: one-nvim
+description: An Atom One inspired dark and light colorscheme.
+homepage: https://github.com/Th3Whit3Wolf/one-nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - Th3Whit3Wolf/one-nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Th3Whit3Wolf/one-nvim

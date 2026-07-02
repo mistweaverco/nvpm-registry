@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: StratVIM
+description: A full-fledged Neovim distribution included by default inStratOS, an upcoming Arch-based Linux distro.
+homepage: https://github.com/StratOS-Linux/StratVIM
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - preconfigured-configuration
+aliases:
+  - StratOS-Linux/StratVIM
+editor_integration:
+  - neovim
+source:
+  id: github:StratOS-Linux/StratVIM

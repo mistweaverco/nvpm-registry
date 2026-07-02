@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-lspinstall
+description: Easy to install language servers.
+homepage: https://github.com/anott03/nvim-lspinstall
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+  - lsp-installer
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - anott03/nvim-lspinstall
+editor_integration:
+  - neovim
+source:
+  id: github:anott03/nvim-lspinstall

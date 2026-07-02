@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: demicolon.nvim
+description: >-
+  Use;and,keys to also repeat jumps to diagnostics (e.g.]d) and tonvim-treesitter-textobjects(e.g.]f), in addition to
+  repeatingt/T/f/F.
+homepage: https://github.com/mawkler/demicolon.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - keybinding
+aliases:
+  - mawkler/demicolon.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mawkler/demicolon.nvim

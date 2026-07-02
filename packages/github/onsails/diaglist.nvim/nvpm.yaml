@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: diaglist.nvim
+description: Live render workspace diagnostics in quickfix, buffer diagnostics in loclist.
+homepage: https://github.com/onsails/diaglist.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+  - diagnostics
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - onsails/diaglist.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:onsails/diaglist.nvim

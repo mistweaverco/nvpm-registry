@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: gruvbox-material
+description: Gruvbox modification with softer contrast and Tree-sitter support.
+homepage: https://github.com/sainnhe/gruvbox-material
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - sainnhe/gruvbox-material
+editor_integration:
+  - neovim
+source:
+  id: github:sainnhe/gruvbox-material

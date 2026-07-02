@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvs
+description: Another Neovim version manager with config switcher.
+homepage: https://github.com/y3owk1n/nvs
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - external
+  - version-manager
+aliases:
+  - y3owk1n/nvs
+editor_integration:
+  - neovim
+source:
+  id: github:y3owk1n/nvs

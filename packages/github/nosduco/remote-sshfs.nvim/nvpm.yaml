@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: remote-sshfs.nvim
+description: Explore, edit, and develop on a remote machine via SSHFS.
+homepage: https://github.com/nosduco/remote-sshfs.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - remote-development
+aliases:
+  - nosduco/remote-sshfs.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:nosduco/remote-sshfs.nvim

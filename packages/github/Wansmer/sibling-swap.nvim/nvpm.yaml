@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: sibling-swap.nvim
+description: Different way to swapping arguments and other siblings with Tree-sitter.
+homepage: https://github.com/Wansmer/sibling-swap.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - Wansmer/sibling-swap.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:Wansmer/sibling-swap.nvim

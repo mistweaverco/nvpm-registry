@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nx.nvim
+description: Neovim API utility wrapper for more convenience with Lua keymaps, highlights, autocommands and options.
+homepage: https://github.com/tenxsoydev/nx.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - tenxsoydev/nx.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:tenxsoydev/nx.nvim

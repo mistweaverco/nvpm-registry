@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: monokai-nightasty.nvim
+description: >-
+  A dark/light theme based on the Monokai color palette written in Lua, support for LSP, Tree-sitter and lots of
+  plugins.
+homepage: https://github.com/polirritmico/monokai-nightasty.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - polirritmico/monokai-nightasty.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:polirritmico/monokai-nightasty.nvim

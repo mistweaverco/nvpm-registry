@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: virtcolumn.nvim
+description: Display a line as colorcolumn.
+homepage: https://github.com/xiyaowong/virtcolumn.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - utility
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - xiyaowong/virtcolumn.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:xiyaowong/virtcolumn.nvim

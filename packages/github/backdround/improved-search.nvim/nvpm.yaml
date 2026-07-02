@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: improved-search.nvim
+description: Add search abilities.
+homepage: https://github.com/backdround/improved-search.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - search
+aliases:
+  - backdround/improved-search.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:backdround/improved-search.nvim

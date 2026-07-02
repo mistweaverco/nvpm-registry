@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: onebuddy
+description: Light and dark atom one theme.
+homepage: https://github.com/Th3Whit3Wolf/onebuddy
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - Th3Whit3Wolf/onebuddy
+editor_integration:
+  - neovim
+source:
+  id: github:Th3Whit3Wolf/onebuddy

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: ventana.nvim
+description: Convenient flips & shifts for your windows layout.
+homepage: https://github.com/jyscao/ventana.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - split-and-window
+aliases:
+  - jyscao/ventana.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:jyscao/ventana.nvim

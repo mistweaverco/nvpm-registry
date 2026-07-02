@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: rustaceanvim
+description: A heavily modified fork of rust-tools.nvim that does not require asetupcall and does not depend on nvim-lspconfig.
+homepage: https://github.com/mrcjkb/rustaceanvim
+licenses:
+  - GPL-2.0
+categories:
+  - Plugin
+tags:
+  - lsp
+  - neovim-0.5
+aliases:
+  - mrcjkb/rustaceanvim
+editor_integration:
+  - neovim
+source:
+  id: github:mrcjkb/rustaceanvim

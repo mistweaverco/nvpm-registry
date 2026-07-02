@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: compter.nvim
+description: Power and extend the ability of<C-a>and<C-x>with customized patterns.
+homepage: https://github.com/RutaTang/compter.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - RutaTang/compter.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:RutaTang/compter.nvim

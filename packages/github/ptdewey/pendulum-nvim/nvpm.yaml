@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: pendulum-nvim
+description: Track time spent coding and glean insights through on-demand time reports.
+homepage: https://github.com/ptdewey/pendulum-nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - ptdewey/pendulum-nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ptdewey/pendulum-nvim

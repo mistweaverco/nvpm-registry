@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: peepsight.nvim
+description: Focus only the function your cursor is in.
+homepage: https://github.com/koenverburg/peepsight.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - color
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - koenverburg/peepsight.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:koenverburg/peepsight.nvim

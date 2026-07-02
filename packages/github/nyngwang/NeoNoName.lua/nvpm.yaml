@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: NeoNoName.lua
+description: Layout preserving buffer deletion.
+homepage: https://github.com/nyngwang/NeoNoName.lua
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - split-and-window
+aliases:
+  - nyngwang/NeoNoName.lua
+editor_integration:
+  - neovim
+source:
+  id: github:nyngwang/NeoNoName.lua

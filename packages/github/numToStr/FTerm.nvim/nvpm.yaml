@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: FTerm.nvim
+description: No nonsense floating terminal written in Lua.
+homepage: https://github.com/numToStr/FTerm.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - terminal-integration
+aliases:
+  - numToStr/FTerm.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:numToStr/FTerm.nvim

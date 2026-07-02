@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-http-client
+description: Easy to use HTTP client with IntelliJ (JetBrains) HTTP client syntax compatibility.
+homepage: https://github.com/heilgar/nvim-http-client
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - web-development
+aliases:
+  - heilgar/nvim-http-client
+editor_integration:
+  - neovim
+source:
+  id: github:heilgar/nvim-http-client

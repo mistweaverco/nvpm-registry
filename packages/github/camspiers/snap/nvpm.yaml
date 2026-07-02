@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: snap
+description: >-
+  An extensible fuzzy finder. Similar to Telescope, and optimized for performance, especially when grepping in large
+  codebases.
+homepage: https://github.com/camspiers/snap
+licenses:
+  - Unlicense
+categories:
+  - Plugin
+tags:
+  - fuzzy-finder
+aliases:
+  - camspiers/snap
+editor_integration:
+  - neovim
+source:
+  id: github:camspiers/snap

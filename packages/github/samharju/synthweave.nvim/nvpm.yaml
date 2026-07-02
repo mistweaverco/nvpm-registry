@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: synthweave.nvim
+description: Synthwave '84 colorscheme port.
+homepage: https://github.com/samharju/synthweave.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - samharju/synthweave.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:samharju/synthweave.nvim

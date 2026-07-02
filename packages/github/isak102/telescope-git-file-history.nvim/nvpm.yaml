@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: telescope-git-file-history.nvim
+description: Open/preview contents of the current file at a specific commit, without using git checkout.
+homepage: https://github.com/isak102/telescope-git-file-history.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - git
+aliases:
+  - isak102/telescope-git-file-history.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:isak102/telescope-git-file-history.nvim

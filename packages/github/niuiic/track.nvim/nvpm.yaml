@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: track.nvim
+description: Enhanced mark with description. Track the thought process of reading source code.
+homepage: https://github.com/niuiic/track.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - marks
+aliases:
+  - niuiic/track.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:niuiic/track.nvim

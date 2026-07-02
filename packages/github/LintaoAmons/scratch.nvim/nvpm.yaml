@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: scratch.nvim
+description: Create and manage scratch files.
+homepage: https://github.com/LintaoAmons/scratch.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - utility
+  - license:unrecognized=NOASSERTION
+  - license:raw=NOASSERTION
+aliases:
+  - LintaoAmons/scratch.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:LintaoAmons/scratch.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: chadtree
+description: File manager. Better than NERDTree.
+homepage: https://github.com/ms-jpq/chadtree
+licenses:
+  - GPL-3.0
+categories:
+  - Plugin
+tags:
+  - file-explorer
+aliases:
+  - ms-jpq/chadtree
+editor_integration:
+  - neovim
+source:
+  id: github:ms-jpq/chadtree

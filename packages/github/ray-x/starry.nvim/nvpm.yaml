@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: starry.nvim
+description: >-
+  A collection of modern Neovim colorschemes: material, moonlight, dracula (blood), monokai, mariana, emerald,
+  earlysummer, middlenight_blue, darksolar.
+homepage: https://github.com/ray-x/starry.nvim
+licenses:
+  - GPL-2.0
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - ray-x/starry.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:ray-x/starry.nvim

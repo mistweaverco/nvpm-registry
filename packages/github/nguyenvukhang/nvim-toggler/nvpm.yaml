@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-toggler
+description: Invert text, such as toggling betweentrueandfalse.
+homepage: https://github.com/nguyenvukhang/nvim-toggler
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - nguyenvukhang/nvim-toggler
+editor_integration:
+  - neovim
+source:
+  id: github:nguyenvukhang/nvim-toggler

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: guihua.lua
+description: A Lua UI library. Includes a fzy search bar, list view and tree view modules.
+homepage: https://github.com/ray-x/guihua.lua
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - neovim-lua-development
+aliases:
+  - ray-x/guihua.lua
+editor_integration:
+  - neovim
+source:
+  id: github:ray-x/guihua.lua

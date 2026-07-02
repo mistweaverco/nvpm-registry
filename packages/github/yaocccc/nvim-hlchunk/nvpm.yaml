@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-hlchunk
+description: Highlight a{}chunk.
+homepage: https://github.com/yaocccc/nvim-hlchunk
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - formatting
+  - indent
+aliases:
+  - yaocccc/nvim-hlchunk
+editor_integration:
+  - neovim
+source:
+  id: github:yaocccc/nvim-hlchunk

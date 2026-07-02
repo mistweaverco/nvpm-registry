@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: gesture.nvim
+description: Mouse gesture plugin.
+homepage: https://github.com/notomo/gesture.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - mouse
+aliases:
+  - notomo/gesture.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:notomo/gesture.nvim

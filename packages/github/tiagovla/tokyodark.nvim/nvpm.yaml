@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: tokyodark.nvim
+description: A clean dark theme written in Lua (Neovim >= 0.5) and above.
+homepage: https://github.com/tiagovla/tokyodark.nvim
+licenses:
+  - proprietary
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - tiagovla/tokyodark.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:tiagovla/tokyodark.nvim

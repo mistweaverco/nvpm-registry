@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: ariake.nvim
+description: A port of the great Atom theme. Beautiful, dark colour scheme.
+homepage: https://github.com/jim-at-jibba/ariake.nvim
+licenses:
+  - MIT
+categories:
+  - Theme
+tags:
+  - treesitter-colorschemes
+aliases:
+  - jim-at-jibba/ariake.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:jim-at-jibba/ariake.nvim

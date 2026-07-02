@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: specs.nvim
+description: A fast and lightweight Neovim Lua plugin to keep an eye on where your cursor has jumped.
+homepage: https://github.com/cxwx/specs.nvim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - motion
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - cxwx/specs.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:cxwx/specs.nvim

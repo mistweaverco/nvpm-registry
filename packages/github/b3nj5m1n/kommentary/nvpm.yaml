@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: kommentary
+description: Commenting plugin written in Lua.
+homepage: https://github.com/b3nj5m1n/kommentary
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - editing-support
+  - comment
+aliases:
+  - b3nj5m1n/kommentary
+editor_integration:
+  - neovim
+source:
+  id: github:b3nj5m1n/kommentary

@@ -14,20 +14,10 @@
 		<a href="/">
 			<button class="btn {currentRoute === '/' ? 'btn-primary' : ''}">
 				<span class="icon">
-					<i class="fa-solid fa-house"></i>
+					<i class="fa-solid fa-satellite-dish"></i>
 				</span>
-				<strong>Home</strong>
+				<strong>Registry</strong>
 			</button>
-		</a>
-		<a href="/list">
-			<div class="indicator">
-				<button class="btn {currentRoute === '/list' ? 'btn-primary' : ''}">
-					<span class="icon">
-						<i class="fa-solid fa-cloud"></i>
-					</span>
-					<strong>Registry</strong>
-				</button>
-			</div>
 		</a>
 		<a href="https://github.com/mistweaverco/nvpm-registry" target="_blank">
 			<button class="btn">

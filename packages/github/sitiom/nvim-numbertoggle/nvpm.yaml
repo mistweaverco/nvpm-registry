@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvim-numbertoggle
+description: Neovim plugin to automatically toggle between relative and absolute line numbers.
+homepage: https://github.com/sitiom/nvim-numbertoggle
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - sitiom/nvim-numbertoggle
+editor_integration:
+  - neovim
+source:
+  id: github:sitiom/nvim-numbertoggle

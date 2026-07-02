@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nnn.nvim
+description: File explorer powered bynnnand Lua.
+homepage: https://github.com/luukvbaal/nnn.nvim
+licenses:
+  - BSD-3-Clause
+categories:
+  - Plugin
+tags:
+  - file-explorer
+aliases:
+  - luukvbaal/nnn.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:luukvbaal/nnn.nvim

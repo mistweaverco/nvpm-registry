@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: foldtext.nvim
+description: Dynamic & stylized foldtext.
+homepage: https://github.com/OXY2DEV/foldtext.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - editing-support
+aliases:
+  - OXY2DEV/foldtext.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:OXY2DEV/foldtext.nvim
