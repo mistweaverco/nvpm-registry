@@ -8,3 +8,4 @@ node_modules
 *.zip
 /web/static/registry.json
 /web/static/nvpm-registry.*
+/web/static/*.schema.json
