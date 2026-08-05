@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: nvpm.nvim
+description: |-
+  A lazy.nvim-compatible (drop-in replacement) Neovim plugin loader for packages installed with nvpm.
+
+  nvpm handles install, update, and lock (nvpm-lock.json).
+  nvpm.nvim handles runtime loading from your lazy-style plugin specs.
+homepage: https://github.com/mistweaverco/nvpm.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - lsp-manager
+  - plugin-manager
+  - tree-sitter-manager
+aliases:
+  - mistweaverco/nvpm.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mistweaverco/nvpm.nvim

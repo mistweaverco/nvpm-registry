@@ -1,19 +1,18 @@
 # yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
 ---
-name: blue-moon
-description: A dark color scheme derived from palenight and carbonight.
-homepage: https://github.com/kyazdani42/blue-moon
+name: nvim-web-devicons
+description: Provides Nerd Font icons for use by Neovim plugins.
+homepage: https://github.com/nvim-tree/nvim-web-devicons
 licenses:
-  - proprietary
+  - MIT
 categories:
-  - Theme
+  - Plugin
 tags:
-  - treesitter-colorschemes
-  - license:unrecognized=unknown
-  - license:raw=unknown
+  - icon
 aliases:
-  - kyazdani42/blue-moon
+  - kyazdani42/nvim-web-devicons
+  - nvim-tree/nvim-web-devicons
 editor_integration:
   - neovim
 source:
-  id: github:kyazdani42/blue-moon
+  id: github:kyazdani42/nvim-web-devicons

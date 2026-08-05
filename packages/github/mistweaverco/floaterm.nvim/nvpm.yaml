@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: floaterm.nvim
+description: A minimal, single floating terminal inside Neovim.
+homepage: https://github.com/mistweaverco/floaterm.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - terminal-integration
+aliases:
+  - mistweaverco/floaterm.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mistweaverco/floaterm.nvim

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: vim-better-whitespace
+description: Better whitespace and trailing space highlighting for Vim.
+homepage: https://github.com/ntpeters/vim-better-whitespace
+licenses:
+  - Unlicense
+categories:
+  - Plugin
+tags:
+  - formatting
+aliases:
+  - ntpeters/vim-better-whitespace
+editor_integration:
+  - neovim
+source:
+  id: github:ntpeters/vim-better-whitespace

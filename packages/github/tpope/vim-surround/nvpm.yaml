@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: vim-surround
+description: Delete, change, and add surrounding parentheses, quotes, XML tags, and more with ease.
+homepage: https://www.vim.org/scripts/script.php?script_id=1697
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - syntax
+  - editing-support
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - tpope/vim-surround
+editor_integration:
+  - neovim
+source:
+  id: github:tpope/vim-surround

@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: copilot.vim
+description: Neovim plugin for GitHub Copilot.
+homepage: https://github.com/github/copilot.vim
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - ai
+  - completion
+  - license:unrecognized=NOASSERTION
+  - license:raw=NOASSERTION
+aliases:
+  - github/copilot.vim
+editor_integration:
+  - neovim
+source:
+  id: github:github/copilot.vim

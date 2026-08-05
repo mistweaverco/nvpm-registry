@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: vim-go
+description: Go development plugin for Vim and Neovim.
+homepage: https://github.com/fatih/vim-go
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - golang
+  - license:unrecognized=NOASSERTION
+  - license:raw=NOASSERTION
+aliases:
+  - fatih/vim-go
+editor_integration:
+  - neovim
+source:
+  id: github:fatih/vim-go

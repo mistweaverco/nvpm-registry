@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: fyler.nvim
+description: A Neovim file manager that lets you edit the file system like a buffer with a tree view.
+homepage: https://github.com/FylerOrg/fyler.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - file-explorer
+aliases:
+  - FylerOrg/fyler.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:FylerOrg/fyler.nvim

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: mini.indentscope
+description: Visualize and operate on indent scope. Part of the mini.nvim library.
+homepage: https://github.com/nvim-mini/mini.indentscope
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - indent
+  - editing-support
+aliases:
+  - nvim-mini/mini.indentscope
+editor_integration:
+  - neovim
+source:
+  id: github:nvim-mini/mini.indentscope

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: blink.cmp
+description: Performant, batteries-included completion plugin for Neovim.
+homepage: https://cmp.saghen.dev
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - completion
+aliases:
+  - saghen/blink.cmp
+editor_integration:
+  - neovim
+source:
+  id: github:saghen/blink.cmp

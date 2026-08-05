@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: juu.nvim
+description: A minimal input styling plugin for your favorite editor.
+homepage: https://juu.nvim.forthelazy.dev
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - utility
+aliases:
+  - mistweaverco/juu.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mistweaverco/juu.nvim

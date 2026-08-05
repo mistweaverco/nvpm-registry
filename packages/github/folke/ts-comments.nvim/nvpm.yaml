@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: ts-comments.nvim
+description: Tiny plugin to enhance Neovim's native comments.
+homepage: https://github.com/folke/ts-comments.nvim
+licenses:
+  - Apache-2.0
+categories:
+  - Plugin
+tags:
+  - editing-support
+  - comment
+aliases:
+  - folke/ts-comments.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:folke/ts-comments.nvim

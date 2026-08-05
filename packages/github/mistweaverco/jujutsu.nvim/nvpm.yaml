@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: jujutsu.nvim
+description: A Magit-style Jujutsu (jj) interface for Neovim.
+homepage: https://github.com/mistweaverco/jujutsu.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - git
+aliases:
+  - mistweaverco/jujutsu.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mistweaverco/jujutsu.nvim

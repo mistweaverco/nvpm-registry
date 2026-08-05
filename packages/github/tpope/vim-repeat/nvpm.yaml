@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: vim-repeat
+description: Enable repeating supported plugin maps with ".".
+homepage: https://www.vim.org/scripts/script.php?script_id=2136
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - utility
+  - editing-support
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - tpope/vim-repeat
+editor_integration:
+  - neovim
+source:
+  id: github:tpope/vim-repeat

@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: vim-mustache-handlebars
+description: Mustache and Handlebars syntax highlighting for Vim.
+homepage: https://mustache.github.io
+licenses:
+  - proprietary
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+  - syntax
+  - license:unrecognized=unknown
+  - license:raw=unknown
+aliases:
+  - mustache/vim-mustache-handlebars
+editor_integration:
+  - neovim
+source:
+  id: github:mustache/vim-mustache-handlebars

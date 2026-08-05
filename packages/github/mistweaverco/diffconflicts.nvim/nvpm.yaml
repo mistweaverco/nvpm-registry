@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: diffconflicts.nvim
+description: Make resolving merge conflicts in Neovim a breeze.
+homepage: https://github.com/mistweaverco/diffconflicts.nvim
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - git
+aliases:
+  - mistweaverco/diffconflicts.nvim
+editor_integration:
+  - neovim
+source:
+  id: github:mistweaverco/diffconflicts.nvim

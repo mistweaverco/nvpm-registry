@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: blink.lib
+description: Shared library for blink.* Neovim plugins.
+homepage: https://github.com/saghen/blink.lib
+licenses:
+  - MIT
+categories:
+  - Plugin
+tags:
+  - neovim-lua-development
+aliases:
+  - saghen/blink.lib
+editor_integration:
+  - neovim
+source:
+  id: github:saghen/blink.lib

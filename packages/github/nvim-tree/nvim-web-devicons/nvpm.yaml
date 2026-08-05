@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
 ---
 name: nvim-web-devicons
-description: A Lua fork ofvim-devicons.
+description: Provides Nerd Font icons for use by Neovim plugins.
 homepage: https://github.com/nvim-tree/nvim-web-devicons
 licenses:
   - MIT
@@ -11,6 +11,7 @@ tags:
   - icon
 aliases:
   - nvim-tree/nvim-web-devicons
+  - kyazdani42/nvim-web-devicons
 editor_integration:
   - neovim
 source:

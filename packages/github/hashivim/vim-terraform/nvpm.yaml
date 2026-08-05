@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: vim-terraform
+description: Basic Vim and Terraform integration.
+homepage: https://hashivim.github.io/vim-terraform
+licenses:
+  - ISC
+categories:
+  - Plugin
+tags:
+  - programming-languages-support
+aliases:
+  - hashivim/vim-terraform
+editor_integration:
+  - neovim
+source:
+  id: github:hashivim/vim-terraform
