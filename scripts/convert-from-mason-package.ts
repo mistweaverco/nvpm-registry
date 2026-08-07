@@ -89,8 +89,11 @@ const convertVersionOverrides = (source: SourceInfo): VersionOverride => {
 const removeMasonFields = (
   data: PackageInfo,
 ): Omit<PackageInfo, "neovim" | "version"> => {
-  const { neovim, version, ...rest } = data;
-  return rest;
+  const dataCopy = Object.assign({}, data);
+  if ('neovim' in dataCopy) {
+    delete dataCopy.neovim;
+  }
+  return dataCopy;
 };
 
 // Fetch package.yaml from Mason registry
@@ -132,7 +135,7 @@ const main = async () => {
       const yamlContent = await fetchMasonPackage(packageName);
 
       // Parse YAML
-      const masonPackageData = yaml.load(yamlContent) as any;
+      const masonPackageData = yaml.load(yamlContent) as unknown as PackageInfo | undefined;
 
       if (
         !masonPackageData || !masonPackageData.source ||
@@ -153,6 +156,7 @@ const main = async () => {
 
       // Convert to NVPM format
       const nvpmPackageData: PackageInfo = {
+        version: "",
         ...removeMasonFields(masonPackageData),
         source: {
           ...convertVersionOverrides(masonPackageData.source),
@@ -161,7 +165,7 @@ const main = async () => {
       };
 
       // Remove version field if it exists (NVPM doesn't use it)
-      delete (nvpmPackageData as any).version;
+      delete (nvpmPackageData as unknown as { version?: string }).version;
 
       // Build new directory path
       // packagePath might contain slashes for nested structures (like gitlab)

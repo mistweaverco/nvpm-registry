@@ -120,7 +120,6 @@ const addBuildRow = (builds: BuildRow[], row: BuildRow) => {
 const main = async () => {
   const args = process.argv.slice(2);
   const keepExisting = args.includes("--keep-existing");
-  const posArgs = args.filter((a) => a !== "--keep-existing");
 
   if (!fs.existsSync(REGISTRY_PATH)) {
     throw new Error(`Missing registry file at ${REGISTRY_PATH}. Download it first.`);

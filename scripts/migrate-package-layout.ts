@@ -60,11 +60,13 @@ const convertPackageId = (oldId: string): string => {
 };
 
 // Update version_overrides if they exist
-const convertVersionOverrides = (source: any): any => {
-  if (source.version_overrides && Array.isArray(source.version_overrides)) {
+const convertVersionOverrides = (source: unknown): unknown => {
+  if (typeof source !== "object" || source === null) return source;
+
+  if ('version_overrides' in source && Array.isArray(source.version_overrides)) {
     return {
       ...source,
-      version_overrides: source.version_overrides.map((override: any) => ({
+      version_overrides: source.version_overrides.map((override: {id: string}) => ({
         ...override,
         id: override.id ? convertPackageId(override.id) : override.id,
       })),
@@ -75,7 +77,7 @@ const convertVersionOverrides = (source: any): any => {
 
 const dirents = fs.readdirSync(packagesDir, { withFileTypes: true });
 const moved: Array<{ from: string; to: string }> = [];
-const errors: Array<{ package: string; error: string }> = [];
+const errors: Array<{ package: string; error: string, exception?: string }> = [];
 
 console.log("Starting package migration...\n");
 
@@ -186,10 +188,12 @@ for (const dirent of dirents) {
           continue;
         }
       } catch (e) {
+        const err = e instanceof Error ? e.message : String(e);
         // If we can't read the existing file, treat it as an error
         errors.push({
           package: dirent.name,
           error: `Target exists but cannot be read: ${newYamlPath}`,
+          exception: err,
         });
         continue;
       }

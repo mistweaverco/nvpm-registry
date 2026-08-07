@@ -7,22 +7,24 @@
     "validate-schema": "bun scripts/validate-schema.ts",
     "merge-nvim-treesitter-queries": "bun scripts/merge-nvim-treesitter-external-queries.ts",
     "merge-nvim-treesitter-queries:dry-run": "bun scripts/merge-nvim-treesitter-external-queries.ts --dry-run",
-    "generate-treesitter-parsers": "bun scripts/generate-treesitter-parsers.ts"
+    "generate-treesitter-parsers": "bun scripts/generate-treesitter-parsers.ts",
+    "update-dependencies": "bunx npm-check-updates -iu"
   },
   "dependencies": {
-    "ajv": "8.17.1",
-    "js-yaml": "4.1.1"
+    "ajv": "8.20.0",
+    "js-yaml": "5.2.3"
   },
   "devDependencies": {
-    "@eslint/js": "9.20.0",
-    "@types/bun": "latest",
+    "@eslint/js": "10.0.1",
+    "@types/bun": "1.3.14",
     "@types/js-yaml": "4.0.9",
-    "eslint": "9.20.0",
-    "globals": "15.14.0",
-    "typescript-eslint": "8.23.0"
+    "bun": "1.3.14",
+    "eslint": "10.8.0",
+    "globals": "17.9.0",
+    "typescript-eslint": "8.66.0"
   },
   "peerDependencies": {
     "typescript": "5.7.3"
   },
-  "packageManager": "bun@1.3.3"
+  "packageManager": "bun@1.3.14"
 }

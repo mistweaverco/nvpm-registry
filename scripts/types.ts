@@ -133,6 +133,27 @@ export type APIResponse = Promise<
   | null
 >;
 
+export type GitRefKind = "branch" | "tag";
+
+export type GitRefEntry = {
+  ref: string;
+  kind: GitRefKind;
+  commit: string;
+  commit_date_unix: number;
+};
+
+export type GitTagOverwrite = {
+  tag: string;
+  previous_commit: string;
+  current_commit: string;
+};
+
+export type GitMetadata = {
+  fetched_at_unix: number;
+  refs: GitRefEntry[];
+  tag_overwrites?: GitTagOverwrite[];
+};
+
 export interface PackageInfo {
   name: string;
   version: string;
@@ -140,6 +161,8 @@ export interface PackageInfo {
   // This is kept separate from the stable "version" field so that
   // clients can decide whether to follow the stable or prerelease track.
   prerelease_version?: string;
+  // Populated by the updater for git-hosted packages (github/gitlab/codeberg).
+  git?: GitMetadata;
   description: string;
   homepage: string;
   licenses: string[];
@@ -157,6 +180,7 @@ export interface PackageInfo {
   };
   source: {
     id: string;
+    version: string;
   };
   bin: Record<string, string>;
 }

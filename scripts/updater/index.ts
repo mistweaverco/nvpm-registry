@@ -19,6 +19,13 @@ import type {
   PyPiResponse,
 } from "./../types";
 import { SourceType } from "./../types";
+import {
+  fetchGitMetadata,
+  isGitHostedSourceId,
+  loadPreviousGitState,
+  mapWithConcurrency,
+  tagMapFromRefs,
+} from "./git-metadata";
 
 import * as fs from "fs";
 import * as path from "path";
@@ -279,7 +286,7 @@ const getGithubLatestCommitFallback = async (sourceId: string): Promise<string |
 };
 
 const getLatestVersion = async (sourceId: string): Promise<string | null> => {
-  let data = null;
+  let data;
   let version = null;
   let parts: string[];
   let pkgName: string;
@@ -441,12 +448,12 @@ const getLatestVersion = async (sourceId: string): Promise<string | null> => {
 const getLatestVersions = async (sourceId: string): Promise<GithubDataLatestVersionsResponse> => {
   let stable: string | null = null;
   let prerelease: string | null = null;
-  let latest: string | null = null;
-  let config: RequestInit | null = null;
-  let url: string | null = null;
-  let resp: Response | null = null;
-  let releases: GithubDataReleasesResponse | null = null;
-  let prereleases: GithubDataReleasesResponse | null = null;
+  let latest: string;
+  let config: RequestInit;
+  let url: string;
+  let resp: Response;
+  let releases: GithubDataReleasesResponse;
+  let prereleases: GithubDataReleasesResponse;
 
   const parts = sourceId.split(":");
   if (parts.length < 2) {
@@ -547,6 +554,11 @@ const findPackageFiles = (dir: string): string[] => {
 };
 
 const packagesDir = path.join(__dirname, "..", "..", "packages");
+const registryJsonPath = path.join(__dirname, "..", "..", ".tmp", "nvpm-registry.json");
+const masonRegistryJsonPath = path.join(__dirname, "..", "..", ".tmp", "registry.json");
+
+const previousGitState = loadPreviousGitState(registryJsonPath);
+
 const masonRegistry: MasonPackageInfo[] = [];
 const registry: PackageInfo[] = [];
 
@@ -614,8 +626,38 @@ for (const packageYamlPath of packageFiles) {
   counter.success++;
 }
 
-const registryJsonPath = path.join(__dirname, "..", "..", ".tmp", "nvpm-registry.json");
-const masonRegistryJsonPath = path.join(__dirname, "..", "..", ".tmp", "registry.json");
+// Enrich git-hosted packages with remote ref metadata (branches, tags, commit dates).
+const gitIndices: number[] = [];
+for (let i = 0; i < registry.length; i++) {
+  if (isGitHostedSourceId(registry[i].source.id)) {
+    gitIndices.push(i);
+  }
+}
+
+if (gitIndices.length > 0) {
+  console.log(`Enriching git metadata for ${gitIndices.length} packages...`);
+  await mapWithConcurrency(gitIndices, 15, async (idx) => {
+    const pkg = registry[idx];
+    const sourceId = pkg.source.id;
+    const stable =
+      pkg.version && pkg.version !== "unknown" && !/^[0-9a-f]{7,40}$/i.test(pkg.version)
+        ? pkg.version
+        : null;
+    const prerelease = pkg.prerelease_version ?? null;
+    const git = await fetchGitMetadata(
+      sourceId,
+      stable,
+      prerelease,
+      previousGitState[sourceId],
+    );
+    if (git) {
+      registry[idx].git = git;
+      previousGitState[sourceId] = tagMapFromRefs(git.refs);
+    }
+  });
+}
+
+fs.mkdirSync(path.dirname(registryJsonPath), { recursive: true });
 fs.writeFileSync(registryJsonPath, JSON.stringify(registry, null, 2));
 fs.writeFileSync(masonRegistryJsonPath, JSON.stringify(masonRegistry, null, 2));
 
