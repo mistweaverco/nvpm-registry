@@ -1,7 +1,11 @@
 import { describe, expect, test } from "bun:test";
 import type { GitRefEntry } from "../types";
 import {
+  compareSemver,
   detectTagOverwrites,
+  parseLsRemote,
+  parseSymrefHead,
+  pickLatestSemverTag,
   tagMapFromRefs,
 } from "./git-metadata";
 
@@ -54,5 +58,41 @@ describe("tagMapFromRefs", () => {
       { ref: "v1.0.0", kind: "tag", commit: "def", commit_date_unix: 0 },
     ]);
     expect(m).toEqual({ "v1.0.0": "def" });
+  });
+});
+
+describe("parseLsRemote", () => {
+  test("parses heads, tags, and peeled tags", () => {
+    const out = parseLsRemote(`
+ref: refs/heads/main\tHEAD
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\tHEAD
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\trefs/heads/main
+cccccccccccccccccccccccccccccccccccccccc\trefs/heads/develop
+dddddddddddddddddddddddddddddddddddddddd\trefs/tags/v1.0.0
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee\trefs/tags/v1.0.0^{}
+`);
+    expect(out).toEqual([
+      { commit: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", name: "HEAD", peeled: false },
+      { commit: "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", name: "refs/heads/main", peeled: false },
+      { commit: "cccccccccccccccccccccccccccccccccccccccc", name: "refs/heads/develop", peeled: false },
+      { commit: "dddddddddddddddddddddddddddddddddddddddd", name: "refs/tags/v1.0.0", peeled: false },
+      { commit: "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", name: "refs/tags/v1.0.0", peeled: true },
+    ]);
+  });
+});
+
+describe("parseSymrefHead", () => {
+  test("extracts default branch", () => {
+    expect(
+      parseSymrefHead("ref: refs/heads/main\tHEAD\naaa\tHEAD\n"),
+    ).toBe("main");
+    expect(parseSymrefHead("bbb\trefs/heads/main\n")).toBeNull();
+  });
+});
+
+describe("pickLatestSemverTag", () => {
+  test("picks highest semver", () => {
+    expect(pickLatestSemverTag(["v1.0.0", "v1.10.2", "v1.9.9"])).toBe("v1.10.2");
+    expect(compareSemver("v1.10.0", "v1.9.0")).toBeGreaterThan(0);
   });
 });

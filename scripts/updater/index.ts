@@ -26,6 +26,7 @@ import {
   mapWithConcurrency,
   tagMapFromRefs,
 } from "./git-metadata";
+import { fetchWithRetry } from "./http-retry";
 
 import * as fs from "fs";
 import * as path from "path";
@@ -208,14 +209,14 @@ const getDataFromApi = async (sourceId: string): APIResponse => {
     return null;
   }
   try {
-    const response = await fetch(apiURL, config);
-    // Many APIs return non-2xx with a JSON body; treat non-OK as "no data"
-    // so callers can fall back to other mechanisms.
-    if (!response.ok) {
+    const response = await fetchWithRetry(apiURL, config, {
+      label: `api ${sourceId}`,
+      baseMs: 1000,
+    });
+    if (!response) {
       return null;
     }
-    const data = await response.json();
-    return data;
+    return await response.json();
   } catch (error) {
     console.error(`Failed to fetch data from ${apiURL}`, error);
     return null;
@@ -241,8 +242,11 @@ const getGithubLatestTagFallback = async (sourceId: string): Promise<string | nu
     // fall back to the tags list. The API returns tags in reverse chronological
     // order by default.
     const url = `https://api.github.com/repos/${packageId}/tags?per_page=1`;
-    const resp = await fetch(url, config);
-    if (!resp.ok) {
+    const resp = await fetchWithRetry(url, config, {
+      label: `github tags ${packageId}`,
+      baseMs: 1000,
+    });
+    if (!resp) {
       return null;
     }
     const tags = (await resp.json()) as Array<{ name?: string }>;
@@ -272,8 +276,11 @@ const getGithubLatestCommitFallback = async (sourceId: string): Promise<string |
     // Latest commit on default branch.
     // Using commits list avoids needing to know the default branch name.
     const url = `https://api.github.com/repos/${packageId}/commits?per_page=1`;
-    const resp = await fetch(url, config);
-    if (!resp.ok) {
+    const resp = await fetchWithRetry(url, config, {
+      label: `github commits ${packageId}`,
+      baseMs: 1000,
+    });
+    if (!resp) {
       return null;
     }
     const commits = (await resp.json()) as Array<{ sha?: string }>;
@@ -451,7 +458,7 @@ const getLatestVersions = async (sourceId: string): Promise<GithubDataLatestVers
   let latest: string;
   let config: RequestInit;
   let url: string;
-  let resp: Response;
+  let resp: Response | null;
   let releases: GithubDataReleasesResponse;
   let prereleases: GithubDataReleasesResponse;
 
@@ -477,8 +484,11 @@ const getLatestVersions = async (sourceId: string): Promise<GithubDataLatestVers
       }
       try {
         url = `https://api.github.com/repos/${packageId}/releases`;
-        resp = await fetch(url, config);
-        if (!resp.ok) {
+        resp = await fetchWithRetry(url, config, {
+          label: `github releases ${packageId}`,
+          baseMs: 1000,
+        });
+        if (!resp) {
           break;
         }
         releases = (await resp.json()) as Array<{
@@ -635,8 +645,14 @@ for (let i = 0; i < registry.length; i++) {
 }
 
 if (gitIndices.length > 0) {
-  console.log(`Enriching git metadata for ${gitIndices.length} packages...`);
-  await mapWithConcurrency(gitIndices, 15, async (idx) => {
+  // Prefer git ls-remote over host REST APIs; keep concurrency modest for network politeness.
+  const gitConcurrency = 8;
+  console.log(
+    `Enriching git metadata for ${gitIndices.length} packages (concurrency ${gitConcurrency}, via git ls-remote)...`,
+  );
+  let gitDone = 0;
+  let gitOk = 0;
+  await mapWithConcurrency(gitIndices, gitConcurrency, async (idx) => {
     const pkg = registry[idx];
     const sourceId = pkg.source.id;
     const stable =
@@ -653,8 +669,14 @@ if (gitIndices.length > 0) {
     if (git) {
       registry[idx].git = git;
       previousGitState[sourceId] = tagMapFromRefs(git.refs);
+      gitOk++;
+    }
+    gitDone++;
+    if (gitDone % 100 === 0 || gitDone === gitIndices.length) {
+      console.log(`  git metadata progress: ${gitDone}/${gitIndices.length} (${gitOk} enriched)`);
     }
   });
+  console.log(`Git metadata enrichment complete: ${gitOk}/${gitIndices.length} packages enriched`);
 }
 
 fs.mkdirSync(path.dirname(registryJsonPath), { recursive: true });
