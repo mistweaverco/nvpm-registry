@@ -2,6 +2,7 @@
 	import Head from '$lib/head.svelte';
 	import { onMount } from 'svelte';
 	import { type Package, PackageTreesitterIntegration } from '$lib/types';
+	import { displayPackageVersion } from '$lib/preferBranch';
 	import TagFilter from '$lib/TagFilter.svelte';
 	import PackageInfoExtra from '$lib/PackageInfoExtra.svelte';
 	import { pushState, replaceState } from '$app/navigation';
@@ -44,7 +45,7 @@
 	let copySuccessMessage = '';
 	let showCopySuccess = false;
 
-	const truncateVersion = (v: string, maxLen = 12) =>
+	const truncateVersion = (v: string, maxLen = 20) =>
 		v.length > maxLen ? `${v.slice(0, maxLen)}…` : v;
 
 	const uniqSorted = (values: string[]) =>
@@ -485,13 +486,18 @@
 					<td>
 						<div class="flex items-center gap-2">
 							<label class="input input-bordered w-full">
-								<input type="text" class="grow" readonly value={activePackageData.version} />
+								<input
+									type="text"
+									class="grow"
+									readonly
+									value={displayPackageVersion(activePackageData)}
+								/>
 							</label>
 							<button
 								class="btn btn-primary"
 								aria-label="Click to copy the version to clipboard"
 								on:click={onAttrCopyClick}
-								data-copy-value={activePackageData.version}
+								data-copy-value={displayPackageVersion(activePackageData)}
 							>
 								<span class="icon">
 									<i class="fa-solid fa-copy"></i>
@@ -647,7 +653,9 @@
 				>
 					<td>{pkg.name}</td>
 					<td>
-						<span title={pkg.version}>{truncateVersion(pkg.version)}</span>
+						<span title={displayPackageVersion(pkg)}
+							>{truncateVersion(displayPackageVersion(pkg))}</span
+						>
 					</td>
 					{#if query.trim() !== '' && filteredPackages.length > 0}
 						<td>

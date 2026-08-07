@@ -22,6 +22,20 @@ export type PackageRequires = {
 	one?: string[];
 };
 
+export type GitRefKind = 'branch' | 'tag';
+
+export type GitRefEntry = {
+	ref: string;
+	kind: GitRefKind;
+	commit: string;
+	commit_date_unix: number;
+};
+
+export type GitMetadata = {
+	fetched_at_unix: number;
+	refs: GitRefEntry[];
+};
+
 export interface Package {
 	name: string;
 	source: {
@@ -29,6 +43,7 @@ export interface Package {
 	};
 	description: string;
 	version: string;
+	prerelease_version?: string;
 	homepage: string;
 	licenses: string[];
 	languages?: string[];
@@ -37,6 +52,7 @@ export interface Package {
 	editor_integration?: string[];
 	aliases?: string[];
 	requires?: PackageRequires;
+	git?: GitMetadata;
 	searchMatchInfo?: string;
 	treesitter?: {
 		build: TreeSitterBuildRow[];
