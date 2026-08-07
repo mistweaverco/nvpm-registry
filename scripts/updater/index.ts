@@ -20,7 +20,7 @@ import type {
 } from "./../types";
 import { SourceType } from "./../types";
 import {
-  fetchGitMetadata,
+  fetchGitPackageSnapshot,
   isGitHostedSourceId,
   loadPreviousGitState,
   mapWithConcurrency,
@@ -578,6 +578,15 @@ const counter = {
   failure: 0,
 };
 
+type PendingPackage = {
+  packageData: PackageInfo;
+  masonPackageData: MasonPackageInfo;
+  masonSourceId: string;
+};
+
+const pendingGit: PendingPackage[] = [];
+const pendingOther: PendingPackage[] = [];
+
 for (const packageYamlPath of packageFiles) {
   const fileContents = fs.readFileSync(packageYamlPath, "utf8");
   let packageData: PackageInfo;
@@ -608,16 +617,25 @@ for (const packageYamlPath of packageFiles) {
   const masonPackageData = structuredClone(packageData) as MasonPackageInfo;
   const masonSourceId = convertToMasonFormat(packageData.source.id);
 
-  if (getApiURL(packageData.source.id) === null) {
+  if (getApiURL(packageData.source.id) === null && !isGitHostedSourceId(packageData.source.id)) {
     // not supported, but not an error
     continue;
   }
+
+  const pending: PendingPackage = { packageData, masonPackageData, masonSourceId };
+  if (isGitHostedSourceId(packageData.source.id)) {
+    pendingGit.push(pending);
+  } else {
+    pendingOther.push(pending);
+  }
+}
+
+// Non-git packages: resolve versions via registry APIs (with retries).
+for (const pending of pendingOther) {
+  const { packageData, masonPackageData, masonSourceId } = pending;
   const { stable, prerelease } = await getLatestVersions(packageData.source.id);
-  // Prefer stable version when available; fall back to prerelease
   const version = stable ?? prerelease;
   if (!version) {
-    // We still include the package in nvpm-registry.json so the web UI can show it.
-    // Mason registry entries require a concrete version in the source id, so we skip those.
     console.error(`Failed to get latest version for ${packageData.name}`);
     packageData.version = "unknown";
     registry.push(packageData);
@@ -629,54 +647,57 @@ for (const packageYamlPath of packageFiles) {
   if (prerelease) {
     packageData.prerelease_version = prerelease;
   }
-  // Add version to Mason format: pkg:provider/package-id@version
   masonPackageData.source.id = `${masonSourceId}@${version}`;
   registry.push(packageData);
   masonRegistry.push(masonPackageData);
   counter.success++;
 }
 
-// Enrich git-hosted packages with remote ref metadata (branches, tags, commit dates).
-const gitIndices: number[] = [];
-for (let i = 0; i < registry.length; i++) {
-  if (isGitHostedSourceId(registry[i].source.id)) {
-    gitIndices.push(i);
-  }
-}
-
-if (gitIndices.length > 0) {
-  // Prefer git ls-remote over host REST APIs; keep concurrency modest for network politeness.
+// Git packages: one ls-remote resolves version + git.refs (no separate Releases/tags API pass).
+if (pendingGit.length > 0) {
   const gitConcurrency = 8;
   console.log(
-    `Enriching git metadata for ${gitIndices.length} packages (concurrency ${gitConcurrency}, via git ls-remote)...`,
+    `Resolving ${pendingGit.length} git packages via ls-remote (version + refs, concurrency ${gitConcurrency})...`,
   );
   let gitDone = 0;
   let gitOk = 0;
-  await mapWithConcurrency(gitIndices, gitConcurrency, async (idx) => {
-    const pkg = registry[idx];
-    const sourceId = pkg.source.id;
-    const stable =
-      pkg.version && pkg.version !== "unknown" && !/^[0-9a-f]{7,40}$/i.test(pkg.version)
-        ? pkg.version
-        : null;
-    const prerelease = pkg.prerelease_version ?? null;
-    const git = await fetchGitMetadata(
-      sourceId,
-      stable,
-      prerelease,
-      previousGitState[sourceId],
-    );
-    if (git) {
-      registry[idx].git = git;
-      previousGitState[sourceId] = tagMapFromRefs(git.refs);
-      gitOk++;
+  await mapWithConcurrency(pendingGit, gitConcurrency, async (pending) => {
+    const { packageData, masonPackageData, masonSourceId } = pending;
+    const sourceId = packageData.source.id;
+    const snap = await fetchGitPackageSnapshot(sourceId, previousGitState[sourceId]);
+    const stable = snap?.stable ?? null;
+    const prerelease = snap?.prerelease ?? null;
+    const version = stable ?? prerelease;
+    if (!version) {
+      console.error(`Failed to get latest version for ${packageData.name}`);
+      packageData.version = "unknown";
+      registry.push(packageData);
+      counter.failure++;
+    } else {
+      packageData.version = version;
+      if (prerelease) {
+        packageData.prerelease_version = prerelease;
+      }
+      if (snap?.git) {
+        packageData.git = snap.git;
+        previousGitState[sourceId] = tagMapFromRefs(snap.git.refs);
+        gitOk++;
+      }
+      masonPackageData.source.id = `${masonSourceId}@${version}`;
+      registry.push(packageData);
+      masonRegistry.push(masonPackageData);
+      counter.success++;
     }
     gitDone++;
-    if (gitDone % 100 === 0 || gitDone === gitIndices.length) {
-      console.log(`  git metadata progress: ${gitDone}/${gitIndices.length} (${gitOk} enriched)`);
+    if (gitDone % 100 === 0 || gitDone === pendingGit.length) {
+      console.log(
+        `  git progress: ${gitDone}/${pendingGit.length} (${gitOk} with ref metadata)`,
+      );
     }
   });
-  console.log(`Git metadata enrichment complete: ${gitOk}/${gitIndices.length} packages enriched`);
+  console.log(
+    `Git package resolution complete: ${gitOk}/${pendingGit.length} enriched with ref metadata`,
+  );
 }
 
 fs.mkdirSync(path.dirname(registryJsonPath), { recursive: true });

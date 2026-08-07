@@ -117,6 +117,24 @@ export function pickLatestSemverTag(names: string[]): string | null {
   return semver[semver.length - 1] ?? null;
 }
 
+const PRERELEASE_TAG_RE = /alpha|beta|rc|pre|dev/i;
+
+/** Derive stable + prerelease version tags from an ls-remote tag list. */
+export function versionsFromTagNames(tagNames: string[]): {
+  stable: string | null;
+  prerelease: string | null;
+} {
+  const stableTags = tagNames.filter((t) => !PRERELEASE_TAG_RE.test(t));
+  const preTags = tagNames.filter((t) => PRERELEASE_TAG_RE.test(t));
+  const stable = pickLatestSemverTag(stableTags) ?? pickLatestSemverTag(tagNames);
+  const prerelease =
+    pickLatestSemverTag(preTags) ?? (preTags.length > 0 ? preTags.sort(compareSemver).at(-1) ?? null : null);
+  if (prerelease && stable && prerelease === stable) {
+    return { stable, prerelease: null };
+  }
+  return { stable, prerelease };
+}
+
 function commitDateUnix(body: {
   commit?: { committer?: { date?: string }; author?: { date?: string } };
 }): number {
@@ -356,28 +374,94 @@ async function apiCommitDateUnix(
   }
 }
 
-async function enrichCandidate(
+async function gitCommitDatesBatched(
+  repoURL: string,
+  candidates: RefCandidate[],
+): Promise<Map<string, number>> {
+  const dates = new Map<string, number>();
+  if (candidates.length === 0) {
+    return dates;
+  }
+
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "nvpm-git-dates-"));
+  try {
+    let result = await runGit(["init", "--quiet"], tmp);
+    if (result.code !== 0) {
+      return dates;
+    }
+
+    // One shallow fetch for all needed tips (branches + tags), then read dates locally.
+    const refspecs = candidates.map((c) =>
+      c.kind === "branch" ? `refs/heads/${c.ref}` : `refs/tags/${c.ref}`,
+    );
+    result = await runGitRetry(
+      ["fetch", "--quiet", "--depth", "1", "--no-tags", repoURL, ...refspecs],
+      tmp,
+      `fetch refs (${refspecs.length})`,
+    );
+    if (result.code !== 0) {
+      // Fall back to per-SHA fetches.
+      for (const c of candidates) {
+        const d = await gitCommitDateUnix(repoURL, c.commit);
+        if (d > 0) {
+          dates.set(c.commit.toLowerCase(), d);
+        }
+      }
+      return dates;
+    }
+
+    for (const c of candidates) {
+      const sha = c.commit.toLowerCase();
+      let log = await runGit(["log", "-1", "--format=%ct", sha], tmp);
+      if (log.code !== 0) {
+        // Annotated tags may need the peeled commit; try FETCH_HEAD-style lookup via rev-parse.
+        log = await runGit(["rev-list", "-1", "--format=%ct", sha], tmp);
+      }
+      if (log.code === 0) {
+        // rev-list --format prints a commit header line then the format line.
+        const lines = log.stdout
+          .trim()
+          .split("\n")
+          .map((l) => l.trim())
+          .filter((l) => l && !l.startsWith("commit "));
+        const n = Number(lines[lines.length - 1] ?? log.stdout.trim());
+        if (Number.isFinite(n) && n > 0) {
+          dates.set(sha, n);
+        }
+      }
+    }
+    return dates;
+  } finally {
+    fs.rmSync(tmp, { recursive: true, force: true });
+  }
+}
+
+async function enrichCandidates(
   provider: string,
   repo: string,
   repoURL: string,
-  candidate: RefCandidate,
-): Promise<GitRefEntry> {
-  const viaGit = await gitCommitDateUnix(repoURL, candidate.commit);
-  if (viaGit > 0) {
-    return {
-      ref: candidate.ref,
-      kind: candidate.kind,
-      commit: candidate.commit,
-      commit_date_unix: viaGit,
-    };
+  candidates: RefCandidate[],
+): Promise<GitRefEntry[]> {
+  const dates = await gitCommitDatesBatched(repoURL, candidates);
+  const refs: GitRefEntry[] = [];
+  for (const c of candidates) {
+    let commitDateUnix = dates.get(c.commit.toLowerCase()) ?? 0;
+    let commit = c.commit.toLowerCase();
+    if (commitDateUnix <= 0) {
+      const viaApi = await apiCommitDateUnix(provider, repo, c.commit);
+      if (viaApi) {
+        commit = viaApi.commit;
+        commitDateUnix = viaApi.commit_date_unix;
+      }
+    }
+    refs.push({
+      ref: c.ref,
+      kind: c.kind,
+      commit,
+      commit_date_unix: commitDateUnix,
+    });
   }
-  const viaApi = await apiCommitDateUnix(provider, repo, candidate.commit);
-  return {
-    ref: candidate.ref,
-    kind: candidate.kind,
-    commit: (viaApi?.commit || candidate.commit).toLowerCase(),
-    commit_date_unix: viaApi?.commit_date_unix ?? 0,
-  };
+  return refs;
 }
 
 function resolveCandidatesFromLsRemote(
@@ -407,41 +491,105 @@ function resolveCandidatesFromLsRemote(
     }
   }
 
-  if (
-    defaultBranch &&
-    !(TRACKED_BRANCHES as readonly string[]).includes(defaultBranch)
-  ) {
+  if (defaultBranch && !(TRACKED_BRANCHES as readonly string[]).includes(defaultBranch)) {
     const commit = resolveCommitFromLsRemote(refs, defaultBranch, "branch");
     if (commit) {
       add({ ref: defaultBranch, kind: "branch", commit });
     }
   }
 
-  const tagNames = listTagNamesFromLsRemote(refs);
-  let stable = stableTag;
-  let prerelease = prereleaseTag;
-  if (!stable) {
-    stable = pickLatestSemverTag(tagNames);
-  }
-  if (!prerelease) {
-    const pre = tagNames.filter((t) => /alpha|beta|rc|pre|dev/i.test(t));
-    prerelease = pickLatestSemverTag(pre) ?? pre.sort(compareSemver).at(-1) ?? null;
-  }
-
-  if (stable) {
-    const commit = resolveCommitFromLsRemote(refs, stable, "tag");
+  if (stableTag) {
+    const commit = resolveCommitFromLsRemote(refs, stableTag, "tag");
     if (commit) {
-      add({ ref: stable, kind: "tag", commit });
+      add({ ref: stableTag, kind: "tag", commit });
     }
   }
-  if (prerelease && prerelease !== stable) {
-    const commit = resolveCommitFromLsRemote(refs, prerelease, "tag");
+  if (prereleaseTag && prereleaseTag !== stableTag) {
+    const commit = resolveCommitFromLsRemote(refs, prereleaseTag, "tag");
     if (commit) {
-      add({ ref: prerelease, kind: "tag", commit });
+      add({ ref: prereleaseTag, kind: "tag", commit });
     }
   }
 
   return out;
+}
+
+/**
+ * Resolve stable/prerelease versions from ls-remote tags.
+ * If no tag exists, fall back to the default-branch tip commit SHA (same idea as the
+ * old GitHub commits API fallback).
+ */
+export function resolveGitVersionsFromLsRemote(
+  refs: LsRemoteRef[],
+  defaultBranch: string | null,
+): { stable: string | null; prerelease: string | null } {
+  const tagNames = listTagNamesFromLsRemote(refs);
+  const { stable, prerelease } = versionsFromTagNames(tagNames);
+  if (stable) {
+    return { stable, prerelease };
+  }
+  // No semver tags: use default branch tip SHA, else first tracked branch tip.
+  const branch =
+    defaultBranch ||
+    TRACKED_BRANCHES.find((b) => resolveCommitFromLsRemote(refs, b, "branch")) ||
+    null;
+  if (!branch) {
+    return { stable: null, prerelease: null };
+  }
+  const commit = resolveCommitFromLsRemote(refs, branch, "branch");
+  return { stable: commit, prerelease: null };
+}
+
+export type GitPackageSnapshot = {
+  stable: string | null;
+  prerelease: string | null;
+  git: GitMetadata | null;
+};
+
+/**
+ * One ls-remote for a git-hosted package: resolve latest version(s) and git.refs together.
+ * Avoids separate Releases/tags REST calls for github/gitlab/codeberg packages.
+ */
+export async function fetchGitPackageSnapshot(
+  sourceId: string,
+  previousTags: Record<string, string> | undefined,
+): Promise<GitPackageSnapshot | null> {
+  const parsed = parseSourceId(sourceId);
+  if (!parsed || !GIT_PROVIDERS.has(parsed.provider)) {
+    return null;
+  }
+  const repoURL = gitRepoURL(parsed.provider, parsed.repo);
+  if (!repoURL) {
+    return null;
+  }
+
+  const { refs: remoteRefs, defaultBranch } = await gitLsRemoteAll(repoURL);
+  if (remoteRefs.length === 0) {
+    return null;
+  }
+
+  const { stable, prerelease } = resolveGitVersionsFromLsRemote(remoteRefs, defaultBranch);
+  const candidates = resolveCandidatesFromLsRemote(
+    remoteRefs,
+    defaultBranch,
+    stable && !/^[0-9a-f]{7,40}$/i.test(stable) ? stable : null,
+    prerelease,
+  );
+
+  let git: GitMetadata | null = null;
+  if (candidates.length > 0) {
+    const refs = await enrichCandidates(parsed.provider, parsed.repo, repoURL, candidates);
+    if (refs.length > 0) {
+      const tag_overwrites = detectTagOverwrites(refs, previousTags);
+      git = {
+        fetched_at_unix: Math.floor(Date.now() / 1000),
+        refs,
+        ...(tag_overwrites.length > 0 ? { tag_overwrites } : {}),
+      };
+    }
+  }
+
+  return { stable, prerelease, git };
 }
 
 export function detectTagOverwrites(
@@ -502,52 +650,6 @@ export function loadPreviousGitState(registryPath: string): PreviousGitState {
   } catch {
     return {};
   }
-}
-
-export async function fetchGitMetadata(
-  sourceId: string,
-  stableTag: string | null,
-  prereleaseTag: string | null,
-  previousTags: Record<string, string> | undefined,
-): Promise<GitMetadata | null> {
-  const parsed = parseSourceId(sourceId);
-  if (!parsed || !GIT_PROVIDERS.has(parsed.provider)) {
-    return null;
-  }
-  const repoURL = gitRepoURL(parsed.provider, parsed.repo);
-  if (!repoURL) {
-    return null;
-  }
-
-  const { refs: remoteRefs, defaultBranch } = await gitLsRemoteAll(repoURL);
-  if (remoteRefs.length === 0) {
-    return null;
-  }
-
-  const candidates = resolveCandidatesFromLsRemote(
-    remoteRefs,
-    defaultBranch,
-    stableTag,
-    prereleaseTag,
-  );
-  if (candidates.length === 0) {
-    return null;
-  }
-
-  const refs: GitRefEntry[] = [];
-  for (const c of candidates) {
-    refs.push(await enrichCandidate(parsed.provider, parsed.repo, repoURL, c));
-  }
-  if (refs.length === 0) {
-    return null;
-  }
-
-  const tag_overwrites = detectTagOverwrites(refs, previousTags);
-  return {
-    fetched_at_unix: Math.floor(Date.now() / 1000),
-    refs,
-    ...(tag_overwrites.length > 0 ? { tag_overwrites } : {}),
-  };
 }
 
 export async function mapWithConcurrency<T, R>(
