@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: kulala-cli
+description: |
+  A fully-featured HTTP/GraphQL/gRPC/Websocket-client interface for your command-line,
+  that supports the Jetbrains .http spec (with full scripting support).
+homepage: https://github.com/mistweaverco/kulala-cli
+licenses:
+  - MIT
+languages:
+  - http
+categories:
+  - Runtime
+  - CLI
+source:
+  id: npm:@mistweaverco/kulala-cli
+bin:
+  kulala: npm:kulala
