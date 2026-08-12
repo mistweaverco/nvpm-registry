@@ -16,3 +16,4 @@ schemas:
   lsp: vscode:https://raw.githubusercontent.com/microsoft/vscode/main/extensions/typescript-language-features/package.json
 bin:
   tsc: npm:tsc
+  tsgo: npm:tsc
