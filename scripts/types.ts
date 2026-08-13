@@ -178,9 +178,11 @@ export interface PackageInfo {
     all?: string[];
     one?: string[];
   };
+  post_install?: string | { run: string };
   source: {
     id: string;
     version: string;
+    extra_packages?: string[];
   };
   bin: Record<string, string>;
 }

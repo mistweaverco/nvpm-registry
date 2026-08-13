@@ -87,6 +87,9 @@
     "requires": {
       "$ref": "#/definitions/components:requires"
     },
+    "post_install": {
+      "$ref": "#/definitions/components:post_install"
+    },
     "ci_skip": {
       "oneOf": [
         {
@@ -663,6 +666,35 @@
       "pattern": "^(pkg:[a-zA-Z0-9_\\-]+/[^@\\s]+|(?:github|gitlab|codeberg|npm|pypi|golang|cargo|gem|composer|luarocks|nuget|opam|openvsx|generic):[^@\\s]+)(?:@[^@\\s]+)?$",
       "description": "Registry package source ID, optionally with @version."
     },
+    "components:extra_packages": {
+      "type": "array",
+      "description": "Packages installed into this package's install directory after the main package (not as separate nvpm packages). Each entry is a name, name@version, or provider:name[@version] (e.g. npm:typescript@6.0.3, \"npm:@astrojs/ts-plugin\").",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "components:post_install": {
+      "description": "Optional shell commands run in the package install directory after install. Clients should confirm before running unless the package is always trusted.",
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["run"],
+          "properties": {
+            "run": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Shell script executed with cwd set to the package install directory (e.g. npm add typescript@6.0.3)."
+            }
+          }
+        }
+      ]
+    },
     "components:deprecation": {
       "type": "object",
       "additionalProperties": false,
@@ -702,10 +734,7 @@
           "$ref": "#/definitions/components:sources:github:release/properties/asset"
         },
         "extra_packages": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
+          "$ref": "#/definitions/components:extra_packages"
         }
       }
     },
@@ -1018,11 +1047,7 @@
           "pattern": "^golang:.+/.+"
         },
         "extra_packages": {
-          "type": "array",
-          "description": "Extra golang packages required by the main package to function.",
-          "items": {
-            "type": "string"
-          }
+          "$ref": "#/definitions/components:extra_packages"
         }
       }
     },
@@ -1045,11 +1070,7 @@
           "pattern": "^npm:.+"
         },
         "extra_packages": {
-          "type": "array",
-          "description": "Extra npm packages required by the main package to function.",
-          "items": {
-            "type": "string"
-          }
+          "$ref": "#/definitions/components:extra_packages"
         }
       }
     },
@@ -1062,11 +1083,7 @@
           "pattern": "^nuget:.+"
         },
         "extra_packages": {
-          "type": "array",
-          "description": "Extra NuGet packages required by the main package to function.",
-          "items": {
-            "type": "string"
-          }
+          "$ref": "#/definitions/components:extra_packages"
         }
       }
     },
@@ -1097,6 +1114,9 @@
         "id": {
           "type": "string",
           "pattern": "^pypi:.+"
+        },
+        "extra_packages": {
+          "$ref": "#/definitions/components:extra_packages"
         }
       }
     },

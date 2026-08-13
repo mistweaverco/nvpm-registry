@@ -14,8 +14,8 @@ categories:
 source:
   id: npm:@astrojs/language-server
   extra_packages:
-    - typescript
-    - "@astrojs/ts-plugin"
+    - npm:typescript@6.0.3
+    - "npm:@astrojs/ts-plugin"
 schemas:
   # yamllint disable-line rule:line-length
   lsp: vscode:https://raw.githubusercontent.com/withastro/language-tools/@astrojs/language-server@{{version}}/packages/vscode/package.json

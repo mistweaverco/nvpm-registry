@@ -14,7 +14,7 @@ categories:
 source:
   id: npm:svelte-language-server
   extra_packages:
-    - typescript-svelte-plugin
+    - npm:typescript-svelte-plugin
 schemas:
   # yamllint disable-line rule:line-length
   lsp: vscode:https://raw.githubusercontent.com/sveltejs/language-tools/language-server-{{version}}/packages/svelte-vscode/package.json

@@ -21,7 +21,7 @@ categories:
 source:
   id: npm:@glint/core
   extra_packages:
-    - typescript
+    - npm:typescript@6.0.3
 bin:
   glint: npm:glint
   glint-language-server: npm:glint-language-server

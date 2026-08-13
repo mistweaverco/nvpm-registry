@@ -12,6 +12,6 @@ categories:
 source:
   id: npm:@vue/language-server
   extra_packages:
-    - typescript
+    - npm:typescript@6.0.3
 bin:
   vue-language-server: npm:vue-language-server

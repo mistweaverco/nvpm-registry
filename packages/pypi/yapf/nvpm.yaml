@@ -12,6 +12,6 @@ categories:
 source:
   id: pypi:yapf
   extra_packages:
-    - toml
+    - pypi:toml
 bin:
   yapf: pypi:yapf

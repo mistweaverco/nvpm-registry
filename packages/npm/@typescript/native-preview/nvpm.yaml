@@ -20,8 +20,6 @@ categories:
   - LSP
 source:
   id: npm:@typescript/native-preview
-  extra_packages:
-    - typescript
 schemas:
   lsp: vscode:https://raw.githubusercontent.com/microsoft/vscode/main/extensions/typescript-language-features/package.json
 bin:
