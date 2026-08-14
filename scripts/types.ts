@@ -70,6 +70,7 @@ type TreeSitterExternalQueryEntry = {
   package?: string;
   ref?: string;
   semver?: boolean;
+  dialect?: "tree-sitter" | "neovim";
 };
 
 type TreeSitterExternalQueries = TreeSitterExternalQueryEntry | TreeSitterExternalQueryEntry[];

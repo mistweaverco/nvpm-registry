@@ -18,6 +18,7 @@ treesitter:
       queries_only: true
       external_queries:
         repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-ecma
+        dialect: neovim
         semver: true
     - language: jsx
       integrations:
@@ -25,6 +26,7 @@ treesitter:
       queries_only: true
       external_queries:
         repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-jsx
+        dialect: neovim
         semver: true
     - language: tsx
       grammar_dir: tsx
@@ -32,8 +34,10 @@ treesitter:
         - neovim
       external_queries:
         - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-tsx
+          dialect: neovim
           semver: true
         - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-typescript
+          dialect: neovim
           semver: true
     - language: typescript
       grammar_dir: typescript
@@ -41,6 +45,7 @@ treesitter:
         - neovim
       external_queries:
         repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-typescript
+        dialect: neovim
         semver: true
 requires:
   one:

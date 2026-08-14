@@ -20,6 +20,7 @@ treesitter:
       queries_only: true
       external_queries:
         repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-html_tags
+        dialect: neovim
         semver: true
     - language: vue
       grammar_dir: .
@@ -27,6 +28,7 @@ treesitter:
         - neovim
       external_queries:
         repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-vue
+        dialect: neovim
         semver: true
       injections:
         - css

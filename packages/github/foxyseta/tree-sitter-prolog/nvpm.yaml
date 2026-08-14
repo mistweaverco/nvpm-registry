@@ -20,8 +20,10 @@ treesitter:
         - neovim
       external_queries:
         - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-problog
+          dialect: neovim
           semver: true
         - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-prolog
+          dialect: neovim
           semver: true
     - language: prolog
       grammar_dir: grammars/prolog
@@ -29,6 +31,7 @@ treesitter:
         - neovim
       external_queries:
         repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-prolog
+        dialect: neovim
         semver: true
 requires:
   one:

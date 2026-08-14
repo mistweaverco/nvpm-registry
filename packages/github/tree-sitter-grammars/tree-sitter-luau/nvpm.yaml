@@ -19,8 +19,10 @@ treesitter:
         - neovim
       external_queries:
         - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-luau
+          dialect: neovim
           semver: true
         - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-lua
+          dialect: neovim
           semver: true
 requires:
   one:

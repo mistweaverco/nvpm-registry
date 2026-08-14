@@ -18,8 +18,10 @@ treesitter:
         - neovim
       external_queries:
         - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-terraform
+          dialect: neovim
           semver: true
         - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-hcl
+          dialect: neovim
           semver: true
     - language: hcl
       grammar_dir: dialects/terraform
@@ -27,6 +29,7 @@ treesitter:
         - neovim
       external_queries:
         repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-hcl
+        dialect: neovim
         semver: true
 requires:
   one:

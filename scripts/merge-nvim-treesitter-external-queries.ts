@@ -47,7 +47,12 @@ type NvimRegistryEntry = {
 
 type NvimRegistry = Record<string, NvimRegistryEntry> & { $schema?: string };
 
-type ExternalQueriesEntry = { repo_url: string; semver?: boolean; ref?: string };
+type ExternalQueriesEntry = {
+  repo_url: string;
+  semver?: boolean;
+  ref?: string;
+  dialect?: "tree-sitter" | "neovim";
+};
 /** One object (legacy / compact) or a list when multiple query repos apply. */
 type ExternalQueriesSpec = ExternalQueriesEntry | ExternalQueriesEntry[];
 
@@ -149,7 +154,8 @@ const asEntryArray = (spec?: ExternalQueriesSpec): ExternalQueriesEntry[] => {
 const entriesEqual = (a: ExternalQueriesEntry, b: ExternalQueriesEntry): boolean =>
   a.repo_url === b.repo_url &&
   Boolean(a.semver) === Boolean(b.semver) &&
-  (a.ref ?? "") === (b.ref ?? "");
+  (a.ref ?? "") === (b.ref ?? "") &&
+  (a.dialect ?? "neovim") === (b.dialect ?? "neovim");
 
 const sortedEntries = (e: ExternalQueriesEntry[]): ExternalQueriesEntry[] =>
   [...e].sort((x, y) => x.repo_url.localeCompare(y.repo_url));
@@ -167,11 +173,11 @@ const queryRepoFromNvimSource = (source?: NvimSource): ExternalQueriesEntry | nu
   if ((source.type ?? "").trim() === "queries_only") {
     const u = source.url?.trim();
     if (!u) return null;
-    return { repo_url: u, semver: Boolean(source.semver) };
+    return { repo_url: u, semver: Boolean(source.semver), dialect: "neovim" };
   }
   const u = source.queries_url?.trim();
   if (!u) return null;
-  return { repo_url: u, semver: Boolean(source.queries_semver) };
+  return { repo_url: u, semver: Boolean(source.queries_semver), dialect: "neovim" };
 };
 
 /** Single object when only one repo (stable YAML); otherwise an array. */
@@ -250,7 +256,11 @@ const desiredNvimExternalQueries = (
     const u = e.repo_url.trim();
     if (!u || seen.has(u)) return;
     seen.add(u);
-    const row: ExternalQueriesEntry = { repo_url: u, semver: Boolean(e.semver) };
+    const row: ExternalQueriesEntry = {
+      repo_url: u,
+      semver: Boolean(e.semver),
+      dialect: e.dialect ?? "neovim",
+    };
     if (e.ref !== undefined && e.ref !== "") row.ref = e.ref;
     out.push(row);
   };

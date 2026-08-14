@@ -20,8 +20,10 @@ treesitter:
         - neovim
       external_queries:
         - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-php
+          dialect: neovim
           semver: true
         - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-php_only
+          dialect: neovim
           semver: true
     - language: php_only
       grammar_dir: php_only
@@ -29,6 +31,7 @@ treesitter:
         - neovim
       external_queries:
         repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-php_only
+        dialect: neovim
         semver: true
 requires:
   one:

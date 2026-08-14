@@ -19,8 +19,10 @@ treesitter:
         - neovim
       external_queries:
         - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-glimmer_typescript
+          dialect: neovim
           semver: true
         - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-typescript
+          dialect: neovim
           semver: true
 requires:
   one:

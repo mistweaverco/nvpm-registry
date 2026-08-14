@@ -21,8 +21,10 @@ treesitter:
         - neovim
       external_queries:
         - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-csv
+          dialect: neovim
           semver: true
         - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-tsv
+          dialect: neovim
           semver: true
     - language: psv
       grammar_dir: psv
@@ -30,8 +32,10 @@ treesitter:
         - neovim
       external_queries:
         - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-psv
+          dialect: neovim
           semver: true
         - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-tsv
+          dialect: neovim
           semver: true
     - language: tsv
       grammar_dir: tsv
@@ -39,6 +43,7 @@ treesitter:
         - neovim
       external_queries:
         repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-tsv
+        dialect: neovim
         semver: true
 requires:
   one:

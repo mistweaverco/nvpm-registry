@@ -20,6 +20,7 @@ treesitter:
       queries_only: true
       external_queries:
         repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-ecma
+        dialect: neovim
         semver: true
     - language: glimmer_javascript
       grammar_dir: .
@@ -27,6 +28,7 @@ treesitter:
         - neovim
       external_queries:
         repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-glimmer_javascript
+        dialect: neovim
         semver: true
 requires:
   one:

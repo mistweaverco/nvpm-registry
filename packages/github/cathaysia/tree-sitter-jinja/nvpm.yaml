@@ -20,8 +20,10 @@ treesitter:
         - neovim
       external_queries:
         - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-jinja
+          dialect: neovim
           semver: true
         - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-jinja_inline
+          dialect: neovim
           semver: true
     - language: jinja_inline
       grammar_dir: tree-sitter-jinja_inline
@@ -29,6 +31,7 @@ treesitter:
         - neovim
       external_queries:
         repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-jinja_inline
+        dialect: neovim
         semver: true
 requires:
   one:

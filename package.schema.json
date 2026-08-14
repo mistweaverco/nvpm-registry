@@ -1277,6 +1277,11 @@
         "semver": {
           "type": "boolean",
           "description": "When true and ref is omitted, clients may resolve the highest semver tag (queries_semver in the neovim-treesitter parser registry)."
+        },
+        "dialect": {
+          "type": "string",
+          "enum": ["tree-sitter", "neovim"],
+          "description": "Query language dialect of the .scm files in this repository. Use neovim for Neovim-authored queries (e.g. nvim-treesitter-queries-*); use tree-sitter for generic upstream Tree-sitter queries that clients must adapt. When omitted, clients should treat external_queries as neovim."
         }
       },
       "oneOf": [

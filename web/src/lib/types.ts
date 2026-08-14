@@ -3,6 +3,7 @@ export type TreeSitterExternalQuery = {
 	ref?: string;
 	semver?: boolean;
 	package?: string;
+	dialect?: "tree-sitter" | "neovim";
 };
 
 export type TreeSitterBuildRow = {

@@ -22,6 +22,7 @@ treesitter:
         - neovim
       external_queries:
         repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-apex
+        dialect: neovim
         semver: true
     - language: sflog
       grammar_dir: sflog
@@ -29,6 +30,7 @@ treesitter:
         - neovim
       external_queries:
         repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-sflog
+        dialect: neovim
         semver: true
     - language: soql
       grammar_dir: soql
@@ -36,6 +38,7 @@ treesitter:
         - neovim
       external_queries:
         repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-soql
+        dialect: neovim
         semver: true
     - language: sosl
       grammar_dir: sosl
@@ -43,6 +46,7 @@ treesitter:
         - neovim
       external_queries:
         repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-sosl
+        dialect: neovim
         semver: true
 requires:
   one:

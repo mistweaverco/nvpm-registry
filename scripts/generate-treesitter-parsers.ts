@@ -17,7 +17,7 @@ type RegistryEntry = {
   };
 };
 
-type ExternalQueries = { repo_url: string; semver?: boolean };
+type ExternalQueries = { repo_url: string; semver?: boolean; dialect?: "tree-sitter" | "neovim" };
 
 type BuildRow = {
   language: string;
@@ -95,7 +95,7 @@ const queryOnlyExternalQueries = (
   if (entry?.source?.type !== "queries_only") return undefined;
   const repo_url = entry.source.url?.trim();
   if (!repo_url) return undefined;
-  const external_queries: ExternalQueries = { repo_url };
+  const external_queries: ExternalQueries = { repo_url, dialect: "neovim" };
   if (entry.source.semver) external_queries.semver = true;
   return external_queries;
 };
@@ -143,7 +143,7 @@ const main = async () => {
     const qUrl = entry?.source?.queries_url?.trim();
     let external_queries: ExternalQueries | undefined;
     if (qUrl) {
-      external_queries = { repo_url: qUrl };
+      external_queries = { repo_url: qUrl, dialect: "neovim" };
       if (entry?.source?.queries_semver) {
         external_queries.semver = true;
       }

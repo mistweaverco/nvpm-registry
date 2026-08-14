@@ -9,6 +9,7 @@ export type PackageExternalQueryDetails = {
 	repoURL: string;
 	ref: string;
 	semver: boolean;
+	dialect: string;
 };
 
 export type PackageTreeSitterBuildDetails = {
@@ -101,7 +102,8 @@ export const collectTreeSitterDetails = (pkg: Package): PackageTreeSitterDetails
 			row.externalQueries.push({
 				repoURL,
 				ref: (q.ref ?? '').trim(),
-				semver: Boolean(q.semver)
+				semver: Boolean(q.semver),
+				dialect: (q.dialect ?? '').trim()
 			});
 		}
 		build.push(row);
@@ -134,6 +136,7 @@ export const formatExternalQueryLine = (q: PackageExternalQueryDetails): string 
 	const tags: string[] = [];
 	if (q.semver) tags.push('semver');
 	if (q.ref) tags.push(`ref=${q.ref}`);
+	if (q.dialect) tags.push(`dialect=${q.dialect}`);
 	if (tags.length === 0) return q.repoURL;
 	return `${q.repoURL} (${tags.join(', ')})`;
 };

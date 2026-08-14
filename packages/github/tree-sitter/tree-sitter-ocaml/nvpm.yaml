@@ -20,6 +20,7 @@ treesitter:
         - neovim
       external_queries:
         repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-ocaml
+        dialect: neovim
         semver: true
     - language: ocaml_interface
       grammar_dir: grammars/interface
@@ -27,8 +28,10 @@ treesitter:
         - neovim
       external_queries:
         - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-ocaml_interface
+          dialect: neovim
           semver: true
         - repo_url: https://github.com/neovim-treesitter/nvim-treesitter-queries-ocaml
+          dialect: neovim
           semver: true
 requires:
   one:
