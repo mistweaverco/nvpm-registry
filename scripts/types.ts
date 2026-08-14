@@ -158,6 +158,9 @@ export type GitMetadata = {
 export interface PackageInfo {
   name: string;
   version: string;
+  // Optional YAML pin. When set, the updater copies it to version and skips
+  // remote latest discovery (ls-remote / provider APIs) and git.refs.
+  default_version?: string;
   // Optional latest prerelease / dev / alpha / beta version.
   // This is kept separate from the stable "version" field so that
   // clients can decide whether to follow the stable or prerelease track.

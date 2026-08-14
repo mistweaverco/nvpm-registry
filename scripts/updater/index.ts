@@ -584,6 +584,22 @@ type PendingPackage = {
   masonSourceId: string;
 };
 
+const pinnedDefaultVersion = (pkg: PackageInfo): string =>
+  (pkg.default_version ?? "").trim();
+
+const emitPinnedPackage = (
+  packageData: PackageInfo,
+  masonPackageData: MasonPackageInfo,
+  masonSourceId: string,
+  version: string,
+): void => {
+  packageData.version = version;
+  masonPackageData.source.id = `${masonSourceId}@${version}`;
+  registry.push(packageData);
+  masonRegistry.push(masonPackageData);
+  counter.success++;
+};
+
 const pendingGit: PendingPackage[] = [];
 const pendingOther: PendingPackage[] = [];
 
@@ -633,6 +649,11 @@ for (const packageYamlPath of packageFiles) {
 // Non-git packages: resolve versions via registry APIs (with retries).
 for (const pending of pendingOther) {
   const { packageData, masonPackageData, masonSourceId } = pending;
+  const pinned = pinnedDefaultVersion(packageData);
+  if (pinned) {
+    emitPinnedPackage(packageData, masonPackageData, masonSourceId, pinned);
+    continue;
+  }
   const { stable, prerelease } = await getLatestVersions(packageData.source.id);
   const version = stable ?? prerelease;
   if (!version) {
@@ -654,14 +675,34 @@ for (const pending of pendingOther) {
 }
 
 // Git packages: one ls-remote resolves version + git.refs (no separate Releases/tags API pass).
-if (pendingGit.length > 0) {
+const pendingGitPinned: PendingPackage[] = [];
+const pendingGitResolve: PendingPackage[] = [];
+for (const pending of pendingGit) {
+  if (pinnedDefaultVersion(pending.packageData)) {
+    pendingGitPinned.push(pending);
+  } else {
+    pendingGitResolve.push(pending);
+  }
+}
+for (const pending of pendingGitPinned) {
+  emitPinnedPackage(
+    pending.packageData,
+    pending.masonPackageData,
+    pending.masonSourceId,
+    pinnedDefaultVersion(pending.packageData),
+  );
+}
+if (pendingGitPinned.length > 0) {
+  console.log(`Pinned ${pendingGitPinned.length} git package(s) via default_version (skipped ls-remote).`);
+}
+if (pendingGitResolve.length > 0) {
   const gitConcurrency = 8;
   console.log(
-    `Resolving ${pendingGit.length} git packages via ls-remote (version + refs, concurrency ${gitConcurrency})...`,
+    `Resolving ${pendingGitResolve.length} git packages via ls-remote (version + refs, concurrency ${gitConcurrency})...`,
   );
   let gitDone = 0;
   let gitOk = 0;
-  await mapWithConcurrency(pendingGit, gitConcurrency, async (pending) => {
+  await mapWithConcurrency(pendingGitResolve, gitConcurrency, async (pending) => {
     const { packageData, masonPackageData, masonSourceId } = pending;
     const sourceId = packageData.source.id;
     const snap = await fetchGitPackageSnapshot(sourceId, previousGitState[sourceId]);
@@ -689,14 +730,14 @@ if (pendingGit.length > 0) {
       counter.success++;
     }
     gitDone++;
-    if (gitDone % 100 === 0 || gitDone === pendingGit.length) {
+    if (gitDone % 100 === 0 || gitDone === pendingGitResolve.length) {
       console.log(
-        `  git progress: ${gitDone}/${pendingGit.length} (${gitOk} with ref metadata)`,
+        `  git progress: ${gitDone}/${pendingGitResolve.length} (${gitOk} with ref metadata)`,
       );
     }
   });
   console.log(
-    `Git package resolution complete: ${gitOk}/${pendingGit.length} enriched with ref metadata`,
+    `Git package resolution complete: ${gitOk}/${pendingGitResolve.length} enriched with ref metadata`,
   );
 }
 

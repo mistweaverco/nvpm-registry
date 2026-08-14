@@ -44,6 +44,7 @@ export interface Package {
 	};
 	description: string;
 	version: string;
+	default_version?: string;
 	prerelease_version?: string;
 	homepage: string;
 	licenses: string[];

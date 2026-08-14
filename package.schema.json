@@ -63,6 +63,11 @@
       },
       "description": "Alternative names for this package. Useful when multiple packages share the same source but have different names. Users can search for packages by any alias."
     },
+    "default_version": {
+      "type": "string",
+      "minLength": 1,
+      "description": "When set, the registry compiler uses this tag/version instead of discovering latest from the upstream host. Users who omit @tag install this version; an explicit package@tag still wins."
+    },
     "deprecation": {
       "$ref": "#/definitions/components:deprecation"
     },
