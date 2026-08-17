@@ -46,7 +46,7 @@ const parsePackageId = (
   return { provider, packageId };
 };
 
-// Convert package ID from Mason format to NVPM format
+// Convert package ID from Mason format to nvpm format
 // "pkg:provider/package-id@version" -> "provider:package-id"
 const convertPackageId = (masonId: string): string => {
   const parsed = parsePackageId(masonId);
@@ -154,7 +154,7 @@ const main = async () => {
 
       const { provider, packageId } = parsed;
 
-      // Convert to NVPM format
+      // Convert to nvpm format
       const nvpmPackageData: PackageInfo = {
         version: "",
         ...removeMasonFields(masonPackageData),
@@ -164,7 +164,7 @@ const main = async () => {
         },
       };
 
-      // Remove version field if it exists (NVPM doesn't use it)
+      // Remove version field if it exists (nvpm doesn't use it)
       delete (nvpmPackageData as unknown as { version?: string }).version;
 
       // Build new directory path

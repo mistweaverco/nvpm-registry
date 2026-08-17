@@ -187,6 +187,9 @@ export interface PackageInfo {
     id: string;
     version: string;
     extra_packages?: string[];
+    // Accepted for older YAML that nested the pin under source. The updater
+    // hoists this to package-level default_version.
+    default_version?: string;
   };
   bin: Record<string, string>;
 }

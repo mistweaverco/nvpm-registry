@@ -1,6 +1,6 @@
 # registry.nvpm.dev
 
-This is the website for the NVPM Registry. It is built using SvelteKit.
+This is the website for the nvpm Registry. It is built using SvelteKit.
 
 ## Developing
 

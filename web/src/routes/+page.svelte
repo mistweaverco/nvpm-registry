@@ -387,8 +387,8 @@
 
 <Head
 	data={{
-		title: 'NVPM Registry: List',
-		description: 'Here you can search for packages in the NVPM registry.'
+		title: 'nvpm Registry: List',
+		description: 'Here you can search for packages in the nvpm registry.'
 	}}
 />
 

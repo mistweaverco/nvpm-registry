@@ -1,5 +1,5 @@
 /**
- * Merges Neovim tree-sitter parser registry query metadata into NVPM package YAMLs.
+ * Merges Neovim tree-sitter parser registry query metadata into nvpm package YAMLs.
  *
  * For each treesitter.build[] row, looks up the language key in the nvim registry
  * and merges query repo metadata into external_queries (single object or array).

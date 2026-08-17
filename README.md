@@ -1,6 +1,6 @@
 <div align="center">
 
-![NVPM Logo](assets/logo.svg)
+![nvpm Logo](assets/logo.svg)
 
 # nvpm-registry
 
@@ -13,7 +13,7 @@
 
 <p></p>
 
-This is the [registry][registry-website] for [NVPM][website],
+This is the [registry][registry-website] for [nvpm][website],
 
 <p></p>
 
@@ -32,7 +32,7 @@ This is the [registry][registry-website] for [NVPM][website],
 
 ## What?
 
-NVPM is a cross-platform package manager for development tools.
+nvpm is a cross-platform package manager for development tools.
 It allows you to easily install, manage, and distribute
 development tools across different environments.
 
@@ -41,7 +41,7 @@ It supports a multitude of [package providers](#supported-providers).
 It's designed to be uncomplicated, fast, and reliable,
 making it easy to manage your development tools.
 
-This is the registry that NVPM uses to fetch package information.
+This is the registry that nvpm uses to fetch package information.
 
 ## Supported providers
 
@@ -70,7 +70,7 @@ but differs quite heavily in its implementation.
 
 ### Main differences
 
-Main differences between the Mason registry and the NVPM registry:
+Main differences between the Mason registry and the nvpm registry:
 
 - Packages don't have a version included.
 - Packages are located in `packages/<provider>/<package-id>/nvpm.yaml` where:

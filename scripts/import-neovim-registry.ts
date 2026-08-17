@@ -295,7 +295,7 @@ const main = () => {
 	console.log(
 		[
 			`Neovim registry: ${neovimRegistryRoot}`,
-			`NVPM registry:   ${nvpmRoot}`,
+			`nvpm registry:   ${nvpmRoot}`,
 			`Mode:           ${isDryRun ? 'dry-run' : 'write'}`,
 			`Packages found:  ${plan.length}`,
 			`Skipped:         ${skipped.length}`

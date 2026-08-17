@@ -10,9 +10,9 @@ languages:
   - TypeScript
 categories:
   - DAP
+default_version: v1.117.0
 source:
   id: github:microsoft/vscode-js-debug
-  default_version: v1.117.0
   asset:
     file: js-debug-dap-{{version}}.tar.gz
   bin: node:js-debug/src/dapDebugServer.js

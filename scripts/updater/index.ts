@@ -584,8 +584,19 @@ type PendingPackage = {
   masonSourceId: string;
 };
 
-const pinnedDefaultVersion = (pkg: PackageInfo): string =>
-  (pkg.default_version ?? "").trim();
+const pinnedDefaultVersion = (pkg: PackageInfo): string => {
+  const top = (pkg.default_version ?? "").trim();
+  if (top) {
+    return top;
+  }
+  const nested = (pkg.source?.default_version ?? "").trim();
+  if (nested) {
+    // Hoist so compiled registry JSON always has the canonical top-level field.
+    pkg.default_version = nested;
+    return nested;
+  }
+  return "";
+};
 
 const emitPinnedPackage = (
   packageData: PackageInfo,
