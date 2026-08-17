@@ -7,7 +7,7 @@ TMP_DIR='.tmp'
 NVPM_REGISTRY_NAME='nvpm-registry'
 NVPM_REGISTRY_FILE="${NVPM_REGISTRY_NAME}.json.zip"
 
-mkdir -p "$TMP_DIR"
+rm "$TMP_DIR"/*
 
 # Function to get latest release version
 get_latest_version() {
