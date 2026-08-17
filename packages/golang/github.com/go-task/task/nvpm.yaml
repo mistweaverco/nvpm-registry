@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://registry.nvpm.dev/package.schema.json
+---
+name: Task
+description: |
+  The Modern Task Runner.
+  A fast, cross-platform build tool inspired by Make, designed for modern workflows.
+homepage: https://taskfile.dev
+licenses:
+  - MIT
+categories:
+  - CLI
+aliases:
+  - go-task
+source:
+  id: golang:github.com/go-task/task
+bin:
+  task: golang:task
